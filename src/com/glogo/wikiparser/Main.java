@@ -6,11 +6,12 @@ package com.glogo.wikiparser;
  */
 public class Main {
 
-	public static void main(String[] args) throws Exception{
+	public static void main(String[] args){
 		if(args == null || args.length != 2){
 			System.err.println("Program must have two arguments:");
 			System.err.println("	[0] : input file name");
 			System.err.println("	[1] : output file name");
+			System.exit(1);
 		}
 		
 		String input = args[0];
@@ -46,6 +47,7 @@ public class Main {
 		}catch(Exception e){
 			System.err.printf("Could not write to file '%'\n", output);
 			System.err.println(e.getMessage());
+			System.exit(1);
 		}
 	}
 

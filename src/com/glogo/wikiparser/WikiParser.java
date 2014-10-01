@@ -80,7 +80,7 @@ public class WikiParser {
 	 * Reads XML {@link Document} nodes, creates {@link PageModel} instances and stores them {@link WikiParser#pages} map 
 	 * @throws XPathExpressionException 
 	 */
-	public void readPages() throws XPathExpressionException{
+	public void readPages() {
 		Element pageElement;
 		Element titleElement;
 		Element redirectElement;
@@ -92,10 +92,21 @@ public class WikiParser {
 		XPath xpath = XPathFactory.newInstance().newXPath();
 	
 		// Compiled XPath expression 
-		XPathExpression expr = xpath.compile("/mediawiki/page");
+		XPathExpression expr = null;
 		
 		// Read nodes from Document
-		NodeList nodes = (NodeList)expr.evaluate(doc, XPathConstants.NODESET);
+		NodeList nodes = null;
+		
+		try{
+			expr = xpath.compile("/mediawiki/page");
+			nodes = (NodeList)expr.evaluate(doc, XPathConstants.NODESET);
+		}catch(XPathExpressionException e){
+			System.err.println(e.getMessage());
+			System.exit(1);
+		}
+		
+		// Clear pages map
+		pages.clear();
 		
 		// Loop through all found nodes and create page models
 		for(int i = 0; i < nodes.getLength(); i++) {
@@ -132,6 +143,11 @@ public class WikiParser {
 		String matchedArticleTitle;
 		String matchedLinkText;
 		PageModel pageModel;
+		
+		// Clear all alternative titles
+		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
+			entry.getValue().getAlternativeTitles();
+		}
 		
 		// Loop through pages in map
 		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
@@ -225,5 +241,13 @@ public class WikiParser {
             file.flush();
             file.close();
         }
+	}
+	
+	public Document getDocument() {
+		return doc;
+	}
+	
+	public Map<String, PageModel> getPages(){
+		return pages;
 	}
 }
