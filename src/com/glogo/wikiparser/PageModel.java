@@ -1,6 +1,5 @@
 package com.glogo.wikiparser;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -21,9 +20,8 @@ public class PageModel {
 	
 	/**
 	 * Final list of the alternative page titles
-	 * @deprecated TODO change to TreeMap with case-insensitive order like pages map if possible
 	 */ 
-	private List<String> alternativeTitles = new ArrayList<String>(10);
+	private List<String> alternativeTitles = new IgnoreCaseArrayList();
 	
 	/**
 	 * Title of the page this page redirects to

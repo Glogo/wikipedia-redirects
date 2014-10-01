@@ -7,10 +7,46 @@ package com.glogo.wikiparser;
 public class Main {
 
 	public static void main(String[] args) throws Exception{
-		WikiParser parser = new WikiParser("C:\\Users\\michael.gloger\\Documents\\spring-workspace\\vi-wiki-parser\\res\\enwiki-latest-pages-articles1.xml");
+		if(args == null || args.length != 2){
+			System.err.println("Program must have two arguments:");
+			System.err.println("	[0] : input file name");
+			System.err.println("	[1] : output file name");
+		}
+		
+		String input = args[0];
+		String output = args[1];
+		
+		/*
+		 * Open file
+		 */
+		WikiParser parser = null;
+		try{
+			parser = new WikiParser(input);
+		}catch(Exception e){
+			System.err.println("Input file does not exists or is not valid XML.");
+			System.err.println(e.getMessage());
+			System.exit(1);
+		}
+		
+		/*
+		 * Read pages from xml file
+		 */
 		parser.readPages();
+		
+		/*
+		 * Find alternative titles
+		 */
 		parser.findAlternativeTitles();
-		parser.exportToJSON("data.js");
+		
+		/*
+		 * Save result to output file
+		 */
+		try{
+			parser.exportToJSON(output);
+		}catch(Exception e){
+			System.err.printf("Could not write to file '%'\n", output);
+			System.err.println(e.getMessage());
+		}
 	}
 
 }
