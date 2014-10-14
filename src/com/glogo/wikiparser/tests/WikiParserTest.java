@@ -36,24 +36,45 @@ public class WikiParserTest {
 	}
 	
 	@Test
-	public void pageDogShouldHaveTwoAlternativeTitles() {
+	public void pageDogShouldHaveOneAlternativeTitle() {
 		parser.readPages();
 		parser.findAlternativeTitles();
-		assertTrue("Page with title 'Dog' doesn't have two alternative titles.", parser.getPages().get("Dog").getAlternativeTitles().size() == 2);
+		assertTrue("Page with title 'Dog' doesn't have one alternative title.", parser.getPages().get("Dog").getAlternativeTitles().size() == 1);
 	}
 	
 	@Test
-	public void pageAnimalsShouldHaveAlternativeTitleAnimal() {
+	public void pageDogShouldHaveOneAnchorText() {
 		parser.readPages();
 		parser.findAlternativeTitles();
-		assertTrue("Page with title 'Animals' doesn't have alternative title 'animal' (ignoring case).", parser.getPages().get("Animals").getAlternativeTitles().contains("animal"));
+		assertTrue("Page with title 'Dog' doesn't have one anchor text.", parser.getPages().get("Dog").getAnchorTexts().size() == 1);
 	}
 	
 	@Test
-	public void pageAnimalsShouldHaveAlternativeTitleAnimalIgnoreCase() {
+	public void pageAnimalsShouldNotHaveAlternativeTitleAnimal() {
 		parser.readPages();
 		parser.findAlternativeTitles();
-		assertTrue("Page with title 'Animals' doesn't have alternative title 'aNimAl' (ignoring case).", parser.getPages().get("Animals").getAlternativeTitles().contains("aNimAl"));
+		assertTrue("Page with title 'Animals' shouldn't have alternative title 'animal' (ignoring case).", !parser.getPages().get("Animals").getAlternativeTitles().contains("animal"));
+	}
+	
+	@Test
+	public void pageAnimalsShouldHaveAnchorTextAnimal() {
+		parser.readPages();
+		parser.findAlternativeTitles();
+		assertTrue("Page with title 'Animals' doesn't have anchor text 'animal' (ignoring case).", parser.getPages().get("Animals").getAnchorTexts().contains("animal"));
+	}
+	
+	@Test
+	public void pageAnimalsShouldNotHaveAlternativeTitleAnimalIgnoreCase() {
+		parser.readPages();
+		parser.findAlternativeTitles();
+		assertTrue("Page with title 'Animals' shouldn't have alternative title 'aNimAl' (ignoring case).", !parser.getPages().get("Animals").getAlternativeTitles().contains("aNimAl"));
+	}
+	
+	@Test
+	public void pageAnimalsShouldHaveAnchorTextAnimalIgnoreCase() {
+		parser.readPages();
+		parser.findAlternativeTitles();
+		assertTrue("Page with title 'Animals' doesn't have anchor text 'aNimAl' (ignoring case).", parser.getPages().get("Animals").getAnchorTexts().contains("aNimAl"));
 	}
 	
 	@Test
