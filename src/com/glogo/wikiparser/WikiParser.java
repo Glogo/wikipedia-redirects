@@ -2,6 +2,10 @@ package com.glogo.wikiparser;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
@@ -16,14 +20,13 @@ import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import com.cedarsoftware.util.io.JsonWriter;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 /**
  * Main Wiki pages parser.\n
@@ -212,8 +215,7 @@ public class WikiParser {
 	 * 
 	 * @param json
 	 */
-	@SuppressWarnings("unchecked")
-	private void addMetricsToJSON(JSONObject json) {
+	private void addMetricsToJSON(Map<String, Object> json) {
 		json.put("pagesCnt", pages.size());
 		
 		int redirPagesCnt = 0;
@@ -255,18 +257,22 @@ public class WikiParser {
 		json.put("anchTextsCnt", anchTextsCnt);
 	}
 	
-	@SuppressWarnings("unchecked")
 	public void exportToJSON(String path) throws IOException{
-		JSONObject json = new JSONObject();
+		
+		// LinkedHashMap is used to preserve root attributes order
+		Map<String, Object> json = new LinkedHashMap<String, Object>();
 		json.put("author", "Michael Gloger");
 		
+		// Add metrics to root json object
 		addMetricsToJSON(json);
 		
-		JSONArray pagesObjects = new JSONArray();
+		// Initialize json array of all pages (it is list of pages maps)
+		List<Map<String, Object>> pagesObjects = new ArrayList<Map<String, Object>>();
 		json.put("pages", pagesObjects);
 		
-		// Loop through pages and create + add element to root element
 		System.out.println("Outputting pages with alternative titles to JSON");
+		
+		// Loop through pages and create + add element to pages element array value
 		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
 			
 			/*
@@ -274,10 +280,10 @@ public class WikiParser {
 			 * 	- are not redirects
 			 *  - ...
 			 */
-			if(entry.getValue().getRedirectsToPageTitle() == null /* || entry.getValue().getAlternativeTitles().size() > 0 || entry.getValue().getAnchorTexts().size() > 0 */) {
+			if(entry.getValue().getRedirectsToPageTitle() == null) {
 				
 				// Create alternative titles json array
-				JSONArray alternativeTitles = new JSONArray();
+				List<String> alternativeTitles = new ArrayList<String>();
 	
 				// Add all alternative titles to array
 				for(String alternativeTitle : entry.getValue().getAlternativeTitles()){
@@ -285,7 +291,7 @@ public class WikiParser {
 				}
 				
 				// Create anchor texts json array
-				JSONArray anchorTexts = new JSONArray();
+				List<String> anchorTexts = new ArrayList<String>();
 				
 				// Add all anchor texts to array
 				for(String anchorText : entry.getValue().getAnchorTexts()){
@@ -293,7 +299,7 @@ public class WikiParser {
 				}
 				
 				// Create page json object
-				JSONObject pageObject = new JSONObject();
+				Map<String, Object> pageObject = new HashMap<String, Object>();
 				pageObject.put("title", entry.getValue().getTitle());
 				pageObject.put("alternative", alternativeTitles);
 				pageObject.put("anchor", anchorTexts);
@@ -306,8 +312,12 @@ public class WikiParser {
 		
 		FileWriter file = new FileWriter(path);
         try {
-        	// Little hack to make my life easier
-            file.write("var pagesData = " + JsonWriter.formatJson(json.toJSONString()) + ";");
+        	
+        	// Create Google Gson to simplify json serializing
+        	Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        	
+        	// Create javascript compatibile output to enable easy querying
+            file.write("var pagesData = " + gson.toJson(json) + ";");
             System.out.println("Successfully saved JSON object to file...");
  
         } catch (IOException e) {
