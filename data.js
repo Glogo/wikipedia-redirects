@@ -1,349 +1,867 @@
 var pagesData = {
+  "pagesCnt":6169,
+  "author":"Michael Gloger",
+  "altTitlesCnt":520,
   "pages":[
     {
       "title":"...Baby One More Time (album)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "...Baby One More Time"
       ]
     },
     {
       "title":"1903 World Series",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "1903",
         "first modern World Series"
       ]
     },
     {
       "title":"2001 World Series",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "2001"
       ]
     },
     {
+      "title":"`Abdu'l-Bah·",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"A",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Latin A"
       ]
     },
     {
+      "title":"A cappella",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"A Clockwork Orange",
-      "alt":[
+      "alternative":[
         "Clockwork Orange"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"A Doll's House",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"A Fire Upon the Deep",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"A Funny Thing Happened on the Way to the Forum",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"A Little Night Music",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"A Modest Proposal",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"A Vindication of the Rights of Woman",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"A Wizard of Earthsea",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"A. A. Milne",
-      "alt":[
+      "alternative":[
         "A.A. Milne"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"A. E. Housman",
-      "alt":[
+      "alternative":[
         "A E Housman"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"A. E. van Vogt",
-      "alt":[
+      "alternative":[
         "A.E. van Vogt"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"A. J. Ayer",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"A.C. Chievo Verona",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chievo"
       ]
     },
     {
+      "title":"A.D. Police: Dead End City",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"A.S. Roma",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Roma"
       ]
     },
     {
-      "title":"Aa",
-      "alt":[
-        "Aa"
-      ]
+      "title":"Aa River",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Aachen",
-      "alt":[
+      "alternative":[
+        "Aix-la-Chapelle"
+      ],
+      "anchor":[
         "Aix-la-Chapelle"
       ]
     },
     {
-      "title":"Aal",
-      "alt":[
-        "Aal"
-      ]
+      "title":"Aage Bohr",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aalborg Municipality",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aalen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aaliyah",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aarau",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aardvark",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aardwolf",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Aare",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "River Aare"
       ]
     },
     {
       "title":"Aargau",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Argovian"
       ]
     },
     {
-      "title":"Aaron",
-      "alt":[
-        "BiblE/Aaron"
-      ]
+      "title":"Aarhus",
+      "alternative":[],
+      "anchor":[]
     },
     {
-      "title":"Ab",
-      "alt":[
-        "Ab"
-      ]
+      "title":"Aaron",
+      "alternative":[
+        "BiblE/Aaron"
+      ],
+      "anchor":[]
     },
     {
       "title":"Ab urbe condita",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AUC"
       ]
     },
     {
+      "title":"Aba",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ababda people",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Abacus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "abaci"
       ]
     },
     {
+      "title":"Abac·",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abadan, Iran",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abaddon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abadeh",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abakan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abalone",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abano Terme",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abated",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Abatement",
-      "alt":[
+      "alternative":[
         "Abatement in commerce",
         "Abatement in litigation",
         "Abatement of false lights",
         "Abatement of freehold"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Abatement of debts and legacies",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abati",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abatis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"ABBA",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abba Arika",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abba Mari",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abbahu",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abbas II of Egypt",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abbas Mirza",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abbe number",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abbess",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Abbey",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "convent"
       ]
     },
     {
       "title":"Abbot",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bishop Abbots"
       ]
     },
     {
+      "title":"Abbotsford House",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Abbreviation",
-      "alt":[
-        "Abbreviations",
+      "alternative":[
+        "Abbreviations"
+      ],
+      "anchor":[
         "abbr."
       ]
     },
     {
+      "title":"Abbreviator",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"ABC",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"ABCD",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Abd al-Latif al-Baghdadi (medieval writer)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Abd-el-latif"
       ]
     },
     {
+      "title":"Abd al-Rahman I",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Abd ar-Rahman II",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Abd ar-Rahman",
-        "Abd ar-Rahman II, Emir of C√≥rdoba"
+        "Abd ar-Rahman II, Emir of CÛrdoba"
       ]
     },
     {
+      "title":"Abd ar-Rahman IV",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Abd ar-Rahman V",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Abd ar-Rahman V Mostadir"
       ]
     },
     {
+      "title":"Abd-ar-Rahman III",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abdera, Spain",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Abdera, Thrace",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Abdera"
       ]
     },
     {
+      "title":"Abdominal surgery",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abduction",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abdul Alhazred",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abdul Hamid I",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Abdul Rashid Dostum",
-      "alt":[
-        "Abdul Rashid Dostam",
+      "alternative":[
+        "Abdul Rashid Dostam"
+      ],
+      "anchor":[
         "Dostum"
       ]
     },
     {
+      "title":"Abdulaziz al-Omari",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Abdur Rahman Khan",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Abdur Rahman"
       ]
     },
     {
+      "title":"Abd¸laziz",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abel Tasman",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Abelian group",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "abelian",
         "finite Abelian group",
         "commutative"
       ]
     },
     {
+      "title":"Abencerrages",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Abensberg",
-      "alt":[
+      "alternative":[
         "AbensbergGermany"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Aberavon (UK Parliament constituency)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "1"
       ]
     },
     {
+      "title":"Abercarn",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aberdare",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aberdeen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aberdeen (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aberdeen Bestiary",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aberdeen, South Dakota",
-      "alt":[
+      "alternative":[
         "AberdeenSouthDakota"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Aberdeenshire",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aberdour",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aberfoyle, Stirling",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abergavenny",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aberration",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Aberration of light",
-      "alt":[
-        "Astronomical aberration",
+      "alternative":[
+        "Astronomical aberration"
+      ],
+      "anchor":[
         "aberration"
       ]
     },
     {
+      "title":"Abersychan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abertillery",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Abettor",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "abetting"
       ]
     },
     {
       "title":"Abeyance",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Rank in abeyance"
       ]
     },
     {
-      "title":"Abiword",
-      "alt":[
-        "AbiWord"
-      ]
+      "title":"Abhorrers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abiathar",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abigail",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abijah",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abila",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abimelech",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abingdon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abiotic stress",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abitibi",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Abjad",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "consonantal alphabet"
       ]
     },
     {
+      "title":"Abjuration",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ablative case",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ablative"
       ]
     },
     {
+      "title":"ABM",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abner",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abner Doubleday",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Abortion",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "terminated"
       ]
     },
     {
+      "title":"Abracadabra",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abraham",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abraham Joshua Heschel",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Abraham Lincoln",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Lincoln",
         "President Lincoln"
       ]
     },
     {
       "title":"Abraxas",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "great Archon"
       ]
     },
     {
+      "title":"Absalom",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Absalon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bishop Absalon"
       ]
     },
     {
+      "title":"Abscess",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Absolute Infinite",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Absolute magnitude",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Absolute <br />magnitude",
         "H"
       ]
     },
     {
       "title":"Absolute value",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "modulus"
       ]
     },
     {
-      "title":"Abstract Algebra",
-      "alt":[
-        "Abstract Algebra",
-        "modern algebra",
-        "algebra",
-        "algebraic structures",
-        "Algebraic"
-      ]
+      "title":"Absolute zero",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Absorption",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abstract (law)",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Abstract data type",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "abstract data types",
         "abstract data structures"
       ]
     },
     {
       "title":"Abstraction",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "abstract"
       ]
     },
     {
+      "title":"Abu al-Faraj al-Isfahani",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abu Bakr",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abu Nidal Organization",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abu Sayyaf",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abu Zubaydah",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abugida",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Abydos",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Abydos (Hellespont)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Abydos"
       ]
     },
     {
       "title":"Abydos, Egypt",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Abydos",
         "Temple of Ramesses II"
       ]
     },
     {
-      "title":"AC Milan",
-      "alt":[
-        "Milan"
-      ]
+      "title":"Abyssinia",
+      "alternative":[],
+      "anchor":[]
     },
     {
-      "title":"Academy award",
-      "alt":[
-        "Oscar",
-        "Oscars",
-        "Academy Award for Best Actress in a Leading Role"
-      ]
+      "title":"Abzyme",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Acacia",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Academy Award for Best Production Design",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Best Production Design",
         "Best Art Direction-Interior Decoration (Black-and-White)"
       ]
     },
     {
       "title":"Academy Awards",
-      "alt":[
+      "alternative":[
         "Academy award",
-        "AcademyAwards",
+        "AcademyAwards"
+      ],
+      "anchor":[
         "Oscar-winning",
         "Oscars",
         "Academy Award",
@@ -352,15 +870,33 @@ var pagesData = {
       ]
     },
     {
+      "title":"Acadia University",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Acantharea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Acapulco",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Accelerated Graphics Port",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AGP"
       ]
     },
     {
       "title":"Acceleration",
-      "alt":[
-        "Accelerate",
+      "alternative":[
+        "Accelerate"
+      ],
+      "anchor":[
         "m/s<sup>2</sup>",
         "accelerated",
         "accelerate",
@@ -368,77 +904,162 @@ var pagesData = {
       ]
     },
     {
-      "title":"Accountancy",
-      "alt":[
-        "accounting practice"
-      ]
+      "title":"Acceptance testing",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Accordion",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Accounting",
-      "alt":[
+      "alternative":[
         "Accountancy",
         "Accounting and Bookkeeping"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Accrington",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Accumulator (computing)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "accumulator"
       ]
     },
     {
       "title":"Accusative case",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "accusative",
         "ACC"
       ]
     },
     {
+      "title":"ACE inhibitor",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Acephali",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Acetylene",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ethyne"
       ]
     },
     {
       "title":"ACF Fiorentina",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Fiorentina"
       ]
     },
     {
       "title":"Achaeans (Homer)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Achaeans",
         "Achaean"
       ]
     },
     {
+      "title":"Achduart",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Achill Island",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Achill"
       ]
     },
     {
       "title":"Achilles",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Achilles'"
       ]
     },
     {
+      "title":"Achiltibuie",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Acid",
-      "alt":[
+      "alternative":[
         "ACID properties"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Acid rain",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Acidñbase reaction",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ackermann function",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"ACN",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Acorn Electron",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Acoustic theory",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Acoustics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "acoustic"
       ]
     },
     {
+      "title":"Acquire",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Acre",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Acropolis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Acropolis of Athens",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Acropolis",
         "Acropolis&nbsp;of&nbsp;Athens",
         "Athenian Akropolis"
@@ -446,50 +1067,92 @@ var pagesData = {
     },
     {
       "title":"Acrylic paint",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "acrylics"
       ]
     },
     {
       "title":"Act of Settlement 1701",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Act of Settlement"
       ]
     },
     {
       "title":"Actaeon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Acteon"
       ]
     },
     {
+      "title":"Acting",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Actinide",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Actinium",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Actinophryid",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Actinopterygii",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ray-finned fishes",
         "ray-finned fish",
         "ray-finned"
       ]
     },
     {
-      "title":"Action Film",
-      "alt":[
-        "Action Film",
-        "ActionFilm",
-        "action-adventure thriller",
-        "action-adventure",
-        "action"
-      ]
+      "title":"Action Against Hunger",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Actium",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Active Directory",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Active Server Pages",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Actrius",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Acts of the Apostles",
-      "alt":[
-        "Acts",
+      "alternative":[
+        "Acts"
+      ],
+      "anchor":[
         "Acts"
       ]
     },
     {
       "title":"Acts of Union 1707",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "parliamentary union of the two countries",
         "union",
         "1707",
@@ -507,162 +1170,420 @@ var pagesData = {
       ]
     },
     {
+      "title":"Acupuncture",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Acute disseminated encephalomyelitis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"AD (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ad hominem",
-      "alt":[
+      "alternative":[
         "Argumentum ad hominum"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Ada",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Ada (programming language)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ada",
         "Ada 2012"
       ]
     },
     {
-      "title":"Ada Byron's notes on the analytical engine",
-      "alt":[
-        "note G"
-      ]
-    },
-    {
       "title":"Ada Lovelace",
-      "alt":[
+      "alternative":[
+        "Ada Byron's notes on the analytical engine"
+      ],
+      "anchor":[
         "Augusta Ada, Countess of Lovelace",
         "Augusta Ada King",
-        "Ada Byron's notes on the analytical engine",
         "Ada Lovelace's"
       ]
     },
     {
       "title":"Adalbert of Prague",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Saint Adalbert",
         "Saint Adalbert of Prague"
       ]
     },
     {
+      "title":"Adam Carolla",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Adam of Bremen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Adam Smith",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Smith"
       ]
     },
     {
+      "title":"Adam Weishaupt",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Adamic language",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Adaptive expectations",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Adaptive radiation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "diversified",
         "evolutionary radiations",
         "rapid evolution"
       ]
     },
     {
+      "title":"Adder",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Additive synthesis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Adelaide",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Adelaide of Italy",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Adenosine triphosphate",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ATP",
-        "adenosine triphosphate (ATP)",
-        "Adenosine triphosphate (ATP)"
+        "adenosine triphosphate (ATP)"
       ]
     },
     {
+      "title":"Adenylate cyclase",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Adhemar of Le Puy",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Adhesive",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "glue"
       ]
     },
     {
+      "title":"Adiabatic process",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Adin Steinsaltz",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Administrative law",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Admiralty",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Adobe",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Adobe Systems",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Adolphe Sax",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Adoptionism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Adoptionist"
       ]
     },
     {
+      "title":"Adrastea (moon)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Adrenal gland",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Adrian",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Adrian Lamo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Advance Australia Fair",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "national anthem"
       ]
     },
     {
+      "title":"Advanced Chemistry",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Advanced Encryption Standard",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AES"
       ]
     },
     {
       "title":"Advanced Micro Devices",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AMD"
       ]
     },
     {
       "title":"Advanced Mobile Phone System",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AMPS"
       ]
     },
     {
+      "title":"Advanced Power Management",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Adventism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Adventists"
       ]
     },
     {
+      "title":"Adventure",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Adversarial system",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Advertising",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "marketing",
         "advertisements",
         "advertisers"
       ]
     },
     {
+      "title":"Adware",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aeacus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Aeacum"
       ]
     },
     {
+      "title":"Aeclanum",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aedesius",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aedicula",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aedile",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aedui",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aegadian Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aegean civilizations",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Aegean"
       ]
     },
     {
       "title":"Aegean Sea",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Aegean",
         "Aegean world",
         "Aegean islands"
       ]
     },
     {
+      "title":"Aegeus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aegina",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Aeginian",
         "Aeginetan"
       ]
     },
     {
+      "title":"Aegis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aegisthus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aegospotami",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aelbert Cuyp",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Albert Cuyp"
       ]
     },
     {
+      "title":"Aelia Capitolina",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aelian",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aelianus Tacticus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aeneas",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aeolus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aeon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aerodynamics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "aerodynamic lift",
         "aerodynamic"
       ]
     },
     {
       "title":"Aeronautics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "aeronautical"
       ]
     },
     {
+      "title":"Aeschylus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aesthetics",
-      "alt":[
-        "Aesthetic",
+      "alternative":[
+        "Aesthetic"
+      ],
+      "anchor":[
         "theoreticians of art",
         "aesthetes",
         "aesthetically",
@@ -671,55 +1592,102 @@ var pagesData = {
       ]
     },
     {
-      "title":"Aetiology",
-      "alt":[
-        "aetiological"
-      ]
-    },
-    {
       "title":"AFC Ajax",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ajax Amsterdam",
         "Ajax"
       ]
     },
     {
+      "title":"Affection",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Affidavit",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Affiliation (family law)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Affinity",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Affirming the consequent",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Affix",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "suffix"
       ]
     },
     {
+      "title":"Affray",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Afghan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Afghan Hound",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Afghan Turkestan",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Turkestan"
       ]
     },
     {
       "title":"Afghanistan",
-      "alt":[
-        "Afghanistan (1911 Encyclopedia)",
+      "alternative":[
+        "Afghanistan (1911 Encyclopedia)"
+      ],
+      "anchor":[
         "Afghan",
         "AF"
       ]
     },
     {
+      "title":"Afonso de Albuquerque",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Afonso I of Portugal",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Afonso I",
         "D. Afonso Henriques"
       ]
     },
     {
       "title":"Afonso II of Portugal",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Afonso II",
         "Alphonse II"
       ]
     },
     {
       "title":"Afonso III of Portugal",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Afonso III",
         "Infante Afonso",
         "Alphonse III"
@@ -727,70 +1695,71 @@ var pagesData = {
     },
     {
       "title":"Afonso IV of Portugal",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "King Afonso IV",
         "Alphonse IV"
       ]
     },
     {
       "title":"Afonso V of Portugal",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Afonso V"
       ]
     },
     {
       "title":"Afonso VI of Portugal",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Afonso VI"
       ]
     },
     {
-      "title":"AfricA",
-      "alt":[
-        "AfricA",
-        "African continent",
-        "continent",
-        "Sub-Sahara African",
-        "African countries"
-      ]
+      "title":"Africa Alphabet",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"African American",
-      "alt":[
+      "alternative":[
+        "AfricanAmericanPeople"
+      ],
+      "anchor":[
         "African",
-        "AfricanAmericanPeople",
         "Black",
         "African-Americans",
         "Black or African American",
-        "black",
         "American",
         "Blacks"
       ]
     },
     {
       "title":"African National Congress",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ANC"
       ]
     },
     {
-      "title":"Afro Celt Sound System",
-      "alt":[
-        "Afrocelt Sound System"
-      ]
+      "title":"Afrikaans",
+      "alternative":[],
+      "anchor":[]
     },
     {
-      "title":"Afro-asiatic languages",
-      "alt":[
-        "Afro-Asiatic",
-        "Afro-Asiatic peoples"
-      ]
+      "title":"Afro Celt Sound System",
+      "alternative":[
+        "Afrocelt Sound System"
+      ],
+      "anchor":[]
     },
     {
       "title":"Afroasiatic languages",
-      "alt":[
+      "alternative":[
         "Afro-asiatic languages",
-        "AfroAsiaticLanguages",
+        "AfroAsiaticLanguages"
+      ],
+      "anchor":[
         "Afro-Asiatic Language Family",
         "Afroasiatic",
         "Afro-Asiatic",
@@ -799,59 +1768,188 @@ var pagesData = {
       ]
     },
     {
+      "title":"Afrobeat",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Afterglow",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Afterlife",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Afyonkarahisar",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aga",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aga Khan I",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aga Khan III",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Agamemnon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Agapanthus africanus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Agar",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Agarose",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Agarose gel electrophoresis",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "electrophoresis",
         "Agarose gel"
       ]
     },
     {
+      "title":"Agasias",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Agate",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Agatha Christie",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Agathocles of Syracuse",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Agathocles"
       ]
     },
     {
+      "title":"Agathon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Age of consent",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ages of consent"
       ]
     },
     {
       "title":"Agent Orange",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Vietnam"
       ]
     },
     {
+      "title":"Agesilaus II",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Agis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"AGM-65 Maverick",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"AGM-88 HARM",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Agner Krarup Erlang",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Agnes of Merania",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Agni",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "tejas"
       ]
     },
     {
       "title":"Agnosticism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "agnostic",
         "agnostics",
         "agnostic view"
       ]
     },
     {
+      "title":"Agnostida",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Agostino Carracci",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Agostino"
       ]
     },
     {
+      "title":"Agra Canal",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Agrarianism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "agrarian"
       ]
     },
     {
+      "title":"Agricultural science",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Agriculture",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "agricultural products",
         "crop cultivation",
         "agrarian",
@@ -867,7 +1965,8 @@ var pagesData = {
     },
     {
       "title":"Agrippina the Elder",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "mother's",
         "Vipsania Agrippina II (Agrippina the Elder)",
         "Agrippina"
@@ -875,93 +1974,170 @@ var pagesData = {
     },
     {
       "title":"Agrippina the Younger",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Agrippina the Younger, Empress of Rome",
         "Julia Agrippina",
         "Agrippina"
       ]
     },
     {
+      "title":"Ahab",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ahenobarbus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "consular rank"
       ]
     },
     {
+      "title":"Ahimsa",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ahmad Shah Durrani",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ahmad Shah Massoud",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Massoud"
       ]
     },
     {
+      "title":"Ahmed al-Haznawi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ahmed al-Nami",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ahmed I",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ahmed II",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ahmed III",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ahuitzotl",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ai",
-      "alt":[
+      "alternative":[
         "A. I.",
         "A.I."
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"AI-complete",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aikido",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ailanthus",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"AIM-120 AMRAAM",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AIM-120 advanced medium-range air-to-air missile (AMRAAM)"
       ]
     },
     {
+      "title":"AIM-54 Phoenix",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"AIM-7 Sparrow",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aimaq people",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Aimaq"
       ]
     },
     {
+      "title":"Aimoin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ain't I a Woman? (book)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ainu people",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ainu"
       ]
     },
     {
       "title":"Air (classical element)",
-      "alt":[
-        "air",
-        "Air"
-      ]
-    },
-    {
-      "title":"Air Force",
-      "alt":[
-        "Air Force"
-      ]
-    },
-    {
-      "title":"Air Pollution",
-      "alt":[
-        "Air Pollution",
-        "emissions",
+      "alternative":[],
+      "anchor":[
         "air"
       ]
     },
     {
       "title":"Air show",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "air shows"
       ]
     },
     {
       "title":"Airbus A300",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Airbus A300-600",
         "A300"
       ]
     },
     {
       "title":"Aircraft",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "airplane",
         "heavier-than-air aircraft"
       ]
     },
     {
       "title":"Aircraft carrier",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "carrier",
         "carrier-based",
         "fleet",
@@ -970,7 +2146,8 @@ var pagesData = {
     },
     {
       "title":"Aircraft hijacking",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "hijack",
         "hijackings",
         "hijacked",
@@ -978,67 +2155,183 @@ var pagesData = {
       ]
     },
     {
+      "title":"Aircraft spotting",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Airline",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "air carrier"
       ]
     },
     {
+      "title":"Ajaccio",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ajaigarh",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ajanta Caves",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ajax",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ajax (mythology)",
-      "alt":[
+      "alternative":[
+        "Ajax of Cyprus"
+      ],
+      "anchor":[
         "Ajax",
         "Telamonian Ajax",
         "legendary Greek hero",
-        "Ajax of Cyprus",
         "Ajax the Great"
       ]
     },
     {
       "title":"Ajax the Lesser",
-      "alt":[
+      "alternative":[
         "Ajax of Locris"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Ajmer",
-      "alt":[
+      "alternative":[
         "District of Ajmere"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Ajmer-Merwara",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"AK-47",
-      "alt":[
+      "alternative":[
         "AK47"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Akihabara",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Akio Morita",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Akira Kurosawa",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Kurosawa"
       ]
     },
     {
+      "title":"Akira Toriyama",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Akita",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Akkadian Empire",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Akkad"
       ]
     },
     {
+      "title":"Al Capone",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Al Capp",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Al-Qaeda",
-      "alt":[
+      "alternative":[
         "Al Qaeda",
         "Al Qaida"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Alabama",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alabama River",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alabaster",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alain Connes",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alain de Lille",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alameda, California",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Alan Ayckbourn",
-      "alt":[
+      "alternative":[
         "Alan Ayckbourn/Plays"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Alan Garner",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alan Jay Lerner",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alan Kay",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Alan Turing",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Turing",
         "Alan Turing's",
         "A.M. Turing",
@@ -1048,149 +2341,300 @@ var pagesData = {
     },
     {
       "title":"Alaric I",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alaric"
       ]
     },
     {
+      "title":"Alaric II",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alarums and Excursions",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alaska",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alaska Interior",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alaska's interior",
         "Interior"
       ]
     },
     {
+      "title":"Alaska Native Claims Settlement Act",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alban Berg",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Berg"
       ]
     },
     {
       "title":"Albania",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Albanian state",
         "AL"
       ]
     },
     {
       "title":"Albanians",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Albanian"
       ]
     },
     {
       "title":"Albedo",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "terrestrial albedo"
       ]
     },
     {
+      "title":"Albert",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Albert Alcibiades, Margrave of Brandenburg-Kulmbach",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Albert Brooks",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Albert Camus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Camus"
       ]
     },
     {
       "title":"Albert Einstein",
-      "alt":[
+      "alternative":[
+        "Einstein"
+      ],
+      "anchor":[
         "famous physicist",
         "Einstein",
-        "Einstein's",
-        "Einstein"
+        "Einstein's"
       ]
     },
     {
       "title":"Albert Frederick, Duke of Prussia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Albert Frederick of Prussia",
         "Albert Frederick"
       ]
     },
     {
-      "title":"Albert III, Duke of Saxony",
-      "alt":[
-        "Albert III, Elector of Saxony"
-      ]
+      "title":"Albert I",
+      "alternative":[],
+      "anchor":[]
     },
     {
-      "title":"Albert Of Aix",
-      "alt":[
-        "Albert Of Aix"
-      ]
+      "title":"Albert II",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Albert III",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Albert III, Duke of Saxony",
+      "alternative":[
+        "Albert III, Elector of Saxony"
+      ],
+      "anchor":[]
     },
     {
       "title":"Albert of Mainz",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "the Cardinal"
       ]
     },
     {
+      "title":"Albert Pike",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Albert Schweitzer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Albert Sidney Johnston",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Albert Spalding",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Al Spalding"
       ]
     },
     {
+      "title":"Albert Speer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Albert the Bear",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Albert, Duke in Prussia",
-      "alt":[
+      "alternative":[
         "Albert of Brandenburg-Ansbach"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Alberta",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Alberto Giacometti",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Giacometti"
       ]
     },
     {
+      "title":"Albertosaurus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Albertus Magnus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Albert the Great",
         "A. Magnus"
       ]
     },
     {
       "title":"Albinism",
-      "alt":[
+      "alternative":[
         "Albino"
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Albion, Michigan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alboin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Albrecht Achilles",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Albrecht Altdorfer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Albrecht D¸rer",
+      "alternative":[
+        "Albrecht Durer"
+      ],
+      "anchor":[
+        "D¸rer"
       ]
     },
     {
-      "title":"Albrecht D√ºrer",
-      "alt":[
-        "Albrecht Durer",
-        "D√ºrer"
-      ]
+      "title":"Alcaeus of Mytilene",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alcamenes",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Alchemy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "alchemist",
         "alchemists",
-        "alchemical",
-        "Alchemist",
-        "Alchemists"
+        "alchemical"
       ]
     },
     {
+      "title":"Alcidamas",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alcmene",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"AlcobaÁa, Portugal",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alcohol",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ethanol"
       ]
     },
     {
       "title":"Alcohol intoxication",
-      "alt":[
-        "intoxication",
+      "alternative":[
         "Blind drunk",
-        "drunk",
         "Drunk",
         "Drunkeness"
+      ],
+      "anchor":[
+        "intoxication",
+        "drunk"
       ]
     },
     {
+      "title":"Alcoholics Anonymous",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alcoholism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "alcohol",
         "alcoholics",
         "drink to excess",
@@ -1201,221 +2645,623 @@ var pagesData = {
     },
     {
       "title":"Alcopop",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ready-to-drink"
       ]
     },
     {
+      "title":"Alcuin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aldebaran",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alder",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aldine Press",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Aldine"
       ]
     },
     {
       "title":"Aldona of Lithuania",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Aldona Ona"
       ]
     },
     {
+      "title":"Aldous Huxley",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aleister Crowley",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aleksandr Solzhenitsyn",
-      "alt":[
+      "alternative":[
         "Aleksandr Isaevich Solzhenitsyn",
         "Alexander Solzhenitsyn"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Alemanni",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Alessandro Algardi",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alessandro&nbsp;Algardi"
       ]
     },
     {
+      "title":"Alessandro Allori",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alessandro Scarlatti",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alessandro Volta",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aleut",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alex Lifeson",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander Aetolus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander Anderson (mathematician)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander Balas",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander Emanuel Agassiz",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander Fleming",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander Graham Bell",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alexander Grothendieck",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "A. Grothendieck"
       ]
     },
     {
+      "title":"Alexander I",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander I of Epirus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander I of Scotland",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alexander I of Serbia",
-      "alt":[
-        "Alexander I Obrenoviƒá of Serbia",
-        "King Alexander I Obrenoviƒá"
+      "alternative":[],
+      "anchor":[
+        "Alexander I Obrenovi? of Serbia",
+        "King Alexander I Obrenovi?"
       ]
     },
     {
+      "title":"Alexander II",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander II of Epirus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alexander II of Scotland",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alexander II"
       ]
     },
     {
+      "title":"Alexander III",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alexander III of Russia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alexander III"
       ]
     },
     {
       "title":"Alexander III of Scotland",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alexander III",
         "King Alexander III"
       ]
     },
     {
+      "title":"Alexander IV",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander Jagiellon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander Jannaeus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alexander Kerensky",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Kerensky"
       ]
     },
     {
+      "title":"Alexander Mackenzie",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander of Aphrodisias",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander of Greece (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander of Hales",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander of Pherae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander Selkirk",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander Severus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexander technique",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alexander the Great",
-      "alt":[
+      "alternative":[
+        "AlexanderTheGreat"
+      ],
+      "anchor":[
         "Macedonian Empire",
         "Alexander",
         "King Alexander III, commonly known as \"Alexander the Great\"",
-        "AlexanderTheGreat",
         "Alexander III"
       ]
     },
     {
+      "title":"Alexander V",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexanderplatz",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexandra",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alexandria",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "of Alexandria",
         "Alexandria-by-Egypt"
       ]
     },
     {
+      "title":"Alexandria Troas",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexandria, Indiana",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alexandria, Louisiana",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alexandria"
       ]
     },
     {
+      "title":"Alexandria, Romania",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexandria, West Dunbartonshire",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexandrine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexandrists",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexei Petrovich, Tsarevich of Russia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexey Pajitnov",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alexios I Komnenos",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alexius"
       ]
     },
     {
+      "title":"Alexios II Komnenos",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexios III Angelos",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alexios V Doukas",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alexios V Doukas ''Mourtzouphlos''"
       ]
     },
     {
       "title":"Alexis (poet)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alexis"
       ]
     },
     {
+      "title":"Alexis Carrel",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexis Korner",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alexius",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"ALF Tales",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alfons Maria Jakob",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alfonso CuarÛn",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alfonso I",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alfonso II",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alfonso II of Asturias",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alfonso III",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alfonso III of Aragon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alfonso IV",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alfonso IV of Aragon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alfonso IV"
       ]
     },
     {
+      "title":"Alfonso Jordan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alfonso Leng",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alfonso the Battler",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alfonso V",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alfonso V of Aragon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alfonso VI",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alfonso XII of Spain",
-      "alt":[
+      "alternative":[
+        "Alphonso XII"
+      ],
+      "anchor":[
         "Alfonso XII",
-        "Alphonso XII",
         "Alphonse XII"
       ]
     },
     {
       "title":"Alfonso XIII of Spain",
-      "alt":[
+      "alternative":[
+        "Alphonso XIII"
+      ],
+      "anchor":[
         "Alfonso XIII",
-        "Alphonso XIII",
         "Alphonse XIII"
       ]
     },
     {
       "title":"Alford plea",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "''Alford'' plea"
       ]
     },
     {
+      "title":"Alfred",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alfred Hitchcock",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Hitchcock"
       ]
     },
     {
+      "title":"Alfred Jarry",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alfred Korzybski",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Korzybski, Alfred"
       ]
     },
     {
+      "title":"Alfred Lawson",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alfred Nobel",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Nobel"
       ]
     },
     {
       "title":"Alfred of Beverley",
-      "alt":[
+      "alternative":[
         "Alured of Berkeley"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Alfred Russel Wallace",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Alfred the Great",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alfred",
         "King Alfred"
       ]
     },
     {
       "title":"Algae",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "algal gene",
         "algal"
       ]
     },
     {
+      "title":"Algebraic closure",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Algebraic extension",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "algebraic over"
       ]
     },
     {
       "title":"Algebraic geometry",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "algebraic",
         "complex projective varieties"
       ]
     },
     {
       "title":"Algebraic number",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "algebraic"
       ]
     },
     {
       "title":"Algebraically closed field",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "algebraically closed"
       ]
     },
     {
       "title":"Algemeen Nijmeegs Studentenblad",
-      "alt":[
+      "alternative":[
         "Algemeen Nederlands Studentenblad"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Alger of LiËge",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Algeria",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Algerians",
         "DZ"
       ]
     },
     {
+      "title":"Algiers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"ALGOL",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ALGOL 60",
         "Algol",
         " ALGOL 60"
@@ -1423,291 +3269,677 @@ var pagesData = {
     },
     {
       "title":"Algorithm",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "procedure"
       ]
     },
     {
+      "title":"Algorithms (journal)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Algorithms for calculating variance",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alhazen",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Abu 'Ali al-Hasan ibn al-Haytham",
         "Ibn al-Haytham"
       ]
     },
     {
-      "title":"ALICE",
-      "alt":[
-        "A.L.I.C.E",
-        "ALICE"
-      ]
+      "title":"Alicante",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Alien",
-      "alt":[
+      "alternative":[
         "Aliens"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Alien and Sedition Acts",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Sedition Act",
         "Alien Bills"
       ]
     },
     {
       "title":"Aliphatic compound",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "acyclic"
       ]
     },
     {
-      "title":"AlJazeera",
-      "alt":[
-        "al Jazeera"
-      ]
+      "title":"Alismatales",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alkali",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Alkali metal",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "alkali",
         "alkaline",
         "first group"
       ]
     },
     {
+      "title":"Alkaloid",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alkane",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alkene",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "olefins",
         "R<sub>2</sub>C=CR<sub>2</sub>"
       ]
     },
     {
+      "title":"Alkyne",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"All Quiet on the Western Front",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"All Souls' Day",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Allah",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "God"
       ]
     },
     {
+      "title":"Allan Dwan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Allegiance",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Allegory",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "allegorical",
         "allegorically",
         "allegories"
       ]
     },
     {
+      "title":"Allele",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Allen Ginsberg",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Allene",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alliance of Liberals and Democrats for Europe Party",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ALDE Party"
       ]
     },
     {
+      "title":"Alligatoridae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Allioideae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Allocution",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Allomorph",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Allophone",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "allophones",
         "complementary allophone"
       ]
     },
     {
+      "title":"Allosaurus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Allotropy",
-      "alt":[
+      "alternative":[
         "Allotrope",
         "Allotropes",
+        "ElementalAllotropes"
+      ],
+      "anchor":[
         "allotropes",
         "allotropy in chemical elements",
         "crystalline form of carbon",
-        "allotrope",
-        "ElementalAllotropes"
+        "allotrope"
       ]
     },
     {
       "title":"Alloy",
-      "alt":[
+      "alternative":[
         "Alloys"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Ally McBeal",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Almond",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "almendrera"
       ]
     },
     {
       "title":"Almoravid dynasty",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Almoravids"
       ]
     },
     {
       "title":"Almost all",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "most"
       ]
     },
     {
+      "title":"Aloe",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alois Alzheimer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alp Arslan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alph",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alpha",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Greek letter alpha",
-        "Œ±"
+        "?"
       ]
     },
     {
       "title":"Alpha Centauri",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alpha",
         "Alpha Centauri AB",
         "Alpha Centauri A",
-        "Œ±&nbsp;Centauri",
-        "Œ± Cen",
+        "?&nbsp;Centauri",
+        "? Cen",
         "Alpha Centauri B"
       ]
     },
     {
+      "title":"Alpha compositing",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alpha decay",
-      "alt":[
-        "Œ±-decay",
+      "alternative":[],
+      "anchor":[
+        "?-decay",
         "alpha emission",
         "alpha"
       ]
     },
     {
       "title":"Alpha helix",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "alpha helices",
-        "Œ± helix",
-        "Œ±-helix",
+        "? helix",
+        "?-helix",
         "alpha-helices"
       ]
     },
     {
+      "title":"Alphabet",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alphabet song",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alphons",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alphonse, Count of Poitiers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alphonso I of Spain",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alphonsus a Sancta Maria",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Alphorn",
-      "alt":[
+      "alternative":[
         "Alpenhorn"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Alps",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alpine",
         "South Central European"
       ]
     },
     {
       "title":"Altaic languages",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Altaic"
       ]
     },
     {
-      "title":"Alternate History",
-      "alt":[
-        "Alternate history",
-        "alternative histories"
-      ]
+      "title":"Altair",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Altenberg",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alternative",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alternative algebra",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alternative history",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Alternative medicine",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "complementary and alternative medicine"
       ]
     },
     {
       "title":"Altruism",
-      "alt":[
-        "altruistic",
-        "Altruistic"
+      "alternative":[],
+      "anchor":[
+        "altruistic"
       ]
     },
     {
       "title":"Aluminium",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Al",
         "aluminum",
         "aluminium alloy"
       ]
     },
     {
+      "title":"Alvar Aalto",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alvin Toffler",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alyattes of Lydia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Alypius of Antioch",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"AM",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amakusa",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amalaric",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amalasuntha",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amalric",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Amalric I of Jerusalem",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "King Amalric"
       ]
     },
     {
       "title":"Amalric II of Jerusalem",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Amalric"
       ]
     },
     {
+      "title":"Amalric of Bena",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amalthea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amanda Hesser",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amara Sinha",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amaranth",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amaryllis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Amasis II",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Amasis"
       ]
     },
     {
+      "title":"Amateur",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Amateur astronomy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "amateur astronomers",
         "amateur astronomer"
       ]
     },
     {
-      "title":"Amazon river",
-      "alt":[
-        "Amazon River",
-        "Amazon Basin",
-        "Amazon"
-      ]
+      "title":"Amathus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amati",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amazing Grace",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amazonite",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Amazons",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Amazonian",
         "Amazon"
       ]
     },
     {
+      "title":"Amber",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amber Diceless Roleplaying Game",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amber Road",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ambergris",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ambient",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ambiguity",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "context"
       ]
     },
     {
-      "title":"AmericA",
-      "alt":[
-        "AmericA"
-      ]
+      "title":"Ambiorix",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amblygonite",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amblypoda",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ambracia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ambroise",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ambrose",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ambrose of Alexandria",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ambrosia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ambrosians",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ambrosiaster",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ambrosius Aurelianus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ambrosius Bosschaert",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ambush",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amdahl's law",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"America the Beautiful",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"America's National Game",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"American (word)",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"American Airlines",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "American"
-      ]
-    },
-    {
-      "title":"American Airlines flight 11",
-      "alt":[
-        "American Airlines flight 11",
-        "hijacked airliner",
-        "Flight 11",
-        "AA Flight 11"
-      ]
-    },
-    {
-      "title":"American Airlines flight 77",
-      "alt":[
-        "American Airlines Flight 77"
       ]
     },
     {
       "title":"American Chinese cuisine",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "American"
       ]
     },
     {
+      "title":"American Civil Liberties Union",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"American Civil War",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Civil War",
         "civil war among the states",
         "U.S. Civil War"
@@ -1715,60 +3947,87 @@ var pagesData = {
     },
     {
       "title":"American English",
-      "alt":[
+      "alternative":[
+        "English language/American English"
+      ],
+      "anchor":[
         "American",
         "US English",
-        "AmE",
-        "English language/American English"
+        "AmE"
       ]
     },
     {
       "title":"American Film Institute",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AFI"
       ]
     },
     {
       "title":"American Football Conference",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AFC"
       ]
     },
     {
       "title":"American Football League",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AFL",
         "AFL Championships"
       ]
     },
     {
       "title":"American League Championship Series",
-      "alt":[
+      "alternative":[
+        "ALCS"
+      ],
+      "anchor":[
         "ALCS"
       ]
     },
     {
       "title":"American League Division Series",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ALDS"
       ]
     },
     {
       "title":"American Media (publisher)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AMI"
       ]
     },
     {
       "title":"American National Standards Institute",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ANSI",
         "ANSI Standard"
       ]
     },
     {
+      "title":"American political scandals",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"American Quarter Horse",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"American Registry for Internet Numbers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"American Revolution",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Revolutionary War",
         "American independence",
         "Revolution",
@@ -1777,8 +4036,10 @@ var pagesData = {
     },
     {
       "title":"American Revolutionary War",
-      "alt":[
-        "American war of independence",
+      "alternative":[
+        "American war of independence"
+      ],
+      "anchor":[
         "Revolutionary War",
         "War of Independence",
         "American War of Independence",
@@ -1787,77 +4048,98 @@ var pagesData = {
       ]
     },
     {
-      "title":"American sign language",
-      "alt":[
-        "American Sign Language"
-      ]
-    },
-    {
-      "title":"American war of independence",
-      "alt":[
-        "American Revolution"
-      ]
+      "title":"American shot",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Americans with Disabilities Act of 1990",
-      "alt":[
+      "alternative":[
         "Americans with Disabilities Act of 1990/Definitions",
         "Americans with Disabilities Act of 1990/Findings and Purposes",
         "Americans with Disabilities Act of 1990/Title III"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Americium",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Am"
       ]
     },
     {
+      "title":"Amerigo Vespucci",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ames test",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ames, Iowa",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ames"
       ]
     },
     {
+      "title":"Amethyst",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amicable numbers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Amide",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "amide bond",
         "metal amide"
       ]
     },
     {
-      "title":"Amide hydrolysis",
-      "alt":[
-        "degradation"
-      ]
-    },
-    {
       "title":"Amiga",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Commodore Amiga"
       ]
     },
     {
       "title":"Amiga 1000",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "1000",
         "A1000"
       ]
     },
     {
       "title":"Amiga 500",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "500",
         "A500"
       ]
     },
     {
+      "title":"Amiga 500 Plus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Amine",
-      "alt":[
+      "alternative":[
+        "Amino group"
+      ],
+      "anchor":[
         "amino",
         "N-H",
         "primary amino group",
-        "Amino group",
         "di-amines",
         "2 RCH<sub>2</sub>NH<sub>2</sub>",
         "NR<sub>3</sub>"
@@ -1865,195 +4147,407 @@ var pagesData = {
     },
     {
       "title":"Amino acid",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "amino-acid"
       ]
     },
     {
-      "title":"Amino group",
-      "alt":[
-        "amino"
-      ]
+      "title":"Amitabh Bachchan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ammeter",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Ammianus Marcellinus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ammianus"
       ]
     },
     {
+      "title":"Ammon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ammonia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ammonius Grammaticus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ammonius Hermiae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ammonius Saccas",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amnon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Amorphous solid",
-      "alt":[
-        "Amorphous",
+      "alternative":[
+        "Amorphous"
+      ],
+      "anchor":[
         "amorphous"
       ]
     },
     {
+      "title":"AMOS (programming language)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amos Bronson Alcott",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amoxicillin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ampere",
-      "alt":[
+      "alternative":[
+        "Ampage"
+      ],
+      "anchor":[
         "A",
-        "Ampage",
         "amps"
       ]
     },
     {
+      "title":"Amphetamine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Amphibian",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Amphibia"
       ]
     },
     {
+      "title":"Amphibian (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amphipolis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amphisbaena",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ampicillin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Amplifier",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "amplification",
         "amplify",
         "amplified"
       ]
     },
     {
+      "title":"Amplifier figures of merit",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Amplitude modulation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AM",
         "amplitude modulated"
       ]
     },
     {
       "title":"Amputation",
-      "alt":[
+      "alternative":[
         "Amputees"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Amr Diab",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amram",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amsterdam",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amstrad CPC",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amu Darya",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amway",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amy Grant",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amygdalin",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Amyl alcohol",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "pentanol",
         "isoamyl alcohol"
       ]
     },
     {
+      "title":"Amyl nitrite",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Amyntas I of Macedon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Amyntas III of Macedon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "King Amyntas of"
       ]
     },
     {
       "title":"An American in Paris",
-      "alt":[
+      "alternative":[
         "AnAmericanInParis"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"An Enquiry Concerning Human Understanding",
-      "alt":[
+      "alternative":[
         "An Enquiry Concerning Human Understanding/Text",
         "AnEnquiryConcerningHumanUnderstanding"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Anabaptists",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anacharsis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anaconda",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Anadyr River",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "river"
       ]
     },
     {
+      "title":"Anagram",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anah",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Anal sex",
-      "alt":[
-        "anal intercourse",
+      "alternative":[
         "Anal intercourse",
-        "Buttfuck",
+        "Buttfuck"
+      ],
+      "anchor":[
+        "anal intercourse",
         "anal",
         "Penile-anal"
       ]
     },
     {
       "title":"Analcime",
-      "alt":[
+      "alternative":[
         "Analcim"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Analgesic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Analog Brothers",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Analog computer",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "mechanical computer",
         "analog"
       ]
     },
     {
       "title":"Analog signal",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "analog"
       ]
     },
     {
       "title":"Analog television",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "analog"
       ]
     },
     {
+      "title":"Analysis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Analysis of algorithms",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "analyzing the efficiency",
         "analysis and study of algorithms",
         "algorithm theory"
       ]
     },
     {
-      "title":"Analysis of Variance",
-      "alt":[
-        "Analysis of variance",
-        "Analysis of variance/Degrees of freedom",
-        "Analysis of variance/Random effects models",
-        "ANOVA",
-        "corrected the means"
-      ]
+      "title":"Analytic geometry",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Analytical chemistry",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "analytical studies"
       ]
     },
     {
       "title":"Analytical Engine",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "the first computer"
       ]
     },
     {
       "title":"Ananda",
-      "alt":[
-        "ƒÄnanda"
+      "alternative":[],
+      "anchor":[
+        "?nanda"
       ]
     },
     {
+      "title":"Ananke",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Anarchism",
-      "alt":[
+      "alternative":[
+        "Anarchist"
+      ],
+      "anchor":[
         "anarchist",
         "anarchistic",
-        "Anarchist",
-        "anarchists",
-        "Anarchists"
+        "anarchists"
       ]
     },
     {
       "title":"Anarcho-capitalism",
-      "alt":[
+      "alternative":[
         "Anarcho-capitalists",
         "AnarchoCapitalism",
-        "AnarchoCapitalists",
-        "anarcho-capitalists"
+        "AnarchoCapitalists"
+      ],
+      "anchor":[
+        "Anarcho-capitalists"
       ]
     },
     {
-      "title":"AnarchY",
-      "alt":[
-        "AnarchY"
-      ]
+      "title":"Anastasius",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anastasius I",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anastasius II",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anatole France",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Anatolia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Asia Minor",
         "Ottoman heartland",
         "Anatolia (Asia Minor)",
@@ -2061,28 +4555,78 @@ var pagesData = {
       ]
     },
     {
+      "title":"Anatoly Karpov",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Anatomical Therapeutic Chemical Classification System",
-      "alt":[
-        "ATC",
+      "alternative":[
         "ATC classification"
+      ],
+      "anchor":[
+        "ATC"
       ]
     },
     {
       "title":"Anatomy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "anatomist",
         "anatomically"
       ]
     },
     {
+      "title":"Anaxagoras",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anaxarchus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anaximander",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anaximenes of Lampsacus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Anaximenes of Miletus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Anaximenes"
       ]
     },
     {
+      "title":"Anazarbus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"AnaÔs Nin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anbar (town)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anchor",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ancient Egypt",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Egypt",
         "Pharaonic Egypt",
         "Egyptian",
@@ -2090,143 +4634,339 @@ var pagesData = {
       ]
     },
     {
-      "title":"Ancient Greeks",
-      "alt":[
-        "Greeks",
-        "Greek",
-        "Ancient Greek"
-      ]
+      "title":"Ancient philosophy",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Ancient Pueblo peoples",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ancient"
       ]
     },
     {
+      "title":"Ancus Marcius",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ancylopoda",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ancyra (genus)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"And did those feet in ancient time",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "\"Jerusalem\"",
         "Jerusalem"
       ]
     },
     {
+      "title":"Andalusia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andaman Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anders Celsius",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andersonville",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andersonville, Georgia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Andes",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Andean region",
         "Andes region",
         "Andean",
         "Central Andes",
         "Andes mountains",
-        "Andes mountain range",
-        "Andes Mountains"
+        "Andes mountain range"
       ]
     },
     {
+      "title":"Andhra Pradesh",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andocides",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Andorra",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AD"
       ]
     },
     {
+      "title":"Andre Agassi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andrea Alciato",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andrea Andreani",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andreas Aagesen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andreas Capellanus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andreas Schl¸ter",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andrei Sakharov",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andrei Tarkovsky",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Andrew Carnegie",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Carnegie's"
       ]
     },
     {
       "title":"Andrew II of Hungary",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Andrew II"
       ]
     },
     {
       "title":"Andrew Jackson",
-      "alt":[
+      "alternative":[
         "Andrew Jackson/First Inaugural Address",
         "Andrew Jackson/Second Inaugural Address"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Andrew Johnson",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andrew S. Tanenbaum",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andrew Tridgell",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Andrew Wiles",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Sir Andrew Wiles",
         "Wiles"
       ]
     },
     {
+      "title":"Andrey Markov",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andriscus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Android (robot)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "android",
         "Androids"
       ]
     },
     {
       "title":"Andromeda (mythology)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Andromeda"
       ]
     },
     {
+      "title":"Andronicus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andronicus of Cyrrhus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andronicus of Rhodes",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Andronikos I Komnenos",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Andronikos Komnenos"
       ]
     },
     {
+      "title":"Andronikos II Palaiologos",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Andronikos III Palaiologos",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Andronikos III"
       ]
     },
     {
-      "title":"Andr√© Weil",
-      "alt":[
+      "title":"Androphagi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Andrzej Sapkowski",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"AndrÈ de Longjumeau",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"AndrÈ Gide",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"AndrÈ the Giant",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"AndrÈ Weil",
+      "alternative":[],
+      "anchor":[
         "Weil",
-        "Weil, Andr√©"
+        "Weil, AndrÈ"
       ]
     },
     {
-      "title":"Andr√©-Marie Amp√®re",
-      "alt":[
-        "Amp√®re",
-        "A.-M. Amp√®re"
+      "title":"AndrÈ-Marie AmpËre",
+      "alternative":[],
+      "anchor":[
+        "AmpËre",
+        "A.-M. AmpËre"
       ]
+    },
+    {
+      "title":"Andy Warhol",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anemometer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Angela Vincent",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Angels in art",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Angilbert",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Angle",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Plane angle",
         "angular measurement"
       ]
     },
     {
       "title":"Angles",
-      "alt":[
+      "alternative":[
         "Angle tribe"
-      ]
-    },
-    {
-      "title":"Anglican",
-      "alt":[
-        "High Anglicanism"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Anglican Communion",
-      "alt":[
+      "alternative":[
+        "Anglican Church"
+      ],
+      "anchor":[
         "Anglican churches",
-        "Anglican Church",
         "Anglican denomination",
         "Anglicans",
+        "Anglican Church",
         "Anglican",
         "Conception of the Blessed Virgin Mary"
       ]
     },
     {
       "title":"Anglicanism",
-      "alt":[
-        "Anglican",
+      "alternative":[
+        "Anglican"
+      ],
+      "anchor":[
         "Anglican",
         "Anglicans",
         "Anglican Communion",
@@ -2236,42 +4976,89 @@ var pagesData = {
       ]
     },
     {
+      "title":"Anglo-Saxon (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Angola",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Republic of Angola",
         "AO"
       ]
     },
     {
+      "title":"Angolan Armed Forces",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Angst",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "dread"
       ]
     },
     {
       "title":"Anguilla",
-      "alt":[
+      "alternative":[
         "Anguilla/Military",
-        "Anguilla/Transnational issues",
+        "Anguilla/Transnational issues"
+      ],
+      "anchor":[
         "AI"
       ]
     },
     {
+      "title":"Angula",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Angular momentum",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "conservation of angular momentum"
       ]
     },
     {
+      "title":"Angus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ani DiFranco",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Animal (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Animal Farm",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Animalia (book)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Animation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "animated",
         "animated images"
       ]
     },
     {
       "title":"Anime",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Japanese animation",
         "popular and common Asian animation",
         "animated film",
@@ -2280,7 +5067,8 @@ var pagesData = {
     },
     {
       "title":"Animism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "animistic",
         "animist",
         "Indigenous religions"
@@ -2288,73 +5076,201 @@ var pagesData = {
     },
     {
       "title":"Anisotropy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "anisotropies",
         "anisotropic"
       ]
     },
     {
+      "title":"Anita Hill",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ankara",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ann Arbor, Michigan",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ann Arbor"
       ]
     },
     {
+      "title":"Ann Druyan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ann Widdecombe",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "a colleague"
       ]
     },
     {
       "title":"Anna Kournikova",
-      "alt":[
+      "alternative":[
         "AnnaKournikova"
-      ]
+      ],
+      "anchor":[]
     },
     {
-      "title":"Anne Bront√´",
-      "alt":[
+      "title":"Annales School",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Annals of Mathematics",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Annapolis Valley",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anne BrontÎ",
+      "alternative":[],
+      "anchor":[
         "Anne"
       ]
     },
     {
+      "title":"Annealing",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Anno Domini",
-      "alt":[
+      "alternative":[
         "A.D",
-        "A.D.",
+        "A.D."
+      ],
+      "anchor":[
         "AD",
+        "A.D.",
         "BC"
       ]
     },
     {
       "title":"Annual plant",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "annual",
         "annuals"
       ]
     },
     {
+      "title":"Anoa",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anode",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Anointing of the Sick",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "prayers to be said with the sick"
       ]
     },
     {
+      "title":"ANS",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ansbach",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ansgar",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Saint Ansgar"
       ]
     },
     {
+      "title":"ANSI C",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ansible",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Answer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ant",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Antacid",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Antarctic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Antarctic Circumpolar Current",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Antarctic Treaty System",
-      "alt":[
+      "alternative":[
         "Antartic Treaty",
         "Government of Antarctica"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Antares",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anthem",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anthemius of Tralles",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anthony Hopkins",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anthony of Saxony",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Anthony the Great",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "St Anthony",
         "Saint Anthony of the Desert",
         "hermit Anthony",
@@ -2363,314 +5279,512 @@ var pagesData = {
       ]
     },
     {
-      "title":"Anthropic Principle",
-      "alt":[
-        "Anthropic principle"
-      ]
+      "title":"Anthophyta",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Anthropology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "anthropologist",
         "anthropological",
         "anthropologic",
-        "Anthropologist",
-        "anthropologists",
-        "Anthropologists"
+        "anthropologists"
       ]
     },
     {
       "title":"Anthroposophy",
-      "alt":[
+      "alternative":[
         "Anthrosophy"
-      ]
+      ],
+      "anchor":[]
     },
     {
-      "title":"Anti-Ballistic Missile",
-      "alt":[
-        "Anti-ballistic missile"
-      ]
+      "title":"Anti-Ballistic Missile Treaty",
+      "alternative":[],
+      "anchor":[]
     },
     {
-      "title":"Anti-Globalization Movement",
-      "alt":[
-        "Anti-globalisation movement",
-        "Anti-Globalization Movement",
-        "anti-globalization"
-      ]
+      "title":"Anti-realism",
+      "alternative":[],
+      "anchor":[]
     },
     {
-      "title":"Anti-semitism",
-      "alt":[
-        "anti-Semitic"
-      ]
+      "title":"Antianginal",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Antibiotic resistance",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "resistance",
-        "Resistance",
         "resistant to antibiotics",
         "resistant"
       ]
     },
     {
       "title":"Antibiotics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "antibiotic"
       ]
     },
     {
       "title":"Antibody",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "antibodies",
-        "Antibodies",
         "immunoglobulins"
       ]
     },
     {
       "title":"Antidepressant",
-      "alt":[
+      "alternative":[
         "Anti-depressant"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Antiderivative",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "antidifferentiation"
       ]
     },
     {
+      "title":"Antidiarrhoeal",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Antigen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Antigonid dynasty",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Antigonids"
       ]
     },
     {
       "title":"Antigua and Barbuda",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Antigua",
         "AG"
       ]
     },
     {
+      "title":"Antimatter",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Antimony",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Sb"
       ]
     },
     {
       "title":"Antinomy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "antinomies"
       ]
     },
     {
+      "title":"Antioxidant",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Antiparticle",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Antipope",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Antipope Felix II",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Felix II"
       ]
     },
     {
       "title":"Antipope John XXIII",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "John XXIII"
       ]
     },
     {
+      "title":"Antipope Victor IV",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Antiprism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Antipsychotic",
-      "alt":[
-        "Antipsychotic medications",
-        "antipsychotic medications"
+      "alternative":[],
+      "anchor":[
+        "Antipsychotic medications"
       ]
     },
     {
       "title":"Antisemitism",
-      "alt":[
-        "anti-Semitic",
+      "alternative":[
         "Anti-Semite",
         "Anti-semitic",
-        "Anti-semitism",
+        "Anti-semitism"
+      ],
+      "anchor":[
+        "anti-Semitic",
         "Jewish conspiracy theory",
         "Antisemitic",
         "anti-Semitism",
-        "anti-semitic",
         "antisemitic persecution"
       ]
     },
     {
+      "title":"Antisemitism in the Arab world",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Antisymmetric relation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "antisymmetric"
       ]
     },
     {
+      "title":"Antlia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Antoine Lavoisier",
-      "alt":[
+      "alternative":[
+        "Antoine Laurent Lavoisier"
+      ],
+      "anchor":[
         "Lavoisier",
-        "Antoine Laurent Lavoisier",
         "A. Lavoisier"
       ]
     },
     {
       "title":"Antoine Thomson d'Abbadie",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "D'Abbadie"
       ]
     },
     {
       "title":"Anton Chekhov",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chekhov"
       ]
     },
     {
+      "title":"Anton Diabelli",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anton Drexler",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Antoninus Pius",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Antonio Agliardi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Antonio Canova",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Antonio Salieri",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Antonio Vivaldi",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Vivaldi"
       ]
     },
     {
+      "title":"Antwerp (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anubis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Anxiety",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "uneasy",
         "nervousness"
       ]
     },
     {
+      "title":"Anxiolytic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Anyone Can Whistle",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"AOL",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "America Online"
       ]
     },
     {
       "title":"AOL Instant Messenger",
-      "alt":[
-        "AIM",
+      "alternative":[
         "AOL Instant Messanger"
+      ],
+      "anchor":[
+        "AIM"
       ]
     },
     {
       "title":"Aon (company)",
-      "alt":[
+      "alternative":[
         "Aon Insurance"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Aorta",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aotus",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Apache HTTP Server",
-      "alt":[
-        "Apache webserver",
+      "alternative":[
+        "Apache webserver"
+      ],
+      "anchor":[
         "Apache"
       ]
     },
     {
       "title":"Apache Software Foundation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Apache"
       ]
     },
     {
+      "title":"Apatosaurus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aphasia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aphrodite",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Breasts of Aphrodite"
       ]
     },
     {
+      "title":"Apiaceae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Apiales",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Apicomplexa",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "sporozoans",
         "Apicomplexa <sup>a</sup>"
       ]
     },
     {
+      "title":"APL",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"APL (programming language)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "APL",
         "APL programming language"
       ]
     },
     {
       "title":"Apocrypha",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "apocryphal gospels"
       ]
     },
     {
+      "title":"Apollinarism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Apollo",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Apollo Actius",
         "Phoebus Apollo"
       ]
     },
     {
       "title":"Apollo 1",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Apollo launch pad fire",
         "AS-204"
       ]
     },
     {
+      "title":"Apollo 10",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Apollo 11",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "setting foot on the moon",
         "first Apollo Moon landing"
       ]
     },
     {
+      "title":"Apollo 12",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Apollo 13",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "13"
       ]
     },
     {
       "title":"Apollo 14",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "14"
       ]
     },
     {
+      "title":"Apollo 15",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Apollo 16",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Apollo 17",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "last Apollo mission",
         "17"
       ]
     },
     {
+      "title":"Apollo 7",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Apollo 8",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Apollo 9",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "its first test in a lower Earth orbit"
       ]
     },
     {
-      "title":"Apollo Program",
-      "alt":[
-        "Apollo",
-        "Project Apollo",
-        "Apollo manned lunar landing program",
-        "Apollo space program",
-        "Apollo lunar landing program",
-        "Apollo program",
-        "Apollo mission",
-        "Apollo moon mission",
-        "twelve"
-      ]
+      "title":"Apollos",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Apoptosis",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "death",
         "apoptotic"
       ]
     },
     {
       "title":"Apostles' Creed",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Apostles'"
       ]
     },
     {
       "title":"Apostolic succession",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "succession",
         "successors of the Apostles",
         "Apostolic",
@@ -2678,14 +5792,9 @@ var pagesData = {
       ]
     },
     {
-      "title":"Appalachian Dulcimer",
-      "alt":[
-        "Appalachian Dulcimer"
-      ]
-    },
-    {
       "title":"Apparent magnitude",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "magnitude",
         "Apparent<br />magnitude",
         "visual magnitude",
@@ -2695,58 +5804,306 @@ var pagesData = {
       ]
     },
     {
+      "title":"Appellate court",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Appellate procedure in the United States",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Appendix",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Apple I",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Apple II",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "original Apple II",
         "Apple"
       ]
     },
     {
       "title":"Apple II series",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "series of computers",
         "Apple II",
         "Apple&nbsp;II"
       ]
     },
     {
+      "title":"Apple III",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Apple Inc.",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Apple",
         "Apple Computer",
         "Apple Computer, Inc."
       ]
     },
     {
+      "title":"Applesoft BASIC",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Applet",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"AppleTalk",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Applied ethics",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Appomattox",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Approval voting",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Approximant consonant",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Approximants",
-        "Approximant",
-        "approximants"
+        "Approximant"
       ]
     },
     {
+      "title":"April",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 1",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 10",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 11",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 12",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 13",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 14",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 15",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 16",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 17",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 18",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 19",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 2",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 20",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 21",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 22",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 23",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 24",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 25",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 26",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 27",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 28",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 29",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 3",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 30",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 5",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 6",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 7",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 8",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"April 9",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Apuleius",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Apus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aquaculture",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aquarius (constellation)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Aquarius"
       ]
     },
     {
+      "title":"Aquila",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aquilegia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ara (constellation)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ara"
       ]
     },
     {
+      "title":"Arabian Prince",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arabian Sea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Arabic alphabet",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Arabic"
       ]
     },
     {
       "title":"Arabic language",
-      "alt":[
-        "Arabic",
+      "alternative":[
+        "Arabic"
+      ],
+      "anchor":[
         "Arabic",
         "linguistic",
         "Arabic-speaking"
@@ -2754,33 +6111,43 @@ var pagesData = {
     },
     {
       "title":"Arabic numerals",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Arabic digits",
         "Hindu numerals"
       ]
     },
     {
       "title":"Arable land",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "farmland",
         "arable"
       ]
     },
     {
       "title":"Arabs",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Arab"
       ]
     },
     {
+      "title":"Arachnophobia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aragonese language",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Aragonese"
       ]
     },
     {
       "title":"Aramaic alphabet",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Aramaic",
         "Aramaic abjad",
         "Aramaic (Imperial)",
@@ -2790,99 +6157,240 @@ var pagesData = {
     },
     {
       "title":"Aramaic language",
-      "alt":[
-        "Aramaic",
+      "alternative":[
+        "Aramaic"
+      ],
+      "anchor":[
         "Aramaic",
         "Old Aramaic"
       ]
     },
     {
+      "title":"Arapawa Island",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arbeit macht frei",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arbitrage",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arbitration in the United States",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arbor Day",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Arbroath Abbey",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Arbroath"
       ]
     },
     {
+      "title":"Arc de Triomphe",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arcadia 2001",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Arcadius",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Flavius Arcadius"
       ]
     },
     {
       "title":"Archaeoastronomy",
-      "alt":[
+      "alternative":[
         "Archeoastronomy"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Archaeopteryx",
-      "alt":[
-        "Archeopteryx",
+      "alternative":[
+        "Archeopteryx"
+      ],
+      "anchor":[
         "Archaeopteryx lithographica"
       ]
     },
     {
       "title":"Archbishop of Canterbury",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Archbishop",
         "Canterbury"
       ]
     },
     {
+      "title":"Archbishopric of Riga",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Archduke Charles, Duke of Teschen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Archery",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "archer",
         "bowmen"
       ]
     },
     {
       "title":"Archimedean solid",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Archimedean"
       ]
     },
     {
       "title":"Archimedes",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "someone"
       ]
     },
     {
       "title":"Archipelago",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "group of islands"
       ]
     },
     {
       "title":"Architect",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "master builder"
       ]
     },
     {
+      "title":"Arcology",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Arctic fox",
-      "alt":[
+      "alternative":[
         "Alopex lagopus"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Arcturus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ardal O'Hanlon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ardipithecus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Area",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Area 51",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arene (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ares",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Argentine cuisine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Argo Navis",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Argon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ar"
       ]
     },
     {
-      "title":"Argument form",
-      "alt":[
-        "form"
-      ]
+      "title":"Argot",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"ArgoUML",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Argument (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Argument from morality",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arian (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ariane 5",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arianespace",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Arianism",
-      "alt":[
+      "alternative":[
+        "Arians"
+      ],
+      "anchor":[
         "Arian",
         "Arian Christianity",
-        "Arians",
         "Arians",
         "Arian Party",
         "Arian heresy",
@@ -2893,35 +6401,65 @@ var pagesData = {
     },
     {
       "title":"Ariel Sharon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ariel Sharon's"
       ]
     },
     {
       "title":"Aries (constellation)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Aries"
       ]
     },
     {
+      "title":"Aristide Maillol",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aristophanes",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aristotle",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Aristotelian",
         "Aristotle's",
-        "Aristotle‚Äôs"
+        "Aristotleís"
       ]
     },
     {
+      "title":"Arithmetic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arithmetic function",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Arithmetic mean",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Arithmetic",
         "sample mean",
         "average"
       ]
     },
     {
+      "title":"Arithmeticñgeometric mean",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Arizona Cardinals",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chicago Cardinals",
         "St. Louis Football Cardinals",
         "St. Louis/Phoenix/Arizona Cardinals",
@@ -2930,94 +6468,172 @@ var pagesData = {
     },
     {
       "title":"Arizona Diamondbacks",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "D-Backs"
       ]
     },
     {
+      "title":"Arizona State University",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ark",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ark of the Covenant",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ark"
       ]
     },
     {
       "title":"Arkansas",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AR"
       ]
     },
     {
+      "title":"Arlo Guthrie",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Armadillo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Armageddon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Armed Forces of Armenia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Armed Forces of Belarus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Armed Forces of Bosnia and Herzegovina",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Armed Forces of El Salvador",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Armenian language",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Armenian"
       ]
     },
     {
       "title":"Arminianism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Arminians",
         "Arminian"
       ]
     },
     {
       "title":"Armored car (military)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Amphibious Armoured Scout Car",
         "armoured car",
         "armoured cars",
         "armored car",
-        "Armoured car (military)",
-        "Armored car",
-        "Armored Car"
+        "Armoured car (military)"
       ]
     },
     {
       "title":"Armour",
-      "alt":[
+      "alternative":[
+        "Armor"
+      ],
+      "anchor":[
         "armor",
-        "Armor",
         "armored"
       ]
     },
     {
       "title":"Armoured fighting vehicle",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "armored fighting vehicle"
       ]
     },
     {
       "title":"Army",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "armies",
         "military",
         "land warfare"
       ]
     },
     {
+      "title":"Army of Darkness",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arne Kaijser",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arno",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Arnold Schwarzenegger",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Arnold Schwarzenegger's",
         "Arnold Alois Schwarzenegger"
       ]
     },
     {
-      "title":"Aromatic compound",
-      "alt":[
-        "Aromatic",
-        "aromatic"
-      ]
+      "title":"Arnulf of Carinthia",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Aromatic hydrocarbon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Arenes",
-        "aromatic rings",
-        "arenes"
+        "aromatic rings"
       ]
     },
     {
+      "title":"Aron Nimzowitsch",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arraignment",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Arrangement",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "arranging",
         "arranger",
         "arranged"
@@ -3025,47 +6641,113 @@ var pagesData = {
     },
     {
       "title":"Array data structure",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "array",
         "vector",
-        "Array",
         "''array''"
       ]
     },
     {
       "title":"Arsenal F.C.",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Arsenal",
         "Arsenal football club"
       ]
     },
     {
+      "title":"Arsenic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Art",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Art Deco",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "art-deco"
       ]
     },
     {
       "title":"Artemis",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Diane"
       ]
     },
     {
+      "title":"Arteriovenous malformation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Arthritis",
-      "alt":[
+      "alternative":[
         "Arthritus"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Arthur Aikin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arthur Eddington",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arthur J. Stone",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arthur Jensen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arthur Laurents",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arthur Miller",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arthur Phillip",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Arthur Schopenhauer",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Schopenhauer"
       ]
     },
     {
+      "title":"Arthur St. Clair",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Arthur Wellesley",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Arthur Wellesley, 1st Duke of Wellington",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Duke of Wellington",
         "Arthur Wellesley",
         "Arthur Wellesly",
@@ -3074,14 +6756,26 @@ var pagesData = {
       ]
     },
     {
+      "title":"Arthur William ‡ Beckett",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Articles of Confederation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Articles of Confederation and Perpetual Union"
       ]
     },
     {
+      "title":"Articolo 31",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Artificial intelligence",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "artificial",
         "AI",
         "artificial entities",
@@ -3092,7 +6786,8 @@ var pagesData = {
     },
     {
       "title":"Artillery",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bombardier",
         "ordnance",
         "gun battery",
@@ -3100,40 +6795,63 @@ var pagesData = {
       ]
     },
     {
+      "title":"Artist",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Artistic License",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "creative license"
       ]
     },
     {
+      "title":"Artistic revolution",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aruba",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AW"
       ]
     },
     {
-      "title":"Ascending Chain Condition",
-      "alt":[
-        "Ascending chain condition",
-        "Descending chain condition"
-      ]
+      "title":"ARY Group",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"ASA",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"ASCII",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ASCII character",
         "American Standard Code for Information Interchange"
       ]
     },
     {
       "title":"ASCII art",
-      "alt":[
+      "alternative":[
         "AsciiArt"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Ascorbic acid",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Asexual reproduction",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "asexual",
         "A.R",
         "Asexually reproducing",
@@ -3141,43 +6859,119 @@ var pagesData = {
       ]
     },
     {
+      "title":"Asgard",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ash",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ashmore and Cartier Islands",
-      "alt":[
+      "alternative":[
         "Ashmore and Cartier Islands/Economy",
         "Ashmore and Cartier Islands/Geography",
         "Ashmore and Cartier Islands/Government",
         "Ashmore and Cartier Islands/Military",
         "Ashmore and Cartier Islands/People",
         "Ashmore and Cartier Islands/Transportation"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Ashoka",
-      "alt":[
-        "Emperor A≈õoka"
+      "alternative":[],
+      "anchor":[
+        "Emperor A?oka"
       ]
     },
     {
+      "title":"Asia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Asia Minor (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Asian Development Bank",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AsDB"
       ]
     },
     {
+      "title":"ASIC (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Asimov (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ask and Embla",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"ASL (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"AsociaciÛn Alumni",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"ASP",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Asparagales",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aspartame",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aspect ratio",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "proportions"
       ]
     },
     {
+      "title":"Asphalt",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aspirated consonant",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "aspirated"
       ]
     },
     {
+      "title":"Aspirin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Assassination",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "assassinated",
         "assassination attempt",
         "assassin"
@@ -3185,30 +6979,44 @@ var pagesData = {
     },
     {
       "title":"Assault",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "assaulted anyone"
       ]
     },
     {
+      "title":"Assault gun",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Assembly language",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "assembly language",
         "assembler",
         "Assembly",
-        "assembly",
         "assembly code"
       ]
     },
     {
+      "title":"Assembly line",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Assistive technology",
-      "alt":[
-        "AssistiveTechnology",
+      "alternative":[
+        "AssistiveTechnology"
+      ],
+      "anchor":[
         "assistive technologies"
       ]
     },
     {
       "title":"Associate Justice of the Supreme Court of the United States",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Supreme Court Justice",
         "Justice",
         "Associate Justice of the Supreme Court<br />of the United States",
@@ -3217,20 +7025,28 @@ var pagesData = {
     },
     {
       "title":"Association for Computing Machinery",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ACM"
       ]
     },
     {
+      "title":"Associative algebra",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Associative property",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "associative",
         "Associativity"
       ]
     },
     {
       "title":"Assyria",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Assyro",
         "Neo-Assyrian",
         "Assyrian empire",
@@ -3238,28 +7054,63 @@ var pagesData = {
       ]
     },
     {
-      "title":"Asteroid Belt",
-      "alt":[
-        "Asteroid Belt",
-        "main belt",
-        "main-belt"
-      ]
+      "title":"Astatine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aster CT-80",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Asteraceae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Asterales",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Asterism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Asterix",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Asteroid",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Asteroids (video game)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Asteroids"
       ]
     },
     {
+      "title":"Aston Martin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Astoria, Oregon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Astoria"
       ]
     },
     {
       "title":"Astrobiology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "astrobiological",
         "extraterrestrial life",
         "\"exobiology\" or \"astrobiology,\"",
@@ -3268,80 +7119,97 @@ var pagesData = {
     },
     {
       "title":"Astrology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "astrological"
       ]
     },
     {
       "title":"Astrometry",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "astronometric measurements",
         "astrometric"
       ]
     },
     {
       "title":"Astronaut",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cosmonaut",
         "astronaut or cosmonaut"
       ]
     },
     {
       "title":"Astronomer",
-      "alt":[
+      "alternative":[
         "Astronomers and Astrophysicists"
-      ]
+      ],
+      "anchor":[]
     },
     {
-      "title":"Astronomical Unit",
-      "alt":[
-        "AU",
-        "Astronomical unit",
-        "Astronomical Units"
-      ]
-    },
-    {
-      "title":"Astronomical Units",
-      "alt":[
-        "AU"
-      ]
+      "title":"Astronomer Royal",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Astronomical year numbering",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "astronomical year numbering system",
         "astronomical system"
       ]
     },
     {
+      "title":"Aswan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Asymptote",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "asymptotically",
         "asymptotically approaches"
       ]
     },
     {
       "title":"Asynchronous communication",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "series of bits"
       ]
     },
     {
       "title":"Asynchronous Transfer Mode",
-      "alt":[
-        "Asyncronous Transfer Mode",
+      "alternative":[
+        "Asyncronous Transfer Mode"
+      ],
+      "anchor":[
         "ATM exchange"
       ]
     },
     {
       "title":"At bat",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "at-bats"
       ]
     },
     {
+      "title":"AtanasoffñBerry computer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Atari",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Atari 2600",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Video Computer System",
         "Atari Video Computer System",
         "VCS",
@@ -3349,34 +7217,54 @@ var pagesData = {
       ]
     },
     {
+      "title":"Atari 5200",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Atari 7800",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "7800"
       ]
     },
     {
       "title":"Atari Jaguar",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Jaguar"
       ]
     },
     {
+      "title":"Atari Lynx",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Atari ST",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Atari 520ST",
         "Atari",
         "Atari Mega-ST"
       ]
     },
     {
+      "title":"Ataxia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Athanasian Creed",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Athanasian"
       ]
     },
     {
       "title":"Athanasius of Alexandria",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "St Athanasius the Apostolic",
         "Athanasius",
         "Saint Athanasius",
@@ -3385,40 +7273,51 @@ var pagesData = {
     },
     {
       "title":"Athena",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Athena Polias",
         "Athene",
         "Athena of Peiraeus"
       ]
     },
     {
+      "title":"Athene (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Athenian democracy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "democratic Athens"
       ]
     },
     {
       "title":"Athens",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Athenian",
         "Athenians"
       ]
     },
     {
       "title":"Athlon",
-      "alt":[
+      "alternative":[
         "AMD Athlon"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Atlanta",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Atlanta, Georgia"
       ]
     },
     {
       "title":"Atlanta Braves",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Boston Beaneaters",
         "Boston Braves",
         "Red Stockings",
@@ -3430,8 +7329,19 @@ var pagesData = {
       ]
     },
     {
+      "title":"Atlanta Falcons",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Atlantic (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Atlantic Ocean",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Atlantic",
         "North Atlantic",
         "Atlantica",
@@ -3443,31 +7353,66 @@ var pagesData = {
     },
     {
       "title":"Atlantis",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Atlanteans"
       ]
     },
     {
+      "title":"Atlas (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Atlas Autocode",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Atle Selberg",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"ATM",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Atmosphere (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Atom",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "atomic"
       ]
     },
     {
       "title":"Atom probe",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "atom-probe tomograph"
       ]
     },
     {
+      "title":"Atomic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Atomic absorption spectroscopy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "spectrography"
       ]
     },
     {
       "title":"Atomic number",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "number of protons",
         "heavier elements",
         "Z",
@@ -3476,12 +7421,14 @@ var pagesData = {
     },
     {
       "title":"Atomic orbital",
-      "alt":[
+      "alternative":[
+        "Atomic orbitals"
+      ],
+      "anchor":[
         "orbital",
         "s-orbital",
         "orbitals",
         "Electron properties",
-        "Atomic orbitals",
         "s-wave",
         "d-wave",
         "valence shell atom"
@@ -3489,47 +7436,84 @@ var pagesData = {
     },
     {
       "title":"Atomic physics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "atomic"
       ]
     },
     {
+      "title":"Atomic semantics",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Atomic theory",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Atoms and molecules",
         "theory of atoms"
       ]
     },
     {
+      "title":"ATP",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Attila",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Attila the Hun"
       ]
     },
     {
+      "title":"Attorney",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Attribution of recent climate change",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Au",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Au file format",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AU",
         ".au"
       ]
     },
     {
       "title":"Audi",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Audi Werke AG",
         "AUDI AG"
       ]
     },
     {
+      "title":"Audio",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Audio file format",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "audio file",
         "audio formats"
       ]
     },
     {
       "title":"Audio signal processing",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "audio signal",
         "audio",
         "audio effects",
@@ -3537,27 +7521,196 @@ var pagesData = {
       ]
     },
     {
+      "title":"Auger effect",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 1",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 10",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 11",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 12",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 13",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 14",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"August 15",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "the 15th of August"
       ]
     },
     {
-      "title":"Auguste and Louis Lumi√®re",
-      "alt":[
-        "Auguste Lumi√®re",
-        "Lumi√®re brothers"
+      "title":"August 16",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 17",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 18",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 19",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 2",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 21",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 22",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 23",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 24",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 25",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 27",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 28",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 29",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 3",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 30",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 31",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 4",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 5",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 6",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 7",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 8",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August 9",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August Derleth",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August Horch",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"August Wilhelm Ambros",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Auguste and Louis LumiËre",
+      "alternative":[],
+      "anchor":[
+        "Auguste LumiËre",
+        "LumiËre brothers"
       ]
     },
     {
       "title":"Auguste Rodin",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Rodin"
       ]
     },
     {
       "title":"Augustin-Jean Fresnel",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Augustin Fresnel",
         "Fresnel, Augustin-Jean",
         "Fresnel's"
@@ -3565,13 +7718,15 @@ var pagesData = {
     },
     {
       "title":"Augustin-Louis Cauchy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cauchy"
       ]
     },
     {
       "title":"Augustine of Canterbury",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "St Augustine",
         "Augustine",
         "Augustine's mission",
@@ -3580,7 +7735,10 @@ var pagesData = {
     },
     {
       "title":"Augustine of Hippo",
-      "alt":[
+      "alternative":[
+        "Augustine"
+      ],
+      "anchor":[
         "Saint Augustine",
         "Augustinian",
         "Augustine",
@@ -3588,47 +7746,72 @@ var pagesData = {
         "Augustine's",
         "St Augustine of Hippo",
         "Augustinian tradition",
-        "Augustine",
         "St. Augustine"
       ]
     },
     {
       "title":"Augustus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Octavian",
         "Gaius Julius Caesar Octavianus",
         "Octavius"
       ]
     },
     {
+      "title":"Aung San Suu Kyi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Aurangzeb",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Auriga",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aurochs",
-      "alt":[
+      "alternative":[
         "Auroch"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Auschwitz concentration camp",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Auschwitz",
         "Birkenau",
         "Auschwitz I"
       ]
     },
     {
+      "title":"Austin (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Austin, Texas",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Austin"
       ]
     },
     {
       "title":"Australian Army",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Army's"
       ]
     },
     {
       "title":"Australian Broadcasting Corporation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ABC",
         "Australian Broadcasting Commission",
         "ABC-TV"
@@ -3636,13 +7819,20 @@ var pagesData = {
     },
     {
       "title":"Australian Capital Territory",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ACT"
       ]
     },
     {
+      "title":"Australian Democrats",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Australian English",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "English",
         "Australia",
         "Australian"
@@ -3650,7 +7840,8 @@ var pagesData = {
     },
     {
       "title":"Australian Labor Party",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Labor",
         "ALP",
         "Labor Party",
@@ -3659,14 +7850,16 @@ var pagesData = {
     },
     {
       "title":"Australian rules football",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Australian football",
         "Aussie Rules"
       ]
     },
     {
       "title":"Austria-Hungary",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Austrian",
         "Austro-Hungarian",
         "Habsburg-ruled lands",
@@ -3677,14 +7870,17 @@ var pagesData = {
     },
     {
       "title":"Austrian German",
-      "alt":[
-        "German",
+      "alternative":[
         "AustriaLanguage"
+      ],
+      "anchor":[
+        "German"
       ]
     },
     {
       "title":"Austrian School",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Austrian School of economics",
         "Austrian",
         "Austrian economist"
@@ -3692,172 +7888,341 @@ var pagesData = {
     },
     {
       "title":"Austroasiatic languages",
-      "alt":[
-        "AustroAsiaticLanguages",
+      "alternative":[
+        "AustroAsiaticLanguages"
+      ],
+      "anchor":[
         "Austroasiatic",
         "Austroasiatic family",
         "Austroasiatic language"
       ]
     },
     {
+      "title":"Author",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Autism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Auto racing",
-      "alt":[
-        "motorsports",
+      "alternative":[
         "Automobile racing",
         "AutoRacing"
+      ],
+      "anchor":[
+        "motorsports"
       ]
     },
     {
       "title":"Autobiography",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "autobiographical"
       ]
     },
     {
+      "title":"AutoCAD",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"AutoCAD DXF",
-      "alt":[
-        "DXF",
+      "alternative":[
+        "DXF"
+      ],
+      "anchor":[
         "DXF"
       ]
     },
     {
-      "title":"Automatic telephone exchange",
-      "alt":[
-        "switching center"
-      ]
+      "title":"Autocorrelation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Automated theorem proving",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Automatic number announcement circuit",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Automorphism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Autonomous building",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Autosome",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "autosomal"
       ]
     },
     {
+      "title":"Autpert Ambrose",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Autumn",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "fall",
         "Bird Migration - Lighting is decreased during autumn bird migration"
       ]
     },
     {
+      "title":"AV",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Aveiro, Portugal",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Aveiro"
       ]
     },
     {
+      "title":"Avery Hopwood",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Avicenna",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Avionics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "avionic systems"
       ]
     },
     {
-      "title":"Aw",
-      "alt":[
-        "AW"
-      ]
+      "title":"AVL tree",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"AWK",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Axayacatl",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Axiology",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Axiom",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "postulate",
         "postulates"
       ]
     },
     {
       "title":"Axiom of choice",
-      "alt":[
-        "AxiomOfChoice",
+      "alternative":[
+        "AxiomOfChoice"
+      ],
+      "anchor":[
         "AC"
       ]
     },
     {
-      "title":"Axiomatic Set Theory",
-      "alt":[
-        "abstract, general theory of infinite sets"
-      ]
+      "title":"Axiom of regularity",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Axon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ayahuasca",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Ayn Rand",
-      "alt":[
-        "AynRand",
+      "alternative":[
+        "AynRand"
+      ],
+      "anchor":[
         "Rand, Ayn"
       ]
     },
     {
+      "title":"AZ",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"AZ Alkmaar",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Azad Kashmir",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Azawakh",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Azerbaijan",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AZ"
       ]
     },
     {
+      "title":"Azerbaijani Armed Forces",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Azincourt",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Agincourt"
       ]
     },
     {
       "title":"Azores",
-      "alt":[
+      "alternative":[
         "Acores"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Aztlan Underground",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"B (programming language)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "B"
       ]
     },
     {
       "title":"B-tree",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "B-Tree"
       ]
     },
     {
       "title":"B. F. Skinner",
-      "alt":[
+      "alternative":[
         "B.F. Skinner"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"B52 (disambiguation)",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Babe Ruth",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ruth",
         "George Herman Ruth"
       ]
     },
     {
+      "title":"Babrak Karmal",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Babur",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Zahir ud-Din Mohammad Babur",
-        "ZƒÅhir ud-Dƒ´n Mohammad BƒÅbur"
+        "Z?hir ud-D?n Mohammad B?bur"
       ]
     },
     {
-      "title":"Baby Boom",
-      "alt":[
-        "Baby Boom"
-      ]
+      "title":"Babylon 5",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Bacardi",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bacardi Gold",
         "Bacardi Corp."
       ]
     },
     {
-      "title":"Bacillus Thuringiensis",
-      "alt":[
-        "B. thuringiensis",
-        "thuringiensis",
-        "Bacillus thuringiensis"
-      ]
+      "title":"Bach (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bachelor",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bacillus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Backbone cabal",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Backgammon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Background radiation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Backplane",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Backward compatibility",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "backward",
         "backward compatible",
         "backward-compatible"
@@ -3865,83 +8230,181 @@ var pagesData = {
     },
     {
       "title":"Bacterial conjugation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "conjugation",
         "Conjugation (microbiology)"
       ]
     },
     {
+      "title":"Bacterial vaginosis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bactericide",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bactericidal"
       ]
     },
     {
+      "title":"Bacteriophage",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Badminton",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Badtrans",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Baghdad",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Baghdad's",
-        "BaghdƒÅd"
+        "Baghd?d"
       ]
     },
     {
       "title":"Bagpipes",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bagpiper",
         "pipers"
       ]
     },
     {
-      "title":"Bah√°'√≠ Faith",
-      "alt":[
-        "Bah√°'i",
-        "Bah√°'√≠",
-        "Bah√°'√≠s",
+      "title":"Bagpuss",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bah·'Ì Faith",
+      "alternative":[
         "Bahais"
+      ],
+      "anchor":[
+        "Bah·'i",
+        "Bah·'Ì",
+        "Bah·'Ìs"
       ]
     },
     {
       "title":"Bain-marie",
-      "alt":[
+      "alternative":[
         "Double boiler"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Bakassi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bakelite",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Baker Island",
-      "alt":[
+      "alternative":[
         "Demographics of Baker Island",
         "Geography of Baker Island",
         "Government of Baker Island",
         "Transportation in Baker Island"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Baku",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Walled City of Baku"
       ]
     },
     {
+      "title":"Baku (spirit)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bal Thackeray",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Balalaika",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Balance",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Balance of trade",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "trade deficit"
       ]
     },
     {
+      "title":"Balboa",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bald eagle",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "American eagle",
         "American bald eagle"
       ]
     },
     {
+      "title":"Baldr",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Baldric",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Balfour Declaration",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Balfour Declaration of 1926",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Balfour Declaration"
       ]
     },
     {
+      "title":"Bali",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Balkan Wars",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Balkans",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Balkan",
         "southeastern Europe",
         "Balkan States",
@@ -3950,49 +8413,95 @@ var pagesData = {
       ]
     },
     {
+      "title":"Ball",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ballad",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ballad of the Green Berets",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ballarat",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ballpoint pen",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ballpoint"
       ]
     },
     {
       "title":"Ballroom dance",
-      "alt":[
+      "alternative":[
         "Ballroom dancing",
-        "BallroomDance",
+        "BallroomDance"
+      ],
+      "anchor":[
         "Latin",
-        "ballroom"
+        "ballroom",
+        "Ballroom dancing"
       ]
     },
     {
+      "title":"Ballu tundu",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Balmoral",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Balmoral Castle",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Balmoral"
       ]
     },
     {
       "title":"Balochistan, Pakistan",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Balochistan"
       ]
     },
     {
+      "title":"Balsall Heath",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Baltic languages",
-      "alt":[
-        "Baltic",
+      "alternative":[
         "Baltic language"
+      ],
+      "anchor":[
+        "Baltic"
       ]
     },
     {
       "title":"Baltic Sea",
-      "alt":[
-        "Baltic",
+      "alternative":[
         "BalticSea"
+      ],
+      "anchor":[
+        "Baltic"
       ]
     },
     {
       "title":"Baltimore Orioles",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "St. Louis Browns",
         "Orioles",
         "Baltimore",
@@ -4001,68 +8510,148 @@ var pagesData = {
     },
     {
       "title":"Baltimore Ravens",
-      "alt":[
-        "BaltimoreRavens",
+      "alternative":[
+        "BaltimoreRavens"
+      ],
+      "anchor":[
         "Ravens"
       ]
     },
     {
+      "title":"Balts",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bambara language",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bambara"
       ]
     },
     {
+      "title":"Bamberg",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Banacek",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Banach algebra",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Banach space",
-      "alt":[
+      "alternative":[
         "Complete normed vector space"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Banca d'Italia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bank of Italy",
         "Italy"
       ]
     },
     {
+      "title":"Band",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Banda",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Banda Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bandwidth (signal processing)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bandwidth",
-        "Bandwidth",
         "bandwidths"
       ]
     },
     {
+      "title":"Bandy",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bangladesh",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BD"
       ]
     },
     {
+      "title":"Bangor",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Banjo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bank of China Tower (Hong Kong)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bank of China Tower"
       ]
     },
     {
+      "title":"Bank of England",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bankruptcy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bankrupt",
         "bankrupting",
         "bankruptcies"
       ]
     },
     {
+      "title":"Bannock",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Banquo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Banshee",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bantu languages",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bantu",
         "Bantu language"
       ]
     },
     {
       "title":"Baptism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "baptizes",
         "baptised",
         "baptized",
@@ -4071,56 +8660,191 @@ var pagesData = {
     },
     {
       "title":"Baptists",
-      "alt":[
+      "alternative":[
+        "Baptist church"
+      ],
+      "anchor":[
         "Baptist",
         "General and Free Will Baptists",
-        "Baptist church",
         "The Baptists"
       ]
     },
     {
+      "title":"Bar",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bar Kokhba (album)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Baralong incidents",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Barb Wire",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Barbados",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BB"
       ]
     },
     {
+      "title":"Barbagia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Barbara Olson",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Barcelona",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Barcelonnette",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Barge",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Barium",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bar?? ManÁo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Barnabas",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Barnard College",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Barnard's Star",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Barney Bubbles",
-      "alt":[
+      "alternative":[
         "Colin Fulcher"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Baron Aberdare",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Baroque",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "baroque style",
         "Baroque art"
       ]
     },
     {
+      "title":"Baroque dance",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Barratry (common law)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Barrel (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Barrister",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "counsel"
       ]
     },
     {
+      "title":"Barry Bonds",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Barry Goldwater",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Barry Lyndon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Barter",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bartolomeo Ammannati",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Baruch Spinoza",
-      "alt":[
+      "alternative":[
+        "BaruchSpinoza"
+      ],
+      "anchor":[
         "Spinoza's",
         "Spinoza",
-        "BaruchSpinoza",
         "Spinozist"
       ]
     },
     {
+      "title":"Baryon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Base",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"BASE jumping",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BASE"
       ]
     },
     {
       "title":"Base on balls",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "walk",
         "walks",
         "bases on balls",
@@ -4129,20 +8853,28 @@ var pagesData = {
     },
     {
       "title":"Base pair",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "kbp"
       ]
     },
     {
+      "title":"Baseball",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Baseball positions",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "standard arrangement",
         "playing"
       ]
     },
     {
       "title":"Baseball statistics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "statistician",
         "statistics",
         "statistic",
@@ -4150,27 +8882,60 @@ var pagesData = {
       ]
     },
     {
+      "title":"Basel",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Basel Convention",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal"
       ]
     },
     {
+      "title":"Basenji",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bash (Unix shell)",
-      "alt":[
-        "Bash",
-        "bash"
+      "alternative":[],
+      "anchor":[
+        "Bash"
       ]
     },
     {
       "title":"BASIC",
-      "alt":[
+      "alternative":[
         "BASIC (disambiguation)"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Basic English",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Basic Role-Playing",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Basis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Basketball",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Basque language",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Euskera",
         "Basque",
         "International Day of the Basque Language"
@@ -4178,56 +8943,82 @@ var pagesData = {
     },
     {
       "title":"Basque people",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Basque",
         "Basques"
       ]
     },
     {
       "title":"Bass (sound)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bass"
       ]
     },
     {
       "title":"Bass guitar",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bass",
         "bassist",
         "electric bass"
       ]
     },
     {
+      "title":"Bass music",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bassas da India",
-      "alt":[
+      "alternative":[
         "Communications in Bassas da India",
         "Geography of Bassas da India",
         "Government of Bassas da India",
         "Military of Bassas da India"
-      ]
+      ],
+      "anchor":[]
     },
     {
-      "title":"Basso continuo",
-      "alt":[
-        "continuo"
-      ]
+      "title":"Bassoon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bastard Operator From Hell",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bastarnae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bastille Day",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Batavi (Germanic tribe)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Batavians",
         "Batavi"
       ]
     },
     {
       "title":"Bathyscaphe Trieste",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Trieste"
       ]
     },
     {
       "title":"Batman",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bruce Wayne/Batman",
         "Bruce Wayne / Batman",
         "character of the same name",
@@ -4238,20 +9029,23 @@ var pagesData = {
     },
     {
       "title":"Batman & Robin (film)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Batman & Robin",
         "Batman and Robin"
       ]
     },
     {
       "title":"Batman (1966 film)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Batman"
       ]
     },
     {
       "title":"Batman (1989 film)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Batman",
         "1989 feature film",
         "previous film",
@@ -4261,250 +9055,602 @@ var pagesData = {
     },
     {
       "title":"Batman Forever",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "third film"
       ]
     },
     {
+      "title":"Batman Returns",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Batman: Year One",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Battery Park City",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Battle",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Battle of Abritus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Battle of Actium",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Actium"
       ]
     },
     {
+      "title":"Battle of Adrianople (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Battle of Adwa",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Adwa"
       ]
     },
     {
       "title":"Battle of Agincourt",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Agincourt"
       ]
     },
     {
+      "title":"Battle of Berestechko",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Battle of Blenheim",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Blenheim"
       ]
     },
     {
+      "title":"Battle of Bosworth Field",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Battle of Bouvines",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Battle of El Alamein",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Battle of Gettysburg",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Gettysburg"
       ]
     },
     {
       "title":"Battle of Jutland",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Jutland"
       ]
     },
     {
       "title":"Battle of Lostwithiel",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "campaign in the south"
       ]
     },
     {
       "title":"Battle of Marathon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Marathon"
       ]
     },
     {
       "title":"Battle of Okinawa",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Operation Iceberg",
         "invasion of Okinawa"
       ]
     },
     {
       "title":"Battle of Peleliu",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Peleliu"
       ]
     },
     {
       "title":"Battle of Pharsalus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Pharsalus",
         "Roman history"
       ]
     },
     {
+      "title":"Battle of Poitiers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Battle of Ramillies",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Battle of Stalingrad",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Stalingrad"
       ]
     },
     {
       "title":"Battle of the Nile",
-      "alt":[
-        "Battle of the Nile (Battle of Aboukir Bay)",
+      "alternative":[
         "Battle of Aboukir Bay"
+      ],
+      "anchor":[
+        "Battle of the Nile (Battle of Aboukir Bay)"
       ]
     },
     {
       "title":"Battle of Waterloo",
-      "alt":[
-        "Waterloo",
-        "WATERLOO"
+      "alternative":[],
+      "anchor":[
+        "Waterloo"
       ]
     },
     {
-      "title":"Battle of ≈öwiecino",
-      "alt":[
+      "title":"Battle of ?wiecino",
+      "alternative":[
         "Battle of Schwetz",
         "Battle of Zarnowiec"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Battlecruiser",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Battleship",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Baudot code",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Baudot",
         "Baudot telegraph code",
-        "baudot",
         "5-bit"
       ]
     },
     {
       "title":"Bauhaus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Staatliches Bauhaus"
       ]
     },
     {
+      "title":"Bauxite",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bavaria",
-      "alt":[
-        "Bayern",
+      "alternative":[
+        "Bayern"
+      ],
+      "anchor":[
         "Free State of Bavaria"
       ]
     },
     {
+      "title":"Bavarian",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bay (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bay leaf",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bay of Quinte",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bayer designation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alpha Tauri",
-        "Œ± Centauri",
-        "Œ±&nbsp;Aquilae",
+        "? Centauri",
+        "?&nbsp;Aquilae",
         "Bayer",
         "alpha star"
       ]
     },
     {
       "title":"Bayesian probability",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "probability judgments",
         "probability distribution",
         "Bayesian"
       ]
     },
     {
+      "title":"Bayezid I",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bayezid II",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bayonne",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BBC News (TV channel)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"BBC Radio 1",
-      "alt":[
-        "BBC/Radio 1",
+      "alternative":[
+        "BBC/Radio 1"
+      ],
+      "anchor":[
         "Radio 1"
       ]
     },
     {
       "title":"BBC Red Button",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BBCi"
       ]
     },
     {
+      "title":"BBS",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"BC",
-      "alt":[
+      "alternative":[
         "B.C",
         "B.C."
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"BCD",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BCE (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BCG vaccine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BCPL",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"BCS theory",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cooper pairs",
         "BCS"
       ]
     },
     {
+      "title":"BDSM",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BE",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Beachcomber (pen name)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Beacon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bead",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bead weaving",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "loom",
         "off-loom"
       ]
     },
     {
+      "title":"Beadwork",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Beagle",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bean",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "dried beans"
       ]
     },
     {
-      "title":"Beast of bodmin",
-      "alt":[
-        "Beast of Bodmin"
-      ]
+      "title":"Bear",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bearing",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BearShare",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Beastie Boys",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Beatmatching",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Beatrix Potter",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Beauty",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "beautiful"
       ]
     },
     {
       "title":"Beaver",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "''Castor''"
       ]
     },
     {
+      "title":"Beavis and Butt-head",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BeBox",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bede",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Venerable Bede",
         "the Venerable Bede",
         "Bede's"
       ]
     },
     {
+      "title":"Bedrock Records",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bee",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Beeb",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Beechcraft",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Beer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BeerñLambert law",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Beetle",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Behavior",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Behistun Inscription",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Being",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "states of being"
       ]
     },
     {
+      "title":"Bela Lugosi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Belarus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BY"
       ]
     },
     {
+      "title":"Belfast",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Belgian (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Belgian Blue",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Belgian hip hop",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Belgium",
-      "alt":[
+      "alternative":[
+        "Belgium/Belgie",
+        "Belgium/facts"
+      ],
+      "anchor":[
         "Belgian",
         "Belgians",
-        "Belgium/Belgie",
-        "Belgium/facts",
         "BE"
       ]
     },
     {
       "title":"Belize",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BZ"
       ]
     },
     {
+      "title":"Bell",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bell curve",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bell Labs",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bell Telephone Laboratories",
         "AT&T Bell Labs'",
         "Bell Labs'"
       ]
     },
     {
+      "title":"Belle and Sebastian",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Beltane",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ben Bova",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ben Nevis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Benchmark",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Benedict of Nursia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "St. Benedict of Nursia",
         "Saint Benedict",
         "Benedict"
@@ -4512,165 +9658,324 @@ var pagesData = {
     },
     {
       "title":"Benelux",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BNL"
       ]
     },
     {
+      "title":"Bengal",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Benin",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BJ"
       ]
     },
     {
+      "title":"Benjamin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Benjamin D. Santer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Benjamin Disraeli",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "the Earl of Beaconsfield"
       ]
     },
     {
       "title":"Benjamin Franklin",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Franklin",
         "Benjamin Franklin's"
       ]
     },
     {
+      "title":"Benjamin Franklin-class submarine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Benjamin Lee Whorf",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Benny Andersson",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Benoit Mandelbrot",
-      "alt":[
+      "alternative":[
         "Benoit B. Mandelbrot"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Bentley",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Benz",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Benzodiazepine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Benzoic acid",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BeOS",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Beowulf",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Berber languages",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Berber",
         "Tamazight"
       ]
     },
     {
+      "title":"Berkeley DB",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Berkeley, California",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Berkeley"
       ]
     },
     {
+      "title":"Berkelium",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Berlin",
-      "alt":[
-        "Berlin Federal City",
+      "alternative":[
         "CityBerlin"
+      ],
+      "anchor":[
+        "Berlin Federal City"
       ]
     },
     {
       "title":"Berlin Wall",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "border between the eastern and western sectors",
         "Wall"
       ]
     },
     {
       "title":"Bermuda",
-      "alt":[
-        "Bermuda/Transnational issues",
+      "alternative":[
+        "Bermuda/Transnational issues"
+      ],
+      "anchor":[
         "BM"
       ]
     },
     {
+      "title":"Bermuda Triangle",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bernard Montgomery, 1st Viscount Montgomery of Alamein",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bernard Montgomery",
         "Montgomery's"
       ]
     },
     {
       "title":"Bernard of Clairvaux",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Saint Bernard"
       ]
     },
     {
+      "title":"Bernardino Ochino",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bernie Federko",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bernoulli number",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bernoulli's inequality",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Berry Berenson",
-      "alt":[
+      "alternative":[
         "Bernthia Perkins"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Berry paradox",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bert Bell",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Berthe Morisot",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bertrand Andrieu",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Bertrand Russell",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Russell",
         "Russell, Bertrand"
       ]
     },
     {
       "title":"Beryl",
-      "alt":[
+      "alternative":[
         "Beryllium aluminium meta-silicate"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Beryllium",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Be"
       ]
     },
     {
+      "title":"Bessel function",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bestiary",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bestiaries"
       ]
     },
     {
       "title":"Beta decay",
-      "alt":[
-        "Œ≤-decay",
-        "Œ≤-particles",
+      "alternative":[],
+      "anchor":[
+        "?-decay",
+        "?-particles",
         "beta emitter",
         "beta-emitting",
         "beta radiation",
         "beta",
-        "Œ≤<sup>+</sup> decay",
-        "Œ≤<sup>-</sup> decay",
-        "Œ≤<sup>‚àí</sup> decay",
+        "?<sup>+</sup> decay",
+        "?<sup>-</sup> decay",
+        "?<sup>?</sup> decay",
         "beta plus decay",
-        "Œ≤<sup>‚àí</sup> emission",
+        "?<sup>?</sup> emission",
         "beta-decay",
-        "Œ≤<sup>‚Äì</sup> decay"
+        "?<sup>ñ</sup> decay"
       ]
     },
     {
       "title":"Beta sheet",
-      "alt":[
-        "Œ≤-strand",
-        "Œ≤-sheets",
-        "Œ≤-sheet",
+      "alternative":[],
+      "anchor":[
+        "?-strand",
+        "?-sheets",
+        "?-sheet",
         "beta-pleated sheets"
       ]
     },
     {
       "title":"Beta-lactamase",
-      "alt":[
-        "Œ≤-lactamase"
+      "alternative":[],
+      "anchor":[
+        "?-lactamase"
       ]
     },
     {
+      "title":"Bethlehem",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bhangra (music)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bi-directional text",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Biathlon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "biathlete"
       ]
     },
     {
       "title":"Biathlon World Championships",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "World Championship"
       ]
     },
     {
       "title":"Bible",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "biblical",
         "the Bible",
         "scripture",
-        "Biblical",
         "sacred scripture",
         "Christian Bible",
         "Sacred Scriptures",
@@ -4682,28 +9987,57 @@ var pagesData = {
     },
     {
       "title":"Bicarbonate",
-      "alt":[
-        "HCO<sub>3</sub><sup>‚àí</sup>",
+      "alternative":[],
+      "anchor":[
+        "HCO<sub>3</sub><sup>?</sup>",
         "hydrogen carbonate (bicarbonate)"
       ]
     },
     {
+      "title":"Biconditional elimination",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Biconditional introduction",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bicycle",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cycle",
         "bicyclists"
       ]
     },
     {
       "title":"Biennial plant",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "biennials",
         "biennial"
       ]
     },
     {
+      "title":"Bifrˆst",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Big Apple",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Big Audio Dynamite",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Big Bang",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "early Universe matter",
         "Big Bang theory",
         "infant universe"
@@ -4711,140 +10045,375 @@ var pagesData = {
     },
     {
       "title":"Big Brother (Nineteen Eighty-Four)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Big Brother"
       ]
     },
     {
       "title":"Big Brother (TV series)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Big Brother",
         "''Big Brother'' (TV series)"
       ]
     },
     {
+      "title":"Big Dig",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Big Dipper (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bigfoot",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Sasquatch"
       ]
     },
     {
+      "title":"Bihar (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bijection",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bijective",
         "one-to-one"
       ]
     },
     {
-      "title":"Bilateral symmetry",
-      "alt":[
-        "bilaterally symmetric"
-      ]
+      "title":"Bikini",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bildungsroman",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bilge Khagan",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Bilinear map",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "''R''-bilinear"
       ]
     },
     {
       "title":"Bilinear transform",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "transform"
       ]
     },
     {
+      "title":"Bill",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bill Atkinson",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bill Bixby",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bill Bryson",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bill Clinton",
-      "alt":[
+      "alternative":[
+        "BillClinton"
+      ],
+      "anchor":[
         "President Bill Clinton",
-        "BillClinton",
         "Clinton",
         "President Clinton"
       ]
     },
     {
+      "title":"Bill Gates",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bill Haley",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bill Holbrook",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bill Joy",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bill Macy",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bill Mumy",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bill Oddie",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bill Schelter",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bill Walsh (American football coach)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bill Walsh"
       ]
     },
     {
+      "title":"Bill Watterson",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bille August",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Billion",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Billy Bob Thornton",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Billy Crystal",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bilskirnir",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bin Laden (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Binary",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Binary function",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Binary operation",
-      "alt":[
-        "operation",
-        "dyadic",
+      "alternative":[
         "BinaryOperation"
+      ],
+      "anchor":[
+        "operation",
+        "dyadic"
       ]
     },
     {
+      "title":"Binary prefix",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Binary relation",
-      "alt":[
-        "Asymmetrical relationship",
+      "alternative":[
+        "Asymmetrical relationship"
+      ],
+      "anchor":[
         "relation"
       ]
     },
     {
+      "title":"Binary search algorithm",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Binary search tree",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Binary tree",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Binary-coded decimal",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BIND",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bing Crosby",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Binomial coefficient",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "choose"
       ]
     },
     {
       "title":"Binomial distribution",
-      "alt":[
+      "alternative":[
         "BinomialDistribution",
-        "BinomialDistribution/Revisited",
+        "BinomialDistribution/Revisited"
+      ],
+      "anchor":[
         "binomial"
       ]
     },
     {
+      "title":"Binomial theorem",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Biochemistry",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "biochemical",
-        "Biochemical",
         "biochemists",
         "Biochemical reactions",
         "biochemical compounds"
       ]
     },
     {
+      "title":"Bioinformatics",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bioleaching",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Biological membrane",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "membrane",
         "membranes"
       ]
     },
     {
       "title":"Biological warfare",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "biological",
-        "biological weapons",
-        "Biological"
+        "biological weapons"
       ]
     },
     {
+      "title":"Biome",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Biomedical engineering",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "engineering",
         "biomedical"
       ]
     },
     {
       "title":"Biopolymer",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "biological polymer",
         "carbon polymers"
       ]
     },
     {
+      "title":"BIOS",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Biosphere",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Biostatistics",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Biotechnology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "biomolecule production"
       ]
     },
     {
+      "title":"Bioterrorism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Biotic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Biotite",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bipedalism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bipedal locomotion",
         "two-legged",
         "bipedal"
@@ -4852,15 +10421,29 @@ var pagesData = {
     },
     {
       "title":"Bipolar disorder",
-      "alt":[
-        "Bipolar spectrum",
+      "alternative":[
+        "Bipolar spectrum"
+      ],
+      "anchor":[
         "manic depression"
       ]
     },
     {
+      "title":"Bipolar I disorder",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bipyramid",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bird",
-      "alt":[
-        "Birds",
+      "alternative":[
+        "Birds"
+      ],
+      "anchor":[
         "Aves",
         "avifauna",
         "avian",
@@ -4868,26 +10451,31 @@ var pagesData = {
       ]
     },
     {
-      "title":"Birds",
-      "alt":[
-        "avian fauna"
-      ]
+      "title":"Birka",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Birmingham Small Arms Company",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BSA"
       ]
     },
     {
-      "title":"Birth defect",
-      "alt":[
-        "deformed"
-      ]
+      "title":"Bisexual (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bishkek",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Bishop",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "episcopal",
         "episcopate",
         "Diocesan Bishop",
@@ -4896,44 +10484,99 @@ var pagesData = {
     },
     {
       "title":"Bishopric of Brandenburg",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bishop of Brandenburg",
         "Brandenburg"
       ]
     },
     {
       "title":"Bison",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "buffalo"
       ]
     },
     {
+      "title":"Bistability",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bit",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bit pattern"
       ]
     },
     {
-      "title":"Bits",
-      "alt":[
-        "Bits"
-      ]
+      "title":"Bitola",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bitter",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bjarne Stroustrup",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bjˆrn Borg",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bjˆrn Ulvaeus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bj¯rn Lomborg",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Black",
-      "alt":[
+      "alternative":[
         "Color/black"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Black and Tans",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Black cow",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Black Death",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "plague"
       ]
     },
     {
+      "title":"Black Flag",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Black Forest",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Black Hand (Serbia)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Black Hand",
         "The Black Hand",
         "a Serbian backed organization"
@@ -4941,22 +10584,44 @@ var pagesData = {
     },
     {
       "title":"Black hole",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "black holes"
       ]
     },
     {
+      "title":"Black letter law",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Black metal",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Black people",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "black",
-        "Black",
         "African-American",
         "blacks"
       ]
     },
     {
+      "title":"Black Russian",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Black Sabbath",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Black Sea",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Pontic Sea",
         "Pontic",
         "Euxine",
@@ -4964,135 +10629,445 @@ var pagesData = {
       ]
     },
     {
-      "title":"Black Sox scandal",
-      "alt":[
-        "Chicago Black Sox",
-        "Black Sox scandal",
-        "\"Black Sox\" scandal"
-      ]
+      "title":"Blackadder",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blackbeard",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blackjack",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blackridge, Pennsylvania",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Blackwood convention",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Blackwood"
       ]
     },
     {
+      "title":"Bladder (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blade Runner",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blade Runner 2: The Edge of Human",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blade Runner 3: Replicant Night",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Blaise Pascal",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Pascal"
       ]
     },
     {
+      "title":"Blazing Saddles",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bletchley Park",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blind Blake",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blind Lemon Jefferson",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blind Willie McTell",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Blindness",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "blind"
       ]
     },
     {
+      "title":"Blindness in literature",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bliss bibliographic classification",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blissymbols",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blitz",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blitz BASIC",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blitzkrieg",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blizzard",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blizzard Entertainment",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BLM",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Block cipher",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blood",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Blood alcohol content",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bloodstream"
       ]
     },
     {
       "title":"Blood libel",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "blood-libel",
         "using children's blood to bake bread"
       ]
     },
     {
+      "title":"Blood on the Tracks",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bloody Mary",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bloody Sunday",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bloody Sunday (1972)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blot",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Blowfish (cipher)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Blowfish"
       ]
     },
     {
+      "title":"Blowfish (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Blu-Tack",
-      "alt":[
+      "alternative":[
         "Blue Tac"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Blue",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blue Angels",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Blue crane",
-      "alt":[
+      "alternative":[
         "Anthropoides paradisia"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Blue Jam",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Blue law",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Pennsylvania Blue Laws",
         "strict observance of Sunday"
       ]
     },
     {
+      "title":"Blue Steel (missile)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blue Streak (missile)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Blue Velvet (film)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Blue Velvet"
       ]
     },
     {
       "title":"Blue whale",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Balaeonoptera musculus"
       ]
     },
     {
-      "title":"Blue-tailed skink",
-      "alt":[
-        "Blue-tailed skink"
-      ]
+      "title":"Blue ÷yster Cult",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bluegrass",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Blues",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "blues music"
       ]
     },
     {
+      "title":"Bluetongue disease",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bluetooth",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bluetooth Special Interest Group",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Blythe Danner",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BMI",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"BMW",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BMW AG",
         "Bavarian Motor Works"
       ]
     },
     {
+      "title":"BND",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bo Diddley",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Board game",
-      "alt":[
+      "alternative":[
         "Board games"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Board of directors",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "board",
         "executive board"
       ]
     },
     {
+      "title":"Boat",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bob Costas",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bob Diamond",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bob Frankston",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bob Hawke",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Hawke"
       ]
     },
     {
+      "title":"Bob Jones University",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bob Knight",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bob Wills",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bob Young (businessman)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bobby Charlton",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bocce",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bock",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bodhidharma",
-      "alt":[
+      "alternative":[
         "Bodhidarma"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Bodhisattva",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bodmin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bodmin Moor",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Body",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Body mass index",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "body mass index"
       ]
     },
     {
+      "title":"Body substance isolation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bodybuilding",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Boeing 747",
-      "alt":[
-        "Boeing 747‚Äì200",
+      "alternative":[],
+      "anchor":[
+        "Boeing 747ñ200",
         "747",
         "Boeing 747-100",
         "Boeing 747-200",
@@ -5101,117 +11076,205 @@ var pagesData = {
     },
     {
       "title":"Boeing 767",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Boeing 767-300ER",
-        "Boeing 767‚Äì300ER",
+        "Boeing 767ñ300ER",
         "767"
       ]
     },
     {
       "title":"Boeing B-17 Flying Fortress",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Flying Fortress"
       ]
     },
     {
+      "title":"Boeing C-17 Globemaster III",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Boeing Vertol CH-46 Sea Knight",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Vertol 107"
       ]
     },
     {
-      "title":"BoethiuS",
-      "alt":[
-        "Bo√´thius",
-        "BoethiuS"
-      ]
+      "title":"Boer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bogie",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bohdan Khmelnytsky",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Bohemia",
-      "alt":[
-        "Boehmen",
+      "alternative":[
+        "Boehmen"
+      ],
+      "anchor":[
         "Bohemia proper"
       ]
     },
     {
+      "title":"Bohemian",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bohr model",
-      "alt":[
+      "alternative":[
+        "Atom/Bohr model"
+      ],
+      "anchor":[
         "Niels Bohr's theory",
-        "Atom/Bohr model",
-        "Rutherford‚ÄìBohr model",
+        "RutherfordñBohr model",
         "Bohr model of the atom"
       ]
     },
     {
+      "title":"Bohrium",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Boii",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Boiled leather",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Boiling point",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "boiling"
       ]
     },
     {
+      "title":"Bokken",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bolivia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Estado Plurinacional de Bolivia",
         "BO"
       ]
     },
     {
-      "title":"Bolshevik",
-      "alt":[
-        "b"
-      ]
+      "title":"Bollywood",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Bolsheviks",
-      "alt":[
+      "alternative":[
         "Bolshevik"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Boltzmann distribution",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bolventor",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Bombardier Inc.",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bombardier"
       ]
     },
     {
+      "title":"Bombay Sapphire",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bomber",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bomber aircraft"
       ]
     },
     {
-      "title":"BoMis",
-      "alt":[
-        "BoMis"
-      ]
+      "title":"Bone",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Boney M.",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bongo (antelope)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bonn",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Booch method",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Booch"
       ]
     },
     {
+      "title":"Boogie Down Productions",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Book",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "literary works"
       ]
     },
     {
       "title":"Book of Alma",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alma"
       ]
     },
     {
       "title":"Book of Amos",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Amos"
       ]
     },
     {
       "title":"Book of Common Prayer",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Prayer Book",
         "Anglican liturgy",
         "prayer books"
@@ -5219,34 +11282,39 @@ var pagesData = {
     },
     {
       "title":"Book of Daniel",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Daniel",
         "Book of Daniel's"
       ]
     },
     {
       "title":"Book of Deuteronomy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Deuteronomy",
         "Devarim"
       ]
     },
     {
       "title":"Book of Esther",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Esther"
       ]
     },
     {
       "title":"Book of Exodus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Exodus",
         "Shemot"
       ]
     },
     {
       "title":"Book of Ezekiel",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ezekiel",
         "Yekhezqel",
         "Ezekiel (Ezechiel)"
@@ -5254,7 +11322,8 @@ var pagesData = {
     },
     {
       "title":"Book of Ezra",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ezra",
         "Ezra (1 Esdras)",
         "Ezra (2 Esdras)"
@@ -5262,28 +11331,32 @@ var pagesData = {
     },
     {
       "title":"Book of Habakkuk",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Habakkuk",
         "Habakkuk (Habacuc)"
       ]
     },
     {
       "title":"Book of Haggai",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Haggai",
         "Haggai (Aggeus)"
       ]
     },
     {
       "title":"Book of Hosea",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Hosea",
         "Hosea (Osee)"
       ]
     },
     {
       "title":"Book of Isaiah",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Isaiah",
         "Trito-Isaiah",
         "Yeshayahu",
@@ -5292,7 +11365,8 @@ var pagesData = {
     },
     {
       "title":"Book of Jeremiah",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Jeremiah",
         "Yirmeyahu",
         "Jeremiah (Jeremias)"
@@ -5300,27 +11374,31 @@ var pagesData = {
     },
     {
       "title":"Book of Job",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Job",
         "Iyov (Job)"
       ]
     },
     {
       "title":"Book of Joel",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Joel"
       ]
     },
     {
       "title":"Book of Jonah",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Jonah",
         "Jonah (Jonas)"
       ]
     },
     {
       "title":"Book of Joshua",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Joshua",
         "Yehoshua",
         "Joshua (Josue)",
@@ -5329,69 +11407,84 @@ var pagesData = {
     },
     {
       "title":"Book of Judges",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Judges",
         "Shofetim"
       ]
     },
     {
       "title":"Book of Lamentations",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Lamentations",
         "Eikhah (Lamentations)"
       ]
     },
     {
       "title":"Book of Malachi",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Malachi",
         "Malachi (Malachias)"
       ]
     },
     {
       "title":"Book of Micah",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Micah",
         "Micah (Micheas)"
       ]
     },
     {
+      "title":"Book of Mormon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Book of Nahum",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Nahum"
       ]
     },
     {
       "title":"Book of Nehemiah",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Nehemiah",
         "Nehemiah (2 Esdras)"
       ]
     },
     {
       "title":"Book of Numbers",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Numbers",
         "Bamidbar"
       ]
     },
     {
       "title":"Book of Obadiah",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Obadiah",
         "Obadiah (Abdias)"
       ]
     },
     {
       "title":"Book of Proverbs",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Proverbs",
         "Mishlei (Proverbs)"
       ]
     },
     {
       "title":"Book of Revelation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Revelation",
         "Revelation to St. John",
         "Apocalypse of John"
@@ -5399,38 +11492,44 @@ var pagesData = {
     },
     {
       "title":"Book of Ruth",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ruth",
         "Rut (Ruth)"
       ]
     },
     {
       "title":"Book of Zechariah",
-      "alt":[
+      "alternative":[
+        "Book of Zecharaiah"
+      ],
+      "anchor":[
         "Zechariah",
-        "Book of Zecharaiah",
         "Zechariah (Zacharias)"
       ]
     },
     {
       "title":"Book of Zephaniah",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Zephaniah",
         "Zephaniah (Sophonias)"
       ]
     },
     {
       "title":"Bookkeeping",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bookkeeper"
       ]
     },
     {
       "title":"Books of Chronicles",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chronicles",
         "1 Chronicles",
-        "1‚Äì2 Chronicles",
+        "1ñ2 Chronicles",
         "2 Chronicles",
         "Divrei Hayamim (Chronicles)",
         "1 Chronicles (1 Paralipomenon)",
@@ -5440,11 +11539,12 @@ var pagesData = {
     },
     {
       "title":"Books of Kings",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Kings",
         "1 Kings",
         "2 Kings",
-        "1‚Äì2 Kings",
+        "1ñ2 Kings",
         "Melakhim",
         "1 Kings (3 Kings)",
         "1 Kings (3 Kingdoms)",
@@ -5454,11 +11554,12 @@ var pagesData = {
     },
     {
       "title":"Books of Samuel",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Sam.",
         "1 Samuel",
         "Samuel",
-        "1‚Äì2 Samuel",
+        "1ñ2 Samuel",
         "Shemuel",
         "1 Samuel (1 Kings)",
         "1 Samuel (1 Kingdoms)",
@@ -5471,75 +11572,160 @@ var pagesData = {
     },
     {
       "title":"Books of the Bible",
-      "alt":[
-        "BooksOfTheBible",
+      "alternative":[
+        "BooksOfTheBible"
+      ],
+      "anchor":[
         "Bible"
       ]
     },
     {
       "title":"Boolean algebra (structure)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Boolean algebras",
         "Boolean algebra"
       ]
     },
     {
       "title":"Boolean satisfiability problem",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "SAT-solving"
       ]
     },
     {
+      "title":"Boomer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Boomerang",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Boone, North Carolina",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bootstrapping",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bootstrapping strategy",
         "Bootstrap Alliance"
       ]
     },
     {
+      "title":"Bordeaux",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Borel measure",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Boris Pasternak",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Borland",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Born again (Christianity)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "born again Christians",
         "born again",
         "born-again"
       ]
     },
     {
-      "title":"Bose‚ÄìEinstein condensate",
-      "alt":[
+      "title":"Borneo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bornholm",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Boron",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Boron nitride",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Borough",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BorsukñUlam theorem",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Borzoi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BoseñEinstein condensate",
+      "alternative":[],
+      "anchor":[
         "quantum effects",
         "condensate",
-        "Bose‚ÄìEinstein condensation",
-        "Bose‚ÄìEinstein",
-        "Bose‚ÄìEinstein gas"
+        "BoseñEinstein condensation",
+        "BoseñEinstein",
+        "BoseñEinstein gas"
       ]
     },
     {
       "title":"Bosnia and Herzegovina",
-      "alt":[
+      "alternative":[
+        "Bosnia Herzegovina"
+      ],
+      "anchor":[
         "Bosnia",
         "Bosnian",
-        "Bosnia Herzegovina",
-        "Bosnia‚ÄìHerzegovina",
+        "BosniañHerzegovina",
         "BA",
         "Bosnian border"
       ]
     },
     {
       "title":"Bosphorus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bosporus"
       ]
     },
     {
-      "title":"Boston Globe",
-      "alt":[
-        "The Boston Globe"
-      ]
+      "title":"Boston Corbett",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Boston Herald",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Boston Red Sox",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Boston Americans",
         "Red Sox",
         "Boston",
@@ -5549,171 +11735,414 @@ var pagesData = {
     },
     {
       "title":"Botany",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "botanical",
         "botanist"
       ]
     },
     {
       "title":"Botswana",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BW"
       ]
     },
     {
+      "title":"Boudica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bouldering",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bourbon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bovril",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bowls",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Lawn Bowls"
       ]
     },
     {
       "title":"Boxing",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "boxer",
         "western boxing",
         "boxing-match"
       ]
     },
     {
-      "title":"Bo√∂tes",
-      "alt":[
-        "constellation Bo√∂tes"
+      "title":"Boxing Day",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Boy band",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Boˆtes",
+      "alternative":[],
+      "anchor":[
+        "constellation Boˆtes"
       ]
     },
     {
       "title":"BPP (complexity)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BPP"
       ]
     },
     {
+      "title":"BQP",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Brabant",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Brabham",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Brackish water",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "brackish"
       ]
     },
     {
       "title":"Bradycardia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Heart rate"
       ]
     },
     {
+      "title":"Bragi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Brahui language",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Brahui"
       ]
     },
     {
+      "title":"Braille",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Braille embosser",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Brain",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Brain abscess",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "brain",
         "otitic abscess"
       ]
     },
     {
       "title":"Brainfuck",
-      "alt":[
+      "alternative":[
         "Brainfuck programming language/Examples"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Bram Stoker",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Branch Davidians",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Branchiopoda",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Branco River",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Branco"
       ]
     },
     {
+      "title":"Brandenburg",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Brass",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Brass instrument",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "labrophone",
         "labrophones",
         "brass musical instruments",
-        "Brass",
-        "brass"
+        "Brass"
       ]
     },
     {
+      "title":"Brassicaceae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Brassicales",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BrasÌlia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Braveheart",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Brazil",
-      "alt":[
-        "Brazil‚Äôs",
-        "Rep√∫blica Federativa do Brasil",
+      "alternative":[],
+      "anchor":[
+        "Brazilís",
+        "Rep˙blica Federativa do Brasil",
         "BR"
       ]
     },
     {
-      "title":"Bra‚Äìket notation",
-      "alt":[
+      "title":"Brazilian Armed Forces",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Brañket notation",
+      "alternative":[],
+      "anchor":[
         "Dirac notation"
       ]
     },
     {
-      "title":"Breakdance",
-      "alt":[
-        "breakdancing"
-      ]
+      "title":"Break key",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Breast",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Breast reconstruction",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Breathy voice",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "breathy"
       ]
     },
     {
+      "title":"Breidablik",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Breton language",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Breton"
       ]
     },
     {
+      "title":"Bretwalda",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Breviary",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Prayerbooks"
       ]
     },
     {
       "title":"Brewing",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "brewer",
         "Brewing industry"
       ]
     },
     {
+      "title":"Brezhnev Doctrine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Brian Aldiss",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Brian Boitano",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Brian De Palma",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Brian Kernighan",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Kernighan"
       ]
     },
     {
+      "title":"Brian Lara",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Brick",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Brick stones"
       ]
     },
     {
+      "title":"Bride of the Monster",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bridge",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Brigham Young",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Young"
       ]
     },
     {
+      "title":"Brigitte Bardot",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Brion Gysin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Brisbane Broncos",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Brisbane Lions",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bristol City F.C.",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Brit milah",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "circumcise",
         "circumcision"
       ]
     },
     {
+      "title":"Britain",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"British",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"British Airways",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"British and Irish Lions",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"British Army",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "British troops",
         "Army",
         "British"
       ]
     },
     {
+      "title":"British Columbia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"British Empire",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "British colonial",
         "British",
         "empire",
@@ -5721,7 +12150,6 @@ var pagesData = {
         "Britain",
         "Imperial",
         "British dominions and colonies",
-        "imperial",
         "British Crown",
         "British colonial influence",
         "British colonies",
@@ -5733,7 +12161,8 @@ var pagesData = {
     },
     {
       "title":"British English",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "British",
         "biro",
         "BrE",
@@ -5741,183 +12170,396 @@ var pagesData = {
       ]
     },
     {
+      "title":"British Isles",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"British Museum",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "The British Museum"
       ]
     },
     {
+      "title":"British National Party",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"British Open (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"British Rail",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BR"
       ]
     },
     {
+      "title":"British Standards",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"British Steel",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"British thermal unit",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BTU"
       ]
     },
     {
       "title":"British Virgin Islands",
-      "alt":[
-        "VG",
+      "alternative":[
         "Transnational issues of the British Virgin Islands"
+      ],
+      "anchor":[
+        "VG"
       ]
     },
     {
       "title":"Britney Spears",
-      "alt":[
+      "alternative":[
         "BritneySpears"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Brittonic",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Brittonic languages",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Brittonic",
         "Brittonic language"
       ]
     },
     {
+      "title":"Broadcast domain",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Broadway (Manhattan)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Broadway"
       ]
     },
     {
       "title":"Broch",
-      "alt":[
+      "alternative":[
         "Archaeology/Broch"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Bromeliales",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Bromine",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Br"
       ]
     },
     {
-      "title":"Bronze age",
-      "alt":[
-        "Bronze",
-        "bronze",
-        "Greek Bronze Age",
-        "Bronze Age"
-      ]
+      "title":"Bronski Beat",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bronze",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Bronze Star Medal",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bronze Star"
       ]
     },
     {
+      "title":"Brooklyn Historic Railway Association",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Brouwer fixed-point theorem",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Brown bear",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bruin",
         "Bear"
       ]
     },
     {
+      "title":"Brown University",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Brownian motion",
-      "alt":[
+      "alternative":[
+        "Brownian movement"
+      ],
+      "anchor":[
         "Theory of Brownian Motion",
         "motion of molecules",
-        "Brownian movement",
         "Brownian forces"
       ]
     },
     {
+      "title":"Brownie McGhee",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Browser",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BRP",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bruce Campbell",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bruce Perens",
-      "alt":[
+      "alternative":[
         "Bruce Parens"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Bruce Sterling",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bruin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Brunei",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bruno of Querfurt",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Brussels",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Brussels-Capital Region",
         "(City of) Brussels",
         "Bruxelles-Cap"
       ]
     },
     {
+      "title":"Bryozoa",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BrÌsingamen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BSA",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BSE",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"BT Group",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BT",
         "British Telecom"
       ]
     },
     {
+      "title":"Bubble and squeak",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bubble Bobble",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bubble tea",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "chewy tapioca balls"
       ]
     },
     {
+      "title":"Bubblegum Crisis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bucket argument",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Buckingham Palace",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Buckminster Fuller",
-      "alt":[
-        "Buckminister Fuller",
+      "alternative":[
+        "Buckminister Fuller"
+      ],
+      "anchor":[
         "Richard Buckminster Fuller"
       ]
     },
     {
-      "title":"BuddHism",
-      "alt":[
-        "Buddhist",
-        "Buddhists",
-        "Buddhistic",
-        "BuddhIsm",
-        "Buddhist",
-        "Buddhists"
-      ]
+      "title":"Bud Selig",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bud Spencer",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Buddhist cuisine",
-      "alt":[
+      "alternative":[
         "Chinese buddhist cuisine"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Buddhist philosophy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Buddhist philosophy in India",
         "Buddhist Temple"
       ]
     },
     {
+      "title":"Buddy Holly",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Budweiser",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Buffalo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Buffalo Bills",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bills"
       ]
     },
     {
       "title":"Buffalo, New York",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Buffalo"
       ]
     },
     {
       "title":"Buffer overflow",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "buffer overruns"
       ]
     },
     {
+      "title":"Buffy the Vampire Slayer (film)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bug",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bugatti",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bugzilla",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Building society",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bulgaria",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BG"
       ]
     },
     {
+      "title":"Bulgarian",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bulgarian language",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bulgarian"
       ]
     },
     {
       "title":"Bulletin board system",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BBS",
         "BBSes",
         "BBS Systems",
@@ -5927,47 +12569,144 @@ var pagesData = {
       ]
     },
     {
+      "title":"Bumin Qaghan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bundaberg Rum",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bundesrat",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bundestag",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Blickpunt Bundestag",
         "The Federal Diet"
       ]
     },
     {
       "title":"Bundle theory",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bundles of properties",
         "bundle of sensations",
         "bundle theorist"
       ]
     },
     {
+      "title":"Bunge y Born",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bunnies & Burrows",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bunsen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bunsen burner",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Bunyip",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Burgess Shale",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Burgundian",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Burgundians",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Burgundian"
       ]
     },
     {
+      "title":"Burhanuddin Rabbani",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Burkina Faso",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "BF"
       ]
     },
     {
+      "title":"Burn card",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Burning glass",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Burns supper",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Burnt-in timecode",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Burroughs Corporation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Burroughs"
       ]
     },
     {
+      "title":"Bursa",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Burt Lancaster",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Burwash Hall",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Bus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "local buses"
       ]
     },
     {
       "title":"Bus (computing)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "data buses",
         "bus",
         "data bus",
@@ -5975,110 +12714,220 @@ var pagesData = {
       ]
     },
     {
+      "title":"Business ethics",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Business statistics",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Butterfly effect",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Byte",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "B"
       ]
     },
     {
       "title":"Byzantium",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Byzantion",
         "Byzantine"
       ]
     },
     {
-      "title":"B√©la Bart√≥k",
-      "alt":[
-        "Bart√≥k"
+      "title":"BÈla BartÛk",
+      "alternative":[],
+      "anchor":[
+        "BartÛk"
       ]
     },
     {
+      "title":"BÈzier curve",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"BÈzout's identity",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"C (programming language)",
-      "alt":[
+      "alternative":[
+        "C language"
+      ],
+      "anchor":[
         "C",
         "C programming language",
-        "C language",
         "C language"
       ]
     },
     {
       "title":"C*-algebra",
-      "alt":[
+      "alternative":[
         "B*-algebra",
         "C-star algebra"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"C. L. Moore",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"C. Northcote Parkinson",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"C. S. Forester",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Forester, C.S."
       ]
     },
     {
       "title":"C. S. Lewis",
-      "alt":[
+      "alternative":[
         "C.S. Lewis"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Cabal",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Cable car (railway)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cable car"
       ]
     },
     {
       "title":"Cable television",
-      "alt":[
+      "alternative":[
+        "Cable TV",
+        "CATV"
+      ],
+      "anchor":[
         "cable TV",
-        "Cable TV",
-        "Cable TV",
-        "CATV",
         "cable",
         "cable and satellite TV"
       ]
     },
     {
-      "title":"Cable TV",
-      "alt":[
-        "cable television"
-      ]
-    },
-    {
       "title":"Cache (computing)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cache",
         "caching"
       ]
     },
     {
       "title":"Cactus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cacti"
       ]
     },
     {
+      "title":"Caddy",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cadence",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cadillac (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cadillac, Michigan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cadmium",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Caelum",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Caesar salad",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Caesium",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cs",
         "<sup>133</sup>Cs"
       ]
     },
     {
-      "title":"Cahn‚ÄìIngold‚ÄìPrelog priority rules",
-      "alt":[
+      "title":"Caffeine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cahiers du cinÈma",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CahnñIngoldñPrelog priority rules",
+      "alternative":[],
+      "anchor":[
         "''(S)'' and ''(R)'' designators"
       ]
     },
     {
+      "title":"Cairn",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cairo",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Capital of Egypt"
       ]
     },
     {
+      "title":"Caitlin Clarke",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cajun cuisine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Calcium",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ca<sup>2+</sup>",
         "<sup>40</sup>Ca",
         "calcium ions",
@@ -6087,7 +12936,8 @@ var pagesData = {
     },
     {
       "title":"Calculator",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "hand calculator",
         "electronic calculator",
         "Advanced electronic calculators"
@@ -6095,32 +12945,52 @@ var pagesData = {
     },
     {
       "title":"Calculus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "infinitesimal calculus"
       ]
     },
     {
+      "title":"Caldera",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Calendar",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "calendrical"
       ]
     },
     {
       "title":"Calendar date",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "date format",
         "date"
       ]
     },
     {
+      "title":"Calendar year",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Calf",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Calico (textile)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "calicoes"
       ]
     },
     {
       "title":"California",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "California, United States",
         "CA",
         "Calif.",
@@ -6130,58 +13000,113 @@ var pagesData = {
     },
     {
       "title":"California Department of Transportation",
-      "alt":[
+      "alternative":[
+        "Caltrans"
+      ],
+      "anchor":[
         "Caltrans"
       ]
     },
     {
       "title":"California Institute of Technology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Caltech"
       ]
     },
     {
+      "title":"Californium",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Caligula",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Caligula, Emperor of Rome",
         "Gaius Julius Caesar (Caligula)",
         "Gaius Caesar (Caligula)"
       ]
     },
     {
-      "title":"Call Of Cthulhu",
-      "alt":[
-        "Call Of Cthulhu"
-      ]
+      "title":"Caliph",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Calista Flockhart",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Call centre",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Call of Cthulhu (role-playing game)",
-      "alt":[
-        "Call of Cthulhu",
+      "alternative":[
         "CallOfCthulhuGame"
+      ],
+      "anchor":[
+        "Call of Cthulhu"
       ]
     },
     {
+      "title":"Called to Common Mission",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Callisto",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Callisto (mythology)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Callisto"
       ]
     },
     {
+      "title":"Callitrichidae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Calorie",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "calorific values"
       ]
     },
     {
+      "title":"Calorimetry",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Calreticulin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Calvin and Hobbes",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Calvin Coolidge",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Coolidge"
       ]
     },
     {
       "title":"Calvinism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Calvinistic",
         "Reformed Protestantism",
         "Reformed",
@@ -6190,51 +13115,122 @@ var pagesData = {
       ]
     },
     {
+      "title":"Calypso",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cambrian",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Early Cambrian"
       ]
     },
     {
-      "title":"Cambridge University",
-      "alt":[
-        "Cambridge"
-      ]
+      "title":"Cambridge (disambiguation)",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Cambridge, Massachusetts",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cambridge"
       ]
     },
     {
+      "title":"Cambridgeshire",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Camel",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"CamelCase",
-      "alt":[
+      "alternative":[
         "CamelHumpedWord"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Camelopardalis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Camelot",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Cameroon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CM"
       ]
     },
     {
+      "title":"Cameroonian Armed Forces",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Camilla Hall",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Camille Pissarro",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Camouflage",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "background adaptation"
       ]
     },
     {
+      "title":"CAMP",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Camp David",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Campaign for Real Ale",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CAMRA",
         "CAMRA Bristol"
       ]
     },
     {
+      "title":"Campus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Canada Day",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CanadañUnited States relations",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Canadian English",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Canadian",
         "Canada",
         "common usage",
@@ -6242,8 +13238,14 @@ var pagesData = {
       ]
     },
     {
+      "title":"Canadian football",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Canadian Pacific Railway",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "national railway",
         "CP",
         "Canadian Pacific"
@@ -6251,21 +13253,79 @@ var pagesData = {
     },
     {
       "title":"Canadian Radio-television and Telecommunications Commission",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CRTC"
       ]
     },
     {
+      "title":"Canadian Shield",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Canadian Unitarian Council",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Canadian whisky",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Canal",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Canary Islands",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "the Canary Islands",
         "Canaries",
         "Canary"
       ]
     },
     {
+      "title":"Canchim",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Candela",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Candide",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Candidiasis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CANDU reactor",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cane toad",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Canes Venatici",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Canidae",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "canid",
         "canine",
         "dog family",
@@ -6274,8 +13334,19 @@ var pagesData = {
       ]
     },
     {
+      "title":"Canis Major",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Canis Minor",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cannibalism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cannibalistic",
         "cannibals",
         "cannibalizes"
@@ -6283,13 +13354,20 @@ var pagesData = {
     },
     {
       "title":"Cannon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "artillery pieces"
       ]
     },
     {
+      "title":"Canon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Canon law",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "canons and constitutions",
         "canons",
         "canonically",
@@ -6300,48 +13378,105 @@ var pagesData = {
     },
     {
       "title":"Canonization",
-      "alt":[
+      "alternative":[
+        "Canonization of Saints"
+      ],
+      "anchor":[
         "canonizing",
         "canonized",
         "sainthood",
-        "Canonization of Saints",
         "canonised"
       ]
     },
     {
-      "title":"Canonization of Saints",
-      "alt":[
-        "canonised"
-      ]
+      "title":"Canopus (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Canterbury (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cantigas de Santa Maria",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Canton",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cantonese (disambiguation)",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Cantonese cuisine",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cantonese"
       ]
     },
     {
       "title":"Cantor Fitzgerald",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cantor-Fitzgerald"
       ]
     },
     {
       "title":"Cantor set",
-      "alt":[
+      "alternative":[
         "CantorSet"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Capability Maturity Model",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Capcom",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Cape Breton Island",
-      "alt":[
-        "Cape Breton",
+      "alternative":[
+        "Cape Breton"
+      ],
+      "anchor":[
         "Cape Breton"
       ]
     },
     {
+      "title":"Cape Town",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Capella (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Capetian dynasty",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Capital",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Capital punishment",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "put to death",
         "capital",
         "executed",
@@ -6356,45 +13491,117 @@ var pagesData = {
     },
     {
       "title":"Capitalism",
-      "alt":[
+      "alternative":[
+        "Capitalism/different meanings",
+        "Capitalist"
+      ],
+      "anchor":[
         "economic system",
         "capitalist",
         "free enterprise",
-        "Capitalism/different meanings",
-        "Capitalist",
         "capitalists",
         "capitalist systems"
       ]
     },
     {
+      "title":"Capitol",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Capoeira",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Capricorn",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Capricornus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Capricorn"
       ]
     },
     {
       "title":"Capsid",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "capsid protein",
         "encapsulate"
       ]
     },
     {
+      "title":"Captain America",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Capybara",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Car (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Car Talk",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carabiner",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carat (mass)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Caravaggio",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carbamazepine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Carbide",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "polycarbide"
       ]
     },
     {
+      "title":"Carbine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carbohydrate",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Carbon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "C",
         "carbon-rich"
       ]
     },
     {
       "title":"Carbon dioxide",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CO<sub>2</sub>",
         "{{CO2}}",
         "CO<sub>2</sub> cartridge"
@@ -6402,183 +13609,317 @@ var pagesData = {
     },
     {
       "title":"Carbon monoxide",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CO"
       ]
     },
     {
       "title":"Carbon nanotube",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "buckytubes",
         "nanotubes"
       ]
     },
     {
+      "title":"Carbon sink",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carbonate",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Carboniferous",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Upper Carboniferous",
         "Carbon-<br />iferous"
       ]
     },
     {
       "title":"Carboxylic acid",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "di-carboxylic acid",
         "RCOOH"
       ]
     },
     {
+      "title":"Carcinogen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Card game",
-      "alt":[
-        "Card games",
+      "alternative":[
+        "Card games"
+      ],
+      "anchor":[
         "cards"
       ]
     },
     {
-      "title":"Card games",
-      "alt":[
-        "card-playing"
-      ]
+      "title":"Cardiac glycoside",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cardiff",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Cardinal",
-      "alt":[
+      "alternative":[
         "Cardinals"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Cardinal (Catholicism)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cardinal",
         "cardinals",
-        "Cardinal",
-        "cardinalate",
-        "Cardinals"
+        "cardinalate"
       ]
     },
     {
       "title":"Cardinal number",
-      "alt":[
+      "alternative":[
+        "Cardinal numbers"
+      ],
+      "anchor":[
         "cardinality",
         "multiplicity",
         "cardinal",
         "infinite cardinals",
-        "Cardinal numbers",
         "number"
       ]
     },
     {
+      "title":"Cardinal vowels",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cardinality",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cardinalities"
       ]
     },
     {
+      "title":"Cardiology",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cardiology diagnostic tests and procedures",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Blood tests, Electrophysiology study",
         "Blood tests"
       ]
     },
     {
-      "title":"Cardiovascular System",
-      "alt":[
-        "Cardiovascular"
-      ]
-    },
-    {
       "title":"Caribbean cuisine",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Caribbean"
       ]
     },
     {
       "title":"Caribbean Sea",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Caribbean"
       ]
     },
     {
       "title":"Carina (constellation)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Carina",
         "the constellation Carina"
       ]
     },
     {
+      "title":"Carinatae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carl Barks",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Carl Friedrich Gauss",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Gauss",
         "C. F. Gauss"
       ]
     },
     {
       "title":"Carl Linnaeus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Linnaeus",
         "L.",
         "pre-Linnean"
       ]
     },
     {
+      "title":"Carl Meinhof",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carl Menger",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carl Rogers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Carl Sagan",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Sagan, Carl"
       ]
     },
     {
       "title":"Carl von Clausewitz",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Clausewitz"
       ]
     },
     {
+      "title":"Carlo Collodi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carlo Goldoni",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carlos Valderrama",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carme (moon)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carmichael number",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carmilla",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carnatic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Carnivora",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "carnivore"
       ]
     },
     {
       "title":"Carnivore",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "carnivorous"
       ]
     },
     {
       "title":"Carnot heat engine",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Carnot's"
       ]
     },
     {
-      "title":"Carolingian renaissance",
-      "alt":[
-        "Carolingian renaissance"
-      ]
+      "title":"Carol Kane",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carolina Panthers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carolina parakeet",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Carolyn Beug",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Carotene",
-      "alt":[
-        "Œ≤-carotene"
+      "alternative":[],
+      "anchor":[
+        "?-carotene"
       ]
     },
     {
       "title":"Carousel (musical)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Carousel"
       ]
     },
     {
       "title":"Carrier battle group",
-      "alt":[
+      "alternative":[
+        "CVBG"
+      ],
+      "anchor":[
         "battle groups",
-        "CVBG",
         "battle group"
       ]
     },
     {
+      "title":"Carson City, Nevada",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cartesian",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cartesian coordinate system",
-      "alt":[
+      "alternative":[
+        "Cartesian coordinates"
+      ],
+      "anchor":[
         "axes",
         "cartesians",
         "Cartesian coordinates",
@@ -6589,36 +13930,152 @@ var pagesData = {
     },
     {
       "title":"Carthage",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Carthaginians",
         "Carthaginian"
       ]
     },
     {
       "title":"Cartography",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cartographer",
         "Map Maker",
         "map-maker"
       ]
     },
     {
+      "title":"Cartoon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cartridge",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cary Elwes",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Casa BatllÛ",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Casa Mil‡",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Casablanca",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Case",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Casey at the Bat",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cash register",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Casimir effect",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Casimir III the Great",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Casino",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Casino gaming"
       ]
     },
     {
       "title":"Casino game",
-      "alt":[
-        "casino",
-        "games of chance",
+      "alternative":[
         "Casino games"
+      ],
+      "anchor":[
+        "casino",
+        "games of chance"
       ]
     },
     {
+      "title":"Casiquiare canal",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Caspar David Friedrich",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cassandra",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cassiopeia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Caste",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Castello",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Castle of the Winds",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Castrato",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Casuistry",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cat",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Catalan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Catalan language",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Catalan",
         "ca",
         "Catalan/Valencian"
@@ -6626,20 +14083,23 @@ var pagesData = {
     },
     {
       "title":"Catalonia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Catalan",
         "Catalan Counties"
       ]
     },
     {
       "title":"Catalysis",
-      "alt":[
+      "alternative":[
+        "Catalyst",
+        "Catalyzes"
+      ],
+      "anchor":[
         "catalyze",
         "metal-catalyzed",
         "catalyst",
         "catalysts",
-        "Catalyst",
-        "Catalyzes",
         "catalyzed",
         "catalytic",
         "activity",
@@ -6647,23 +14107,31 @@ var pagesData = {
       ]
     },
     {
-      "title":"Catalyst",
-      "alt":[
-        "catalyses",
-        "catalyse",
-        "catalytic"
-      ]
+      "title":"Catan: Cities & Knights",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Catan: Seafarers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Catapult",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Catatonia",
-      "alt":[
-        "Catatonic",
-        "catatonic"
+      "alternative":[],
+      "anchor":[
+        "Catatonic"
       ]
     },
     {
       "title":"Category of being",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "being",
         "category of existence",
         "categories of being"
@@ -6671,126 +14139,216 @@ var pagesData = {
     },
     {
       "title":"Category theory",
-      "alt":[
-        "category",
-        "categories",
+      "alternative":[
         "CategoryTheory"
+      ],
+      "anchor":[
+        "category",
+        "categories"
       ]
     },
     {
+      "title":"Catenary",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Catharism",
-      "alt":[
+      "alternative":[
         "Albigenses",
-        "Albigensians",
+        "Albigensians"
+      ],
+      "anchor":[
         "Cathars"
       ]
     },
     {
+      "title":"Catherine Coleman",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Catherine of Aragon",
-      "alt":[
+      "alternative":[
         "Catharine of Aragon"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Catherine of Siena",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "St. Catherine of Siena"
       ]
     },
     {
       "title":"Cathode",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cathodic"
       ]
     },
     {
       "title":"Cathode ray",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Electron beams"
       ]
     },
     {
       "title":"Cathode ray tube",
-      "alt":[
+      "alternative":[
+        "Computer display/CRT"
+      ],
+      "anchor":[
         "CRT",
-        "Computer display/CRT",
         "television sets"
       ]
     },
     {
-      "title":"Catholic church",
-      "alt":[
-        "Catholic",
-        "Roman Catholic",
-        "Roman Catholicism",
-        "Roman Catholics",
-        "Catholics",
-        "the Roman Catholic Church",
-        "Roman Catholic Church",
-        "Catholicism",
-        "Latin",
-        "R. Catholic",
-        "Roman Catholic church",
-        "Catholic church",
-        "Catholics",
-        "Church",
-        "church",
-        "Church, Catholic"
-      ]
+      "title":"Catullus",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Cauchy distribution",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Lorentzian"
       ]
     },
     {
       "title":"Cauchy sequence",
-      "alt":[
+      "alternative":[
         "Cauchy sequences"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"CauchyñRiemann equations",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CausantÌn mac Cin·eda",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Cavalry",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "horseman"
       ]
     },
     {
-      "title":"Cave Tetra",
-      "alt":[
-        "Cave Tetra"
-      ]
+      "title":"Cave",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Caving",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "''caving'', ''potholing'', or ''spelunking''"
       ]
     },
     {
+      "title":"Cavitation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cayman Islands",
-      "alt":[
-        "KY",
+      "alternative":[
         "Military of the Cayman Islands"
+      ],
+      "anchor":[
+        "KY"
       ]
     },
     {
-      "title":"CCITT",
-      "alt":[
-        "Comit√© Consultatif International T√©l√©phonique et T√©l√©graphique"
-      ]
+      "title":"Cayuga Lake",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CCC",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CCD",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CCIR",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CD (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CD-R",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CDC",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CDE",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"CE",
-      "alt":[
+      "alternative":[
         "C.E",
         "C.E."
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Ceawlin of Wessex",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cebidae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cecil B. DeMille",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cecilia Beaux",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cedar Falls, Iowa",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Celebes (disambiguation)",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Celebrity",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "celebrities",
         "fame",
         "pop star",
@@ -6798,74 +14356,105 @@ var pagesData = {
       ]
     },
     {
+      "title":"Celery",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Celestines",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Celibacy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "celibate",
         "chaste"
       ]
     },
     {
+      "title":"Cell",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cell (biology)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cells",
         "animal cells",
         "cell",
         "cellular",
-        "Cell",
         "cell thick",
         "biological cell"
       ]
     },
     {
       "title":"Cell biology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cells",
         "cytology"
       ]
     },
     {
       "title":"Cell cycle",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "life cycle",
         "cell division cycle"
       ]
     },
     {
+      "title":"Cell Cycle (journal)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cell nucleus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "nucleus",
         "nuclei",
         "nuclear",
-        "Nucleus",
         "cell nuclei"
       ]
     },
     {
+      "title":"Cell wall",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cello",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "violoncello"
       ]
     },
     {
+      "title":"Cellular digital packet data",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cellulose",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cellulosic"
       ]
     },
     {
-      "title":"Celtic language",
-      "alt":[
-        "Celtic"
-      ]
-    },
-    {
       "title":"Celtic languages",
-      "alt":[
+      "alternative":[
+        "Celtic language"
+      ],
+      "anchor":[
         "Celtic",
         "Celtic language",
         "Celtic-language",
         "Celtic dialects",
-        "Celtic language",
         "Celtick",
         "Celtic language family",
         "Brythonic Celtic"
@@ -6873,105 +14462,188 @@ var pagesData = {
     },
     {
       "title":"Celtic music",
-      "alt":[
-        "CelticMusic",
+      "alternative":[
+        "CelticMusic"
+      ],
+      "anchor":[
         "Celtic",
         "Celtic traditional music"
       ]
     },
     {
       "title":"Celts",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Celtic",
         "Celt",
         "Celtic culture"
       ]
     },
     {
+      "title":"Cem Karaca",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cement",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cemetery H culture",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cenozoic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Census",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Centaur",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Centaurus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Centaur",
         "the constellation Centaurus"
       ]
     },
     {
       "title":"Center (group theory)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "center"
       ]
     },
     {
       "title":"Centers for Disease Control and Prevention",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CDC",
         "Centers for Disease Control and Prevention (CDC)"
       ]
     },
     {
+      "title":"Centillion",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Centime",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Centimetre",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cm"
       ]
     },
     {
-      "title":"Centimetre‚Äìgram‚Äìsecond system of units",
-      "alt":[
+      "title":"Centimetreñgramñsecond system of units",
+      "alternative":[],
+      "anchor":[
         "cgs",
         "C.G.S. System of Units"
       ]
     },
     {
+      "title":"Central African Armed Forces",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Central African Republic",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CF"
       ]
     },
     {
       "title":"Central America",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Central"
       ]
     },
     {
       "title":"Central Asia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Central",
         "Central Asian steppes",
         "Central Asian countries"
       ]
     },
     {
+      "title":"Central bank",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Central Coast",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Central Europe",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Central and Eastern Europe",
-        "Central",
-        "central"
+        "Central"
       ]
     },
     {
       "title":"Central nervous system",
-      "alt":[
-        "CNS",
-        "central",
+      "alternative":[
         "CNS"
+      ],
+      "anchor":[
+        "CNS",
+        "central"
       ]
     },
     {
       "title":"Central Pacific Railroad",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Central Pacific"
       ]
     },
     {
+      "title":"Central Plaza (Hong Kong)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Central pontine myelinolysis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Central Powers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Central processing unit",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CPU",
         "computer processors",
         "CPUs",
         "processor",
-        "Processor",
         "Processors",
-        "processors",
         "processing unit",
         "central processor",
         "CPU's"
@@ -6979,228 +14651,468 @@ var pagesData = {
     },
     {
       "title":"Central tendency",
-      "alt":[
-        "central tendencies",
+      "alternative":[
         "Central Tendancy"
+      ],
+      "anchor":[
+        "central tendencies"
       ]
     },
     {
       "title":"Centrifugal force (rotating reference frame)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "centrifugal",
         "centrifugal force"
       ]
     },
     {
+      "title":"Centriole",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Centripetal force",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "centripetal"
       ]
     },
     {
       "title":"Centromere",
-      "alt":[
+      "alternative":[
         "Centromer"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Century",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "centennial year",
         "centuries",
         "cy"
       ]
     },
     {
+      "title":"Cepheus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ceramic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cerberus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Janitor Lethaeus"
       ]
     },
     {
       "title":"Cereal",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "grains",
-        "grain",
-        "Grain"
+        "grain"
       ]
     },
     {
+      "title":"Cerebral arteriovenous malformation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cerebrospinal fluid",
-      "alt":[
-        "Cerebral Spinal Fluid",
+      "alternative":[
+        "Cerebral Spinal Fluid"
+      ],
+      "anchor":[
         "cerebral fluid"
       ]
     },
     {
+      "title":"Ceres",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ceres Brewery",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cernunnos",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cervical mucus method",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cervix",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cervical"
       ]
     },
     {
+      "title":"Cesare Borgia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cessna",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cessna Aircraft Corporation"
       ]
     },
     {
       "title":"Cetacea",
-      "alt":[
+      "alternative":[
         "Cetacean",
         "Cetaceans"
-      ]
+      ],
+      "anchor":[]
     },
     {
-      "title":"Cetaceans",
-      "alt":[
-        "whales and dolphins"
-      ]
+      "title":"Cetus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ceuta",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"CFA franc",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Communaute Financiere Africaine franc",
         "CFA"
       ]
     },
     {
+      "title":"CGI",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CGMP",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chad",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "TD"
       ]
     },
     {
       "title":"Chadic languages",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chadic"
       ]
     },
     {
+      "title":"Chagas disease",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chaim Topol",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chain reaction",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chain rule",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "chain-rule of differentiation"
       ]
     },
     {
-      "title":"Chairman of the board (disambiguation)",
-      "alt":[
-        "Chairman of the board (disambiguation)"
-      ]
+      "title":"Chaitin's constant",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chakra",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chalcedonian Definition",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chalcogen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chalcolithic",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Chaldea",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chaldeans"
       ]
     },
     {
+      "title":"Challenger Deep",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chalmers University of Technology",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chamaeleon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chambered cairn",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chandrasekhar limit",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Channel 4",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "UK Channel 4"
       ]
     },
     {
       "title":"Channel Islands",
-      "alt":[
+      "alternative":[
         "Channel Isles"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Channel Tunnel",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chaos Computer Club",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Chaos theory",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "disorder",
         "chaos",
         "chaotic behavior"
       ]
     },
     {
+      "title":"Chaosium",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chaparral",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chapter 11, Title 11, United States Code",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chapter 11 bankruptcy protection",
         "Chapter 11"
       ]
     },
     {
+      "title":"Chapterhouse: Dune",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Character",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Character encoding",
-      "alt":[
+      "alternative":[
+        "Character set"
+      ],
+      "anchor":[
         "character-encoding scheme",
         "extended proprietary characters",
         "character set",
         "encoding",
-        "character sets",
-        "Character set"
+        "character sets"
       ]
     },
     {
+      "title":"Character encodings in HTML",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Characteristic subgroup",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "characteristic"
       ]
     },
     {
+      "title":"CharcotñMarieñTooth disease",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chardonnay socialist",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Charge",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Charge of the Goddess",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Charge-coupled device",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CCD",
         "CCDs",
         "CCD detector"
       ]
     },
     {
+      "title":"Chariots of Fire",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Charlemagne",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Carolingians",
         "Charlemagne's",
         "Carolingian"
       ]
     },
     {
+      "title":"Charles Alston",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Charles Ancillon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Charles Babbage",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Babbage's"
       ]
     },
     {
       "title":"Charles Baudelaire",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Baudelaire's",
         "Baudelaire"
       ]
     },
     {
+      "title":"Charles Baxter (author)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Charles C. Krulak",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Krulak"
       ]
     },
     {
-      "title":"Charles Chaplin",
-      "alt":[
-        "Chaplin"
-      ]
-    },
-    {
       "title":"Charles d'Abancour",
-      "alt":[
+      "alternative":[
         "Charles Xavier Joseph De Franque Ville Abancourt"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Charles Dickens",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Dickens",
         "Dickens, Charles"
       ]
     },
     {
+      "title":"Charles Edward Jones",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Charles Evans Hughes",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Charles Evers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Charles F. Hockett",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Charles Farrar Browne",
-      "alt":[
+      "alternative":[
         "Artemus Ward"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Charles I of England",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Charles I",
         "King Charles I",
         "Charles I of Scotland and England",
@@ -7210,93 +15122,193 @@ var pagesData = {
       ]
     },
     {
+      "title":"Charles Lyell",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Charles Martel",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Charles McCarry",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Charles Messier",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Charles Mingus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Charles Proteus Steinmetz",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Charles Robert Malden",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Charles Sanders Peirce",
-      "alt":[
+      "alternative":[
+        "Charles S. Peirce"
+      ],
+      "anchor":[
         "C. S. Peirce",
         "Charles S. Peirce",
         "Peirce, C.S.",
-        "Charles S. Peirce",
         "Peirce, C. S.",
         "Peirce, C.&nbsp;S."
       ]
     },
     {
+      "title":"Charles Tupper",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Charles V",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Charles Williams (British writer)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Charles Williams"
       ]
     },
     {
+      "title":"Charleston",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Charlie Chaplin",
-      "alt":[
+      "alternative":[
         "Charles Chaplin",
         "CharlieChaplin"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Charlize Theron",
-      "alt":[
+      "alternative":[
         "Charlize Theron/Filmography"
-      ]
+      ],
+      "anchor":[]
     },
     {
-      "title":"Charlotte Bront√´",
-      "alt":[
+      "title":"Charlotte BrontÎ",
+      "alternative":[],
+      "anchor":[
         "Charlotte"
       ]
     },
     {
       "title":"Charlton Athletic F.C.",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Charlton Athletic"
       ]
     },
     {
+      "title":"Charon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Charybdis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chastity",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "proof of chastity"
       ]
     },
     {
       "title":"Chauvinism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "male chauvinist",
         "chauvinistic"
       ]
     },
     {
+      "title":"Chechnya",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Checksum",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cheddar cheese",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cheddar"
       ]
     },
     {
       "title":"Cheddar, Somerset",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cheddar"
       ]
     },
     {
       "title":"Cheerleading",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cheerleader"
       ]
     },
     {
+      "title":"Cheers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cheirogaleidae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cheka",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chelsea F.C.",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chelsea"
       ]
     },
     {
       "title":"Chemical affinity",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "affinity"
       ]
     },
     {
       "title":"Chemical bond",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bonded",
         "bond",
         "bonding",
@@ -7308,37 +15320,46 @@ var pagesData = {
     },
     {
       "title":"Chemical element",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "element",
-        "elements",
-        "Element"
+        "elements"
       ]
     },
     {
       "title":"Chemical engineering",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "chemical products",
         "chemical engineer"
       ]
     },
     {
       "title":"Chemical equilibrium",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "equilibrium",
         "dynamic equilibrium",
         "equilibrium reaction"
       ]
     },
     {
+      "title":"Chemical evolution",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chemical formula",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "formula",
         "chemical"
       ]
     },
     {
       "title":"Chemical reaction",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "chemically reacts",
         "chemically react",
         "reaction",
@@ -7351,54 +15372,109 @@ var pagesData = {
       ]
     },
     {
+      "title":"Chemical thermodynamics",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chemical vapor deposition",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "vapor deposition",
         "CVD"
       ]
     },
     {
+      "title":"Chemist",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chemistry",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chemist",
-        "chemist",
         "chemical",
         "chemists",
-        "Chemical",
         "chemical phenomena"
       ]
     },
     {
       "title":"Chemotaxis",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cell movement",
         "chemotactic"
       ]
     },
     {
       "title":"Chemotherapy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "antitumor",
         "chemotherapeutic",
         "drugs"
       ]
     },
     {
+      "title":"Chernobyl",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chervil",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cheshire",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chess",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chet Atkins",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chiang Kai-shek",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chianti",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chiapas",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chicago",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chicago, Illinois"
       ]
     },
     {
       "title":"Chicago Bears",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bears",
         "Chicago"
       ]
     },
     {
       "title":"Chicago Cubs",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chicago White Stockings",
         "Cubs",
         "White Stockings",
@@ -7407,7 +15483,8 @@ var pagesData = {
     },
     {
       "title":"Chicago White Sox",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "\"ChiSox\"",
         "Sioux City",
         "White Sox",
@@ -7415,37 +15492,47 @@ var pagesData = {
       ]
     },
     {
-      "title":"Chick Publications",
-      "alt":[
-        "Chick"
-      ]
+      "title":"Chicano",
+      "alternative":[],
+      "anchor":[]
     },
     {
-      "title":"Chief Executive Officer",
-      "alt":[
-        "CEO",
-        "CEO",
-        "Chief Executive Officer",
-        "CEOs"
-      ]
+      "title":"Chief Minister of the Northern Territory",
+      "alternative":[],
+      "anchor":[]
     },
     {
-      "title":"Child node",
-      "alt":[
-        "child",
-        "children"
-      ]
+      "title":"Chief of Naval Operations",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Childe's Tomb",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Children of Dune",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Chile",
-      "alt":[
-        "Rep√∫blica de Chile",
+      "alternative":[],
+      "anchor":[
+        "Rep˙blica de Chile",
         "CL"
       ]
     },
     {
+      "title":"Chimera",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"China",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chinese",
         "People's Republic of China",
         "China (PRC)",
@@ -7454,48 +15541,79 @@ var pagesData = {
       ]
     },
     {
-      "title":"Chinese buddhist cuisine",
-      "alt":[
-        "vegetarian cuisine"
-      ]
+      "title":"Chinese",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Chinese calendar",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "traditional calendar of China",
         "Chinese",
         "CE-1949"
       ]
     },
     {
+      "title":"Chinese checkers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chinese classics",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chinese cuisine",
-      "alt":[
-        "Chinese",
+      "alternative":[
         "Chinese food"
+      ],
+      "anchor":[
+        "Chinese"
       ]
     },
     {
+      "title":"Chinese dominoes",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chinese historiography",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "historical works"
       ]
     },
     {
+      "title":"Chinese input methods for computers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chinese Islamic cuisine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chinese language",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chinese",
         "Mandarin Chinese"
       ]
     },
     {
       "title":"Chinese numerals",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chinese"
       ]
     },
     {
       "title":"Chinese philosophy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "philosophy in ancient China",
         "philosophy",
         "philosophical works",
@@ -7507,122 +15625,291 @@ var pagesData = {
       ]
     },
     {
-      "title":"Chinese Remainder Theorem",
-      "alt":[
-        "Chinese remainder theorem"
-      ]
+      "title":"Chinese room",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chipmunk",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chirality (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chiropractic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chives",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Chlamydia infection",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "chlamydia"
       ]
     },
     {
+      "title":"Chloramphenicol",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chlorine",
-      "alt":[
+      "alternative":[
+        "Cl"
+      ],
+      "anchor":[
         "chlorine gas",
         "Cl",
-        "Cl<sub>2</sub>",
-        "Cl"
+        "Cl<sub>2</sub>"
       ]
     },
     {
+      "title":"Chlorophyceae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chlorophyll",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chlorophyta",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "chlorophytes",
         "green algae",
         "chlorophyte"
       ]
     },
     {
+      "title":"Chloroplast",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chocolate",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Choctaw",
-      "alt":[
+      "alternative":[
         "Choctaws"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"ChojnÛw",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cholera",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cholesterol",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cholistan Desert",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chomsky (surname)",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Chomsky hierarchy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "classification as a special type"
       ]
     },
     {
+      "title":"Chomsky normal form",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chondrichthyes",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cartilaginous fish"
       ]
     },
     {
+      "title":"Chord",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chordate",
-      "alt":[
-        "Chordata",
+      "alternative":[
         "ChordaTa",
         "Evolutionary tree/Chordata"
+      ],
+      "anchor":[
+        "Chordata"
       ]
     },
     {
+      "title":"Chorded keyboard",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chris Cunningham",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chris Marker",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chris Morris (satirist)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chris Morris"
       ]
     },
     {
+      "title":"Chris Sarandon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Christ",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Jesus Christ",
         "Jesus"
       ]
     },
     {
       "title":"Christadelphians",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Christadelphian"
       ]
     },
     {
+      "title":"Christchurch (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Christendom",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Christian Europe",
         "Christian world",
         "Latin Christendom"
       ]
     },
     {
+      "title":"Christiaan Barnard",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Christian (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Christian alternative rock",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Christian Church (Disciples of Christ)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Disciples of Christ"
       ]
     },
     {
       "title":"Christian countercult movement",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Christian counter-cult"
       ]
     },
     {
+      "title":"Christian Doppler",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Christian eschatology",
-      "alt":[
-        "end times",
+      "alternative":[
         "Christian escathology"
+      ],
+      "anchor":[
+        "end times"
       ]
     },
     {
       "title":"Christian Goldbach",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Goldbach"
       ]
     },
     {
+      "title":"Christian mythology",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Christian of Oliva",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Christian persecution",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Christian Social Union in Bavaria",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CSU",
         "Christian Social Union in Bavaria e. V."
       ]
     },
     {
+      "title":"Christian views on marriage",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Christiania",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Christianity",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Christian",
         "Christian religious tradition",
         "Christian churches",
@@ -7638,246 +15925,524 @@ var pagesData = {
     },
     {
       "title":"Christianity and antisemitism",
-      "alt":[
-        "Christian antisemitism",
+      "alternative":[
         "Christian anti-semitism",
+        "Christian antisemitism"
+      ],
+      "anchor":[
         "Christian antisemitism"
       ]
     },
     {
-      "title":"Christians",
-      "alt":[
-        "Christianity"
-      ]
+      "title":"Christianity and homosexuality",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Christianity and Judaism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Christine de Pizan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Christine Lavin",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Christmas",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Christmas Day",
         "Nativity of the Lord"
       ]
     },
     {
+      "title":"Christmas in Poland",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Christmas Island",
-      "alt":[
+      "alternative":[
         "Communications in Christmas Island",
         "Demographics of Christmas Island",
         "Economy of Christmas Island",
         "Geography of Christmas Island",
         "Government of Christmas Island",
         "History of Christmas Island",
-        "CX",
         "Military of Christmas Island",
         "Transportation in Christmas Island"
+      ],
+      "anchor":[
+        "CX"
       ]
     },
     {
+      "title":"Christmas tree",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Christology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Christological",
         "concept of Christ",
         "nature of Jesus"
       ]
     },
     {
+      "title":"Christoph Ludwig Agricola",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Christopher Alexander",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Christopher B·thory",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Christopher Columbus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Columbus",
         "namesake",
         "Christopher Columbus's"
       ]
     },
     {
+      "title":"Christopher Guest",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Christopher Marlowe",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Marlowe"
       ]
     },
     {
       "title":"Chromatin",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "hromatin"
       ]
     },
     {
       "title":"Chromatography",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "chromatographic",
-        "Chromatographic",
         "thin layer chromatography"
       ]
     },
     {
+      "title":"Chrominance",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chromium",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "<sup>52</sup>Cr",
         "Cr"
       ]
     },
     {
       "title":"Chromosome",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "chromosomal"
       ]
     },
     {
       "title":"Chronicle",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "histories"
       ]
     },
     {
+      "title":"Chrono Cross",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chrono Trigger",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chronometer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Chrysler",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chrysler LLC",
         "Chrysler Corporation"
       ]
     },
     {
+      "title":"Chrysler Building",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chuck D",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chuck Jones",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chuck Yeager",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chuck-a-luck",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chupacabra",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Church (building)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "churches",
         "church buildings",
-        "church",
-        "Church"
+        "church"
       ]
     },
     {
       "title":"Church of Christ, Scientist",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Christian Science"
       ]
     },
     {
       "title":"Church of England",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "established church",
         "Anglican",
         "English Church",
         "Anglicanism",
-        "Episcopalians",
-        "English church"
+        "Episcopalians"
       ]
     },
     {
       "title":"Church of the Holy Sepulchre",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Church of the Resurrection",
         "Holy Sepulchre"
       ]
     },
     {
-      "title":"Church‚ÄìTuring thesis",
-      "alt":[
+      "title":"Churches Uniting in Christ",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"ChurchñTuring thesis",
+      "alternative":[
         "Churchs thesis"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Churnsike Lodge",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Chymotrypsin",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Cicero",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Marcus Tullius Cicero",
         "Tully"
       ]
     },
     {
+      "title":"Ciconiiformes",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CID",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"CIM-10 Bomarc",
-      "alt":[
+      "alternative":[
         "BOMARC"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Cimabue",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cimbri",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Cincinnati Bengals",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bengals",
         "Cincinnati"
       ]
     },
     {
       "title":"Cincinnati Reds",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cincinnati Red Stockings",
         "Reds'",
         "Reds"
       ]
     },
     {
+      "title":"Cinema",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cinquain",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cipher",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ciprofloxacin",
-      "alt":[
+      "alternative":[
         "Cipro"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Circe",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Circle",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Circular",
         "360-degree",
         "Round"
       ]
     },
     {
+      "title":"Circuit Park Zandvoort",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Circumcision and law",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Circumference",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cirth",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CISC",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cist",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cistron",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CIT",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Citadel",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"CITES",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Convention on International Trade in Endangered Species of Wild Fauna and Flora",
         "Endangered Species",
         "Convention on the International Trade in Endangered Species of Wild Flora and Fauna"
       ]
     },
     {
+      "title":"Citizen Kane",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Citizenship",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "eligible citizens"
       ]
     },
     {
       "title":"Citric acid cycle",
-      "alt":[
+      "alternative":[
         "Citrate cycle"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"City",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cities"
       ]
     },
     {
       "title":"City of London",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "City"
       ]
     },
     {
+      "title":"City University of New York",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Civil defense",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Civil engineering",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "engineer",
         "Engineered"
       ]
     },
     {
+      "title":"Civil law",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Civil Rights Act",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Civil Rights Memorial",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Civil war",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Civil War",
         "internal strife"
       ]
     },
     {
+      "title":"Civilian Conservation Corps",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Civilization",
-      "alt":[
+      "alternative":[
+        "Ancient civilization"
+      ],
+      "anchor":[
         "the civilized world",
-        "Ancient civilization",
         "human societies"
       ]
     },
     {
       "title":"Civilization (video game)",
-      "alt":[
-        "Civilization/video game",
+      "alternative":[
+        "Civilization/video game"
+      ],
+      "anchor":[
         "Civilization"
       ]
     },
     {
+      "title":"CJD",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Clabbers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Clade",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cladistics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "clade",
         "node",
         "sister",
@@ -7891,35 +16456,72 @@ var pagesData = {
     },
     {
       "title":"Clairvoyance",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "clairvoyant",
         "clairvoyants",
         "seer"
       ]
     },
     {
-      "title":"Clam Dip",
-      "alt":[
-        "Clam Dip"
-      ]
+      "title":"Clanking replicator",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Clara Petacci",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Clarence Brown",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Clarinet",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ClariNet Communications"
       ]
     },
     {
+      "title":"Clark Ashton Smith",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Clark Kent",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Clarke's three laws",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Class",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Class (computer programming)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "classes",
-        "Classes",
         "class"
       ]
     },
     {
+      "title":"Class action",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Classical element",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "four elements",
         "Four-Element Theory",
         "element",
@@ -7928,55 +16530,63 @@ var pagesData = {
     },
     {
       "title":"Classical guitar",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "guitar"
       ]
     },
     {
+      "title":"Classical Kuiper belt object",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Classical liberalism",
-      "alt":[
+      "alternative":[
+        "Classical liberal"
+      ],
+      "anchor":[
         "liberal",
         "classical-liberal",
         "classical liberal",
-        "Classical liberal",
         "classical liberals",
         "classically liberal",
         "Liberalism"
       ]
     },
     {
-      "title":"Classical Music",
-      "alt":[
-        "classical",
-        "European classical music",
-        "Western music's",
-        "Classical Music",
-        "Western music",
-        "Classical"
-      ]
+      "title":"Classical order",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Classical period (music)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "classical",
-        "Classical",
         "early classical style"
       ]
     },
     {
       "title":"Classics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "classical scholar",
         "Classicist",
-        "classicist",
         "classical",
         "classic",
         "Classical education"
       ]
     },
     {
+      "title":"Classification of finite simple groups",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Claude Auchinleck",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Auchinleck",
         "Sir Claude Auchinleck",
         "General Claude Auchinleck"
@@ -7984,27 +16594,38 @@ var pagesData = {
     },
     {
       "title":"Claude Debussy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Debussy"
       ]
     },
     {
       "title":"Claude Louis Berthollet",
-      "alt":[
-        "C. L. Berthollet",
+      "alternative":[
+        "C. L. Berthollet"
+      ],
+      "anchor":[
         "Claude Berthollet"
       ]
     },
     {
       "title":"Claude Monet",
-      "alt":[
-        "Claude Oscar Monet",
+      "alternative":[
+        "Claude Oscar Monet"
+      ],
+      "anchor":[
         "Monet"
       ]
     },
     {
+      "title":"Claude Piron",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Claude Shannon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "shannon",
         "Shannon's Maxim",
         "Shannon's"
@@ -8012,56 +16633,100 @@ var pagesData = {
     },
     {
       "title":"Claudine (book series)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Claudine"
       ]
     },
     {
       "title":"Claudio Monteverdi",
-      "alt":[
+      "alternative":[
         "Claudio Zuan Antonio Monteverdi"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Claudius",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Claudius Aelianus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Aelian"
       ]
     },
     {
+      "title":"Claus Sluter",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Clavichord",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Clay Mathematics Institute",
-      "alt":[
+      "alternative":[
         "Clay math prize"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"ClearType",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Clement Attlee",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Clement Martyn Doke",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Clement Doke"
       ]
     },
     {
       "title":"Clement of Alexandria",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Clement"
       ]
     },
     {
+      "title":"Cleopatra (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Clerihew",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cleveland",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cleveland, Ohio"
       ]
     },
     {
       "title":"Cleveland Browns",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Browns",
         "Browns team"
       ]
     },
     {
       "title":"Cleveland Indians",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cleveland Naps",
         "Cleveland",
         "Indians",
@@ -8070,34 +16735,45 @@ var pagesData = {
     },
     {
       "title":"Click consonant",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "clicks",
         "click"
       ]
     },
     {
+      "title":"Clientñserver model",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Climate",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "climatic factor"
       ]
     },
     {
-      "title":"Climate Change",
-      "alt":[
-        "climatic",
-        "Climate Change"
-      ]
-    },
-    {
       "title":"Climbing",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "climber",
         "climbers"
       ]
     },
     {
+      "title":"Clinker",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Clipper",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Clipperton Island",
-      "alt":[
+      "alternative":[
         "Clipperton Island/Communications",
         "Clipperton Island/Economy",
         "Clipperton Island/Geography",
@@ -8106,17 +16782,55 @@ var pagesData = {
         "Clipperton Island/Military",
         "Clipperton Island/People",
         "Clipperton Island/Transportation"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Clitic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Clitoridectomy",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Clitoris",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "clitoral"
       ]
     },
     {
+      "title":"Clive Anderson",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Clive Barker",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Clock",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Clodius",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Clone",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cloning",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "clone",
         "cloned",
         "clonal populations",
@@ -8124,88 +16838,188 @@ var pagesData = {
       ]
     },
     {
+      "title":"Clown",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CLU (programming language)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cluny",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cluster sampling",
-      "alt":[
+      "alternative":[
         "ClusterSampling"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Clutch",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Clyde Tombaugh",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CN Tower",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Cnidaria",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "jellyfish"
       ]
     },
     {
+      "title":"CNO",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"CNO cycle",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "carbon-nitrogen cycle"
       ]
     },
     {
+      "title":"Co-NP",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Coal",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Coal tar",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Coalition government",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Coast",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "seaboard",
         "seacoasts",
         "seaside"
       ]
     },
     {
+      "title":"Cobble Hill Tunnel",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cobbler",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"COBOL",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Coca-Cola",
-      "alt":[
-        "Coke",
+      "alternative":[
         "Coca Cola"
+      ],
+      "anchor":[
+        "Coke"
       ]
     },
     {
       "title":"Cocaine",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "coke"
       ]
     },
     {
+      "title":"Cocktail",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cocos (Keeling) Islands",
-      "alt":[
-        "Cocos",
+      "alternative":[
         "Cocos Islands/Economy",
-        "Cocos Islands",
         "Communications in the Cocos (Keeling) Islands",
         "Geography of the Cocos (Keeling) Islands",
         "Government of the Cocos (Keeling) Islands",
         "History of the Cocos (Keeling) Islands",
         "Military of the Cocos (Keeling) Islands",
         "Transport in the Cocos (Keeling) Islands"
+      ],
+      "anchor":[
+        "Cocos",
+        "Cocos Islands"
       ]
     },
     {
       "title":"Code",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "encode",
         "encoded",
         "coding"
       ]
     },
     {
+      "title":"Code coverage",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Code division multiple access",
-      "alt":[
-        "CDMA",
+      "alternative":[
+        "CDMA"
+      ],
+      "anchor":[
         "CDMA"
       ]
     },
     {
+      "title":"Code of Hammurabi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Codec",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "decoder"
       ]
     },
     {
       "title":"Codex",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "codices"
       ]
     },
     {
       "title":"Coercion",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "coercive",
         "persuade",
         "force",
@@ -8214,117 +17028,255 @@ var pagesData = {
     },
     {
       "title":"Coffea",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "coffee plant",
         "coffee"
       ]
     },
     {
+      "title":"Cofinality",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cogency",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cogito ergo sum",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Therefore I'm not",
         "I think therefore I '''am'''"
       ]
     },
     {
       "title":"Cognate",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "equivalent"
       ]
     },
     {
       "title":"Cognitive behavioral therapy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CBT"
       ]
     },
     {
       "title":"Cognitive psychology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cognitive"
       ]
     },
     {
       "title":"Cognitive science",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cognitive"
       ]
     },
     {
+      "title":"Cognitivism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Coin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Coin collecting",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"COINTELPRO",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Counter Intelligence Program (COINTELPRO)"
       ]
     },
     {
+      "title":"Coitus interruptus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cola",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cold Chisel",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cold fusion",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cold War (1947ñ53)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Coldcut",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Coleco",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Coleco Industries"
       ]
     },
     {
+      "title":"ColecoVision",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Coleridge",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Colette",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Colin Dexter",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Colin Kapp",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Colin Maclaurin",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Maclaurin"
       ]
     },
     {
+      "title":"Colin Powell",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Collagen",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "connective tissues"
       ]
     },
     {
+      "title":"Collagen helix",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Collation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "sorted",
         "collating sequences"
       ]
     },
     {
+      "title":"Collection",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Collective noun",
-      "alt":[
+      "alternative":[
         "Collective nouns/All sorted by collective term"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Collective trauma",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Collectivism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "collectivist",
         "collective body"
       ]
     },
     {
+      "title":"College",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"College football",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "football",
         "collegiate football",
         "U.S. college football"
       ]
     },
     {
+      "title":"College of the City of New York",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Colloid",
-      "alt":[
+      "alternative":[
         "Colloids"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Cologne",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Oppidum Ubiorum",
         "Cologne, Germany"
       ]
     },
     {
       "title":"Colombia",
-      "alt":[
-        "Rep√∫blica de Colombia",
+      "alternative":[],
+      "anchor":[
+        "Rep˙blica de Colombia",
         "CO"
       ]
     },
     {
+      "title":"Colon classification",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Colonial",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Colonialism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "colonizers",
         "colonial",
         "colonial powers",
@@ -8337,120 +17289,175 @@ var pagesData = {
     },
     {
       "title":"Colonna family",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Colonnas"
       ]
     },
     {
       "title":"Colony",
-      "alt":[
+      "alternative":[
+        "Colonies",
+        "Colonized"
+      ],
+      "anchor":[
         "colonies",
         "colonial",
-        "Colonies",
-        "Colonized",
         "colonists"
       ]
     },
     {
       "title":"Color",
-      "alt":[
-        "Colour",
+      "alternative":[
+        "Colour"
+      ],
+      "anchor":[
         "Colour"
       ]
     },
     {
       "title":"Color blindness",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "color blind"
       ]
     },
     {
+      "title":"Color code",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Color temperature",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "color of light"
       ]
     },
     {
       "title":"Colorado",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CO",
         "State of Colorado"
       ]
     },
     {
+      "title":"Colorado Front Range",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Colorado Rockies",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Colorado Springs, Colorado",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Colorado Springs",
         "City of Colorado Springs"
       ]
     },
     {
+      "title":"Colossae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Colossus computer",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Colossus",
         "first programmable digital electronic computer"
       ]
     },
     {
       "title":"Columba",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Colmcille"
       ]
     },
     {
       "title":"Columbanus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "St. Columbanus"
       ]
     },
     {
       "title":"Columbia River",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Columbia"
       ]
     },
     {
       "title":"Columbia University",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Columbia"
       ]
     },
     {
+      "title":"Columbia, Missouri",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Columbus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Columbus, Indiana",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Columbus"
       ]
     },
     {
       "title":"Columbus, Ohio",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Columbus"
       ]
     },
     {
       "title":"Column",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "pillar"
       ]
     },
     {
       "title":"Coma",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "deep unconsciousness",
         "loss of consciousness",
         "chronic coma"
       ]
     },
     {
+      "title":"Combination",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Combinatorics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "combinatorical",
         "combinatorial"
       ]
     },
     {
       "title":"Combustion",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ignition",
         "combustible",
         "burning",
@@ -8460,52 +17467,90 @@ var pagesData = {
     },
     {
       "title":"Comedy film",
-      "alt":[
-        "comedy",
+      "alternative":[
         "ComedyFilm"
+      ],
+      "anchor":[
+        "comedy"
       ]
     },
     {
       "title":"Comet",
-      "alt":[
+      "alternative":[
         "Comets"
-      ]
+      ],
+      "anchor":[]
     },
     {
-      "title":"Comet Shoemaker‚ÄìLevy 9",
-      "alt":[
-        "Comet Shoemaker‚ÄìLevy",
-        "Shoemaker‚ÄìLevy 9"
+      "title":"Comet HaleñBopp",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Comet ShoemakerñLevy 9",
+      "alternative":[],
+      "anchor":[
+        "Comet ShoemakerñLevy",
+        "ShoemakerñLevy 9"
       ]
     },
     {
       "title":"Comic book",
-      "alt":[
-        "Comic books",
+      "alternative":[
+        "Comic books"
+      ],
+      "anchor":[
         "comic"
       ]
     },
     {
-      "title":"Coming out of the closet",
-      "alt":[
-        "come out"
-      ]
+      "title":"Comic fantasy",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Comic strip",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Commandant of the Marine Corps",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Commandant of the United States Marine Corps"
       ]
     },
     {
+      "title":"Commelinales",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Commentary",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Committee on Data for Science and Technology",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Commodore",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Commodore (rank)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Commodore"
       ]
     },
     {
       "title":"Commodore 1541",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "1541",
         "floppy",
         "disk drive",
@@ -8514,32 +17559,37 @@ var pagesData = {
     },
     {
       "title":"Commodore 1570",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "1570"
       ]
     },
     {
       "title":"Commodore 1571",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "1571"
       ]
     },
     {
       "title":"Commodore 1581",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "1581"
       ]
     },
     {
       "title":"Commodore 64",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Commodore",
         "C64"
       ]
     },
     {
       "title":"Commodore International",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Commodore",
         "CBM",
         "Commodore's",
@@ -8547,15 +17597,26 @@ var pagesData = {
       ]
     },
     {
+      "title":"Commodores",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Common buzzard",
-      "alt":[
-        "buzzard",
-        "Buzzard"
+      "alternative":[],
+      "anchor":[
+        "buzzard"
       ]
     },
     {
+      "title":"Common chimpanzee",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Common descent",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "common ancestor",
         "descended",
         "Descent"
@@ -8563,33 +17624,43 @@ var pagesData = {
     },
     {
       "title":"Common Desktop Environment",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CDE"
       ]
     },
     {
       "title":"Common Era",
-      "alt":[
+      "alternative":[
+        "B.C.E",
+        "B.C.E."
+      ],
+      "anchor":[
         "C.E",
         "C.E.",
         "BCE",
         "CE",
         "CE and BCE",
-        "B.C.E",
-        "B.C.E.",
         "Before Common Era",
         "AD"
       ]
     },
     {
       "title":"Common Gateway Interface",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CGI"
       ]
     },
     {
+      "title":"Common Language Infrastructure",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Common law",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "legal",
         "English group",
         "Anglo-Saxon subgroup",
@@ -8597,8 +17668,29 @@ var pagesData = {
       ]
     },
     {
+      "title":"Common Lisp",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Common preference",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Commonwealth",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Commonwealth Heads of Government Meeting",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Commonwealth of England",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Commonwealth of England, Scotland and Ireland",
         "Commonwealth",
         "Protectorate",
@@ -8607,26 +17699,38 @@ var pagesData = {
     },
     {
       "title":"Communication",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "communicate"
       ]
     },
     {
       "title":"Communications in Afghanistan",
-      "alt":[
+      "alternative":[
         "Afghanistan/Communications",
         "AfghanistanCommunications"
-      ]
+      ],
+      "anchor":[]
     },
     {
-      "title":"Communist",
-      "alt":[
-        "Red"
-      ]
+      "title":"Communications in Burundi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Communications in Colombia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Communion",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Communist Party of China",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chinese Communist Party",
         "Chinese Communists",
         "Communists",
@@ -8637,7 +17741,8 @@ var pagesData = {
     },
     {
       "title":"Communist Party of the Soviet Union",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CPSU",
         "Communist Party",
         "Soviet Communist Party"
@@ -8645,26 +17750,50 @@ var pagesData = {
     },
     {
       "title":"Community",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "settlements"
       ]
     },
     {
+      "title":"Community acquis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Community college",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Community emergency response team",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Commutator",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "commute"
       ]
     },
     {
+      "title":"Commutator subgroup",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Commuter rail",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "suburban rail",
         "local rail"
       ]
     },
     {
       "title":"Comoros",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Comorians",
         "KM",
         "Comorian"
@@ -8672,7 +17801,8 @@ var pagesData = {
     },
     {
       "title":"Compact disc",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CD",
         "CDs",
         "audio CD",
@@ -8681,136 +17811,198 @@ var pagesData = {
     },
     {
       "title":"Compact space",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "compact"
       ]
     },
     {
       "title":"Compactification (mathematics)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alexandroff one-point compactification",
         "compactification"
       ]
     },
     {
+      "title":"Compactron",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Companies law",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "business organisations"
       ]
     },
     {
+      "title":"Company (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Compaq",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Compaq Computer",
         "Compaq Computer Corporation"
       ]
     },
     {
+      "title":"Comparative law",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Comparative method (linguistics)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Comparison of American and British English",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Compiler",
-      "alt":[
+      "alternative":[
+        "Compilers"
+      ],
+      "anchor":[
         "compiled",
         "compiling",
         "recompilation",
         "compilation",
-        "Compilers",
         "compile"
       ]
     },
     {
+      "title":"Complaint",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Complementary DNA",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cDNA"
       ]
     },
     {
       "title":"Complete metric space",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "complete"
       ]
     },
     {
       "title":"Complex analysis",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "complex variables"
       ]
     },
     {
       "title":"Complex instruction set computing",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CISC"
       ]
     },
     {
       "title":"Complex number",
-      "alt":[
+      "alternative":[
+        "Complex numbers"
+      ],
+      "anchor":[
         "complex",
         "complex analysis",
-        "Complex numbers",
         "complex variable",
         "complex number theory"
       ]
     },
     {
-      "title":"Complex numbers",
-      "alt":[
-        "C",
-        "complex"
-      ]
-    },
-    {
       "title":"Complexity",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "complex topic"
       ]
     },
     {
+      "title":"Complexity theory",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Compost",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Compound",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Compound turbine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Comprehensive Nuclear-Test-Ban Treaty",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Compression ratio",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Compressor",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Computable number",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "computable",
         "computable real"
       ]
     },
     {
       "title":"Computation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "execute them"
       ]
     },
     {
       "title":"Computational chemistry",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "computational methods"
       ]
     },
     {
-      "title":"Computational complexity",
-      "alt":[
-        "cost",
-        "complexity"
-      ]
-    },
-    {
       "title":"Computational complexity theory",
-      "alt":[
+      "alternative":[
+        "Computational complexity"
+      ],
+      "anchor":[
         "complexity",
         "complexity theory",
         "O(n) (linear) time",
         "time complexity",
-        "computational complexity",
-        "Computational complexity",
-        "Complexity"
-      ]
-    },
-    {
-      "title":"Computational Linguistics",
-      "alt":[
-        "statistics and modeling",
-        "Computational linguistics"
+        "computational complexity"
       ]
     },
     {
       "title":"Computer animation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Photo-realistic animation",
         "CGI animation",
         "animation",
@@ -8819,31 +18011,41 @@ var pagesData = {
     },
     {
       "title":"Computer data storage",
-      "alt":[
+      "alternative":[
+        "Computer Storage"
+      ],
+      "anchor":[
         "data storage",
         "program and data storage",
         "memory cells",
-        "Computer Storage",
         "block storage devices",
         "digital information"
       ]
     },
     {
+      "title":"Computer expo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Computer file",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "file",
         "files"
       ]
     },
     {
       "title":"Computer memory",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "memory"
       ]
     },
     {
       "title":"Computer monitor",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "display screens",
         "monitor",
         "display"
@@ -8851,27 +18053,26 @@ var pagesData = {
     },
     {
       "title":"Computer multitasking",
-      "alt":[
-        "multitasking",
+      "alternative":[
         "Computer/Multitasking"
+      ],
+      "anchor":[
+        "multitasking"
       ]
     },
     {
       "title":"Computer music",
-      "alt":[
-        "Computer-generated music",
+      "alternative":[
+        "Computer-generated music"
+      ],
+      "anchor":[
         "computer"
       ]
     },
     {
-      "title":"Computer peripheral",
-      "alt":[
-        "peripherals"
-      ]
-    },
-    {
       "title":"Computer program",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "programs",
         "program",
         "programmable",
@@ -8884,7 +18085,8 @@ var pagesData = {
     },
     {
       "title":"Computer programming",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "computer",
         "programming",
         "coding",
@@ -8896,44 +18098,47 @@ var pagesData = {
       ]
     },
     {
-      "title":"Computer Science",
-      "alt":[
-        "computer scientists",
-        "computer scientist",
-        "Computer science"
-      ]
-    },
-    {
-      "title":"Computer Storage",
-      "alt":[
-        "memory",
-        "storage",
-        "computer's storage"
-      ]
+      "title":"Computer security",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Computer vision",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "vision"
       ]
     },
     {
       "title":"Computer worm",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "worm",
         "worms",
         "email worms"
       ]
     },
     {
+      "title":"Computing",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Con",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Conan the Barbarian",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Conan"
       ]
     },
     {
       "title":"Concentration",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "dilution",
         "concentrated",
         "parts per thousand",
@@ -8942,96 +18147,207 @@ var pagesData = {
     },
     {
       "title":"Concept",
-      "alt":[
+      "alternative":[
         "Abstract concept"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Concept album",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "concept record"
       ]
     },
     {
+      "title":"Conciliation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Concord, Michigan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Concord, New Hampshire",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Concordat of Worms",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Concorde",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Aerospatiale-BAC Concorde",
-        "A√©rospatiale-BAC Concorde"
+        "AÈrospatiale-BAC Concorde"
       ]
     },
     {
+      "title":"Concrete",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Concubinage",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "concubine",
         "concubines"
       ]
     },
     {
+      "title":"Condensation polymer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Condensed matter physics",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Condition number",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Conditioning (numerical analysis)"
       ]
     },
     {
+      "title":"Conditional",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Conditional proof",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Conditioning",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Condom",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Conductor",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cone (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Conectiva",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Confederate States of America",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Confederacy",
         "Confederate",
         "Confederate States",
         "southern confederacy",
         "Confederates",
         "CSA",
-        "confederate",
         "Confederate South"
       ]
     },
     {
       "title":"Confucianism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Confucianist",
         "Confucianists",
         "Confucian"
       ]
     },
     {
+      "title":"Confucius",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Congo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Congregationalist polity",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "congregationalism",
         "congregational",
         "congregation",
         "congregationalist",
-        "Congregationalist",
         "congregationally governed"
       ]
     },
     {
+      "title":"Conjecture",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Conjugation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Conjunction introduction",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Connected space",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "connected"
       ]
     },
     {
       "title":"Connecticut",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CT",
         "State of Connecticut"
       ]
     },
     {
       "title":"Connection (dance)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Connection"
       ]
     },
     {
+      "title":"Conrad II",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Consciousness",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "conscious"
       ]
     },
     {
       "title":"Conscription",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "the military draft law",
         "tribal levy",
         "draft",
@@ -9043,13 +18359,25 @@ var pagesData = {
     },
     {
       "title":"Consequentialism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "consequentialist"
       ]
     },
     {
+      "title":"Conservation (cultural heritage)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Conservation law",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Conservatism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "conservative",
         "conservatives",
         "conservative philosophy"
@@ -9057,40 +18385,92 @@ var pagesData = {
     },
     {
       "title":"Conservative Judaism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Conservative"
       ]
     },
     {
+      "title":"Conservatory",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Consilience",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Consonant",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Conspiracy",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Conspiracy theory",
-      "alt":[
+      "alternative":[
+        "Conspiracy theories"
+      ],
+      "anchor":[
         "conspiracy theories",
         "conspiracy",
-        "sinister conspiracies",
-        "Conspiracy theories"
+        "sinister conspiracies"
       ]
     },
     {
       "title":"Constans",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Constans I"
       ]
     },
     {
+      "title":"Constantin Br‚ncu?i",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Constantin von Tischendorf",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Constantine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Constantine II",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Constantine II (emperor)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Constantine II"
       ]
     },
     {
       "title":"Constantine II of Scotland",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Constantine II"
       ]
     },
     {
+      "title":"Constantine Kanaris",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Constantine the Great",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Constantine I",
         "Constantine",
         "Constantine I \"the&nbsp;Great\""
@@ -9098,34 +18478,42 @@ var pagesData = {
     },
     {
       "title":"Constantinople",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "New Rome",
         "historic peninsula"
       ]
     },
     {
       "title":"Constantius II",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Emperor Constantius"
       ]
     },
     {
       "title":"Constellation",
-      "alt":[
+      "alternative":[
         "ConStellations"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Constellations (journal)",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Constitution",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Federal Constitution",
         "The Constitution"
       ]
     },
     {
       "title":"Constitution of Canada",
-      "alt":[
-        "Canadian constitutional law",
+      "alternative":[
         "Canadian Constitution Act",
         "Constitution of Canada/1867 III Executive Power",
         "Constitution of Canada/1867 IV Legislative Power",
@@ -9133,20 +18521,30 @@ var pagesData = {
         "Constitution of Canada/1867 V Provincial Constitutions",
         "Constitution of Canada/1867 VIII Revenues Debts Assets Taxation",
         "Constitution of Canada/1867 X Intercolonial Railway",
-        "Constitution of Canada/1867 XI Admission of Other Colonies",
+        "Constitution of Canada/1867 XI Admission of Other Colonies"
+      ],
+      "anchor":[
+        "Canadian constitutional law",
         "legislation"
       ]
     },
     {
       "title":"Constitution of Chile",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Current constitution",
         "constitution"
       ]
     },
     {
+      "title":"Constitutional law",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Constitutional monarchy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Constitutional monarchal",
         "constitutional<br>monarchy",
         "constitutional",
@@ -9158,47 +18556,99 @@ var pagesData = {
       ]
     },
     {
+      "title":"Constructible number",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Consubstantiation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "present together \"in, with, and under\""
       ]
     },
     {
+      "title":"Consul",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Consumer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Consumption",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Contempt of court",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Content-control software",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Context menu",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "contextual menu"
       ]
     },
     {
       "title":"Context switch",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "switch"
       ]
     },
     {
       "title":"Context-free grammar",
-      "alt":[
-        "Context-free",
-        "context-free",
-        "CFG",
+      "alternative":[
         "Context free grammars"
+      ],
+      "anchor":[
+        "Context-free",
+        "CFG"
       ]
     },
     {
       "title":"Context-free language",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "context free"
       ]
     },
     {
+      "title":"Context-sensitive",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Context-sensitive grammar",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Context-sensitive"
       ]
     },
     {
+      "title":"Context-sensitive language",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Continental drift",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Continental Europe",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "the European mainland",
         "continental European",
         "Continent",
@@ -9206,76 +18656,100 @@ var pagesData = {
       ]
     },
     {
+      "title":"Continuation War",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Continuity (fiction)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "continuity",
         "plot continuation"
       ]
     },
     {
+      "title":"Continuity Irish Republican Army",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Continuous function",
-      "alt":[
+      "alternative":[
+        "Continuity property"
+      ],
+      "anchor":[
         "continuous",
         "continuity",
-        "Continuity property",
         "change continuously"
       ]
     },
     {
-      "title":"Continuous Random Variable",
-      "alt":[
-        "continuous random variables"
-      ]
-    },
-    {
       "title":"Continuum hypothesis",
-      "alt":[
+      "alternative":[
         "Continuum Hypothesis."
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Continuum mechanics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "continuum",
         "fluid continuum"
       ]
     },
     {
       "title":"Contra dance",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "contra"
       ]
     },
     {
       "title":"Contract bridge",
-      "alt":[
-        "bridge",
-        "Bridge"
+      "alternative":[],
+      "anchor":[
+        "bridge"
       ]
     },
     {
       "title":"Contraction mapping",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "contraction",
         "contracting"
       ]
     },
     {
       "title":"Contras",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Contra guerillas"
       ]
     },
     {
       "title":"Control character",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "\"control\" characters",
         "control"
       ]
     },
     {
+      "title":"Control engineering",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Control store",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Control theory",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "control system theory",
         "systems and control theory",
         "control"
@@ -9283,27 +18757,31 @@ var pagesData = {
     },
     {
       "title":"Control unit",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "control circuitry"
       ]
     },
     {
       "title":"Controlled Substances Act",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Controlled substance act",
         "Controlled Substances Act of 1970"
       ]
     },
     {
       "title":"Controversy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "disagreement",
         "controversial"
       ]
     },
     {
       "title":"Convention (norm)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "convention",
         "conventional",
         "custom",
@@ -9311,39 +18789,53 @@ var pagesData = {
       ]
     },
     {
+      "title":"Convention of Kanagawa",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Convention on Biological Diversity",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Biodiversity"
       ]
     },
     {
+      "title":"Convention on Fishing and Conservation of the Living Resources of the High Seas",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Convention on Long-Range Transboundary Air Pollution",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "LRTAP"
       ]
     },
     {
-      "title":"Convention on the Prevention of Marine Pollution by Dumping Wastes and Other Matter",
-      "alt":[
-        "Convention on Marine Dumping"
-      ]
+      "title":"Conventional insulinotherapy",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Conventional warfare",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "warfare"
       ]
     },
     {
       "title":"Conversion of units",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "conversion factors",
         "conversion factor"
       ]
     },
     {
       "title":"Convex set",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "convex subset",
         "convex subsets",
         "convex",
@@ -9352,41 +18844,63 @@ var pagesData = {
       ]
     },
     {
+      "title":"Convex uniform honeycomb",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Convolution",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "convolving",
         "convolved"
       ]
     },
     {
       "title":"Cook Islands",
-      "alt":[
-        "Cook Islands/Military",
+      "alternative":[
+        "Cook Islands/Military"
+      ],
+      "anchor":[
         "CK"
       ]
     },
     {
+      "title":"Cookie",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cooking",
-      "alt":[
+      "alternative":[
         "Wikipedia:Cooking basic topics"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Coordination complex",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "complexed"
       ]
     },
     {
       "title":"Copacabana (Rio de Janeiro)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Copacabana",
         "Copacabana beach"
       ]
     },
     {
+      "title":"Copenhagen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Copenhagen interpretation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "accepted interpretation",
         "Copenhagenism",
         "Copenhagen"
@@ -9394,13 +18908,25 @@ var pagesData = {
     },
     {
       "title":"Copernican principle",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Assuming that we are not at the center"
       ]
     },
     {
+      "title":"Coprime integers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Coprophagia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Coptic Orthodox Church of Alexandria",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Coptic",
         "Coptic Church",
         "Church of Alexandria",
@@ -9414,7 +18940,8 @@ var pagesData = {
     },
     {
       "title":"Copula (linguistics)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "copula",
         "copular",
         "is"
@@ -9422,20 +18949,22 @@ var pagesData = {
     },
     {
       "title":"Copyright",
-      "alt":[
-        "¬©",
+      "alternative":[],
+      "anchor":[
+        "©",
         "rights"
       ]
     },
     {
       "title":"Coral 66",
-      "alt":[
+      "alternative":[
         "CORAL66"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Coral Sea Islands",
-      "alt":[
+      "alternative":[
         "Coral Sea Islands/Communications",
         "Coral Sea Islands/Economy",
         "Coral Sea Islands/Geography",
@@ -9444,83 +18973,251 @@ var pagesData = {
         "Coral Sea Islands/Military",
         "Coral Sea Islands/People",
         "Coral Sea Islands/Transportation"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Corcovado",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cordial",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cordwainer Smith",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Corinth",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Coriolis effect",
-      "alt":[
-        "Coriolis force",
+      "alternative":[
+        "Coriolis force"
+      ],
+      "anchor":[
         "Coriolis force",
         "coriolis parameter",
         "Coriolis acceleration and force"
       ]
     },
     {
+      "title":"Cornet",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cornish language",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cornish",
         "Modern Cornish"
       ]
     },
     {
+      "title":"Cornish Nationalist Party",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cornwall",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cornish"
       ]
     },
     {
+      "title":"Cornwall Wildlife Trust",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Corona",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Corona Australis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Corona Borealis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Coronary artery disease",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Coronation Street",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Corporate title",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Corporation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "corporate",
-        "Corporate",
         "incorporated",
         "private",
         "corporate ownership structures"
       ]
     },
     {
+      "title":"Corporatocracy",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Corrado Gini",
-      "alt":[
+      "alternative":[
         "Corrodo Gini"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Corroborating evidence",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Corsican language",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Corsican"
       ]
     },
     {
+      "title":"Cortex",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cortez",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Corum Jhaelen Irsei",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Corundum",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Corvus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cosmic censorship hypothesis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cosmic microwave background",
-      "alt":[
-        "CMB",
+      "alternative":[
         "Cosmic Background Radiation"
+      ],
+      "anchor":[
+        "CMB"
       ]
     },
     {
+      "title":"Cosmological argument",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cost-push inflation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Costa Rica",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CR"
       ]
     },
     {
+      "title":"Costa Smeralda",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Costume",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Costume jewelry",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cotangent space",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cotswolds",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cottingley Fairies",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cotton Mather",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Council of Chalcedon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chalcedon",
         "Chalcedon in 451",
         "Chalcedonian Christianity"
       ]
     },
     {
+      "title":"Council of Constance",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Council of Europe",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CE",
         "Council of Europe (CoE)"
       ]
     },
     {
       "title":"Council of the European Union",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Council of the EU",
         "Councils",
         "Council",
@@ -9531,96 +19228,130 @@ var pagesData = {
     },
     {
       "title":"Council of Trent",
-      "alt":[
-        "Trent",
+      "alternative":[
         "Catholicism/Council of Trent"
+      ],
+      "anchor":[
+        "Trent"
       ]
     },
     {
       "title":"Countable set",
-      "alt":[
+      "alternative":[
+        "Countably infinite"
+      ],
+      "anchor":[
         "countable",
         "countably infinite",
-        "denumerable (countably infinite) sets",
-        "Countably infinite"
+        "denumerable (countably infinite) sets"
       ]
+    },
+    {
+      "title":"Counter",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Counter-Strike",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Counterpoint",
-      "alt":[
-        "contrapuntal",
-        "more audible",
+      "alternative":[
         "Counter Point"
+      ],
+      "anchor":[
+        "contrapuntal",
+        "more audible"
       ]
     },
     {
-      "title":"Countries of the World",
-      "alt":[
-        "Country"
-      ]
+      "title":"Counting-out game",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Country",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "historical country",
-        "countries",
-        "Countries"
+        "countries"
       ]
     },
     {
       "title":"Country code",
-      "alt":[
+      "alternative":[
         "Country codes"
-      ]
-    },
-    {
-      "title":"Country codes",
-      "alt":[
-        "Internet country code",
-        "Country code",
-        "country code (TLD)"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Country Liberal Party",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Country Liberal"
       ]
     },
     {
       "title":"Country music",
-      "alt":[
-        "country",
-        "Country"
+      "alternative":[],
+      "anchor":[
+        "country"
       ]
     },
     {
+      "title":"County Dublin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"County Fermanagh",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"County Mayo",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Mayo"
       ]
     },
     {
       "title":"County town",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "county seat"
       ]
     },
     {
+      "title":"Couplet",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Court of appeals (disambiguation)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Court of Appeals"
       ]
     },
     {
+      "title":"Courtney Love",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Couscous",
-      "alt":[
+      "alternative":[
         "Cous cous"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Covalent bond",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "covalent",
         "covalently bonded",
         "triple bond",
@@ -9633,122 +19364,296 @@ var pagesData = {
       ]
     },
     {
+      "title":"Covenant-breaker",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cow (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cow tipping",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cowboy Bebop",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Coyote",
-      "alt":[
+      "alternative":[
         "Canis latrans"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"CPAN",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CPD",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CPM",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CPR (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CPSU (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cracking",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Cracking joints",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "\"cracking\" knuckles",
         "joint cracking"
       ]
     },
     {
+      "title":"Craig Charles",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Craig Venter",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cranberry",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cranberries"
       ]
     },
     {
+      "title":"Crandall University",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Crane shot",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "craning"
       ]
     },
     {
+      "title":"Crank",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Crankshaft",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "shaft"
       ]
     },
     {
+      "title":"Crannog",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Craps",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Crash (J. G. Ballard novel)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Craven Cottage",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Creaky voice",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cream",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Creation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Creation myth",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "creation",
         "beginning of the world",
-        "Creation",
         "divine creation",
         "origins of life"
       ]
     },
     {
       "title":"Creation science",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "literal truth"
       ]
     },
     {
       "title":"Creationism",
-      "alt":[
+      "alternative":[
+        "Creationist"
+      ],
+      "anchor":[
         "creation",
         "creationist",
-        "Creationist",
         "creationists"
       ]
     },
     {
+      "title":"Creature of statute",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Creed",
-      "alt":[
+      "alternative":[
+        "Articles of Faith"
+      ],
+      "anchor":[
         "statement of the Christian faith",
-        "Articles of Faith",
         "statement of belief",
         "confessions of faith",
         "credal"
       ]
     },
     {
+      "title":"CRESU experiment",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cretaceous",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Upper Chalk",
         "Cretaceous age"
       ]
     },
     {
-      "title":"Cretaceous‚ÄìPaleogene extinction event",
-      "alt":[
+      "title":"CretaceousñPaleogene extinction event",
+      "alternative":[
+        "Cretaceous-Tertiary Extinction Event"
+      ],
+      "anchor":[
         "end of the Cretaceous",
-        "Cretaceous‚ÄìPaleogene extinction",
+        "CretaceousñPaleogene extinction",
         "extinction of the dinosaurs",
-        "Cretaceous‚ÄìPaleogene impact event",
-        "Cretaceous-Tertiary Extinction Event",
+        "CretaceousñPaleogene impact event",
         "end-Cretaceous",
-        "End-Cretaceous",
         "extinction of the dinosaurs 66 million years ago"
       ]
     },
     {
       "title":"Crete",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Dictaean Cavern of Crete",
         "Cretan"
       ]
     },
     {
-      "title":"Creutzfeldt‚ÄìJakob disease",
-      "alt":[
+      "title":"Crete Senesi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cretin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cretinism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CreutzfeldtñJakob disease",
+      "alternative":[
         "Creutzfeld-Jacob Disease"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Crew",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cricket (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cricket World Cup",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Crime",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "criminal",
         "criminal offense",
         "thugs"
       ]
     },
     {
-      "title":"Crimean war",
-      "alt":[
-        "Crimean War (1854‚Äì56)",
-        "Crimean war"
-      ]
+      "title":"Critical philosophy",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Critical point",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Critical psychology",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cro-hook",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Croatia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CRO",
         "Croatian Ministry of Foreign Affairs",
         "HR",
@@ -9756,59 +19661,148 @@ var pagesData = {
       ]
     },
     {
+      "title":"Crochet",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Crokinole",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Crony capitalism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Crookes radiometer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Croquet",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cross",
-      "alt":[
-        "crosses pat√©e fitch√©e"
+      "alternative":[],
+      "anchor":[
+        "crosses patÈe fitchÈe"
       ]
     },
     {
+      "title":"Cross ownership",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cross section (physics)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cross section",
         "cross sections"
       ]
     },
     {
       "title":"Cross-country skiing",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cross-country"
       ]
     },
     {
       "title":"Cross-dressing",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cross dressing"
       ]
     },
     {
       "title":"Cross-examination",
-      "alt":[
+      "alternative":[
         "Cross-examine"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Cross-stitch",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Crossbow",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Crossfire",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Crouching Tiger, Hidden Dragon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Crowded House",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CRT",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Crucifix",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cross"
       ]
     },
     {
+      "title":"Cruise missile",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cruiser",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cruising (maritime)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Crux",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Southern Cross"
       ]
     },
     {
       "title":"Cryogenics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cryogenic",
         "cryogenically produced",
         "cooled"
       ]
     },
     {
+      "title":"Cryonics",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cryptanalysis",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cryptographic",
         "cryptanalyst",
         "codebreaking",
@@ -9820,117 +19814,210 @@ var pagesData = {
       ]
     },
     {
-      "title":"CryptographY",
-      "alt":[
-        "cryptographically",
-        "Cryptographic",
-        "Cryptographically",
-        "Cryptographer",
-        "CryptographY",
-        "CryptographY/Hashfunctions",
-        "CryptologY"
-      ]
-    },
-    {
       "title":"Cryptozoology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cryptid"
       ]
     },
     {
+      "title":"Crystal",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Crystal Eastman",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Crystallographic defect",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "defects"
       ]
     },
     {
       "title":"Crystallography",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "crystal structure determinations",
         "crystallography"
       ]
     },
     {
+      "title":"CSS (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"CSS Virginia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "CSS ''Virginia''"
       ]
     },
     {
+      "title":"Cthulhu Mythos",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CuauhtÈmoc",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cuba Libre",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cuban missile crisis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cube",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "(4.4.4)"
       ]
     },
     {
       "title":"Cuboctahedron",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "(3.4.3.4)"
       ]
     },
     {
       "title":"Cucurbitaceae",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cucurbits"
       ]
     },
     {
+      "title":"Cucurbitales",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cue sports",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cuisine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cuisine of the United States",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "American cuisine",
         "American"
       ]
     },
     {
+      "title":"Cuitl·huac",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cult film",
-      "alt":[
+      "alternative":[
+        "CultFilm"
+      ],
+      "anchor":[
         "cult following",
         "cult",
         "cult classic",
-        "cult-classic",
-        "CultFilm"
+        "cult-classic"
       ]
     },
     {
       "title":"Cultural anthropology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "''cultural''",
         "cultural",
         "sociocultural anthropology",
-        "Anthropology",
-        "Cultural"
+        "Anthropology"
       ]
     },
     {
       "title":"Cultural imperialism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cultural superiority"
       ]
     },
     {
+      "title":"Cultural movement",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cultural production and nationalism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Culture of Canada",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cumberland (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cumin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cumulative distribution function",
-      "alt":[
-        "cdf",
+      "alternative":[
         "CumulativeDistributionFunction"
+      ],
+      "anchor":[
+        "cdf"
       ]
     },
     {
       "title":"Cupola",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "vaulted roof"
       ]
     },
     {
+      "title":"Curium",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Curl (mathematics)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "curl",
-        "Curl",
         "curl operator"
       ]
     },
     {
+      "title":"Curling",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Currency",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "coinage",
         "currencies",
         "foreign currency",
@@ -9939,125 +20026,209 @@ var pagesData = {
     },
     {
       "title":"Curry",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "curries"
       ]
     },
     {
       "title":"Currying",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "curried"
       ]
     },
     {
       "title":"Cursus honorum",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "political career"
       ]
     },
     {
+      "title":"Curtiss P-40 Warhawk",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cushitic languages",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cushitic",
         "Cushitic language"
       ]
     },
     {
       "title":"Customer relationship management",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "customer databases"
       ]
     },
     {
       "title":"Customs union",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "customs duties were unified"
       ]
     },
     {
       "title":"Cut-up technique",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cut-up",
         "cut-up mosaic"
       ]
     },
     {
+      "title":"Cutaway (filmmaking)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"CuteFTP",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cutter Expansive Classification",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Expansive Classification"
       ]
     },
     {
+      "title":"Cy Young",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cy Young Award",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "awards for the best pitcher in each league",
         "Cy Young"
       ]
     },
     {
       "title":"Cyan",
-      "alt":[
+      "alternative":[
         "Color/cyan"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Cyanide",
-      "alt":[
-        "CN<sup>‚àí</sup>"
+      "alternative":[],
+      "anchor":[
+        "CN<sup>?</sup>"
       ]
     },
     {
       "title":"Cyberpunk",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cyberpunk-themed"
       ]
     },
     {
+      "title":"Cyberspace",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cyborgs in fiction",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cyc",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cyclades",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cycladic"
       ]
     },
     {
       "title":"Cyclic adenosine monophosphate",
-      "alt":[
+      "alternative":[
+        "Cyclic AMP"
+      ],
+      "anchor":[
         "cyclic AMP",
         "3',5'-cyclic AMP",
-        "cAMP",
-        "Cyclic AMP"
-      ]
-    },
-    {
-      "title":"Cyclic AMP",
-      "alt":[
-        "3',5'-cyclic AMP"
+        "cAMP"
       ]
     },
     {
       "title":"Cycling",
-      "alt":[
+      "alternative":[
+        "Bicycling"
+      ],
+      "anchor":[
         "Bicyclist",
         "cyclist",
-        "Bicycling",
         "cyclists",
         "bicycling"
       ]
     },
     {
       "title":"Cyclone (programming language)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cyclone"
       ]
     },
     {
+      "title":"Cyclops (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cygnus (constellation)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cygnus"
       ]
     },
     {
+      "title":"Cygwin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cymbal",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cyperales",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cypress Hill",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cyprinidae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cyprinodontiformes",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cyprus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cypriot",
         "Embassy of Cyprus in Sweden",
         "CY",
@@ -10065,295 +20236,663 @@ var pagesData = {
       ]
     },
     {
+      "title":"Cyril",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cyril M. Kornbluth",
-      "alt":[
+      "alternative":[
         "Cyril Kornbluth"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Cyril of Alexandria",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Pope Cyril I",
         "Cyril I of Alexandria",
         "Saint Cyril of Alexandria"
       ]
     },
     {
+      "title":"Cyril of Jerusalem",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Cyrillic script",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cyrillic",
         "Cyrillic alphabet",
         "Cyrilic"
       ]
     },
     {
-      "title":"Cyrus II of Persia",
-      "alt":[
-        "Cyrus"
-      ]
+      "title":"Cyrix 6x86",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cyrus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cytochrome",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cytology",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Cytoplasm",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cytoplasmic region"
       ]
     },
     {
+      "title":"Cytosine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Cytosol",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Czech language",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Czech"
       ]
     },
     {
-      "title":"Czech republic",
-      "alt":[
-        "Czech",
-        "CZ",
-        "Czech Republic",
-        "Czech<br>Repunlic"
-      ]
-    },
-    {
       "title":"Czechoslovakia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Czechoslovak",
         "Czechoslovak provisional government"
       ]
     },
     {
+      "title":"Czes?aw Mi?osz",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"D",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "D, d"
       ]
     },
     {
-      "title":"D. W. Griffith",
-      "alt":[
-        "D.W. Griffith",
-        "DwGriffith"
-      ]
+      "title":"D. B. Cooper",
+      "alternative":[],
+      "anchor":[]
     },
     {
-      "title":"D.W. Griffith",
-      "alt":[
-        "Griffith"
-      ]
+      "title":"D. W. Griffith",
+      "alternative":[
+        "D.W. Griffith",
+        "DwGriffith"
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"DA",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Da capo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dachau",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dachshund",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dacoity",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Dactylic hexameter",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "hexameter"
       ]
     },
     {
+      "title":"Dada",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Daedalus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Daffynition",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dagger",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dagome iudex",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dahomey",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Kingdom of Dahomey",
         "Dahomey Kingdom",
         "Dahomean"
       ]
     },
     {
+      "title":"Daily Planet",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dairy product",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Daisy cutter",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Daisy Duck",
-      "alt":[
+      "alternative":[
         "Donna Duck"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Dalai Lama",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dale Chihuly",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dale Earnhardt",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Dalek",
-      "alt":[
-        "The Daleks",
-        "the Daleks"
+      "alternative":[],
+      "anchor":[
+        "The Daleks"
       ]
     },
     {
+      "title":"Dalhousie University",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dallas Cowboys",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dalton Trumbo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Damages",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "compensating",
         "Demand for relief"
       ]
     },
     {
-      "title":"Dance",
-      "alt":[
-        "Dancing"
-      ]
+      "title":"Damascus",
+      "alternative":[],
+      "anchor":[]
     },
     {
-      "title":"Dancing",
-      "alt":[
-        "dance"
-      ]
+      "title":"Damascus steel",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Damon Runyon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dan Bricklin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dan DeCarlo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dan Simmons",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dana Plato",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dana Rohrabacher",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dance",
+      "alternative":[
+        "Dancing"
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Dance Dance Revolution",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"DanceWriting",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dandy",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Daniel Defoe",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Defoe"
       ]
     },
     {
       "title":"Daniel Dennett",
-      "alt":[
+      "alternative":[
+        "Daniel C. Dennett"
+      ],
+      "anchor":[
         "Daniel C. Dennett"
       ]
     },
     {
+      "title":"Daniel Gabriel Fahrenheit",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Daniel Jones (phonetician)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Daniel Jones"
       ]
     },
     {
       "title":"Daniel Ortega",
-      "alt":[
+      "alternative":[
         "Daniel Ortega Saavedra"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Daniel Williamson",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Danish",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Danish Defence",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Danish language",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Danish"
       ]
     },
     {
+      "title":"Danny Elfman",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Danny Kaye",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Danse Macabre",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dante Alighieri",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Dante",
         "Dante's"
       ]
     },
     {
-      "title":"Dao",
-      "alt":[
-        "Dao"
-      ]
+      "title":"DaoismñTaoism romanization issue",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dar es Salaam",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dardanelles",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Dark matter",
-      "alt":[
+      "alternative":[
         "Dark matter problem"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Dark Star",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"DARPA",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Advanced Research Project Agency",
         "Department of Defense",
         "ARPA"
       ]
     },
     {
+      "title":"Dartmoor",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dartmoor Preservation Association",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dartmoor wildlife",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dartmouth College",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dartmouth, Devon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Dartmouth"
       ]
     },
     {
+      "title":"Darwin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Darwin Awards",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Darwin's Dangerous Idea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Darwin, Northern Territory",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Darwin",
         "Darwin, Australia"
       ]
     },
     {
       "title":"Darwinism",
-      "alt":[
-        "Darwinian",
+      "alternative":[
+        "Darwinian"
+      ],
+      "anchor":[
         "Darwinian",
         "Darwinian evolution"
       ]
     },
     {
+      "title":"Das Boot",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"DASS1",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Digital Access Signaling System 1 (DASS1)"
       ]
     },
     {
       "title":"DASS2",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Digital Access Signaling System 2 (DASS2)"
       ]
     },
     {
+      "title":"Dasyproctidae",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Data compression",
-      "alt":[
+      "alternative":[
+        "Multimedia compression"
+      ],
+      "anchor":[
         "compress",
         "shortened",
         "Compression",
-        "data compression algorithm",
-        "compression",
-        "Multimedia compression"
+        "data compression algorithm"
       ]
     },
     {
+      "title":"Data compression ratio",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Data Encryption Standard",
-      "alt":[
+      "alternative":[
+        "DataEncryptionStandard"
+      ],
+      "anchor":[
         "DES",
-        "DataEncryptionStandard",
         "an encryption standard"
       ]
     },
     {
+      "title":"Data General Nova",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Data set",
-      "alt":[
+      "alternative":[
         "DataSeT"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Data structure",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Data warehouse",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Database",
-      "alt":[
+      "alternative":[
         "Database management system",
         "DBMS"
-      ]
-    },
-    {
-      "title":"Database management system",
-      "alt":[
-        "DBMS"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Database normalization",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "normalization",
         "normalized"
       ]
     },
     {
       "title":"Dative case",
-      "alt":[
-        "dative",
+      "alternative":[
         "Dative"
+      ],
+      "anchor":[
+        "dative"
       ]
     },
     {
+      "title":"Datsun",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Datura",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Daugava River",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Daugava"
       ]
     },
     {
+      "title":"Dava Sobel",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dave Barry",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dave Brubeck",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dave Grohl",
-      "alt":[
+      "alternative":[
         "DaveGrohl"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Dave Thomas (businessman)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dave Winer",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Davenport, Iowa",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Davenport, USA"
       ]
     },
     {
       "title":"David",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "King David"
       ]
     },
     {
+      "title":"David Abercromby",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"David Angell",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"David Beatty, 1st Earl Beatty",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Sir David Beatty",
         "Sir David Beatty's",
         "David Beatty",
@@ -10362,15 +20901,32 @@ var pagesData = {
       ]
     },
     {
+      "title":"David Beckham",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"David Bowie",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"David Brewster",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Sir David Brewster",
         "Brewster"
       ]
     },
     {
+      "title":"David Cronenberg",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"David D. Friedman",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "David Friedman",
         "Friedman, David D.",
         "Friedman, David"
@@ -10378,181 +20934,556 @@ var pagesData = {
     },
     {
       "title":"David Deutsch",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "David Deutsch's",
         "Deutsch"
       ]
     },
     {
+      "title":"David Fincher",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"David Hayes Agnew",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"David Hilbert",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Hilbert",
         "David Hilbert's"
       ]
     },
     {
+      "title":"David Huffman",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"David Hume",
-      "alt":[
-        "Hume",
+      "alternative":[
         "DavidHume"
+      ],
+      "anchor":[
+        "Hume"
       ]
     },
     {
+      "title":"David Janssen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"David Letterman",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"David Lynch",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"David Mamet",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"David Ricardo",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ricardo"
       ]
     },
     {
+      "title":"David Rice Atchison",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"David Thompson (explorer)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "David Thompson"
       ]
     },
     {
       "title":"Davis, California",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Davis"
       ]
     },
     {
+      "title":"Davros",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Davy Jones (musician)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Davy Jones"
       ]
     },
     {
+      "title":"Davy lamp",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Day",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "d"
       ]
     },
     {
+      "title":"Day of the Tentacle",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dayton, Ohio",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Dayton"
       ]
     },
     {
-      "title":"DBMS",
-      "alt":[
-        "database software"
-      ]
-    },
-    {
       "title":"DC Comics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "DC",
         "DC Comics, Inc."
       ]
     },
     {
+      "title":"DCM",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"DDR SDRAM",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "PC3200"
       ]
     },
     {
+      "title":"DDT",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"De Havilland Mosquito",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Mosquito",
         "Mosquito Mk. XVIII"
       ]
     },
     {
+      "title":"De jure",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dead Kennedys",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dead Sea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dean Kamen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dean Koontz",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Death",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "the death of the body",
         "dies",
         "Mortality",
-        "mortality",
         "eliminate themselves"
       ]
     },
     {
+      "title":"Death metal",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Death of a Hero",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Debian",
-      "alt":[
-        "Debian project",
+      "alternative":[
         "Debian GNU/Linux"
+      ],
+      "anchor":[
+        "Debian project"
       ]
     },
     {
+      "title":"Debian GNU/Hurd",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Debit card",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"DEC Alpha",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Alpha"
       ]
     },
     {
+      "title":"Decade (Neil Young album)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Decca Navigator System",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Deccan Traps",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 1",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 10",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 11",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 12",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 13",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 14",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 15",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 16",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 17",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 18",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 19",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 2",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 20",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 21",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 22",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 24",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 25",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 26",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 27",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 28",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 29",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 3",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 30",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 31",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 4",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 5",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 6",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 7",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 8",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"December 9",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Deception Pass",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Decibel",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "dB",
         "bel"
       ]
     },
     {
       "title":"Decimal",
-      "alt":[
+      "alternative":[
+        "Denary"
+      ],
+      "anchor":[
         "decimal system",
         "10&nbsp;(\"decimal\")",
         "base 10",
-        "Denary",
         "base ten",
         "decimal places"
       ]
     },
     {
+      "title":"Decipherment",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Decision problem",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "undecidable"
       ]
     },
     {
+      "title":"Declaration of Arbroath",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Declaration of independence",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "declared independence"
       ]
     },
     {
+      "title":"Declaration of the Rights of Man and of the Citizen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Declarative memory",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Declension",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "decline"
       ]
     },
     {
       "title":"Declination",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Dec.",
         "Dec"
       ]
     },
     {
-      "title":"Decnet",
-      "alt":[
-        "Decnet"
-      ]
+      "title":"Deconstruction",
+      "alternative":[
+        "DeconstructionIsm"
+      ],
+      "anchor":[]
     },
     {
-      "title":"Deconstruction",
-      "alt":[
-        "DeconstructionIsm"
-      ]
+      "title":"Dedham, Massachusetts",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Deduction",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Deduction and induction",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Deed poll",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Deep Space 1",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Default",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Defendant",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Defense",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Defense Distinguished Service Medal",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Defense"
       ]
     },
     {
+      "title":"Definable real number",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Definition",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Redefining",
         "indefinable"
       ]
     },
     {
+      "title":"Definition of music",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Deflation (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Deforestation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "diminished",
         "clearing of forest",
         "deforested"
@@ -10560,75 +21491,141 @@ var pagesData = {
     },
     {
       "title":"Degree Confluence Project",
-      "alt":[
+      "alternative":[
         "DegreeConfluenceProject"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Dehydroepiandrosterone",
-      "alt":[
+      "alternative":[
+        "DHEA"
+      ],
+      "anchor":[
         "DHEA"
       ]
     },
     {
       "title":"Deicide (band)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Deicide"
       ]
     },
     {
+      "title":"Deimos",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Deism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "deist",
-        "deistic",
-        "Deist"
+        "deistic"
       ]
     },
     {
-      "title":"Delaware Corporation",
-      "alt":[
-        "Delaware"
-      ]
+      "title":"Dejima",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Delaunay triangulation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Delaware",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Delaware General Corporation Law",
-      "alt":[
-        "corporation law",
+      "alternative":[
         "Delaware Corporation"
+      ],
+      "anchor":[
+        "corporation law"
       ]
+    },
+    {
+      "title":"Delft",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Delian League",
-      "alt":[
-        "Athens",
+      "alternative":[
         "Athenian Empire"
+      ],
+      "anchor":[
+        "Athens"
       ]
     },
     {
+      "title":"Delicate Arch",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Delphi",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Delphic Pythia"
       ]
     },
     {
+      "title":"Delphinus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Delroy Lindo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Delta (letter)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "delta",
-        "Delta",
-        "Œî",
+        "?",
         "Greek letter Delta"
       ]
     },
     {
+      "title":"Demand-pull inflation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dementia praecox",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demeter",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Demiurge",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ialdabaoth",
         "demiurgus"
       ]
     },
     {
+      "title":"Democide",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Democracy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "democracies",
         "democratic",
         "democratically",
@@ -10639,110 +21636,297 @@ var pagesData = {
       ]
     },
     {
+      "title":"Democrat",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Democratic Progressive Party",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Democritus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Demokritos"
       ]
     },
     {
+      "title":"Demographic statistics",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of American Samoa",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of Angola",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of Antigua and Barbuda",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of Armenia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Demographics of Bosnia and Herzegovina",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "3,839,737"
       ]
     },
     {
+      "title":"Demographics of Botswana",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of Burkina Faso",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of Burundi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of Cambodia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Demographics of Cameroon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cameroonians"
       ]
     },
     {
       "title":"Demographics of Canada",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Canadian",
         "Canadians",
         "population of Canada"
       ]
     },
     {
+      "title":"Demographics of Cape Verde",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of Chad",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of Comoros",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of Costa Rica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Demographics of Croatia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "4,290,612",
         "demographic features of the Croatian population"
       ]
     },
     {
       "title":"Demographics of Cyprus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "census 1946"
       ]
     },
     {
       "title":"Demographics of Denmark",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Other"
       ]
     },
     {
+      "title":"Demographics of Djibouti",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of Dominica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of Egypt",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of El Salvador",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of Equatorial Guinea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of Eritrea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of Estonia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Demographics of Ethiopia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "nationality"
       ]
     },
     {
+      "title":"Demographics of Ivory Coast",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of the British Virgin Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of the Cayman Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Demographics of the Central African Republic",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Central African"
       ]
     },
     {
+      "title":"Demographics of the Cocos (Keeling) Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of the Cook Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of the Democratic Republic of the Congo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demographics of the Dominican Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Demon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Denarius",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "dinara",
         "denarii"
       ]
     },
     {
       "title":"Denaturation (biochemistry)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "denatured",
         "denaturing",
         "denaturation"
       ]
     },
     {
+      "title":"Dendrite",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Deng Xiaoping",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Deng, Xiaoping"
       ]
     },
     {
+      "title":"Denis Auguste Affre",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Denis Diderot",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Diderot"
       ]
     },
     {
+      "title":"Denis Leary",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dennis Hopper",
-      "alt":[
+      "alternative":[
         "Dennis Hopper/Filmography"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Dennis Ritchie",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Dennis M. Ritchie"
       ]
     },
     {
+      "title":"Dennis the Menace",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Denormalization",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "denormalized"
       ]
     },
     {
       "title":"Density",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "densities",
         "dense",
         "denser",
@@ -10751,32 +21935,57 @@ var pagesData = {
     },
     {
       "title":"Dentistry",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "dental"
       ]
     },
     {
       "title":"Denver",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Denver, Colorado",
         "City and County of Denver"
       ]
     },
     {
       "title":"Denver Broncos",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Broncos"
       ]
     },
     {
+      "title":"Depeche Mode",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Deposition",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Deprogramming",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "deprogrammer"
       ]
     },
     {
+      "title":"Depth of field",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Derek Walcott",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Derivative",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "differentiable",
         "differentiating",
         "differentiate",
@@ -10787,64 +21996,96 @@ var pagesData = {
     },
     {
       "title":"Derivative (finance)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "derivatives"
       ]
     },
     {
       "title":"Derry",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Derry, Northern Ireland"
       ]
     },
     {
       "title":"Des Moines, Iowa",
-      "alt":[
-        "Des Moines",
-        "Des Moines, IA",
+      "alternative":[
         "Des Moines"
-      ]
-    },
-    {
-      "title":"Descartes",
-      "alt":[
-        "Cartesian"
+      ],
+      "anchor":[
+        "Des Moines",
+        "Des Moines, IA"
       ]
     },
     {
       "title":"Descriptive statistics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Descriptive analyses"
       ]
     },
     {
+      "title":"Deseret alphabet",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Desertification",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "expansion of its deserts"
       ]
     },
     {
-      "title":"Design by Contract",
-      "alt":[
-        "Design by Contract"
-      ]
+      "title":"Desi Arnaz",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Design",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Design of experiments",
-      "alt":[
+      "alternative":[
         "Designing Experiments",
         "DesigningExperiments"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Design pattern",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Design Science License",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Desmond Morris",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Morris, Desmond"
       ]
     },
     {
+      "title":"Desmothoracid",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Despina",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Despotism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "despotic",
         "despot",
         "despotic king",
@@ -10852,80 +22093,131 @@ var pagesData = {
       ]
     },
     {
+      "title":"Dessert",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Destroyer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Destry Rides Again",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Detective fiction",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "detective",
         "detective show"
       ]
     },
     {
+      "title":"Determinant",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Detroit",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Detroit, Michigan"
       ]
     },
     {
       "title":"Detroit Lions",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Portsmouth Spartans"
       ]
     },
     {
       "title":"Detroit Red Wings",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Red Wings"
       ]
     },
     {
+      "title":"Detroit River",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Detroit Tigers",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Detroit",
         "Tigers"
       ]
     },
     {
+      "title":"Deus Ex",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Deuterium",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "D",
         "deuterated"
       ]
     },
     {
       "title":"Deuterocanonical books",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Deuterocanonical book",
         "deuterocanonical books and passages"
       ]
     },
     {
+      "title":"Deutsches Institut f¸r Normung",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Deutschlandlied",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Devanagari",
-      "alt":[
+      "alternative":[
         "Devanaagarii",
         "Devanagiri",
-        "Devangari alphabet",
+        "Devangari alphabet"
+      ],
+      "anchor":[
         "Dev"
       ]
     },
     {
       "title":"Developmental biology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "develops",
         "development",
         "maturation",
-        "developmental",
-        "Development"
+        "developmental"
       ]
     },
     {
       "title":"Developmental psychology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "psychological development",
         "developmental"
       ]
     },
     {
       "title":"Device driver",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "device controllers",
         "drivers",
         "driver"
@@ -10933,196 +22225,378 @@ var pagesData = {
     },
     {
       "title":"Devil",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "adversary"
       ]
     },
     {
+      "title":"Devo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Devon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Devonian",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Devonian period"
       ]
     },
     {
       "title":"Dewey Decimal Classification",
-      "alt":[
-        "Dewey Decimal system",
-        "Dewey Decimal System",
+      "alternative":[
         "DeweyDecimalSystem"
+      ],
+      "anchor":[
+        "Dewey Decimal system"
       ]
     },
     {
       "title":"Dharma",
-      "alt":[
-        "Dharmic",
+      "alternative":[
         "Dhamma"
+      ],
+      "anchor":[
+        "Dharmic"
       ]
+    },
+    {
+      "title":"Dhimmi",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Dhole",
-      "alt":[
+      "alternative":[
         "Cuon alpinus"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Dhrystone",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dhy?na",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dia (software)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Diablo II",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Diacritic",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "vowel marks",
         "accented",
         "Diacritical marks"
       ]
     },
     {
+      "title":"Diaeresis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Diagnostic and Statistical Manual of Mental Disorders",
-      "alt":[
+      "alternative":[
+        "DSM-III",
+        "DSM-III-R",
+        "DSM-IV",
+        "DSM-IV-TR"
+      ],
+      "anchor":[
         "DSM-IV",
         "DSM",
         "diagnostic criteria",
         "DSM-II",
-        "DSM-III",
-        "DSM-III-R",
-        "DSM-IV",
-        "DSM-IV-TR",
         "diagnostic manual"
       ]
     },
     {
       "title":"Dialect",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "dialect differences"
       ]
     },
     {
+      "title":"Diamagnetism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Diameter",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Diamond",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Adamas stone",
         "Carbon (diamond)"
       ]
     },
     {
       "title":"Diana (mythology)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Diana",
         "Festival of Aventine Diana"
       ]
     },
     {
+      "title":"Dianetics",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dianic Wicca",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "branch of Wicca"
       ]
     },
     {
-      "title":"Diaspora Studies",
-      "alt":[
-        "Diaspora studies",
-        "Expellees"
-      ]
+      "title":"Diaspora",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Diatessaron",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Diatomic molecule",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "diatomic"
       ]
     },
     {
+      "title":"Diatonic scale",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dice",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "die",
         "Dice rolling",
         "loaded"
       ]
     },
     {
+      "title":"Dictator",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dictatorship",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dictionary",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "dictionaries"
       ]
     },
     {
+      "title":"Dictum of Kenilworth",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Didgeridoo",
-      "alt":[
+      "alternative":[
         "Didjeridoo",
         "Didjeridu"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Diedrich Hermann Westermann",
-      "alt":[
+      "alternative":[
         "Diedrich Westermann"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Diego de Almagro",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Diego Garcia",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Diego Maradona",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Maradona"
       ]
     },
     {
-      "title":"Diesel Engine",
-      "alt":[
-        "diesel",
-        "Diesel engine",
-        "Diesel engines"
-      ]
+      "title":"Diene",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Diesel cycle",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Diesel multiple unit",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Diet",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Diet of Nuremberg",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dieting",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Diffeomorphism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "smooth"
       ]
     },
     {
       "title":"Difference engine",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Difference engine No. 2"
       ]
     },
     {
       "title":"Differential cryptanalysis",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "differential",
         "differential attack"
       ]
     },
     {
       "title":"Differential geometry",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "differential",
         "differential geometric"
       ]
     },
     {
+      "title":"Differential topology",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"DiffieñHellman key exchange",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Diffraction",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "diffracted"
       ]
     },
     {
+      "title":"Diffusion pump",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Digamma",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Digimon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Digit",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Digital cinema",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Digital compositing",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "composited"
       ]
     },
     {
       "title":"Digital data",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "digital",
-        "binary data",
-        "Digital"
+        "binary data"
       ]
     },
     {
+      "title":"Digital Enhanced Cordless Telecommunications",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Digital Equipment Corporation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "DEC",
         "Digital",
         "Digital Equipment Corporation (DEC)"
       ]
     },
     {
+      "title":"Digital Private Network Signalling System",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Digital signal processing",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "DSP",
         "digital",
         "digital signal processors",
@@ -11130,61 +22604,144 @@ var pagesData = {
       ]
     },
     {
+      "title":"Digital synthesizer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Digital television",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "digital",
         "DTV"
       ]
     },
     {
+      "title":"Digital video",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Digitalis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Digraph",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dilation and curettage",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "D&C"
       ]
     },
     {
       "title":"Dilbert",
-      "alt":[
+      "alternative":[
         "Induhvidual"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Dill",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dimension (mathematics and physics)",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Dimensional analysis",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "dimensions",
         "physical dimensions",
         "dimension"
       ]
     },
     {
+      "title":"Dimmu Borgir",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dimona",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dino Zoff",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dinosaur",
-      "alt":[
-        "Dinosauria",
+      "alternative":[
         "Dinosauria",
         "Dinosaurs"
+      ],
+      "anchor":[
+        "Dinosauria"
       ]
     },
     {
-      "title":"Dinosauria",
-      "alt":[
-        "dinosaurs"
-      ]
+      "title":"Diocletian",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Diode",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Diogo C„o",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dione",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dionysius Thrax",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Diophantine equation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "solution of equations in integers"
       ]
     },
     {
+      "title":"Diophantus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dioscoreales",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Diplomatic immunity",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "immunities"
       ]
     },
     {
       "title":"Diplomatic mission",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "foreign embassies",
         "Embassy",
         "embassies",
@@ -11192,66 +22749,175 @@ var pagesData = {
       ]
     },
     {
-      "title":"Direct Connect",
-      "alt":[
-        "Direct Connect"
-      ]
+      "title":"Dipole",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Diprotodon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dipsacales",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Direct examination",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Direct product",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Directed set",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Director",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Director's cut",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"DirectX",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dirk Benedict",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"DirkJan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Disaccharide",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Disaster",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Disbarment",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "disbarred"
       ]
     },
     {
+      "title":"Disc golf",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Disc jockey",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "DJs",
         "Disc Jockey"
       ]
     },
     {
+      "title":"Discharge",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Disco",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Discordianism",
-      "alt":[
+      "alternative":[
+        "Discordian"
+      ],
+      "anchor":[
         "Discordian"
       ]
     },
     {
+      "title":"Discounted cash flow",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Discrete Fourier transform",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "DFT"
       ]
     },
     {
       "title":"Discrete mathematics",
-      "alt":[
+      "alternative":[
         "Applied discrete math",
-        "discrete",
-        "Discreteness",
         "Discrete math"
-      ]
-    },
-    {
-      "title":"Discrete probability distribution",
-      "alt":[
-        "discrete"
+      ],
+      "anchor":[
+        "discrete",
+        "Discreteness"
       ]
     },
     {
       "title":"Discrimination",
-      "alt":[
+      "alternative":[
         "Discriminatory"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Discus throw",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "discus"
       ]
     },
     {
+      "title":"Disease",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Disjunction elimination",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Disjunction introduction",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Disjunctive syllogism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Disk operating system",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Disk storage",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "disk drive",
         "disk",
         "Magnetic disk",
@@ -11259,52 +22925,96 @@ var pagesData = {
       ]
     },
     {
+      "title":"Disney (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Disperser",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dispersion",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dispute resolution",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Disruption",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dissociation constant",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "dissociates"
       ]
     },
     {
+      "title":"Distance education",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Distillation",
-      "alt":[
+      "alternative":[
+        "Distilling"
+      ],
+      "anchor":[
         "distilled",
         "distilling",
         "distillate",
         "distillery",
         "Distillation processes",
-        "distillates",
-        "Distilling"
+        "distillates"
       ]
     },
     {
+      "title":"Distinguished Service Medal (U.S. Army)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Distributed computing",
-      "alt":[
-        "multicomputers",
-        "distributed system",
+      "alternative":[
         "Distributed programming"
+      ],
+      "anchor":[
+        "multicomputers",
+        "distributed system"
       ]
     },
     {
       "title":"Distributism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "distributionist"
       ]
     },
     {
       "title":"Divergence",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "div"
       ]
     },
     {
       "title":"Divination",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "divined"
       ]
     },
     {
       "title":"Divine right of kings",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "divine right of kings",
         "divine right",
         "divine monarchy"
@@ -11312,49 +23022,75 @@ var pagesData = {
     },
     {
       "title":"Diving",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "sports divers"
       ]
     },
     {
       "title":"Divinity",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "grace",
         "divine"
       ]
     },
     {
       "title":"Division of labour",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "division of labor",
         "specialized"
       ]
     },
     {
+      "title":"Division ring",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Django Reinhardt",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Djbdns",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Djibouti Armed Forces",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"DKW",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"DMA",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dmitri Shostakovich",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Shostakovich"
       ]
     },
     {
-      "title":"Dna",
-      "alt":[
-        "NA molecule",
-        "deoxyribonucleic acid",
-        "genetic",
-        "DNA",
-        "genetic material"
-      ]
-    },
-    {
       "title":"DNA ligase",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ligation"
       ]
     },
     {
       "title":"DNA replication",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "DNA",
         "DNA synthesis",
         "duplicating its DNA",
@@ -11362,108 +23098,183 @@ var pagesData = {
       ]
     },
     {
+      "title":"DNA virus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Do Not Adjust Your Set",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dobrawa of Bohemia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Docetism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "docetic"
       ]
     },
     {
+      "title":"Dock",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Docklands Light Railway",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "in the Docklands",
         "London Docklands"
       ]
     },
     {
       "title":"Doctor (title)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Doctor",
         "Dr"
       ]
     },
     {
+      "title":"Doctor Syn",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Doctor V64",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Doctor Who",
-      "alt":[
-        "Doctor Who's",
+      "alternative":[
         "Dr Who"
+      ],
+      "anchor":[
+        "Doctor Who's"
       ]
     },
     {
       "title":"Doctrine and Covenants",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "D&C",
         "The Doctrine and Covenants of The Church of Jesus Christ of Latter-day Saints"
       ]
     },
     {
       "title":"Document Object Model",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "DOM",
         "document content"
       ]
     },
     {
+      "title":"Document type definition",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Documentary film",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "documentaries",
         "documentary",
         "documentary work"
       ]
     },
     {
-      "title":"DoD",
-      "alt":[
-        "DoD"
-      ]
-    },
-    {
       "title":"Dodecahedron",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "12",
         "dodecahedra"
       ]
     },
     {
+      "title":"Dodo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dodo (Alice's Adventures in Wonderland)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "featured as a character"
       ]
     },
     {
+      "title":"Dog tag",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dollar",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "$"
       ]
     },
     {
       "title":"Dolly (sheep)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "the cloned sheep Dolly",
         "Dolly",
         "Dolly the sheep"
       ]
     },
     {
+      "title":"Dolly Parton",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dolmen",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "portal tomb"
       ]
     },
     {
+      "title":"Dolores Fuller",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dolphin",
-      "alt":[
+      "alternative":[
         "Dolphins"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Domain Name System",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "DNS"
       ]
     },
     {
+      "title":"Domenico Alberti",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dominatrix",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dominican Order",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Dominican",
         "O.P.",
         "OP",
@@ -11472,165 +23283,377 @@ var pagesData = {
     },
     {
       "title":"Dominican Republic",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Dominican",
         "DO"
       ]
     },
     {
-      "title":"Domnall mac Ailp√≠n",
-      "alt":[
+      "title":"Domino effect",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dominoes",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Domitian",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Domitius Afer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Domnall mac AilpÌn",
+      "alternative":[],
+      "anchor":[
         "Donald I"
       ]
     },
     {
-      "title":"Don Delillo",
-      "alt":[
-        "Don Delillo"
-      ]
+      "title":"Don McLean",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Don Quixote",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Don Rosa",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Don Rosa's"
       ]
     },
     {
+      "title":"Don Tennant",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Don't ask, don't tell",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "the military's ban on homosexuals"
       ]
     },
     {
       "title":"Donald A. Wollheim",
-      "alt":[
+      "alternative":[
         "David Grinnell"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Donald Campbell",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Donald Dewar",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Donald Knuth",
-      "alt":[
+      "alternative":[
+        "Donald E Knuth",
+        "Donald E. Knuth"
+      ],
+      "anchor":[
         "Knuth, Donald E.",
         "Knuth, D. E.",
-        "Donald E. Knuth",
-        "Donald E Knuth",
         "Donald E. Knuth"
       ]
     },
     {
+      "title":"Donald Rumsfeld",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Donegal fiddle tradition",
-      "alt":[
+      "alternative":[
         "DonegalFiddleTradition"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Dong",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Donn",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Doom (1993 video game)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Doonesbury",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Door",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Doppler effect",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dorado",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Doraemon",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Dorians",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Dorian",
         "Doric"
       ]
     },
     {
+      "title":"Doris Day",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dorothy Parker",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dose",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dot-com bubble",
-      "alt":[
+      "alternative":[
+        "Tech bubble"
+      ],
+      "anchor":[
         "dot-com",
         "dot-com boom",
         "\"Dot Com Bust\"",
         "dot-com bust",
-        "bursting of the information technology bubble",
-        "Tech bubble"
+        "bursting of the information technology bubble"
       ]
     },
     {
+      "title":"Dots and Boxes",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Double bass",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "bass",
         "upright bass"
       ]
     },
     {
       "title":"Double jeopardy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "right not to be tried twice for the same offence"
       ]
     },
     {
+      "title":"Double planet",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Double-barreled shotgun",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Double-ended queue",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "deque"
       ]
     },
     {
       "title":"Double-slit experiment",
-      "alt":[
-        "Double-Slit",
-        "double-slit"
+      "alternative":[],
+      "anchor":[
+        "Double-Slit"
       ]
+    },
+    {
+      "title":"Doublespeak",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Douglas Adams",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Douglas Engelbart",
-      "alt":[
-        "Engelbart",
+      "alternative":[
         "Doug Engelbart"
+      ],
+      "anchor":[
+        "Engelbart"
       ]
     },
     {
+      "title":"Douglas Hofstadter",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Down",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Down syndrome",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dr. Dre",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dr. Seuss",
-      "alt":[
-        "Doctor Seuss",
+      "alternative":[
         "Dr Seuss",
         "Dr Suess",
         "Dr. Suess"
+      ],
+      "anchor":[
+        "Doctor Seuss"
       ]
     },
     {
       "title":"Dr. Strangelove",
-      "alt":[
+      "alternative":[
         "Dr Strangelove"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Draco (lawgiver)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Draco"
       ]
     },
     {
+      "title":"Dracula",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Drag racing",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "dragster"
       ]
     },
     {
+      "title":"Dragon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dragon 32/64",
-      "alt":[
+      "alternative":[
         "Dragon 32"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Dragoon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Drake equation",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Drama film",
-      "alt":[
-        "drama",
+      "alternative":[
         "DramaFilm"
+      ],
+      "anchor":[
+        "drama"
       ]
     },
     {
+      "title":"Dramaturge",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Draught beer",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "draught"
       ]
     },
     {
+      "title":"Draugr",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Draupnir",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dravidian",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dravidian languages",
-      "alt":[
-        "Dravidian",
-        "Dravidian language",
+      "alternative":[
         "DravidianLanguages"
+      ],
+      "anchor":[
+        "Dravidian",
+        "Dravidian language"
       ]
     },
     {
       "title":"Drawing",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "draftsman",
         "draughtsman",
         "ink drawing",
@@ -11638,93 +23661,139 @@ var pagesData = {
       ]
     },
     {
-      "title":"DreamCast",
-      "alt":[
-        "DreamCast"
-      ]
-    },
-    {
       "title":"Dressed to Kill (1980 film)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Dressed to Kill"
       ]
     },
     {
       "title":"Drew Barrymore",
-      "alt":[
+      "alternative":[
         "DrewBarrymore"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Drexel University",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Drink",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Beverage"
       ]
     },
     {
+      "title":"Drinking game",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Drop kick",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Drosophila",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "fruit flies"
       ]
     },
     {
+      "title":"Drum",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Drum and bass",
-      "alt":[
-        "jungle",
-        "drum 'n' bass",
+      "alternative":[
         "Electronic Music/Drum and Bass",
         "Electronic Music/Jungle"
+      ],
+      "anchor":[
+        "jungle",
+        "drum 'n' bass"
       ]
     },
     {
       "title":"Drum kit",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "drums",
-        "drumming",
-        "Drums"
+        "drumming"
       ]
     },
     {
       "title":"Druze",
-      "alt":[
+      "alternative":[
         "Druzism"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Dryope",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"DSL (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dsungaripterus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dual",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Dual Alliance (1879)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Dual Alliance"
       ]
     },
     {
       "title":"Dual polyhedron",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "duals",
-        "Dual",
-        "dual"
+        "Dual"
       ]
     },
     {
       "title":"Dual space",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "duality"
       ]
     },
     {
       "title":"Dual wield",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "dual-wielding weapons"
       ]
     },
     {
       "title":"Dual-tone multi-frequency signaling",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "telephone keypads"
       ]
     },
     {
       "title":"Dualism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "dualist",
         "dualistic",
         "duality"
@@ -11732,7 +23801,8 @@ var pagesData = {
     },
     {
       "title":"Dubbing (filmmaking)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "re-dubbed",
         "dub",
         "dubbed",
@@ -11742,225 +23812,470 @@ var pagesData = {
     },
     {
       "title":"Dublin",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "City of Dublin",
         "Dublin City",
         "Ireland"
       ]
     },
     {
+      "title":"Dublin Core",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dubnium",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ducati",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ducati Motor Holding S.p.A."
       ]
     },
     {
+      "title":"Duck Hunt",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Duesberg hypothesis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Duke Kahanamoku",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Duke Nukem 3D",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Duke Nukem"
       ]
     },
     {
+      "title":"Duke of Marlborough (title)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dukkha",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "catalogued causes",
         "suffering"
       ]
     },
     {
+      "title":"Dulcimer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dumbarton Bridge (California)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dumnonii",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dundee",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dune",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "sand dunes",
         "Dune system"
       ]
     },
     {
+      "title":"Dune Messiah",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dungeon Master (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dungeons & Dragons",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Advanced Dungeons & Dragons",
         "D&D"
       ]
     },
     {
+      "title":"Dunstan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Duodecimal",
-      "alt":[
+      "alternative":[
         "Dozenal Society of Great Britain"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Duopoly",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Durrani Empire",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Afghan Empire",
         "Durrani",
         "last Afghan empire"
       ]
     },
     {
+      "title":"Dutch",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dutch hip hop",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dutch Limburg",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dutch West India Company",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "New Holland"
       ]
     },
     {
       "title":"Dwight D. Eisenhower",
-      "alt":[
+      "alternative":[
+        "Dwight Eisenhower"
+      ],
+      "anchor":[
         "President Eisenhower's",
         "General Eisenhower",
         "Eisenhower",
         "President Eisenhower",
-        "Dwight Eisenhower",
         "Dwight David Eisenhower"
       ]
     },
     {
+      "title":"Dwight L. Moody",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dwight Schultz",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dye",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dying Earth",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dylan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dylan (programming language)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Dylan"
       ]
     },
     {
+      "title":"Dylan Thomas",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dynamic Host Configuration Protocol",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "DHCP"
       ]
     },
     {
       "title":"Dynamic HTML",
-      "alt":[
+      "alternative":[
         "DHTML"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Dynamical system",
-      "alt":[
+      "alternative":[
         "Dynamic system"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Dynamics",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dynamite",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Dyne",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Dyslexia",
-      "alt":[
+      "alternative":[
         "Dyslectic"
-      ]
-    },
-    {
-      "title":"Dyson Sphere",
-      "alt":[
-        "Dyson sphere"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Dysprosium",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "<sup>164</sup>Dy"
       ]
     },
     {
+      "title":"Dyula language",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Dziga Vertov",
-      "alt":[
+      "alternative":[
         "Denis Abramovich Kaufman",
         "Denis Arkadievich Kaufman"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"DÈj‡ vu",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"E",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"E (mathematical constant)",
-      "alt":[
+      "alternative":[
+        "Eulers number"
+      ],
+      "anchor":[
         "<math>e</math>",
         "e",
         "number ''e''",
         "base of the natural logarithms",
-        "base of the natural logarithm",
-        "Eulers number"
+        "base of the natural logarithm"
       ]
+    },
+    {
+      "title":"E-commerce",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"E. B. White",
-      "alt":[
+      "alternative":[
         "E.B. White"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"E. E. Cummings",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"E. E. Smith",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Eadgyth",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Edith of Wessex"
       ]
     },
     {
+      "title":"Ealdred (archbishop of York)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Earley parser",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Earley's Algorithm"
       ]
     },
     {
-      "title":"Early Music",
-      "alt":[
-        "Early Music"
-      ]
-    },
-    {
       "title":"Earned run",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "runs allowed"
       ]
     },
     {
+      "title":"Earned value management",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Earth",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Earth's",
         "land",
-        "world",
-        "World"
+        "world"
       ]
     },
     {
       "title":"Earth (classical element)",
-      "alt":[
-        "earth",
-        "Earth"
+      "alternative":[],
+      "anchor":[
+        "earth"
       ]
     },
     {
+      "title":"Earthdawn",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"East Berlin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"East River",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"EastEnders",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Easter",
-      "alt":[
-        "Easter Sunday",
+      "alternative":[
+        "Easter Sunday"
+      ],
+      "anchor":[
         "Easter Sunday"
       ]
     },
     {
       "title":"Easter egg",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "coloring hard-boiled eggs"
       ]
     },
     {
+      "title":"EasyWriter",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"EBCDIC",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ecclesia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ecclesiastes",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ecc.",
         "Koheleth",
         "Qoheleth (Ecclesiastes)"
       ]
     },
     {
+      "title":"ECHELON",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Echidna (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Eclipse",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "eclipses"
       ]
     },
     {
       "title":"Ecliptic",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "plane of the ecliptic"
       ]
     },
     {
       "title":"Ecology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ecological",
         "ecologial"
       ]
     },
     {
+      "title":"Economic and monetary union",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economic calculation problem",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Economics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "economical",
         "economists",
         "economic",
@@ -11968,85 +24283,278 @@ var pagesData = {
       ]
     },
     {
+      "title":"Economy (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Economy of Afghanistan",
-      "alt":[
+      "alternative":[
         "Afghanistan/Economy"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Alberta",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of American Samoa",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Economy of Angola",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "substantial economic ties"
       ]
     },
     {
       "title":"Economy of Armenia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "state budget of Armenia"
       ]
     },
     {
+      "title":"Economy of Azerbaijan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Benin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Bhutan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Bosnia and Herzegovina",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Botswana",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Economy of Brazil",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Brazilian economy",
-        "economy",
-        "Economy"
+        "economy"
       ]
     },
     {
+      "title":"Economy of Brunei",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Bulgaria",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Burkina Faso",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Burundi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Cambodia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Cameroon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Canada",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Chad",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Economy of Chile",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "tributary reform"
       ]
     },
     {
       "title":"Economy of Colombia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "economic downturn between 1999 and 2002"
       ]
     },
     {
+      "title":"Economy of Costa Rica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Croatia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Economy of Cuba",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cuba"
       ]
     },
     {
+      "title":"Economy of Cyprus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Economy of Denmark",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "economic"
       ]
     },
     {
+      "title":"Economy of Djibouti",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Ecuador",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Economy of Egypt",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Egyptian economy"
       ]
     },
     {
+      "title":"Economy of El Salvador",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Equatorial Guinea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Eritrea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Estonia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of Ethiopia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of the Bahamas",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of the British Virgin Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of the Cayman Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of the Central African Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Economy of the Cook Islands",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "economy"
       ]
     },
     {
+      "title":"Economy of the Czech Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of the Democratic Republic of the Congo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Economy of the Dominican Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ecosystem",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ecological"
       ]
     },
     {
+      "title":"Ectopia (medicine)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ecuador",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Republic of Ecuador",
-        "Rep√∫blica del Ecuador",
+        "Rep˙blica del Ecuador",
         "EC"
       ]
     },
     {
+      "title":"Ecuadorian people",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"EcuadorñUnited States relations",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ecumenical council",
-      "alt":[
-        "Catholicism/Councils",
+      "alternative":[
+        "Catholicism/Councils"
+      ],
+      "anchor":[
         "council",
         "councils",
         "Ecumenical (worldwide) Councils",
@@ -12056,172 +24564,311 @@ var pagesData = {
     },
     {
       "title":"Ed (text editor)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ed"
       ]
     },
     {
       "title":"Ed Sullivan",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "the host"
       ]
     },
     {
+      "title":"Edda",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Eden Phillpotts",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Eden Project",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Edgar Allan Poe",
-      "alt":[
-        "Poe",
+      "alternative":[
         "Edgar Allen Poe"
+      ],
+      "anchor":[
+        "Poe"
       ]
     },
     {
+      "title":"Edgar Rice Burroughs",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ediacaran",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Edinburgh",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Edlin",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "EDLIN"
       ]
     },
     {
+      "title":"EDM",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Edmund Husserl",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Husserl"
       ]
     },
     {
       "title":"Edmund Spenser",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Spenser"
       ]
     },
     {
+      "title":"Edmund Stoiber",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Edna St. Vincent Millay",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Education",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Education reform",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Edvard Grieg",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Grieg"
       ]
     },
     {
+      "title":"Edvard Munch",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Edward Bellamy",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Edward Jenner",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Edward Mitchell Bannister",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Edward Sapir",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Edward Waring",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Edwin Austin Abbey",
-      "alt":[
+      "alternative":[
         "EdwinAustinAbbey"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"EFTA (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Egoism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Egyptian Armed Forces",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Egyptian Lover",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Eiffel",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Eiffel (programming language)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Eiffel"
       ]
     },
     {
       "title":"Eiffel Tower",
-      "alt":[
+      "alternative":[
         "EiffelTower"
-      ]
+      ],
+      "anchor":[]
     },
     {
-      "title":"EigenVectors",
-      "alt":[
-        "eigenvalues"
-      ]
+      "title":"Eight-ball",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Eight-bar blues",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "eight-"
       ]
     },
     {
-      "title":"Einstein",
-      "alt":[
-        "Einstein's"
-      ]
+      "title":"Eightfold Path (policy analysis)",
+      "alternative":[],
+      "anchor":[]
     },
     {
-      "title":"EISA",
-      "alt":[
-        "EISA"
-      ]
+      "title":"Eindhoven",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Eindhoven University of Technology",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Einhard",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Einsteinium",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"El Salvador",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Salvadorans",
         "Salvadoran Government",
         "SV"
       ]
     },
     {
-      "title":"ElblƒÖg",
-      "alt":[
+      "title":"Elbing (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Elbl?g",
+      "alternative":[
         "Baltic Sea/Elblag",
         "Baltic Sea/Truso",
         "Elbing/Elblag",
         "Elbing/Truso"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Eleanor of Aquitaine",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Election",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "elected"
       ]
     },
     {
-      "title":"Electric Charge",
-      "alt":[
-        "charge",
-        "negatively charged",
-        "electrical charge",
-        "electrically",
-        "charged",
-        "uncharged",
-        "positive and negative",
-        "electrostatic charges",
-        "electrically charged",
-        "neutral atoms",
-        "Electric charge",
-        "quantity of electricity",
-        "electrically charged objects"
-      ]
+      "title":"Electric bus (disambiguation)",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Electric current",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "current",
         "currents"
       ]
     },
     {
       "title":"Electric light",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "lamps"
       ]
     },
     {
       "title":"Electrical engineering",
-      "alt":[
+      "alternative":[
+        "ElectricalEngineering"
+      ],
+      "anchor":[
         "Electrical engineers",
         "electrical",
-        "Electrical",
-        "electrical engineers",
-        "ElectricalEngineering",
         "engineers",
         "electrical engineer"
       ]
     },
     {
       "title":"Electrical network",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "electrical",
         "electrical circuit"
       ]
     },
     {
       "title":"Electrical telegraph",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "electromechanical telegraph",
         "telegraph"
       ]
     },
     {
       "title":"Electricity",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "electric",
         "electric power",
         "electrically",
@@ -12231,7 +24878,8 @@ var pagesData = {
     },
     {
       "title":"Electricity generation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "power",
         "generation of electricity",
         "generation",
@@ -12240,95 +24888,112 @@ var pagesData = {
     },
     {
       "title":"Electrochemistry",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "electrochemical",
-        "electrochemists",
-        "Electrochemical"
+        "electrochemists"
       ]
     },
     {
       "title":"Electromagnetic coil",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "coil"
       ]
     },
     {
-      "title":"Electromagnetic force",
-      "alt":[
-        "force",
-        "Electromagnetic",
-        "electromagnetic interactions"
-      ]
+      "title":"Electromagnetic field",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Electromagnetic radiation",
-      "alt":[
+      "alternative":[
+        "Electromagnectic radiation"
+      ],
+      "anchor":[
         "electromagnetic",
         "Electromagnetic waves",
         "radiation",
         "electromagnetic energy",
-        "electromagnetic transitions",
-        "electromagnetic waves",
-        "Electromagnectic radiation"
-      ]
-    },
-    {
-      "title":"Electromagnetic spectroscopy",
-      "alt":[
-        "spectra"
+        "electromagnetic transitions"
       ]
     },
     {
       "title":"Electromagnetism",
-      "alt":[
+      "alternative":[
+        "Electromagnetic force",
+        "Electromagnetic interaction"
+      ],
+      "anchor":[
         "electromagnetic force",
         "electromagnetic",
         "electro-magnetic",
         "electromagnetic theory",
-        "electromagnetic interaction",
-        "Electromagnetic force",
-        "Electromagnetic interaction"
+        "electromagnetic interaction"
       ]
     },
     {
       "title":"Electron",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Electron mass"
       ]
     },
     {
+      "title":"Electron counting",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Electron microscope",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "electron microscopy",
         "electron micrography"
       ]
     },
     {
       "title":"Electronegativity",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "electronegative",
         "electronegativities",
         "electropositive"
       ]
     },
     {
+      "title":"Electronic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Electronic data interchange",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "X.12 EDI"
       ]
     },
     {
+      "title":"Electronic mixer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Electronic music",
-      "alt":[
-        "electronic",
-        "electronic sound",
+      "alternative":[
         "Electronic art music",
         "Electronic music/Art music"
+      ],
+      "anchor":[
+        "electronic",
+        "electronic sound"
       ]
     },
     {
       "title":"Electronic oscillator",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "feedback oscillator",
         "electronic oscillator circuit",
         "oscillator",
@@ -12337,18 +25002,24 @@ var pagesData = {
       ]
     },
     {
+      "title":"Electronic paper",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Electronics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "electronic",
         "electronic technology",
-        "Electronic",
         "electronic switching",
         "electronic products"
       ]
     },
     {
       "title":"Electronvolt",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "keV",
         "meV",
         "eV"
@@ -12356,167 +25027,282 @@ var pagesData = {
     },
     {
       "title":"Elegiac couplet",
-      "alt":[
+      "alternative":[
         "Elegiac couplets"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Element",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Elementary algebra",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "algebra"
       ]
     },
     {
+      "title":"Elephant",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Elf",
-      "alt":[
-        "Elves",
-        "elves"
+      "alternative":[],
+      "anchor":[
+        "Elves"
       ]
     },
     {
+      "title":"Eli Whitney",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Elias Canetti",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Elijah",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Prophet Elijah"
       ]
     },
     {
+      "title":"Elizabeth Barrett Browning",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Elizabeth Garrett Anderson",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ellensburg, Washington",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ellipse",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "elliptical"
       ]
     },
     {
+      "title":"Ellipsis",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Elliptic curve cryptography",
-      "alt":[
+      "alternative":[
+        "Elliptical Curve Cryptography"
+      ],
+      "anchor":[
         "elliptic curve cipher",
-        "Elliptical Curve Cryptography",
         "elliptic curve"
       ]
     },
     {
       "title":"Elliptic integral",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "complete elliptic integral of the first kind"
       ]
     },
     {
+      "title":"Ellis Island",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Elvis Presley",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Email",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Emancipation Proclamation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Emancipation Act of 1863"
       ]
     },
     {
+      "title":"Emanuel Leutze",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Embroidery",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "embroiderer",
         "embroidered"
       ]
     },
     {
-      "title":"Emily Bront√´",
-      "alt":[
+      "title":"Emily BrontÎ",
+      "alternative":[],
+      "anchor":[
         "Emily"
       ]
     },
     {
       "title":"Emma Goldman",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Goldman"
       ]
     },
     {
       "title":"Emoticon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "smiley faces"
       ]
     },
     {
+      "title":"Empedocles",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Empire State Building",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Empirical research",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Empty set",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "non-empty",
         "empty",
         "empty subset"
       ]
     },
     {
-      "title":"Encyclop√¶dia Britannica",
-      "alt":[
-        "The New Encyclop√¶dia Britannica",
+      "title":"Encyclopedia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"EncyclopÊdia Britannica",
+      "alternative":[
         "Britannica",
-        "The New Encyclopaedia Britannica",
         "Encyclopedia Britannica"
+      ],
+      "anchor":[
+        "The New EncyclopÊdia Britannica",
+        "Britannica",
+        "The New Encyclopaedia Britannica"
       ]
     },
     {
-      "title":"Endangered Species",
-      "alt":[
-        "\nEndangered",
-        "endangered",
-        "endangerment",
-        "species extinction",
-        "Endangered Species",
-        "critically endangered",
-        "critically endangered, possibly extinct",
-        "vulnerable"
-      ]
+      "title":"Endocarditis",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Endocrine system",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Endocrine",
         "endocrine glands"
       ]
     },
     {
       "title":"Endocrinology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "endocrinological"
       ]
     },
     {
+      "title":"Endomembrane system",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Endometrium",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "endometrial"
       ]
     },
     {
+      "title":"Endomorphism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Endoplasmic reticulum",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ER"
       ]
     },
     {
       "title":"Endosymbiont",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "endosymbiotic",
         "endosymbiosis"
       ]
     },
     {
+      "title":"Enemy (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Energy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "energy use",
         "energies",
         "energetic"
       ]
     },
     {
+      "title":"Engine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Engineering",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "engineers",
         "engineer",
         "engineering works"
       ]
     },
     {
-      "title":"Engines of creation",
-      "alt":[
-        "Engines of creation"
-      ]
+      "title":"Engineering statistics",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"England",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "English",
         "Englishman",
         "Britain",
@@ -12527,30 +25313,49 @@ var pagesData = {
     },
     {
       "title":"England national football team",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "England",
         "England national team",
         "England international"
       ]
     },
     {
+      "title":"English",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"English Channel",
-      "alt":[
-        "channel",
-        "Channel",
+      "alternative":[
         "EnglishChannel"
+      ],
+      "anchor":[
+        "channel"
       ]
     },
     {
       "title":"English Civil War",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Civil War",
         "historic struggle"
       ]
     },
     {
+      "title":"English country dance",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"English in the Commonwealth of Nations",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Enigma machine",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Enigma Decryption",
         "Enigma",
         "Enigma cipher machine",
@@ -12558,44 +25363,108 @@ var pagesData = {
       ]
     },
     {
-      "title":"EnroN",
-      "alt":[
-        "Enron Corporation",
-        "Enron Corp.",
-        "EnroN"
-      ]
+      "title":"Enlightenment",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Enlil",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Enniskillen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ennius",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Enola Gay",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Entamoeba",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Enterprise resource planning",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Entertainment",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Entorhinal cortex",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Entropy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "entropic",
         "radiation entropy"
       ]
     },
     {
+      "title":"Entscheidungsproblem",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Environmental Modification Convention",
-      "alt":[
+      "alternative":[
+        "Environmental Modification"
+      ],
+      "anchor":[
         "Convention on the Prohibition of Military or Any Other Hostile Use of Environmental Modification Techniques",
         "Environmental Modification"
       ]
     },
     {
+      "title":"Enya",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Enzyme",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "factors",
         "enzymatic",
         "enzymology"
       ]
     },
     {
+      "title":"Eocene",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ephemeris time",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ephesus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ephesos"
       ]
     },
     {
       "title":"Epic poetry",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "epic poem",
         "epic",
         "epic or heroic poetry",
@@ -12604,19 +25473,27 @@ var pagesData = {
     },
     {
       "title":"Epimenides paradox",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Epimenides the Cretan"
       ]
     },
     {
       "title":"Epiphenomenalism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "epiphenomenalist"
       ]
     },
     {
+      "title":"Episcopi vagantes",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Epistemology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "epistemological",
         "epistemic",
         "epistemologies"
@@ -12624,39 +25501,46 @@ var pagesData = {
     },
     {
       "title":"Epistle of James",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "James"
       ]
     },
     {
       "title":"Epistle of Jude",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Jude"
       ]
     },
     {
       "title":"Epistle to Philemon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Philemon"
       ]
     },
     {
       "title":"Epistle to the Colossians",
-      "alt":[
-        "Colossians",
+      "alternative":[
+        "Colossians"
+      ],
+      "anchor":[
         "Colossians",
         "Colossian church"
       ]
     },
     {
       "title":"Epistle to the Ephesians",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ephesians"
       ]
     },
     {
       "title":"Epistle to the Galatians",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Iustus ex fide vivit",
         "Epistle to the",
         "Galatians"
@@ -12664,21 +25548,25 @@ var pagesData = {
     },
     {
       "title":"Epistle to the Hebrews",
-      "alt":[
-        "Epistle to the",
-        "Hebrews",
+      "alternative":[
         "Book of Hebrews"
+      ],
+      "anchor":[
+        "Epistle to the",
+        "Hebrews"
       ]
     },
     {
       "title":"Epistle to the Philippians",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Philippians"
       ]
     },
     {
       "title":"Epistle to the Romans",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Romans",
         "Paul's Epistle to the Romans",
         "Epistle to the"
@@ -12686,96 +25574,198 @@ var pagesData = {
     },
     {
       "title":"Epistle to Titus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Titus"
       ]
     },
     {
+      "title":"Epoch",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Epsilon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "E",
         "Greek epsilon"
       ]
     },
     {
+      "title":"Epsilon Ursae Majoris",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Equation",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "unknown"
       ]
     },
     {
+      "title":"Equation of state",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Equatorial Guinea",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "GQ"
       ]
     },
     {
+      "title":"Equivalence class",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Equivalence relation",
-      "alt":[
-        "equivalent",
-        "equivalence",
+      "alternative":[
         "EquivalenceRelation"
+      ],
+      "anchor":[
+        "equivalent",
+        "equivalence"
       ]
     },
     {
+      "title":"Equuleus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Era",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Erasmus Alberus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Erasmus Darwin",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Erbium",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "<sup>168</sup>Er"
       ]
     },
     {
+      "title":"Erd?s number",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Erewhon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Erfurt",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Erg",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ergative case",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ergatively",
         "ERG"
       ]
     },
     {
-      "title":"Ergonomics",
-      "alt":[
-        "ergonomic"
-      ]
+      "title":"Eric Hoffer",
+      "alternative":[
+        "EricHoffer"
+      ],
+      "anchor":[]
     },
     {
-      "title":"Eric Hoffer",
-      "alt":[
-        "EricHoffer"
-      ]
+      "title":"Eric Raymond (disambiguation)",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Eric S. Raymond",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Eric Raymond"
       ]
     },
     {
       "title":"Ericaceae",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "heather"
       ]
     },
     {
+      "title":"Ericales",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ericsson",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ericsson Technology Licensing"
       ]
     },
     {
+      "title":"Eridanus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Erik Satie",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Erin Brockovich",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Eriocaulales",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Eris (mythology)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Eris"
       ]
     },
     {
+      "title":"Eritrean Defence Forces",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Erlang (programming language)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Erlang programming language"
       ]
     },
     {
       "title":"Ernest Hemingway",
-      "alt":[
-        "Hemingway",
+      "alternative":[
         "Ernest Hemingway/Bibliography",
         "ErnestHemingway",
         "ErnestHemingway/BibliographY",
@@ -12798,105 +25788,202 @@ var pagesData = {
         "Things Turn Sour",
         "Violence and Redemption",
         "Why It Went Wrong"
+      ],
+      "anchor":[
+        "Hemingway"
       ]
     },
     {
       "title":"Ernest Rutherford",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Rutherford"
       ]
     },
     {
+      "title":"Ernest Thayer",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ernst Haeckel",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Haeckel"
       ]
     },
     {
       "title":"Ernst Mayr",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Mayr"
       ]
     },
     {
       "title":"Erosion",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "erode",
         "eroded",
         "soil erosion"
       ]
     },
     {
+      "title":"Erotica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"ERP",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Errol Morris",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Erwin Rommel",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Rommel"
       ]
     },
     {
-      "title":"Erwin Schr√∂dinger",
-      "alt":[
-        "Schr√∂dinger"
+      "title":"Erwin Schrˆdinger",
+      "alternative":[],
+      "anchor":[
+        "Schrˆdinger"
       ]
     },
     {
+      "title":"Escape from New York",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Eschatology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Eschatological",
         "end of the world",
         "end-time",
         "messianic expectations",
-        "eschatological",
         "eschaton",
         "end of time"
       ]
     },
     {
+      "title":"Escort carrier",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Eskilstuna Municipality",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Eskimo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Espagnole sauce",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Esperanto",
-      "alt":[
+      "alternative":[
         "EsperantoLanguage"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Esperantujo",
-      "alt":[
+      "alternative":[
         "Esperantio"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"ESR",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Essenes",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Establishing shot",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Ester",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "iso-octyl ester"
       ]
     },
     {
-      "title":"Estrus",
-      "alt":[
-        "heat"
-      ]
+      "title":"Esther",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"ETA",
-      "alt":[
-        "Basque Fatherland and Liberty",
-        "Greek letter 'Œ∑'"
+      "alternative":[
+        "Basque Fatherland and Liberty"
+      ],
+      "anchor":[
+        "Greek letter '?'"
       ]
     },
     {
+      "title":"Ethan Allen",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ether",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ethernet",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ethical egoism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "egoism"
       ]
     },
     {
       "title":"Ethical naturalism",
-      "alt":[
-        "EthicalNaturalism",
+      "alternative":[
+        "EthicalNaturalism"
+      ],
+      "anchor":[
         "naturalism"
       ]
     },
     {
+      "title":"Ethical non-naturalism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Ethics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "moral philosopher",
         "ethical",
         "unethical",
@@ -12906,74 +25993,88 @@ var pagesData = {
     },
     {
       "title":"Ethiopian cuisine",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ethiopia"
       ]
     },
     {
-      "title":"Ethnicity",
-      "alt":[
-        "ethnic",
-        "ethnic group"
-      ]
+      "title":"Ethiopian National Defense Force",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Ethnocentrism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ethnocentric"
       ]
     },
     {
       "title":"Ethnology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ethnological"
       ]
     },
     {
       "title":"Ethology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ethologists",
         "Ethologically",
         "Ethologist",
         "ethological",
-        "animal behavior",
-        "ethologist"
+        "animal behavior"
       ]
     },
     {
+      "title":"Ethylene",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Etruscan language",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Etruscan"
       ]
     },
     {
+      "title":"Eubulides",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Eucharist",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "communion",
         "Supper of the Lord",
         "Holy Communion",
-        "Communion",
         "Lord's Supper",
-        "Holy Eucharist",
-        "holy communion"
+        "Holy Eucharist"
       ]
     },
     {
       "title":"Euclid",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Euclid of Alexandria"
       ]
     },
     {
       "title":"Euclidean geometry",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Euclidean",
         "plane geometry"
       ]
     },
     {
       "title":"Euclidean space",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Euclidean and other spaces",
         "Euclidean ''n''-space",
         "standard",
@@ -12985,52 +26086,113 @@ var pagesData = {
     },
     {
       "title":"Eugene, Oregon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Eugene"
       ]
     },
     {
-      "title":"Euler‚ÄìMaclaurin formula",
-      "alt":[
+      "title":"Eugenics",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Euglenozoa",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"EugËne Viollet-le-Duc",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Euler (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Euler's formula",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Euler's sum of powers conjecture",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"EulerñMaclaurin formula",
+      "alternative":[
         "Euler - Maclaurin formula"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Euphemism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "euphemistically",
         "avoid the negative connotations"
       ]
     },
     {
+      "title":"Euphoria (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Euphoria (programming language)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Eureka Rebellion",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Battle of the Eureka Stockade"
       ]
     },
     {
+      "title":"Eureka, Missouri",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Euripides",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Euro",
-      "alt":[
-        "‚Ç¨",
+      "alternative":[],
+      "anchor":[
+        "Ä",
         "EUR",
-        "Euro (‚Ç¨)"
+        "Euro (Ä)"
       ]
     },
     {
       "title":"Eurocard (printed circuit board)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Eurocard"
       ]
     },
     {
-      "title":"EuroCurrency",
-      "alt":[
-        "EuroCurrency"
-      ]
+      "title":"Europa",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Europa Island",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Europe",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "European continent",
         "Europe's",
         "Euro",
@@ -13038,21 +26200,34 @@ var pagesData = {
       ]
     },
     {
+      "title":"Europe of Democracies and Diversities",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"European Central Bank",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "ECB",
         "central bank"
       ]
     },
     {
+      "title":"European Charter for Regional or Minority Languages",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"European Coal and Steel Community",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Coal and Steel Community"
       ]
     },
     {
       "title":"European Commission",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Commission",
         "High Authority/Commissions",
         "Commission of the European Communities",
@@ -13060,58 +26235,84 @@ var pagesData = {
       ]
     },
     {
-      "title":"European Community",
-      "alt":[
-        "Community pillar",
-        "Community matters"
-      ]
+      "title":"European Company Regulation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"European Conference of Postal and Telecommunications Administrations",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"European Convention on Human Rights",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "European Convention on Human Rights and Fundamental Freedoms"
       ]
     },
     {
       "title":"European Council",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "European summits",
         "European Summit"
       ]
     },
     {
+      "title":"European Democrats",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"European Economic Community",
-      "alt":[
+      "alternative":[
+        "European Community"
+      ],
+      "anchor":[
         "EEC",
         "European Community"
       ]
     },
     {
+      "title":"European Environment Agency",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"European Free Alliance",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"European Free Trade Association",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "EFTA"
       ]
     },
     {
       "title":"European influence in Afghanistan",
-      "alt":[
+      "alternative":[
         "Dost Mohammed and the British in Afghanistan"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"European Parliament",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "parliament",
         "Common Assembly",
-        "Parliament",
         "Parliamentary Assembly"
       ]
     },
     {
       "title":"European People's Party (European Parliament group)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "European People's Party",
-        "European People's Party‚ÄìEuropean Democrats",
+        "European People's PartyñEuropean Democrats",
         "EPP group",
         "European People's Party group",
         "EPP",
@@ -13119,33 +26320,93 @@ var pagesData = {
       ]
     },
     {
+      "title":"European route E4",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"European Strategic Program on Research in Information Technology",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"European Union",
-      "alt":[
+      "alternative":[
+        "EU"
+      ],
+      "anchor":[
         "EU",
         "the EU",
         "EU's",
         "European",
-        "EU",
-        "‚Üí EU",
+        "? EU",
         "EU Member",
         "Europe"
       ]
     },
     {
-      "title":"European United Left‚ÄìNordic Green Left",
-      "alt":[
+      "title":"European United LeftñNordic Green Left",
+      "alternative":[],
+      "anchor":[
         "GUE-NGL"
       ]
     },
     {
+      "title":"Europium",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Eurovision Song Contest",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Eusebius Amort",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Euthanasia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "physician-assisted death"
       ]
     },
     {
+      "title":"EV",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Evangelist (Latter Day Saints)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Eve (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Event",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Everway",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Evil",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Evolution",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "evolved",
         "evolve",
         "origin",
@@ -13158,108 +26419,178 @@ var pagesData = {
     },
     {
       "title":"Evolutionarily stable strategy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "evolutionarily stable strategies"
       ]
     },
     {
       "title":"Evolutionary linguistics",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "evolution"
       ]
     },
     {
       "title":"Evolutionary psychology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "evolutionary psychologists",
         "evolutionary",
         "psychology"
       ]
     },
     {
-      "title":"Evolutionary tree",
-      "alt":[
-        "tree of life"
-      ]
+      "title":"Evolutionism",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ewe",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Exabyte",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Examples of differential equations",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Excalibur",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Executable and Linkable Format",
-      "alt":[
-        "ELF",
+      "alternative":[
         "ELF file format"
+      ],
+      "anchor":[
+        "ELF"
       ]
     },
     {
+      "title":"Execution unit",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Executive Order 9066",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Exile",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "banished",
         "banishment"
       ]
     },
     {
+      "title":"Existence",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Existentialism",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "existential",
         "Existentialist"
       ]
     },
     {
       "title":"Exoplanet",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "planets orbiting other star systems"
       ]
     },
     {
+      "title":"Expander graph",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Expected value",
-      "alt":[
-        "equities",
+      "alternative":[
         "Expectation operator"
+      ],
+      "anchor":[
+        "equities"
       ]
     },
     {
       "title":"Expert",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "savants"
       ]
     },
     {
       "title":"Exploit (computer security)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "exploits",
         "exploit",
         "exploited"
       ]
     },
     {
+      "title":"Explorers program",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Exponential function",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "exponentially",
-        "Exponential",
-        "exponential"
+        "Exponential"
       ]
     },
     {
       "title":"Expressive aphasia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Broca's aphasia"
       ]
     },
     {
       "title":"Extended Industry Standard Architecture",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "EISA"
       ]
     },
     {
+      "title":"Extension",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Externalization",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Extinction event",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "mass extinction",
         "major mass extinctions"
       ]
     },
     {
       "title":"Extra-vehicular activity",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "EVA",
         "extra-vehicular activities",
         "spacewalks"
@@ -13267,14 +26598,16 @@ var pagesData = {
     },
     {
       "title":"Extractor (mathematics)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "extractor",
         "extractors"
       ]
     },
     {
       "title":"Extraterrestrial life",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "aliens",
         "alien",
         "extraterrestrial beings",
@@ -13283,109 +26616,320 @@ var pagesData = {
       ]
     },
     {
+      "title":"Extreme poverty",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Extreme sport",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Extremophile",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "extremophile bacteria"
       ]
     },
     {
+      "title":"Eyes Wide Shut",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ezekiel",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Ezra",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Fairchild Channel F",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Channel F"
       ]
     },
     {
+      "title":"Family International",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Fern Hill",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"File archiver",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Fire (classical element)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "fire",
-        "Fire",
         "classical element of fire"
       ]
     },
     {
       "title":"First Epistle to the Thessalonians",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "1 Thessalonians",
         "First Thessalonians"
       ]
     },
     {
+      "title":"Flag of Denmark",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Folklore of the United States",
-      "alt":[
-        "American Folklore",
+      "alternative":[
+        "American Folklore"
+      ],
+      "anchor":[
         "American"
       ]
     },
     {
       "title":"Foreign policy of the United States",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "U.S. foreign policy"
       ]
     },
     {
+      "title":"Foreign relations of Angola",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Armenia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Foreign relations of Azerbaijan",
-      "alt":[
+      "alternative":[
         "Azerbaijan/Foreign relations"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Belarus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Bosnia and Herzegovina",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Botswana",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Foreign relations of Brazil",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Foreign relations"
       ]
     },
     {
+      "title":"Foreign relations of Brunei",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Burkina Faso",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Burundi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Cambodia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Foreign relations of Cameroon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "foreign policy"
       ]
     },
     {
+      "title":"Foreign relations of Cape Verde",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Chad",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Chile",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Foreign relations of Colombia",
-      "alt":[
+      "alternative":[
         "Colombia/Transnational issues"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Costa Rica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Croatia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Cuba",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Cyprus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Denmark",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Dominica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Ecuador",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Egypt",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of El Salvador",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Equatorial Guinea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Eritrea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Estonia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of Ethiopia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of the Cayman Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of the Central African Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of the Comoros",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Foreign relations of the Czech Republic",
-      "alt":[
+      "alternative":[
         "Czech republic/Transnational issues"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Foreign relations of the Dominican Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Freescale DragonBall",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Galjoen",
-      "alt":[
+      "alternative":[
         "Coracinus capensis"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Games played",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "appearances"
       ]
     },
     {
       "title":"Garbage collection (computer science)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "garbage collection",
         "garbage-collected",
-        "automatic garbage collection",
-        "Garbage collection"
+        "automatic garbage collection"
       ]
     },
     {
       "title":"Garbage picking",
-      "alt":[
+      "alternative":[
         "Dumpster-diving"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Gautama Buddha",
-      "alt":[
+      "alternative":[
+        "BuddHa"
+      ],
+      "anchor":[
         "Buddha",
         "Gautama",
         "the Buddha",
-        "BuddHa",
         "The historical Buddha",
         "Sakyamuni Buddha",
         "Siddhartha"
@@ -13393,37 +26937,243 @@ var pagesData = {
     },
     {
       "title":"General Conference on Weights and Measures",
-      "alt":[
+      "alternative":[
         "CPGM"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Genetically modified maize",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Africa",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Alabama",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of American Samoa",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Antarctica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Armenia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Azerbaijan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Bosnia and Herzegovina",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Botswana",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Geography of Brazil",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Geography"
       ]
     },
     {
+      "title":"Geography of Brunei",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Bulgaria",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Burkina Faso",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Burundi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Cambodia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Cameroon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Canada",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Cape Verde",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Chad",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Geography of Colombia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "terrain of Colombia"
       ]
     },
     {
+      "title":"Geography of Comoros",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Costa Rica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Croatia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Cyprus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Denmark",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Djibouti",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Dominica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Ecuador",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Egypt",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of El Salvador",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Equatorial Guinea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Eritrea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Estonia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of Ivory Coast",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Geography of the British Virgin Islands",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Geography"
       ]
     },
     {
+      "title":"Geography of the Cayman Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of the Central African Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of the Cook Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of the Czech Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of the Democratic Republic of the Congo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Geography of the Dominican Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"George Abbot (bishop)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "George Abbot"
       ]
     },
     {
+      "title":"Government of Barbados",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Government of Belarus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Greek drachma",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Didrachme",
         "drachmas",
         "drachma"
@@ -13431,31 +27181,71 @@ var pagesData = {
     },
     {
       "title":"Hanukkah",
-      "alt":[
+      "alternative":[
         "Hanukkah rituals"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Helsing¯r",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Hercule Poirot",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Herman Boerhaave",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Hermann Kolbe",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"History of baseball in the United States",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "where the modern version developed"
       ]
     },
     {
+      "title":"History of Botswana",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of Cambodia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of Cameroon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"History of Chad",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Independence"
       ]
     },
     {
       "title":"History of Chile",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Independence"
       ]
     },
     {
       "title":"History of China",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "China",
         "Chinese",
         "pre-modern China",
@@ -13467,24 +27257,110 @@ var pagesData = {
       ]
     },
     {
+      "title":"History of Colombia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of Comoros",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of Costa Rica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of Croatia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of Cuba",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of Djibouti",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of Dominica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of Ecuador",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of Equatorial Guinea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of Eritrea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of the Cayman Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of the Central African Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"History of The Church of Jesus Christ of Latter-day Saints",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Church History"
       ]
     },
     {
+      "title":"History of the Cook Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of the Democratic Republic of the Congo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of the Dominican Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of the Soviet Union (1982ñ91)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"History of the term \"Catholic\"",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Hit (baseball)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Hits",
-        "hits",
         "hit",
-        "base hit",
-        "Hit"
+        "base hit"
       ]
     },
     {
       "title":"Hit by pitch",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "hit by a pitch",
         "Hit batsman",
         "hit batsmen",
@@ -13492,38 +27368,70 @@ var pagesData = {
       ]
     },
     {
+      "title":"HM Prison Dartmoor",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"House of Ascania",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Count of Anhalt",
         "Ascanians"
       ]
     },
     {
-      "title":"Human abdomen",
-      "alt":[
-        "abdomen"
-      ]
+      "title":"House of Bonaparte",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"House of della Rovere",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Hymn to Proserpine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Hypothetical types of biochemistry",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"IBM AIX",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Impact crater",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "craters",
         "crater"
       ]
     },
     {
+      "title":"Inedia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Inflation (cosmology)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "cosmic inflation",
         "Inflation",
-        "inflation",
         "Inflationary Cosmology",
         "the early rapid exponential expansion"
       ]
     },
     {
       "title":"International Atomic Time",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "atomic time",
         "IAT (TAI)",
         "atomic time scale"
@@ -13531,72 +27439,122 @@ var pagesData = {
     },
     {
       "title":"International Bureau of Weights and Measures",
-      "alt":[
-        "BIPM",
+      "alternative":[
+        "BIPM"
+      ],
+      "anchor":[
         "International Bureau of Weights and Measures (BIPM)"
       ]
     },
     {
       "title":"Islamic conquest of Afghanistan",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Arab Muslims",
         "Islamic Empire"
       ]
     },
     {
       "title":"Jacques-Louis David",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "David"
       ]
     },
     {
-      "title":"Jean-Baptiste-Sim√©on Chardin",
-      "alt":[
+      "title":"JavaScript",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Jean-Baptiste-SimÈon Chardin",
+      "alternative":[],
+      "anchor":[
         "Chardin"
       ]
     },
     {
       "title":"Jews as the chosen people",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chosen People of God"
       ]
     },
     {
+      "title":"Kennedy family",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Key size",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "fairly weak"
       ]
     },
     {
+      "title":"Khmer architecture",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Khmer language",
-      "alt":[
-        "Khmer",
+      "alternative":[
         "Cambodian Language"
+      ],
+      "anchor":[
+        "Khmer"
       ]
     },
     {
+      "title":"King David (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Kingdom of Essex",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Essex"
       ]
     },
     {
+      "title":"Kolmogorov complexity",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Languages of Europe",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "European",
         "List of languages"
       ]
     },
     {
       "title":"Latin American Integration Association",
-      "alt":[
-        "ALADI",
-        "Montevideo Treaty"
+      "alternative":[
+        "ALADI"
+      ],
+      "anchor":[
+        "Montevideo Treaty",
+        "ALADI"
       ]
     },
     {
+      "title":"Leg theory",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Lhop people",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Liberal Party (UK)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Liberal",
         "Liberal Party",
         "Liberal Party's",
@@ -13604,19 +27562,44 @@ var pagesData = {
       ]
     },
     {
+      "title":"Linear filter",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of Anglo-Saxon monarchs and kingdoms",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of animated television series",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of anthropologists",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of artificial intelligence projects",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"List of Atlas Shrugged characters",
-      "alt":[
+      "alternative":[
         "AtlasShruggedCharacters",
         "DagnyTaggart"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"List of Byzantine emperors",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Byzantine emperor",
-        "Byzantine Emperor",
         "Emperor",
-        "emperor",
         "Eastern Roman Emperor",
         "Roman Emperor",
         "Byzantine Empress",
@@ -13624,47 +27607,179 @@ var pagesData = {
       ]
     },
     {
+      "title":"List of cartographers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of cartoonists",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of cat breeds",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of centuries",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of classical music competitions",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of comedians",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of companies of Canada",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of computer scientists",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of confederations of Germanic tribes",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of contemporary ethnic groups",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"List of country calling codes",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "country calling codes"
       ]
     },
     {
+      "title":"List of cryptographers",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of decades",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of deities",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of dog breeds",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of Dune characters",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of English-language poets",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of equations in classical mechanics",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of explorations",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of extinct birds",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"List of football clubs in the Netherlands",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Dutch football league teams"
       ]
     },
     {
       "title":"List of former sovereign states",
-      "alt":[
+      "alternative":[
         "Extinct countries",
         "Extinct political countries, empires, etc.",
         "Extint countries"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"List of games based on Dune",
-      "alt":[
+      "alternative":[
         "Dune computer and video games",
         "Dune/Videogames"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"List of Governors of Alabama",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of international environmental agreements",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of major biblical figures",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of Major League Baseball players with 4,000 total bases",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"List of Olympic medalists in biathlon",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Lists of composers",
-      "alt":[
+      "alternative":[
         "Composers"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Lists of people",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Lists of universities and colleges",
-      "alt":[
+      "alternative":[
         "Colleges and universities/OldList"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Lockheed AC-130",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "AC-130 Spectre/Spooky",
         "AC-130",
         "AC-130 gunship",
@@ -13673,7 +27788,8 @@ var pagesData = {
     },
     {
       "title":"Lockheed C-130 Hercules",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "C-130 Hercules",
         "C-130T Hercules",
         "KC-130F Hercules",
@@ -13682,39 +27798,62 @@ var pagesData = {
     },
     {
       "title":"Logical disjunction",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "disjunction",
         "OR",
         "disjunctive statement",
         "disjunctions",
-        "inclusive",
-        "or"
+        "inclusive"
       ]
     },
     {
       "title":"London Borough of Croydon",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Croydon"
       ]
     },
     {
       "title":"London Docklands",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Docklands"
       ]
     },
     {
+      "title":"Longest word in English",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Lory (disambiguation)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Louise …lisabeth VigÈe Le Brun",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Love and Theft (Bob Dylan album)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Mail (armour)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "chain mail",
         "Mail",
-        "mail",
         "scale armor"
       ]
     },
     {
       "title":"Major depressive disorder",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "clinical depression",
         "depression",
         "major depression",
@@ -13723,7 +27862,8 @@ var pagesData = {
     },
     {
       "title":"Major League Baseball Most Valuable Player Award",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chalmers Award",
         "Most Valuable Player Awards",
         "AL Most Valuable Player Award",
@@ -13736,7 +27876,8 @@ var pagesData = {
     },
     {
       "title":"Major League Baseball Rookie of the Year Award",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Rookie of the Year",
         "AL Rookie of the Year Award",
         "1988 National League Rookie of the Year",
@@ -13745,19 +27886,37 @@ var pagesData = {
     },
     {
       "title":"Man Booker Prize",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Booker Prize"
       ]
     },
     {
+      "title":"Many-worlds interpretation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"MessagePad",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Mexican tetra",
-      "alt":[
+      "alternative":[
         "Blind Cave Tetra"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Military engineering vehicle",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Military Forces of Colombia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "government forces",
         "military forces",
         "Specific Command of San Andres y Providencia"
@@ -13765,19 +27924,47 @@ var pagesData = {
     },
     {
       "title":"Military of Bulgaria",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bulgarian military"
       ]
     },
     {
+      "title":"Military of Burkina Faso",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Military of Burundi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Military of Cape Verde",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Military of Chad",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chadian army"
       ]
     },
     {
+      "title":"Military of Chile",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Military of Comoros",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Military of Costa Rica",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "abolished its army",
         "abolished the military",
         "Military Abolition Day",
@@ -13786,33 +27973,58 @@ var pagesData = {
     },
     {
       "title":"Military of Croatia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Croatian armed forces",
         "armed forces"
       ]
     },
     {
+      "title":"Military of Dominica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Military of Ecuador",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ecuadorian Armed Forces"
       ]
     },
     {
+      "title":"Military of Equatorial Guinea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Military of Ivory Coast",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Military of the Czech Republic",
-      "alt":[
+      "alternative":[
         "Czech republic/Military"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Military of the Democratic Republic of the Congo",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Military of the Dominican Republic",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "armed forces",
         "Dominican Navy"
       ]
     },
     {
       "title":"Minute of arc",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "arc seconds",
         "arcsecond",
         "arcminute",
@@ -13824,42 +28036,72 @@ var pagesData = {
     },
     {
       "title":"Miss Marple",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Miss (Jane) Marple"
       ]
     },
     {
       "title":"Molecular diffusion",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "diffuses",
         "diffuse"
       ]
     },
     {
+      "title":"Motor neuron disease",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Mouse (computing)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "computer mouse",
         "mice",
         "mouse input",
-        "mouse",
-        "Computer mouse"
+        "mouse"
       ]
     },
     {
+      "title":"Mouthwash",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Museum of Work",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"N,N-Dimethyltryptamine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Naive set theory",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Set-theoretically"
       ]
     },
     {
       "title":"National Alliance (Italy)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "National Alliance"
       ]
     },
     {
+      "title":"National Anthem of Chile",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"National Baseball Hall of Fame and Museum",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Baseball Hall of Fame",
         "Baseball Hall of Famer",
         "National Baseball Hall of Fame",
@@ -13868,118 +28110,217 @@ var pagesData = {
     },
     {
       "title":"National League Championship Series",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "NLCS",
         "National League"
       ]
     },
     {
       "title":"National League Division Series",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "NLDS",
         "NL Division Series"
       ]
     },
     {
+      "title":"Natural history of Africa",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Nepeta",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Nitrox",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"North American B-25 Mitchell",
-      "alt":[
-        "B-25 Mitchell",
+      "alternative":[
         "B-25"
+      ],
+      "anchor":[
+        "B-25 Mitchell"
       ]
     },
     {
+      "title":"Northern bobwhite",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Northern cavefish",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Northrop Grumman B-2 Spirit",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "US B-2 Spirit",
         "B-2",
         "B-2 Spirit"
       ]
     },
     {
+      "title":"NYSE MKT",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"October 2003",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"On-base percentage",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "on base"
       ]
     },
     {
+      "title":"On-base plus slugging",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Optical aberration",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Optical audio disc",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Order of Saint Benedict",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Benedictine"
       ]
     },
     {
+      "title":"Outback",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Outline of biology",
-      "alt":[
-        "Biology/Additional biology topics and keywords",
+      "alternative":[
+        "Biology/Additional biology topics and keywords"
+      ],
+      "anchor":[
         "Biological sciences"
       ]
     },
     {
       "title":"Outline of chemistry",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Chemistry"
       ]
     },
     {
+      "title":"Outline of critical theory",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Outline of dance",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Outline of education",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Education"
       ]
     },
     {
       "title":"Outline of engineering",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Engineering"
       ]
     },
     {
       "title":"Outline of entertainment",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "entertainment"
       ]
     },
     {
+      "title":"P versus NP problem",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Parallel ATA",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "IDE",
         "PATA"
       ]
     },
     {
-      "title":"Park G√ºell",
-      "alt":[
-        "Parc G√ºell"
-      ]
-    },
-    {
-      "title":"Personal computer hardware",
-      "alt":[
-        "hardware",
-        "Hardware"
+      "title":"Park G¸ell",
+      "alternative":[],
+      "anchor":[
+        "Parc G¸ell"
       ]
     },
     {
       "title":"Physical cosmology",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cosmologists",
         "cosmology",
         "cosmological",
         "cosmologist",
-        "cosmic evolution",
-        "cosmologists"
+        "cosmic evolution"
       ]
     },
     {
+      "title":"Piano Trio, Op. 97 (Beethoven)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Piano Trios, Op. 1 (Beethoven)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Piano Trios, Op. 70 (Beethoven)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Piter De Vries",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Plague (disease)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "plague",
-        "Plague",
         "great plague"
       ]
     },
     {
       "title":"Planned economy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "centrally planned economy",
         "planned",
         "centrally-planned economies",
@@ -13988,53 +28329,221 @@ var pagesData = {
       ]
     },
     {
+      "title":"Plate appearance",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Plum pudding model",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Political scandals in the United Kingdom",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of American Samoa",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Angola",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Antigua and Barbuda",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Armenia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Bosnia and Herzegovina",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Botswana",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Politics of Brazil",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "seat of government",
         "Politics"
       ]
     },
     {
+      "title":"Politics of Bulgaria",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Burkina Faso",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Burundi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Cambodia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Cameroon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Politics of Canada",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Canada",
         "political",
         "Canadian Government"
       ]
     },
     {
+      "title":"Politics of Cape Verde",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Politics of Chad",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "government of Chad"
       ]
     },
     {
+      "title":"Politics of Chile",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Colombia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Costa Rica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Croatia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Cyprus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Politics of Djibouti",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "government of Djibouti"
       ]
     },
     {
+      "title":"Politics of Dominica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Politics of Ecuador",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "governmental institution"
       ]
     },
     {
       "title":"Politics of Egypt",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "government of Egypt"
       ]
     },
     {
+      "title":"Politics of El Salvador",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Equatorial Guinea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Eritrea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Estonia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Ethiopia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of Ivory Coast",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of the Cayman Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of the Central African Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of the Comoros",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of the Cook Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Politics of the Czech Republic",
-      "alt":[
+      "alternative":[
         "Czech republic/Government"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Politics of the Democratic Republic of the Congo",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Prince Eugene of Savoy",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Eugene of Savoy",
         "Prince Eugene",
         "Eugene"
@@ -14042,32 +28551,62 @@ var pagesData = {
     },
     {
       "title":"Printer (computing)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "printer"
       ]
     },
     {
+      "title":"Processor design",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Professional certification",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Professor X",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Charles Xavier"
       ]
     },
     {
+      "title":"Protestant Church in the Netherlands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Puzzle Bobble",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Rail transport in Great Britain",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "British railway industry",
         "railway route"
       ]
     },
     {
       "title":"RDX",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Hexogen"
       ]
     },
     {
+      "title":"Recreational use of dextromethorphan",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Rendering (computer graphics)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "rendering engine",
         "rendering",
         "render",
@@ -14075,14 +28614,31 @@ var pagesData = {
       ]
     },
     {
+      "title":"Rhyming slang",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Riding shotgun",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Rise and Fall of the City of Mahagonny",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Robert Bellarmine",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Cardinal Robert Bellarmine"
       ]
     },
     {
       "title":"Rockwell B-1 Lancer",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "B-1",
         "B-1B Lancer",
         "B-1A",
@@ -14090,113 +28646,383 @@ var pagesData = {
       ]
     },
     {
+      "title":"Rod (optics)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Roman censor",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Roman Censors",
         "censor",
         "censorship"
       ]
     },
     {
+      "title":"Romantic orientation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Royal Antigua and Barbuda Defence Force",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Running amok",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"RUR-5 ASROC",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Sacrifice fly",
-      "alt":[
-        "sacrifice flies",
-        "Sacrifice Flies",
-        "Sacrifice flies"
+      "alternative":[],
+      "anchor":[
+        "sacrifice flies"
       ]
+    },
+    {
+      "title":"Saint Titus",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"School voucher",
-      "alt":[
-        "education vouchers",
+      "alternative":[
         "Education vouchers"
+      ],
+      "anchor":[
+        "education vouchers"
       ]
+    },
+    {
+      "title":"Self-propelled anti-aircraft weapon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Sid Meier's Alpha Centauri",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Sideroxylon grandiflorum",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Slalom skiing",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Software",
-      "alt":[
+      "alternative":[
         "ComputerSoftware"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Southeast Alaska",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "southeast"
       ]
     },
     {
+      "title":"Spain in Flames",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"St. Ambrose Traversari",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Stab-in-the-back myth",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Standard works",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "unique writings",
         "standard works"
       ]
     },
     {
       "title":"Steel-string acoustic guitar",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "guitar"
       ]
     },
     {
       "title":"Stephen Donaldson (activist)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Stephen Donaldson"
       ]
     },
     {
       "title":"Stolen base",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "stolen",
         "steal",
         "basestealing"
       ]
     },
     {
+      "title":"String Quartet No. 16 (Beethoven)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"STS-51-F",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Subspecies of Canis lupus",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "subspecies of ''Canis lupus''",
         "many other subspecies"
       ]
     },
     {
       "title":"Symphony No. 9 (Beethoven)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Ninth Symphony",
         "Symphony 9 in D minor",
         "9th symphony",
         "D Minor Symphony",
-        "Ninth symphony",
         "Ode An die Freude"
       ]
     },
     {
+      "title":"Taiko",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Tank destroyer",
-      "alt":[
-        "Anti-tank vehicles",
+      "alternative":[
+        "Anti-tank vehicles"
+      ],
+      "anchor":[
         "Tank Destroyer"
       ]
     },
     {
       "title":"Tao Te Ching",
-      "alt":[
+      "alternative":[
         "DaoDeJing"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Anguilla",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Antigua and Barbuda",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Telecommunications in Belarus",
-      "alt":[
+      "alternative":[
         "Media in Belarus"
-      ]
+      ],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Belgium",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Botswana",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Brazil",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Brunei",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Bulgaria",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Burkina Faso",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Cambodia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Cameroon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Canada",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Chad",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Chile",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Comoros",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Dominica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Ecuador",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Egypt",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in El Salvador",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Equatorial Guinea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Eritrea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Estonia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in Ethiopia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in the British Virgin Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in the Cayman Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in the Central African Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in the Cook Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in the Czech Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in the Democratic Republic of the Congo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Telecommunications in the Dominican Republic",
+      "alternative":[],
+      "anchor":[]
     },
     {
       "title":"Telstar (game console)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Telstar Arcade"
       ]
     },
     {
+      "title":"Teochew cuisine",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"The Alan Parsons Project",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"The Amazing Criswell",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"The Amazing Spider-Man",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"The American Prisoner",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"The Ashes",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"The Bahamas",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bahamian",
         "Bahamas",
         "Bahamas archipelago",
@@ -14205,33 +29031,50 @@ var pagesData = {
     },
     {
       "title":"The Beach Boys",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Beach Boys"
       ]
     },
     {
+      "title":"The Beano",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"The Beverly Hillbillies",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "TV sitcom of the same name"
       ]
     },
     {
+      "title":"The Big O",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"The Birth of a Nation",
-      "alt":[
-        "BirthofaNation",
+      "alternative":[
+        "BirthofaNation"
+      ],
+      "anchor":[
         "The Clansman"
       ]
     },
     {
       "title":"The Bronx",
-      "alt":[
-        "Bronx, New York",
+      "alternative":[
+        "Bronx, New York"
+      ],
+      "anchor":[
         "Bronx"
       ]
     },
     {
       "title":"The Bush (Alaska)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bush",
         "Alaska Bush",
         "rural Alaska",
@@ -14240,13 +29083,15 @@ var pagesData = {
     },
     {
       "title":"The Canterbury Tales",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Canterbury Tales"
       ]
     },
     {
       "title":"The Church of Jesus Christ of Latter-day Saints",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Mormon",
         "LDS Church",
         "he Church of Jesus Christ of Latter-day Saints",
@@ -14256,31 +29101,77 @@ var pagesData = {
       ]
     },
     {
+      "title":"The Cider House Rules",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"The Consolation of Philosophy",
-      "alt":[
-        "ConsolationOfPhilosophy",
+      "alternative":[
+        "ConsolationOfPhilosophy"
+      ],
+      "anchor":[
         "De consolatione philosophiae"
       ]
     },
     {
+      "title":"The Downward Spiral",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"The Evil Dead",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"The Maritimes",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"The Plague",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"The Time in Between",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"The Triumph of Time",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"The World Factbook",
-      "alt":[
+      "alternative":[
+        "CIAWorldFactbook"
+      ],
+      "anchor":[
         "World Factbook",
         "CIA World Factbook",
         "CIA WFB",
-        "estimates by the CIA",
-        "CIAWorldFactbook"
+        "estimates by the CIA"
       ]
     },
     {
       "title":"Timeline of chemical element discoveries",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "discovers"
       ]
     },
     {
+      "title":"Timeline of computing",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Traditional Chinese medicine",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "TCM",
         "traditional Chinese Medicine (TCM)",
         "medicine",
@@ -14291,64 +29182,259 @@ var pagesData = {
     },
     {
       "title":"Tramlink",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "tram",
         "Croydon"
       ]
     },
     {
+      "title":"Transport in Angola",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Antarctica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Armenia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Belarus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Transport in Belgium",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "transport infrastructure"
       ]
     },
     {
       "title":"Transport in Bosnia and Herzegovina",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Bosnia and Herzegovina"
       ]
     },
     {
+      "title":"Transport in Botswana",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Brazil",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Brunei",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Bulgaria",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Transport in Burkina Faso",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Burkina Faso",
         "Burkina Faso border"
       ]
     },
     {
+      "title":"Transport in Burundi",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Cambodia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Cameroon",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Cape Verde",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Transport in Chad",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "transport infrastructure"
       ]
     },
     {
+      "title":"Transport in Chile",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Transport in Colombia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Colombia"
       ]
     },
     {
+      "title":"Transport in Comoros",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Costa Rica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Transport in Croatia",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "transport routes and facilities",
         "Croatia"
       ]
     },
     {
+      "title":"Transport in Cuba",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Cyprus",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Denmark",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Djibouti",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Dominica",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Ecuador",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Egypt",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in El Salvador",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Equatorial Guinea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Eritrea",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Estonia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Ethiopia",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in Ivory Coast",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in the British Virgin Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in the Cayman Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in the Central African Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in the Cook Islands",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in the Czech Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in the Democratic Republic of the Congo",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transport in the Dominican Republic",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Transportation in American Samoa",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Transportation in Canada",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "transportation links to the rest of Canada"
       ]
     },
     {
       "title":"Unit of alcohol",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "standard unit"
       ]
     },
     {
+      "title":"Unitary patent",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"United Kingdom general election, 2001",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "2001",
         "General Election 2001",
         "next",
@@ -14357,13 +29443,15 @@ var pagesData = {
     },
     {
       "title":"Utility knife",
-      "alt":[
+      "alternative":[
         "Box-cutter knives"
-      ]
+      ],
+      "anchor":[]
     },
     {
       "title":"Video game",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "game",
         "games",
         "computer game",
@@ -14371,65 +29459,412 @@ var pagesData = {
       ]
     },
     {
+      "title":"Violin Sonata No. 5 (Beethoven)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Vladimir Harkonnen",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Baron Vladimir Harkonnen",
         "Baron Harkonnen"
       ]
     },
     {
+      "title":"Volkssturm",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Water (classical element)",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "water",
-        "Water",
         "sea"
       ]
     },
     {
+      "title":"West Memphis Three",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Building Wikipedia membership",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Building Wikipedia membership/About.com",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Building Wikipedia membership/Another sample solicitation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Building Wikipedia membership/Big traffic links solicited",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Building Wikipedia membership/Encyclopedia links solicited",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Building Wikipedia membership/Encyclopedia list links solicited",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Building Wikipedia membership/Ideas for articles about Wikipedia and other press events",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Building Wikipedia membership/Newsgroups",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Building Wikipedia membership/Sample solicitation",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Building Wikipedia membership/Sample solicitation 3",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/0",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/6",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/7",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/8",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/9",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/A",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/A2",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/B",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/B2",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/basic vocabulary",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/C",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/C2",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/D",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/E",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/F",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/G",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/H",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/I",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/J",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/K",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/L",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/M",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/N",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/O",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/P",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/Q",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/R",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/S",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/S2",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/T",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/U",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/V",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/W",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/X",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/Y",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of encyclopedia topics (obsolete)/Z",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Complete list of language wikis available",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Editing policy",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Status of the porting of the CIA World Factbook",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wikipedia:Status of the porting of U.S. Dept of State info",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"William Kidd",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"William M. Tweed",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Wireless broadband",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Wu Xing",
-      "alt":[
+      "alternative":[
+        "Chinese element"
+      ],
+      "anchor":[
         "Five phases",
-        "Chinese element",
-        "Five elements (Chinese ''w«î x√≠ng'')",
-        "five phases"
+        "Five elements (Chinese ''w? xÌng'')"
       ]
     },
     {
+      "title":"Yangtze",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"Young and Innocent",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
       "title":"Zebrafish",
-      "alt":[
+      "alternative":[],
+      "anchor":[
         "Danio rerio"
       ]
     },
     {
-      "title":"√Åed mac Cin√°eda",
-      "alt":[
-        "√Åed"
+      "title":"¡ed mac Cin·eda",
+      "alternative":[],
+      "anchor":[
+        "¡ed"
       ]
     },
     {
-      "title":"√Ülfheah of Canterbury",
-      "alt":[
-        "√Ülfheah"
+      "title":"¡lfheimr",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"¡satr˙ in the United States",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"∆gir",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"∆lfheah of Canterbury",
+      "alternative":[],
+      "anchor":[
+        "∆lfheah"
       ]
     },
     {
-      "title":"√Üthelberht of Kent",
-      "alt":[
-        "√Üthelberht",
-        "St √Üthelberht"
+      "title":"∆lle of Sussex",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"∆thelberht of Kent",
+      "alternative":[],
+      "anchor":[
+        "∆thelberht",
+        "St ∆thelberht"
       ]
     },
     {
-      "title":"√âdouard Manet",
-      "alt":[
+      "title":"«atalhˆy¸k",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"«evik Bir",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"…douard Manet",
+      "alternative":[],
+      "anchor":[
         "Manet"
       ]
     },
     {
-      "title":"√âvariste Galois",
-      "alt":[
+      "title":"…variste Galois",
+      "alternative":[],
+      "anchor":[
         "Galois"
       ]
+    },
+    {
+      "title":"?-Lactam",
+      "alternative":[],
+      "anchor":[]
+    },
+    {
+      "title":"?T",
+      "alternative":[],
+      "anchor":[]
     }
-  ]
+  ],
+  "pagesAnchCnt":1705,
+  "redirPagesCnt":1409,
+  "anchTextsCnt":3450,
+  "pagesAltCnt":384
 };

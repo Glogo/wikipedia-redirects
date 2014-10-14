@@ -19,9 +19,14 @@ public class PageModel {
 	private String text;
 	
 	/**
-	 * Final list of the alternative page titles
+	 * Final list of the alternative page titles from redirects
 	 */ 
 	private List<String> alternativeTitles = new IgnoreCaseArrayList();
+	
+	/**
+	 * Final list of the related page terms from other pages anchor texts
+	 */ 
+	private List<String> anchorTexts = new IgnoreCaseArrayList();
 	
 	/**
 	 * Title of the page this page redirects to
@@ -68,7 +73,15 @@ public class PageModel {
 	public void addAlternativeTitle(String alternativeTitle) {
 		this.alternativeTitles.add(alternativeTitle);
 	}
-
+	
+	public List<String> getAnchorTexts() {
+		return anchorTexts;
+	}
+	
+	public void addAnchorText(String anchorText) {
+		this.anchorTexts.add(anchorText);
+	}
+	
 	public String getRedirectsToPageTitle() {
 		return redirectsToPageTitle;
 	}

@@ -143,36 +143,40 @@ public class WikiParser {
 		String matchedArticleTitle;
 		String matchedLinkText;
 		PageModel pageModel;
+		PageModel tmpPageModel;
 		
-		// Clear all alternative titles
+		// Clear all alternative titles & anchor texts
 		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
-			entry.getValue().getAlternativeTitles();
+			entry.getValue().getAlternativeTitles().clear();
+			entry.getValue().getAnchorTexts().clear();
 		}
 		
 		// Loop through pages in map
 		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
+			pageModel = entry.getValue();
 			
 			// Add redirectsToPage instance if page is redirecting to another page. If redirected page was not found then null will be returned automatically
-			if(entry.getValue().getRedirectsToPageTitle() != null){
-				entry.getValue().setRedirectsToPage(pages.get(entry.getValue().getRedirectsToPageTitle()));
+			if(pageModel.getRedirectsToPageTitle() != null){
+				pageModel.setRedirectsToPage(pages.get(pageModel.getRedirectsToPageTitle()));
 			}
 			
 			/*
 			 *  1. Add alternative title to redirected page
 			 */
-			if(entry.getValue().getRedirectsToPage() != null){
-				entry.getValue().getRedirectsToPage().addAlternativeTitle(entry.getKey());
+			if(pageModel.getRedirectsToPage() != null){
+				pageModel.getRedirectsToPage().addAlternativeTitle(entry.getKey());
+				continue;
 			}
 			
 			/*
-			 *  2. Parse page text and extract links.
+			 *  2. Parse page text and extract anchor texts from links.
 			 */
 			// Check if page is not redirection
-			if(entry.getValue().getRedirectsToPageTitle() == null){
-				// System.out.println(entry.getValue().getTitle());
+			if(pageModel.getRedirectsToPageTitle() == null){
+				// System.out.println(pageModel.getTitle());
 				
 				// Find all links in page text
-				matcher = WIKI_LINKS_PATTERN.matcher(entry.getValue().getText());
+				matcher = WIKI_LINKS_PATTERN.matcher(pageModel.getText());
 				
 				// For each non-category link matches
 				while(matcher.find()){
@@ -181,12 +185,12 @@ public class WikiParser {
 					// System.out.printf("%s|%s => %s \n", matchedArticleTitle, matchedLinkText, matcher.group());
 					
 					// Check if linked page exists in processed pages
-					pageModel = pages.get(matchedArticleTitle);
-					if(pageModel != null){
-						// Add link text to alternative page title if not already exists
-						if(!pageModel.getAlternativeTitles().contains(matchedLinkText)){
-							// TODO distinguish between redirected and linked alternative names source
-							pageModel.getAlternativeTitles().add(matchedLinkText);
+					tmpPageModel = pages.get(matchedArticleTitle);
+					if(tmpPageModel != null){
+						
+						// Add anchor text to anchor texts if not already exists
+						if(!tmpPageModel.getAnchorTexts().contains(matchedLinkText)){
+							tmpPageModel.addAnchorText(matchedLinkText);
 						}
 					}
 				}
@@ -195,10 +199,68 @@ public class WikiParser {
 		}
 	}
 	
+	/**
+	 * Adds following statistics to root of supplied json object: <br />
+	 * <ul>
+	 *     <li><b>pagesCnt: </b>Total pages count</li>
+	 *     <li><b>redirPagesCnt: </b>Total pages count with at least one alternative title</li>
+	 *     <li><b>pagesAltCnt: </b>Total pages count with at least one alternative title</li>
+	 *     <li><b>pagesAnchCnt: </b>Total pages count with at least one anchor text</li>
+	 *     <li><b>altTitlesCnt: </b>Total count of all alternative titles</li>
+	 *     <li><b>anchTextsCnt: </b>Total count of all anchor texts</li>
+	 * </ul>
+	 * 
+	 * @param json
+	 */
+	@SuppressWarnings("unchecked")
+	private void addMetricsToJSON(JSONObject json) {
+		json.put("pagesCnt", pages.size());
+		
+		int redirPagesCnt = 0;
+		int pagesAltCnt = 0;
+		int pagesAnchCnt = 0;
+		int altTitlesCnt = 0;
+		int anchTextsCnt = 0;
+		
+		PageModel pageModel;
+		
+		// Loop through all pages and increment appropriate metric
+		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
+			pageModel = entry.getValue();
+			
+			// If page is redirect
+			if(pageModel.getRedirectsToPageTitle() != null){
+				redirPagesCnt++;
+				continue;
+			}
+			
+			// If page has at least one alternative title
+			if(pageModel.getAlternativeTitles().size() > 0){
+				pagesAltCnt++;
+				altTitlesCnt += pageModel.getAlternativeTitles().size();
+			}
+			
+			// If page has at least one anchor text
+			if(pageModel.getAnchorTexts().size() > 0){
+				pagesAnchCnt++;
+				anchTextsCnt += pageModel.getAnchorTexts().size();
+			}
+		}
+		
+		// Store metrics values in json
+		json.put("redirPagesCnt", redirPagesCnt);
+		json.put("pagesAltCnt", pagesAltCnt);
+		json.put("pagesAnchCnt", pagesAnchCnt);
+		json.put("altTitlesCnt", altTitlesCnt);
+		json.put("anchTextsCnt", anchTextsCnt);
+	}
+	
 	@SuppressWarnings("unchecked")
 	public void exportToJSON(String path) throws IOException{
 		JSONObject json = new JSONObject();
 		json.put("author", "Michael Gloger");
+		
+		addMetricsToJSON(json);
 		
 		JSONArray pagesObjects = new JSONArray();
 		json.put("pages", pagesObjects);
@@ -207,24 +269,38 @@ public class WikiParser {
 		System.out.println("Outputting pages with alternative titles to JSON");
 		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
 			
-			// Output only pages which have alternative titles
-			if(entry.getValue().getAlternativeTitles().size() > 0){
+			/*
+			 * Ouput pages which:
+			 * 	- are not redirects
+			 *  - ...
+			 */
+			if(entry.getValue().getRedirectsToPageTitle() == null /* || entry.getValue().getAlternativeTitles().size() > 0 || entry.getValue().getAnchorTexts().size() > 0 */) {
 				
 				// Create alternative titles json array
 				JSONArray alternativeTitles = new JSONArray();
-				
+	
 				// Add all alternative titles to array
 				for(String alternativeTitle : entry.getValue().getAlternativeTitles()){
 					alternativeTitles.add(alternativeTitle);
 				}
 				
+				// Create anchor texts json array
+				JSONArray anchorTexts = new JSONArray();
+				
+				// Add all anchor texts to array
+				for(String anchorText : entry.getValue().getAnchorTexts()){
+					anchorTexts.add(anchorText);
+				}
+				
 				// Create page json object
 				JSONObject pageObject = new JSONObject();
 				pageObject.put("title", entry.getValue().getTitle());
-				pageObject.put("alt", alternativeTitles);
+				pageObject.put("alternative", alternativeTitles);
+				pageObject.put("anchor", anchorTexts);
 				
 				// Add page object to json
 				pagesObjects.add(pageObject);
+			
 			}
 		}
 		
@@ -232,7 +308,7 @@ public class WikiParser {
         try {
         	// Little hack to make my life easier
             file.write("var pagesData = " + JsonWriter.formatJson(json.toJSONString()) + ";");
-            System.out.println("Successfully Copied JSON Object to File...");
+            System.out.println("Successfully saved JSON object to file...");
  
         } catch (IOException e) {
             e.printStackTrace();
