@@ -261,10 +261,13 @@ public class WikiParser {
 		
 		// LinkedHashMap is used to preserve root attributes order
 		Map<String, Object> json = new LinkedHashMap<String, Object>();
-		json.put("author", "Michael Gloger");
 		
-		// Add metrics to root json object
-		addMetricsToJSON(json);
+		// Info json element
+		Map<String, Object> info = new LinkedHashMap<String, Object>();
+		info.put("author", "Michael Gloger");
+		addMetricsToJSON(info);
+		
+		json.put("info", info);
 		
 		// Initialize json array of all pages (it is list of pages maps)
 		List<Map<String, Object>> pagesObjects = new ArrayList<Map<String, Object>>();
