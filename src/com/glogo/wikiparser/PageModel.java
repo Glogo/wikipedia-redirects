@@ -40,15 +40,6 @@ public class PageModel {
 	 * See: {@link #redirectsToPageTitle}
 	 */
 	private PageModel redirectsToPage;
-	
-	/**
-	 * Main constructor 
-	 * @param title
-	 */
-	public PageModel(String title, String text){
-		this.title = title;
-		this.text = text;
-	}
 
 	public String getTitle() {
 		return title;

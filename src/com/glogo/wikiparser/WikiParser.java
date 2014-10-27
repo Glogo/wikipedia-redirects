@@ -2,6 +2,7 @@ package com.glogo.wikiparser;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -11,30 +12,19 @@ import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.xpath.XPath;
-import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpression;
-import javax.xml.xpath.XPathExpressionException;
-import javax.xml.xpath.XPathFactory;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
+import javax.xml.stream.XMLStreamException;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 /**
- * Main Wiki pages parser.\n
+ * Main Wiki pages parser.
  * This class contains methods necessary to parse input XML doc, find alternative titles for articles (pages) and export them to readable format.
  * @author Glogo
  */
 public class WikiParser {
 
+	// TODO move to reader first stage?
 	/**
 	 * This regular expression pattern is used to match links in wiki article text content.<br />
 	 * Only links with following rules are matched:
@@ -50,9 +40,9 @@ public class WikiParser {
 	private static final Pattern WIKI_LINKS_PATTERN = Pattern.compile("\\[\\[([^\\]\\[:]+)\\|([^\\]\\[:]+)\\]\\]");
 	
 	/**
-	 * Main {@link Document}, which will be read and parsed.
+	 * Wikipedia dump XML reader
 	 */
-	private Document doc;
+	private WikiReader wikiReader = new WikiReader();
 	
 	/**
 	 * All pages stored in TreeMap with case insensitive keys.<br />
@@ -62,28 +52,17 @@ public class WikiParser {
 	private Map<String, PageModel> pages = new TreeMap<String, PageModel>(String.CASE_INSENSITIVE_ORDER);
 	
 	/**
-	 * Main constructor which is supposed to open XML file in specified absolute path 
-	 * @param path
-	 * @throws ParserConfigurationException
-	 * @throws SAXException
-	 * @throws IOException
+	 * Reads XML file as {@link InputStream} using {@link WikiReader} class, creates {@link PageModel} instances and stores them {@link WikiParser#pages} map
+	 * @throws XMLStreamException 
+	 * @throws IOException 
 	 */
-	public WikiParser(String path) throws ParserConfigurationException, SAXException, IOException {
-		System.out.printf("Opening file: '%s'\n", path);
+	public void readPages(String filename) throws XMLStreamException, IOException {
+		wikiReader.readFile(filename, pages);
+
+
 		
-		// Open file and parse Document
-		DocumentBuilderFactory domFactory = DocumentBuilderFactory.newInstance();
-		DocumentBuilder builder = domFactory.newDocumentBuilder();
-		doc = builder.parse(path);
-		
-		System.out.println("File successfully opened.");
-	}
-	
-	/**
-	 * Reads XML {@link Document} nodes, creates {@link PageModel} instances and stores them {@link WikiParser#pages} map 
-	 * @throws XPathExpressionException 
-	 */
-	public void readPages() {
+		// TEST
+		/*
 		Element pageElement;
 		Element titleElement;
 		Element redirectElement;
@@ -130,6 +109,7 @@ public class WikiParser {
 			
 			pages.put(pageModel.getTitle(), pageModel);
 		}
+		*/
 	}
 	
 	/**
@@ -147,6 +127,8 @@ public class WikiParser {
 		String matchedLinkText;
 		PageModel pageModel;
 		PageModel tmpPageModel;
+		
+		System.out.println("Finding alternative titles");
 		
 		// Clear all alternative titles & anchor texts
 		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
@@ -273,7 +255,7 @@ public class WikiParser {
 		List<Map<String, Object>> pagesObjects = new ArrayList<Map<String, Object>>();
 		json.put("pages", pagesObjects);
 		
-		System.out.println("Outputting pages with alternative titles to JSON");
+		System.out.println("Exporting pages with alternative titles to JSON");
 		
 		// Loop through pages and create + add element to pages element array value
 		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
@@ -321,7 +303,7 @@ public class WikiParser {
         	
         	// Create javascript compatibile output to enable easy querying
             file.write("var pagesData = " + gson.toJson(json) + ";");
-            System.out.println("Successfully saved JSON object to file...");
+            System.out.println(String.format("Successfully saved JSON object to file: '%s'", path));
  
         } catch (IOException e) {
             e.printStackTrace();
@@ -330,10 +312,6 @@ public class WikiParser {
             file.flush();
             file.close();
         }
-	}
-	
-	public Document getDocument() {
-		return doc;
 	}
 	
 	public Map<String, PageModel> getPages(){

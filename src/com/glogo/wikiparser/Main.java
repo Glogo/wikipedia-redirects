@@ -1,5 +1,9 @@
 package com.glogo.wikiparser;
 
+import java.io.IOException;
+
+import javax.xml.stream.XMLStreamException;
+
 /**
  * Main class responsible for reading command line arguments and running WikiParser
  * @author Glogo
@@ -18,21 +22,24 @@ public class Main {
 		String output = args[1];
 		
 		/*
-		 * Open file
+		 * Initialize WikiParser
 		 */
-		WikiParser parser = null;
-		try{
-			parser = new WikiParser(input);
-		}catch(Exception e){
-			System.err.println("Input file does not exists or is not valid XML.");
-			System.err.println(e.getMessage());
-			System.exit(1);
-		}
+		WikiParser parser = new WikiParser();
 		
 		/*
-		 * Read pages from xml file
+		 * Open file & read pages from xml file
 		 */
-		parser.readPages();
+		try {
+			parser.readPages(input);
+
+		} catch (IOException e) {
+			System.err.println("Input file does not exists or input stream was already closed.");
+			System.err.println(e.getMessage());
+
+		} catch (XMLStreamException e) {
+			System.err.println("Input file is not valid XML.");
+			System.err.println(e.getMessage());
+		}
 		
 		/*
 		 * Find alternative titles
