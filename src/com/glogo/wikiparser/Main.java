@@ -21,6 +21,8 @@ public class Main {
 		String input = args[0];
 		String output = args[1];
 		
+		long start = System.currentTimeMillis();
+		
 		/*
 		 * Initialize WikiParser
 		 */
@@ -56,6 +58,10 @@ public class Main {
 			System.err.println(e.getMessage());
 			System.exit(1);
 		}
+		
+		long end = System.currentTimeMillis();
+		
+		System.out.printf("Job done in %.2fs\n", ((float)(end - start) / 1000));
 	}
 
 }

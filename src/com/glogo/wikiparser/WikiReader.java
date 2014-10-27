@@ -53,7 +53,9 @@ public class WikiReader {
 		/*
 		 * Try to open file
 		 */
-		System.out.println(String.format("Reading file: '%s'", filename));
+		//test
+		//filename = new File("res/test_input.xml").getAbsolutePath();
+		System.out.printf("Reading file: '%s'\n", filename);
 		InputStream xmlInputStream = new FileInputStream(filename);
         XMLInputFactory2 xmlInputFactory = (XMLInputFactory2)XMLInputFactory.newInstance();
         XMLStreamReader2 xmlStreamReader = (XMLStreamReader2) xmlInputFactory.createXMLStreamReader(xmlInputStream);
@@ -62,6 +64,9 @@ public class WikiReader {
         int eventType;
         String elementName;
         String redirectsTo;
+        
+		// Clear pages map
+		pages.clear();
         
         /*
          * Read file contents and store in map. All nodes traversal conditions may not be all necessary, but it is also used as schema validation.
@@ -153,7 +158,7 @@ public class WikiReader {
             }
         }
         
-        System.out.println(String.format("%d pages were successfully read into map", pages.size()));
+        System.out.printf("%d pages were successfully read into map\n", pages.size());
         
         /*
          * Close input stream & reader

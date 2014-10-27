@@ -88,5 +88,14 @@ public class PageModel {
 	public void setRedirectsToPage(PageModel redirectsToPage) {
 		this.redirectsToPage = redirectsToPage;
 	}
+
+	/**
+	 * Returns true if at least one of following conditions is met
+	 * 	- page is redirect
+	 *  - have zero alternative titles and anchor texts
+	 */
+	public boolean isExcluded() {
+		return redirectsToPageTitle != null || (alternativeTitles.size() == 0 && anchorTexts.size() == 0);
+	}
 	
 }

@@ -24,7 +24,6 @@ import com.google.gson.GsonBuilder;
  */
 public class WikiParser {
 
-	// TODO move to reader first stage?
 	/**
 	 * This regular expression pattern is used to match links in wiki article text content.<br />
 	 * Only links with following rules are matched:
@@ -58,58 +57,6 @@ public class WikiParser {
 	 */
 	public void readPages(String filename) throws XMLStreamException, IOException {
 		wikiReader.readFile(filename, pages);
-
-
-		
-		// TEST
-		/*
-		Element pageElement;
-		Element titleElement;
-		Element redirectElement;
-		Element revisionElement;
-		Element textElement;
-		PageModel pageModel;
-		
-		// XPath instance used to query nodes in XML document.
-		XPath xpath = XPathFactory.newInstance().newXPath();
-	
-		// Compiled XPath expression 
-		XPathExpression expr = null;
-		
-		// Read nodes from Document
-		NodeList nodes = null;
-		
-		try{
-			expr = xpath.compile("/mediawiki/page");
-			nodes = (NodeList)expr.evaluate(doc, XPathConstants.NODESET);
-		}catch(XPathExpressionException e){
-			System.err.println(e.getMessage());
-			System.exit(1);
-		}
-		
-		// Clear pages map
-		pages.clear();
-		
-		// Loop through all found nodes and create page models
-		for(int i = 0; i < nodes.getLength(); i++) {
-			pageElement = (Element)nodes.item(i);
-			titleElement = (Element)pageElement.getElementsByTagName("title").item(0);
-			redirectElement = (Element)pageElement.getElementsByTagName("redirect").item(0);
-			revisionElement = (Element)pageElement.getElementsByTagName("revision").item(0);
-			textElement = (Element)revisionElement.getElementsByTagName("text").item(0);
-			
-			// Create pageModel
-			pageModel = new PageModel(titleElement.getTextContent(), textElement.getTextContent());
-			
-			// Is page redirected to another page?
-			if(redirectElement != null){
-				pageModel.setRedirectsToPageTitle(redirectElement.getAttribute("title"));
-				// System.out.println(pageModel.getTitle() + " -> " + pageModel.getRedirectsToPageTitle());
-			}
-			
-			pages.put(pageModel.getTitle(), pageModel);
-		}
-		*/
 	}
 	
 	/**
@@ -156,8 +103,8 @@ public class WikiParser {
 			/*
 			 *  2. Parse page text and extract anchor texts from links.
 			 */
-			// Check if page is not redirection
-			if(pageModel.getRedirectsToPageTitle() == null){
+			// Check if page is not redirection & has not null text
+			if(pageModel.getRedirectsToPageTitle() == null && pageModel.getText() != null){
 				// System.out.println(pageModel.getTitle());
 				
 				// Find all links in page text
@@ -167,11 +114,13 @@ public class WikiParser {
 				while(matcher.find()){
 					matchedArticleTitle = matcher.group(1);
 					matchedLinkText = matcher.group(2);
-					// System.out.printf("%s|%s => %s \n", matchedArticleTitle, matchedLinkText, matcher.group());
+					//System.out.printf("%s|%s => %s\n", matchedArticleTitle, matchedLinkText, matcher.group());
 					
 					// Check if linked page exists in processed pages
 					tmpPageModel = pages.get(matchedArticleTitle);
 					if(tmpPageModel != null){
+						
+						//System.out.printf("%s|%s => %s\n", matchedArticleTitle, matchedLinkText, matcher.group());
 						
 						// Add anchor text to anchor texts if not already exists
 						if(!tmpPageModel.getAnchorTexts().contains(matchedLinkText)){
@@ -198,9 +147,8 @@ public class WikiParser {
 	 * @param json
 	 */
 	private void addMetricsToJSON(Map<String, Object> json) {
-		json.put("pagesCnt", pages.size());
-		
 		int redirPagesCnt = 0;
+		int excludedPagesCnt = 0;
 		int pagesAltCnt = 0;
 		int pagesAnchCnt = 0;
 		int altTitlesCnt = 0;
@@ -211,6 +159,11 @@ public class WikiParser {
 		// Loop through all pages and increment appropriate metric
 		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
 			pageModel = entry.getValue();
+			
+			// If page is excluded
+			if(pageModel.isExcluded()){
+				excludedPagesCnt++;
+			}
 			
 			// If page is redirect
 			if(pageModel.getRedirectsToPageTitle() != null){
@@ -232,7 +185,9 @@ public class WikiParser {
 		}
 		
 		// Store metrics values in json
+		json.put("pagesCnt", pages.size());
 		json.put("redirPagesCnt", redirPagesCnt);
+		json.put("excludedPagesCnt", excludedPagesCnt);
 		json.put("pagesAltCnt", pagesAltCnt);
 		json.put("pagesAnchCnt", pagesAnchCnt);
 		json.put("altTitlesCnt", altTitlesCnt);
@@ -240,6 +195,8 @@ public class WikiParser {
 	}
 	
 	public void exportToJSON(String path) throws IOException{
+		
+		PageModel pageModel;
 		
 		// LinkedHashMap is used to preserve root attributes order
 		Map<String, Object> json = new LinkedHashMap<String, Object>();
@@ -260,18 +217,16 @@ public class WikiParser {
 		// Loop through pages and create + add element to pages element array value
 		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
 			
-			/*
-			 * Ouput pages which:
-			 * 	- are not redirects
-			 *  - ...
-			 */
-			if(entry.getValue().getRedirectsToPageTitle() == null) {
+			pageModel = entry.getValue();
+			
+			// Skip excluded pages
+			if(!pageModel.isExcluded()) {
 				
 				// Create alternative titles json array
 				List<String> alternativeTitles = new ArrayList<String>();
 	
 				// Add all alternative titles to array
-				for(String alternativeTitle : entry.getValue().getAlternativeTitles()){
+				for(String alternativeTitle : pageModel.getAlternativeTitles()){
 					alternativeTitles.add(alternativeTitle);
 				}
 				
@@ -279,19 +234,18 @@ public class WikiParser {
 				List<String> anchorTexts = new ArrayList<String>();
 				
 				// Add all anchor texts to array
-				for(String anchorText : entry.getValue().getAnchorTexts()){
+				for(String anchorText : pageModel.getAnchorTexts()){
 					anchorTexts.add(anchorText);
 				}
 				
 				// Create page json object
 				Map<String, Object> pageObject = new HashMap<String, Object>();
-				pageObject.put("title", entry.getValue().getTitle());
+				pageObject.put("title", pageModel.getTitle());
 				pageObject.put("alternative", alternativeTitles);
 				pageObject.put("anchor", anchorTexts);
 				
 				// Add page object to json
 				pagesObjects.add(pageObject);
-			
 			}
 		}
 		
@@ -303,7 +257,7 @@ public class WikiParser {
         	
         	// Create javascript compatibile output to enable easy querying
             file.write("var pagesData = " + gson.toJson(json) + ";");
-            System.out.println(String.format("Successfully saved JSON object to file: '%s'", path));
+            System.out.printf("Successfully saved JSON object to file: '%s'\n", path);
  
         } catch (IOException e) {
             e.printStackTrace();
