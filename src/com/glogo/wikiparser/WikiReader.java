@@ -64,6 +64,7 @@ public class WikiReader {
         int eventType;
         String elementName;
         String redirectsTo;
+        StringBuffer bufferedText = new StringBuffer(); // Used to append text since characters return only portion of very long texts
         
 		// Clear pages map
 		pages.clear();
@@ -82,7 +83,12 @@ public class WikiReader {
 	            	// We are currently on no element & page element started (we are ignoring root mediawiki element)
 	            	if(state == State.NOPE && elementName.equals(PAGE_ELEMENT)){
 	            		state = State.PAGE_ELEMENT;
+	            		
+	            		// Create new page model
 	            		pageModel = new PageModel();
+	            		
+	            		// Clear text buffer
+	            		bufferedText.setLength(0);
 	            		
 	            	// We are currently on page element & title element started
 	            	}else if(state == State.PAGE_ELEMENT && elementName.equals(TITLE_ELEMENT)){
@@ -120,7 +126,7 @@ public class WikiReader {
 	            	
             		// We are currently on text element
 	            	}else if(state == State.TEXT_ELEMENT){
-	            		pageModel.setText(xmlStreamReader.getText());
+	            		bufferedText.append(xmlStreamReader.getText());
 	            	}
 	            	
 	                break;
@@ -152,6 +158,9 @@ public class WikiReader {
 	            	// We are on text element which ended
 	            	}else if(state == State.TEXT_ELEMENT && elementName.equals(TEXT_ELEMENT)){
 	            		state = State.REVISION_ELEMENT;
+	            		
+	            		// Set page model text from buffer
+	            		pageModel.setText(bufferedText.toString());
 	            	}
 	                
 	                break;
