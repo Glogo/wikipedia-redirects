@@ -37,10 +37,12 @@ public class Main {
 		} catch (IOException e) {
 			System.err.println("Input file does not exists or input stream was already closed.");
 			System.err.println(e.getMessage());
+			System.exit(1);
 
 		} catch (XMLStreamException e) {
 			System.err.println("Input file is not valid XML.");
 			System.err.println(e.getMessage());
+			System.exit(1);
 		}
 		
 		/*

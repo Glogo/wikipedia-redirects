@@ -1,6 +1,7 @@
 package com.glogo.wikiparser;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Map;
@@ -59,6 +60,30 @@ public class WikiReader {
 	private State state = State.NOPE;
 	
 	/**
+	 * @return total pages staring elements count to enable showing reading progress
+	 * @throws XMLStreamException 
+	 * @throws FileNotFoundException 
+	 */
+	int getFastPagesCount(String filename) throws XMLStreamException, FileNotFoundException {
+		InputStream xmlInputStream = new FileInputStream(filename);
+		XMLInputFactory2 xmlInputFactory = (XMLInputFactory2) XMLInputFactory.newInstance();
+		XMLStreamReader2 xmlStreamReader = (XMLStreamReader2) xmlInputFactory.createXMLStreamReader(xmlInputStream);
+		int count = 0;
+		
+		// Iterate over stream reader tokens
+		while(xmlStreamReader.hasNext()){
+			// If token is start element and element name is page
+			if(xmlStreamReader.next() == XMLEvent.START_ELEMENT && xmlStreamReader.getName().getLocalPart().equals(PAGE_ELEMENT)){
+				count++;
+			}
+		}
+
+		xmlStreamReader.closeCompletely();
+
+		return count;
+	}
+	
+	/**
 	 * Opens file with filename and parses wikipedia pages data into pages map.
 	 * @param filename 
 	 * @param pages
@@ -76,6 +101,8 @@ public class WikiReader {
         XMLInputFactory2 xmlInputFactory = (XMLInputFactory2)XMLInputFactory.newInstance();
         XMLStreamReader2 xmlStreamReader = (XMLStreamReader2) xmlInputFactory.createXMLStreamReader(xmlInputStream);
         
+        int pagesCount;
+        int currentPageIndex = 0;
         PageModel pageModel = null;
         int eventType;
         String elementName;
@@ -84,6 +111,11 @@ public class WikiReader {
         
 		// Clear pages map
 		pages.clear();
+		
+		// Do a fast run over xml file to calculate pages count to enable showing reading progress
+		System.out.println("Calculating total pages elements count");
+        pagesCount = getFastPagesCount(filename);
+        System.out.printf("Calculated total pages elements count: %d\n", pagesCount);
         
         /*
          * Read file contents and store in map. All nodes traversal conditions may not be all necessary, but it is also used as schema validation.
@@ -99,6 +131,13 @@ public class WikiReader {
 	            	// We are currently on no element & page element started (we are ignoring root mediawiki element)
 	            	if(state == State.NOPE && elementName.equals(PAGE_ELEMENT)){
 	            		state = State.PAGE_ELEMENT;
+	            		
+	            		currentPageIndex++;
+	            		
+	            		// Print progress each N pages
+	            		if(currentPageIndex % 2000 == 1){
+	            			System.out.printf("Current reading progress: %.0f%%\n", (float)currentPageIndex * 100 / pagesCount);
+	            		}
 	            		
 	            		// Create new page model
 	            		pageModel = new PageModel();
