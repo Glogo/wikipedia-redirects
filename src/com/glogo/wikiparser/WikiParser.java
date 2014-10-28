@@ -12,6 +12,8 @@ import java.util.TreeMap;
 
 import javax.xml.stream.XMLStreamException;
 
+import com.glogo.wikiparser.model.AnchorTextLink;
+import com.glogo.wikiparser.model.PageModel;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -56,7 +58,7 @@ public class WikiParser {
 		PageModel pageModel;
 		PageModel tmpPageModel;
 		
-		System.out.println("Finding alternative titles");
+		Logger.info("Finding alternative titles");
 		
 		// Clear all alternative titles & anchor texts
 		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
@@ -90,7 +92,7 @@ public class WikiParser {
                 tmpPageModel = pages.get(anchorTextLink.getAnchorLink());
                 if(tmpPageModel != null){
                     
-                    //System.out.printf("%s|%s => %s\n", matchedArticleTitle, matchedLinkText, matcher.group());
+                    //Logger.info("%s|%s => %s", matchedArticleTitle, matchedLinkText, matcher.group());
                     
                     // Add anchor text to anchor texts if not already exists
                     if(!tmpPageModel.getAnchorTexts().contains(anchorTextLink.getAnchorText())){
@@ -181,7 +183,7 @@ public class WikiParser {
 		List<Map<String, Object>> pagesObjects = new ArrayList<Map<String, Object>>();
 		json.put("pages", pagesObjects);
 		
-		System.out.println("Exporting pages with alternative titles to JSON");
+		Logger.info("Exporting pages with alternative titles to JSON");
 		
 		// Loop through pages and create + add element to pages element array value
 		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
@@ -226,7 +228,7 @@ public class WikiParser {
         	
         	// Create javascript compatibile output to enable easy querying
             file.write("var pagesData = " + gson.toJson(json) + ";");
-            System.out.printf("Successfully saved JSON object to file: '%s'\n", path);
+            Logger.info("Successfully saved JSON object to file: '%s'", path);
  
         } catch (IOException e) {
             e.printStackTrace();

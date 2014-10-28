@@ -1,4 +1,4 @@
-package com.glogo.wikiparser;
+package com.glogo.wikiparser.model;
 
 /**
  * Anchor text link holds information about anchor text displayed on current page and anchor link reffering to another page

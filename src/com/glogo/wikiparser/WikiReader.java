@@ -15,6 +15,9 @@ import javax.xml.stream.events.XMLEvent;
 import org.codehaus.stax2.XMLInputFactory2;
 import org.codehaus.stax2.XMLStreamReader2;
 
+import com.glogo.wikiparser.model.AnchorTextLink;
+import com.glogo.wikiparser.model.PageModel;
+
 /**
  * Class used to read large wikipedia dumps XML files into pages map.
  * @see <a href="http://www.studytrails.com/java/xml/woodstox/java-xml-stax-woodstox-basic-parsing.jsp">Helpful Stax Woodstox parsing example</a>
@@ -96,7 +99,7 @@ public class WikiReader {
 		 */
 		//test
 		//filename = new File("res/test_input.xml").getAbsolutePath();
-		System.out.printf("Reading file: '%s'\n", filename);
+		Logger.info("Reading file: '%s'", filename);
 		InputStream xmlInputStream = new FileInputStream(filename);
         XMLInputFactory2 xmlInputFactory = (XMLInputFactory2)XMLInputFactory.newInstance();
         XMLStreamReader2 xmlStreamReader = (XMLStreamReader2) xmlInputFactory.createXMLStreamReader(xmlInputStream);
@@ -113,9 +116,9 @@ public class WikiReader {
 		pages.clear();
 		
 		// Do a fast run over xml file to calculate pages count to enable showing reading progress
-		System.out.println("Calculating total pages elements count");
+		Logger.info("Calculating total pages elements count");
         pagesCount = getFastPagesCount(filename);
-        System.out.printf("Calculated total pages elements count: %d\n", pagesCount);
+        Logger.info("Calculated total pages elements count: %d", pagesCount);
         
         /*
          * Read file contents and store in map. All nodes traversal conditions may not be all necessary, but it is also used as schema validation.
@@ -136,7 +139,7 @@ public class WikiReader {
 	            		
 	            		// Print progress each N pages
 	            		if(currentPageIndex % 2000 == 1){
-	            			System.out.printf("Current reading progress: %.0f%%\n", (float)currentPageIndex * 100 / pagesCount);
+	            			Logger.info("Current reading progress: %.0f%%", (float)currentPageIndex * 100 / pagesCount);
 	            		}
 	            		
 	            		// Create new page model
@@ -159,7 +162,7 @@ public class WikiReader {
 	            		// Is page redirected to another page?
 	        			if(redirectsTo != null && redirectsTo.length() != 0){
 	        				pageModel.setRedirectsToPageTitle(redirectsTo);
-	        				// System.out.println(pageModel.getTitle() + " -> " + pageModel.getRedirectsToPageTitle());
+	        				// Logger.info(pageModel.getTitle() + " -> " + pageModel.getRedirectsToPageTitle());
 	        			}
 	            		
 	            	// We are currently on page element & revision element started
@@ -222,7 +225,7 @@ public class WikiReader {
             }
         }
         
-        System.out.printf("%d pages were successfully read into map\n", pages.size());
+        Logger.info("%d pages were successfully read into map", pages.size());
         
         /*
          * Close input stream & reader
@@ -244,7 +247,7 @@ public class WikiReader {
 		 */
 		// Check if page is not redirection & has not null text
 		if(pageModel.getRedirectsToPageTitle() == null && text != null && text.length() != 0){
-			// System.out.println(pageModel.getTitle());
+			// Logger.info(pageModel.getTitle());
 			
 			// Find all anchor texts links in page text
 			matcher = WIKI_LINKS_PATTERN.matcher(text);
@@ -259,7 +262,7 @@ public class WikiReader {
 				// Store link info (will be processed later)
 				pageModel.addAnchorTextLink(new AnchorTextLink(anchorText, anchorLink));
 				
-				//System.out.printf("%s|%s => %s\n", matchedArticleTitle, matchedLinkText, matcher.group());
+				// Logger.info("%s|%s => %s", matchedArticleTitle, matchedLinkText, matcher.group());
 			}
 		}
 	}

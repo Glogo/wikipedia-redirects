@@ -1,4 +1,4 @@
-package com.glogo.wikiparser;
+package com.glogo.wikiparser.model;
 
 import java.util.ArrayList;
 
