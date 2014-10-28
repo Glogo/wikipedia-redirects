@@ -1,5 +1,6 @@
 package com.glogo.wikiparser;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -14,17 +15,18 @@ public class PageModel {
 	private String title;
 	
 	/**
-	 * Page text content
-	 */
-	private String text;
-	
-	/**
 	 * Final list of the alternative page titles from redirects
 	 */ 
 	private List<String> alternativeTitles = new IgnoreCaseArrayList();
 	
 	/**
-	 * Final list of the related page terms from other pages anchor texts
+	 * Anchor text links on current page were obtained from direct parsing of the text element
+	 */ 
+	private List<AnchorTextLink> anchorTextLinks = new ArrayList<AnchorTextLink>();
+	
+	/**
+	 * Final list of the related page terms from other pages anchor texts.<br />
+	 * Anchor texts on current page were obtained from page referring to this page with anchor link
 	 */ 
 	private List<String> anchorTexts = new IgnoreCaseArrayList();
 	
@@ -48,13 +50,13 @@ public class PageModel {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-
-	public String getText() {
-		return text;
+	
+	public List<AnchorTextLink> getAnchorTextLinks() {
+		return anchorTextLinks;
 	}
 
-	public void setText(String text) {
-		this.text = text;
+	public void addAnchorTextLink(AnchorTextLink anchorTextLink) {
+		anchorTextLinks.add(anchorTextLink);
 	}
 
 	public List<String> getAlternativeTitles() {
@@ -64,7 +66,7 @@ public class PageModel {
 	public void addAlternativeTitle(String alternativeTitle) {
 		this.alternativeTitles.add(alternativeTitle);
 	}
-	
+
 	public List<String> getAnchorTexts() {
 		return anchorTexts;
 	}

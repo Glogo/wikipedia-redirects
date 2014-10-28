@@ -4,6 +4,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
@@ -18,6 +20,20 @@ import org.codehaus.stax2.XMLStreamReader2;
  * @author Glogo
  */
 public class WikiReader {
+	
+	/**
+	 * This regular expression pattern is used to match links in wiki article text content.<br />
+	 * Only links with following rules are matched:
+	 * <ul>
+	 *     <li>Match only links to internal articles</li>
+	 *     <li>Match only links having delimiter "|"</li>
+	 *     <li>Match links in two groups</li>
+	 * </ul>
+	 * Unescaped pattern: "\[\[([^\]\[:]+)\|([^\]\[:]+)\]\]"<br />
+	 * Short pattern description: Captures wiki links between [[]] tags not beginning with any "Namespace:" and containing "|" delimiter (result is in 2 groups) 
+	 * @see <a href="http://stackoverflow.com/questions/26010846/regex-match-wikipedia-internal-article-links/26010910#26010910">Related stackoverflow question</a>
+	 */
+	private static final Pattern WIKI_LINKS_PATTERN = Pattern.compile("\\[\\[([^\\]\\[:]+)\\|([^\\]\\[:]+)\\]\\]");
 	
 	/**
 	 * Reader states determining current XML reading position
@@ -159,8 +175,8 @@ public class WikiReader {
 	            	}else if(state == State.TEXT_ELEMENT && elementName.equals(TEXT_ELEMENT)){
 	            		state = State.REVISION_ELEMENT;
 	            		
-	            		// Set page model text from buffer
-	            		pageModel.setText(bufferedText.toString());
+	            		// Instead of remembering whole page text, parse text for anchor texts links here and process later
+	            		readAnchorTextLinks(pageModel, bufferedText.toString());
 	            	}
 	                
 	                break;
@@ -174,6 +190,39 @@ public class WikiReader {
          */
         xmlInputStream.close();
         xmlStreamReader.closeCompletely();
+	}
+
+	/**
+	 * Reads anchor links from page text and remembers anchor links in page model
+	 */
+	private void readAnchorTextLinks(PageModel pageModel, String text){
+		Matcher matcher;
+		String anchorLink;
+		String anchorText;
+		
+		/*
+		 * Parse page text and extract anchor texts from links
+		 */
+		// Check if page is not redirection & has not null text
+		if(pageModel.getRedirectsToPageTitle() == null && text != null && text.length() != 0){
+			// System.out.println(pageModel.getTitle());
+			
+			// Find all anchor texts links in page text
+			matcher = WIKI_LINKS_PATTERN.matcher(text);
+			
+			// For each non-category link matches
+			while(matcher.find()){
+
+				// Read link info
+				anchorLink = matcher.group(1);
+				anchorText = matcher.group(2);
+				
+				// Store link info (will be processed later)
+				pageModel.addAnchorTextLink(new AnchorTextLink(anchorText, anchorLink));
+				
+				//System.out.printf("%s|%s => %s\n", matchedArticleTitle, matchedLinkText, matcher.group());
+			}
+		}
 	}
 
 }

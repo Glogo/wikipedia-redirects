@@ -9,8 +9,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import javax.xml.stream.XMLStreamException;
 
@@ -24,20 +22,6 @@ import com.google.gson.GsonBuilder;
  */
 public class WikiParser {
 
-	/**
-	 * This regular expression pattern is used to match links in wiki article text content.<br />
-	 * Only links with following rules are matched:
-	 * <ul>
-	 *     <li>Match only links to internal articles</li>
-	 *     <li>Match only links having delimiter "|"</li>
-	 *     <li>Match links in two groups</li>
-	 * </ul>
-	 * Unescaped pattern: "\[\[([^\]\[:]+)\|([^\]\[:]+)\]\]"<br />
-	 * Short pattern description: Captures wiki links between [[]] tags not beginning with any "Namespace:" and containing "|" delimiter (result is in 2 groups) 
-	 * @see <a href="http://stackoverflow.com/questions/26010846/regex-match-wikipedia-internal-article-links/26010910#26010910">Related stackoverflow question</a>
-	 */
-	private static final Pattern WIKI_LINKS_PATTERN = Pattern.compile("\\[\\[([^\\]\\[:]+)\\|([^\\]\\[:]+)\\]\\]");
-	
 	/**
 	 * Wikipedia dump XML reader
 	 */
@@ -69,9 +53,6 @@ public class WikiParser {
 	 * </ul>
 	 */
 	public void findAlternativeTitles(){
-		Matcher matcher;
-		String matchedArticleTitle;
-		String matchedLinkText;
 		PageModel pageModel;
 		PageModel tmpPageModel;
 		
@@ -101,34 +82,22 @@ public class WikiParser {
 			}
 			
 			/*
-			 *  2. Parse page text and extract anchor texts from links.
+			 *  2. Iterate over anchor text links from parsed text and add them to linked page as anchor text.
 			 */
-			// Check if page is not redirection & has not null text
-			if(pageModel.getRedirectsToPageTitle() == null && pageModel.getText() != null){
-				// System.out.println(pageModel.getTitle());
+			for(AnchorTextLink anchorTextLink : pageModel.getAnchorTextLinks()){
 				
-				// Find all links in page text
-				matcher = WIKI_LINKS_PATTERN.matcher(pageModel.getText());
-				
-				// For each non-category link matches
-				while(matcher.find()){
-					matchedArticleTitle = matcher.group(1);
-					matchedLinkText = matcher.group(2);
-					//System.out.printf("%s|%s => %s\n", matchedArticleTitle, matchedLinkText, matcher.group());
-					
-					// Check if linked page exists in processed pages
-					tmpPageModel = pages.get(matchedArticleTitle);
-					if(tmpPageModel != null){
-						
-						//System.out.printf("%s|%s => %s\n", matchedArticleTitle, matchedLinkText, matcher.group());
-						
-						// Add anchor text to anchor texts if not already exists
-						if(!tmpPageModel.getAnchorTexts().contains(matchedLinkText)){
-							tmpPageModel.addAnchorText(matchedLinkText);
-						}
-					}
-				}
-			}			
+				// Check if linked page exists in processed pages
+                tmpPageModel = pages.get(anchorTextLink.getAnchorLink());
+                if(tmpPageModel != null){
+                    
+                    //System.out.printf("%s|%s => %s\n", matchedArticleTitle, matchedLinkText, matcher.group());
+                    
+                    // Add anchor text to anchor texts if not already exists
+                    if(!tmpPageModel.getAnchorTexts().contains(anchorTextLink.getAnchorText())){
+                        tmpPageModel.addAnchorText(anchorTextLink.getAnchorText());
+                    }
+                }
+			}
 			
 		}
 	}
