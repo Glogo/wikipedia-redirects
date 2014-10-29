@@ -1,5 +1,6 @@
 package com.glogo.wikiparser;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -51,6 +52,12 @@ public class WikiReader {
 		TEXT_ELEMENT
 	};
 	
+	/**
+	 * Average bytes per one page, previously calculated from wikipedia dump "enwiki-latest-pages-articles10.xml"
+	 * This file size is 1073236112 bytes and total pages element count is 214750. 1073236112 / 214750 = 4997.60704074505239 \approx \!\, 5000
+	 */
+	private static final int AVERAGE_BYTES_PER_PAGE = 5000;
+	
 	/*
 	 * XML elements and attributes strings
 	 */
@@ -63,27 +70,17 @@ public class WikiReader {
 	private State state = State.NOPE;
 	
 	/**
-	 * @return total pages staring elements count to enable showing reading progress
+	 * @return aproximated total pages count. This value is calculated from source file size in bytes divided by average bytes per one page.
+	 * Average bytes per one page was previously calculated from wikipedia dump "enwiki-latest-pages-articles10.xml"
+	 *  
 	 * @throws XMLStreamException 
 	 * @throws FileNotFoundException 
 	 */
 	int getFastPagesCount(String filename) throws XMLStreamException, FileNotFoundException {
-		InputStream xmlInputStream = new FileInputStream(filename);
-		XMLInputFactory2 xmlInputFactory = (XMLInputFactory2) XMLInputFactory.newInstance();
-		XMLStreamReader2 xmlStreamReader = (XMLStreamReader2) xmlInputFactory.createXMLStreamReader(xmlInputStream);
-		int count = 0;
-		
-		// Iterate over stream reader tokens
-		while(xmlStreamReader.hasNext()){
-			// If token is start element and element name is page
-			if(xmlStreamReader.next() == XMLEvent.START_ELEMENT && xmlStreamReader.getName().getLocalPart().equals(PAGE_ELEMENT)){
-				count++;
-			}
-		}
+		File file = new File(filename);
+		Logger.info("File size is %d bytes", file.length());
 
-		xmlStreamReader.closeCompletely();
-
-		return count;
+		return (int) (file.length() / AVERAGE_BYTES_PER_PAGE);
 	}
 	
 	/**
@@ -106,6 +103,8 @@ public class WikiReader {
         
         int pagesCount;
         int currentPageIndex = 0;
+        int showProgressEachPercent = 10; // Show progress status after how much % of total pages
+        int showProgressEach; // How many pages needs to be read to display reading progress status
         PageModel pageModel = null;
         int eventType;
         String elementName;
@@ -116,9 +115,10 @@ public class WikiReader {
 		pages.clear();
 		
 		// Do a fast run over xml file to calculate pages count to enable showing reading progress
-		Logger.info("Calculating total pages elements count");
+		Logger.info("Aproximating total pages elements count");
         pagesCount = getFastPagesCount(filename);
-        Logger.info("Calculated total pages elements count: %d", pagesCount);
+        showProgressEach = pagesCount / (100 / showProgressEachPercent);
+        Logger.info("Aproximated total pages elements count: %d (used to calculate progress %%)", pagesCount);
         
         /*
          * Read file contents and store in map. All nodes traversal conditions may not be all necessary, but it is also used as schema validation.
@@ -135,10 +135,8 @@ public class WikiReader {
 	            	if(state == State.NOPE && elementName.equals(PAGE_ELEMENT)){
 	            		state = State.PAGE_ELEMENT;
 	            		
-	            		currentPageIndex++;
-	            		
 	            		// Print progress each N pages
-	            		if(currentPageIndex % 2000 == 1){
+	            		if(currentPageIndex++ % showProgressEach == 0){
 	            			Logger.info("Current reading progress: %.0f%%", (float)currentPageIndex * 100 / pagesCount);
 	            		}
 	            		
