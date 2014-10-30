@@ -8,7 +8,6 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.TreeMap;
 
 import javax.xml.stream.XMLStreamException;
 
@@ -30,11 +29,12 @@ public class WikiParser {
 	private WikiReader wikiReader = new WikiReader();
 	
 	/**
-	 * All pages stored in TreeMap with case insensitive keys.<br />
+	 * Map of all pages stored in HashMap.<br/>
 	 *     <b>key:</b> PageModel title<br />
-	 *     <b>value:</b> PageModel instance
+	 *     <b>value:</b> PageModel instance<br/>
+	 * Note: Pages could also be stored in TreeMap with case insensitive keys but due to memory problems HashMap is used.
 	 */
-	private Map<String, PageModel> pages = new TreeMap<String, PageModel>(String.CASE_INSENSITIVE_ORDER);
+	private Map<String, PageModel> pages = new HashMap<String, PageModel>();
 	
 	/**
 	 * Reads XML file as {@link InputStream} using {@link WikiReader} class, creates {@link PageModel} instances and stores them {@link WikiParser#pages} map

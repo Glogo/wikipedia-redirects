@@ -64,6 +64,7 @@ public class Main {
 		long end = System.currentTimeMillis();
 		
 		Logger.info("Job done in %.2fs", ((float)(end - start) / 1000));
+		Logger.info("Heap size is %.2f MB", (float)Runtime.getRuntime().totalMemory() / (1024 * 1024));
 	}
 
 }
