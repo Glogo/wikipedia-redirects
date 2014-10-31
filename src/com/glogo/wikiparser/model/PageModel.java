@@ -1,6 +1,5 @@
 package com.glogo.wikiparser.model;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -18,17 +17,6 @@ public class PageModel {
 	 * Final list of the alternative page titles from redirects
 	 */ 
 	private List<String> alternativeTitles = new IgnoreCaseArrayList();
-	
-	/**
-	 * Anchor text links on current page were obtained from direct parsing of the text element
-	 */ 
-	private List<AnchorTextLink> anchorTextLinks = new ArrayList<AnchorTextLink>();
-	
-	/**
-	 * Final list of the related page terms from other pages anchor texts.<br />
-	 * Anchor texts on current page were obtained from page referring to this page with anchor link
-	 */ 
-	private List<String> anchorTexts = new IgnoreCaseArrayList();
 	
 	/**
 	 * Title of the page this page redirects to
@@ -50,14 +38,6 @@ public class PageModel {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	
-	public List<AnchorTextLink> getAnchorTextLinks() {
-		return anchorTextLinks;
-	}
-
-	public void addAnchorTextLink(AnchorTextLink anchorTextLink) {
-		anchorTextLinks.add(anchorTextLink);
-	}
 
 	public List<String> getAlternativeTitles() {
 		return alternativeTitles;
@@ -65,14 +45,6 @@ public class PageModel {
 
 	public void addAlternativeTitle(String alternativeTitle) {
 		this.alternativeTitles.add(alternativeTitle);
-	}
-
-	public List<String> getAnchorTexts() {
-		return anchorTexts;
-	}
-	
-	public void addAnchorText(String anchorText) {
-		this.anchorTexts.add(anchorText);
 	}
 	
 	public String getRedirectsToPageTitle() {
@@ -89,15 +61,6 @@ public class PageModel {
 
 	public void setRedirectsToPage(PageModel redirectsToPage) {
 		this.redirectsToPage = redirectsToPage;
-	}
-
-	/**
-	 * Returns true if at least one of following conditions is met
-	 * 	- page is redirect
-	 *  - have zero alternative titles and anchor texts
-	 */
-	public boolean isExcluded() {
-		return redirectsToPageTitle != null || (alternativeTitles.size() == 0 && anchorTexts.size() == 0);
 	}
 	
 }

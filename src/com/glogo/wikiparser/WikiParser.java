@@ -8,11 +8,12 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.TreeMap;
 
+import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.stream.XMLStreamException;
 
-import com.glogo.wikiparser.model.AnchorTextLink;
+import org.xml.sax.SAXException;
+
 import com.glogo.wikiparser.model.PageModel;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -34,14 +35,16 @@ public class WikiParser {
 	 *     <b>key:</b> PageModel title<br />
 	 *     <b>value:</b> PageModel instance
 	 */
-	private Map<String, PageModel> pages = new TreeMap<String, PageModel>(String.CASE_INSENSITIVE_ORDER);
+	private Map<String, PageModel> pages = new HashMap<String, PageModel>(10000000);
 	
 	/**
 	 * Reads XML file as {@link InputStream} using {@link WikiReader} class, creates {@link PageModel} instances and stores them {@link WikiParser#pages} map
 	 * @throws XMLStreamException 
 	 * @throws IOException 
+	 * @throws ParserConfigurationException 
+	 * @throws SAXException 
 	 */
-	public void readPages(String filename) throws XMLStreamException, IOException {
+	public void readPages(String filename) throws XMLStreamException, IOException, SAXException, ParserConfigurationException {
 		wikiReader.readFile(filename, pages);
 	}
 	
@@ -56,14 +59,12 @@ public class WikiParser {
 	 */
 	public void findAlternativeTitles(){
 		PageModel pageModel;
-		PageModel tmpPageModel;
 		
 		Logger.info("Finding alternative titles");
 		
-		// Clear all alternative titles & anchor texts
+		// Clear all alternative titles
 		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
 			entry.getValue().getAlternativeTitles().clear();
-			entry.getValue().getAnchorTexts().clear();
 		}
 		
 		// Loop through pages in map
@@ -82,25 +83,6 @@ public class WikiParser {
 				pageModel.getRedirectsToPage().addAlternativeTitle(entry.getKey());
 				continue;
 			}
-			
-			/*
-			 *  2. Iterate over anchor text links from parsed text and add them to linked page as anchor text.
-			 */
-			for(AnchorTextLink anchorTextLink : pageModel.getAnchorTextLinks()){
-				
-				// Check if linked page exists in processed pages
-                tmpPageModel = pages.get(anchorTextLink.getAnchorLink());
-                if(tmpPageModel != null){
-                    
-                    //Logger.info("%s|%s => %s", matchedArticleTitle, matchedLinkText, matcher.group());
-                    
-                    // Add anchor text to anchor texts if not already exists
-                    if(!tmpPageModel.getAnchorTexts().contains(anchorTextLink.getAnchorText())){
-                        tmpPageModel.addAnchorText(anchorTextLink.getAnchorText());
-                    }
-                }
-			}
-			
 		}
 	}
 	
@@ -110,31 +92,19 @@ public class WikiParser {
 	 *     <li><b>pagesCnt: </b>Total pages count</li>
 	 *     <li><b>redirPagesCnt: </b>Total pages count with at least one alternative title</li>
 	 *     <li><b>pagesAltCnt: </b>Total pages count with at least one alternative title</li>
-	 *     <li><b>pagesAnchCnt: </b>Total pages count with at least one anchor text</li>
-	 *     <li><b>altTitlesCnt: </b>Total count of all alternative titles</li>
-	 *     <li><b>anchTextsCnt: </b>Total count of all anchor texts</li>
 	 * </ul>
 	 * 
 	 * @param json
 	 */
 	private void addMetricsToJSON(Map<String, Object> json) {
 		int redirPagesCnt = 0;
-		int excludedPagesCnt = 0;
 		int pagesAltCnt = 0;
-		int pagesAnchCnt = 0;
-		int altTitlesCnt = 0;
-		int anchTextsCnt = 0;
 		
 		PageModel pageModel;
 		
 		// Loop through all pages and increment appropriate metric
 		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
 			pageModel = entry.getValue();
-			
-			// If page is excluded
-			if(pageModel.isExcluded()){
-				excludedPagesCnt++;
-			}
 			
 			// If page is redirect
 			if(pageModel.getRedirectsToPageTitle() != null){
@@ -143,26 +113,15 @@ public class WikiParser {
 			}
 			
 			// If page has at least one alternative title
-			if(pageModel.getAlternativeTitles().size() > 0){
+			if(pageModel.getAlternativeTitles().size() > 0) {
 				pagesAltCnt++;
-				altTitlesCnt += pageModel.getAlternativeTitles().size();
-			}
-			
-			// If page has at least one anchor text
-			if(pageModel.getAnchorTexts().size() > 0){
-				pagesAnchCnt++;
-				anchTextsCnt += pageModel.getAnchorTexts().size();
 			}
 		}
 		
 		// Store metrics values in json
 		json.put("pagesCnt", pages.size());
 		json.put("redirPagesCnt", redirPagesCnt);
-		json.put("excludedPagesCnt", excludedPagesCnt);
 		json.put("pagesAltCnt", pagesAltCnt);
-		json.put("pagesAnchCnt", pagesAnchCnt);
-		json.put("altTitlesCnt", altTitlesCnt);
-		json.put("anchTextsCnt", anchTextsCnt);
 	}
 	
 	public void exportToJSON(String path) throws IOException{
@@ -185,39 +144,31 @@ public class WikiParser {
 		
 		Logger.info("Exporting pages with alternative titles to JSON");
 		
-		// Loop through pages and create + add element to pages element array value
-		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
+		// Loop through pages, create & add element to pages element array value
+		for(Map.Entry<String, PageModel> entry : pages.entrySet()) {
 			
 			pageModel = entry.getValue();
 			
-			// Skip excluded pages
-			if(!pageModel.isExcluded()) {
-				
-				// Create alternative titles json array
-				List<String> alternativeTitles = new ArrayList<String>();
-	
-				// Add all alternative titles to array
-				for(String alternativeTitle : pageModel.getAlternativeTitles()){
-					alternativeTitles.add(alternativeTitle);
-				}
-				
-				// Create anchor texts json array
-				List<String> anchorTexts = new ArrayList<String>();
-				
-				// Add all anchor texts to array
-				for(String anchorText : pageModel.getAnchorTexts()){
-					anchorTexts.add(anchorText);
-				}
-				
-				// Create page json object
-				Map<String, Object> pageObject = new HashMap<String, Object>();
-				pageObject.put("title", pageModel.getTitle());
-				pageObject.put("alternative", alternativeTitles);
-				pageObject.put("anchor", anchorTexts);
-				
-				// Add page object to json
-				pagesObjects.add(pageObject);
+			// Skip page if does not have any alternative titles
+			if(pageModel.getAlternativeTitles().size() == 0){
+				continue;
 			}
+				
+			// Create alternative titles json array
+			List<String> alternativeTitles = new ArrayList<String>();
+
+			// Add all alternative titles to array
+			for(String alternativeTitle : pageModel.getAlternativeTitles()){
+				alternativeTitles.add(alternativeTitle);
+			}
+			
+			// Create page json object
+			Map<String, Object> pageObject = new HashMap<String, Object>();
+			pageObject.put("title", pageModel.getTitle());
+			pageObject.put("alternative", alternativeTitles);
+			
+			// Add page object to json
+			pagesObjects.add(pageObject);
 		}
 		
 		FileWriter file = new FileWriter(path);
@@ -226,7 +177,7 @@ public class WikiParser {
         	// Create Google Gson to simplify json serializing
         	Gson gson = new GsonBuilder().setPrettyPrinting().create();
         	
-        	// Create javascript compatibile output to enable easy querying
+        	// Create javascript compatible output to enable easy querying
             file.write("var pagesData = " + gson.toJson(json) + ";");
             Logger.info("Successfully saved JSON object to file: '%s'", path);
  

@@ -2,7 +2,10 @@ package com.glogo.wikiparser;
 
 import java.io.IOException;
 
+import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.stream.XMLStreamException;
+
+import org.xml.sax.SAXException;
 
 /**
  * Main class responsible for reading command line arguments and running WikiParser
@@ -41,6 +44,14 @@ public class Main {
 
 		} catch (XMLStreamException e) {
 			Logger.error("Input file is not valid XML.");
+			Logger.error(e.getMessage());
+			System.exit(1);
+			
+		} catch (SAXException e) {
+			Logger.error(e.getMessage());
+			System.exit(1);
+			
+		} catch (ParserConfigurationException e) {
 			Logger.error(e.getMessage());
 			System.exit(1);
 		}
