@@ -4,6 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -15,6 +16,8 @@ import javax.xml.stream.XMLStreamException;
 import org.xml.sax.SAXException;
 
 import com.glogo.wikiparser.model.PageModel;
+import com.google.common.collect.ArrayListMultimap;
+import com.google.common.collect.Multimap;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -37,11 +40,23 @@ public class WikiParser {
 	private WikiReader wikiReader = new WikiReader();
 	
 	/**
-	 * All pages stored in HashMap..<br />
+	 * All non-redirect pages<br />
 	 *     <b>key:</b> PageModel id<br />
 	 *     <b>value:</b> PageModel instance
 	 */
 	private Map<Integer, PageModel> pages = new HashMap<Integer, PageModel>(1000000);
+	
+	/**
+	 * All redirect pages<br />
+	 *     <b>key:</b> PageModel title of redirected page (from XML redirect element & title attribute)<br />
+	 *     <b>value:</b> PageModel title of redirect page (more values are possible for one key)<br />
+	 * This is major (Carter) performance optimization, since we don't need to store
+     * all pages in HashMap<String, PageModel> (problems with {@link String#hashCode()}) but only redirects in separate map.
+     * In main cycle in {@link WikiParser#findAlternativeTitles()} step we will be iterating over all non-redirect pages and look
+     * in this Multimap for alternative titles.
+     * This needs to be done after all pages were read since we need pages in memory to add alternative titles.
+	 */
+	Multimap<String, String> redirectedPages = ArrayListMultimap.create(pages.size()/4, 4);
 	
 	/**
 	 * Reads XML file as {@link InputStream} using {@link WikiReader} class, creates {@link PageModel} instances and stores them {@link WikiParser#pages} map
@@ -51,7 +66,7 @@ public class WikiParser {
 	 * @throws SAXException 
 	 */
 	public void readPages(String filename) throws XMLStreamException, IOException {
-		wikiReader.readFile(filename, pages);
+		wikiReader.readFile(filename, pages, redirectedPages);
 	}
 	
 	/**
@@ -65,68 +80,39 @@ public class WikiParser {
 	 */
 	public void findAlternativeTitles(){
 		PageModel pageModel;
-		String redirectPageTitle;
 		
 		Logger.info("Finding alternative titles");
 		
-		// Clear all alternative titles
-		for (Map.Entry<Integer, PageModel> entry : pages.entrySet()) {
-			entry.getValue().getAlternativeTitles().clear();
-		}
-		
 		/*
-		 * 1. Loop through pages in map & create another temporary HashMap of all redirects
-		 * This is major (Carter) performance optimalization, since we don't need to store
-		 * all pages in HashMap<String, PageModel> ... "only" redirects.
-		 * In 2nd text step we will be iterating over all pages again and check if this page was redirected to.
+		 * Loop through pages in map again & add alternative titles to pages
 		 */
-		
-		/**
-		 * Temporary HashMap of redirect pages where:<br />
-		 *     <b>key:</b> PageModel title of redirected page (from XML redirect element & title attribute)<br />
-		 *     <b>value:</b> PageModel title of redirect page<br />
-		 */
-		Map<String, String> redirectedPagesMap = new HashMap<String, String>(pages.size() / 2);
 		for (Map.Entry<Integer, PageModel> entry : pages.entrySet()) {
+			
 			pageModel = entry.getValue();
 			
-			// This page is redirect
-			if(pageModel.getRedirectsToPageTitle() != null){
-
-				// Add redirect info to map
-				redirectedPagesMap.put(pageModel.getRedirectsToPageTitle(), pageModel.getTitle());
-			}
-		}
-		
-		/*
-		 * 2. Loop through pages in map again & add alternative titles to pages
-		 */
-		for (Map.Entry<Integer, PageModel> entry : pages.entrySet()) {
-			pageModel = entry.getValue();
+			pageModel.getAlternativeTitles().clear();
 			
-			// Check if this page was redirected to
-			redirectPageTitle = redirectedPagesMap.get(pageModel.getTitle());
-			if(redirectPageTitle != null){
-				
-				// Add alternative title to redirected page
-				pageModel.addAlternativeTitle(redirectPageTitle); 
-			}
+			// Get all pages titles redirecting to current page (if any)
+			Collection<String> redirectsFromPagesTitles = redirectedPages.get(pageModel.getTitle());
+			
+			// Add all redirect pages titles as alternative titles
+			pageModel.getAlternativeTitles().addAll(redirectsFromPagesTitles);
 		}
 	}
 	
 	/**
 	 * Adds following statistics to root of supplied json object: <br />
 	 * <ul>
-	 *     <li><b>pagesCnt: </b>Total pages count</li>
-	 *     <li><b>redirPagesCnt: </b>Total pages count with at least one alternative title</li>
-	 *     <li><b>pagesAltCnt: </b>Total pages count with at least one alternative title</li>
+	 *     <li><b>totalPagesCnt: </b>Total pages count</li>
+	 *     <li><b>nonRedirPagesCnt: </b>Total non-redirect pages count</li>
+	 *     <li><b>redirPagesCnt: </b>Total redirect pages count</li>
+	 *     <li><b>pagesWithAltCnt: </b>Total non-redirect pages with at least one alternative title from redirects</li>s
 	 * </ul>
 	 * 
 	 * @param json
 	 */
 	private void addMetricsToJSON(Map<String, Object> json) {
-		int redirPagesCnt = 0;
-		int pagesAltCnt = 0;
+		int pagesWithAltCnt = 0;
 		
 		PageModel pageModel;
 		
@@ -134,22 +120,17 @@ public class WikiParser {
 		for (Map.Entry<Integer, PageModel> entry : pages.entrySet()) {
 			pageModel = entry.getValue();
 			
-			// If page is redirect
-			if(pageModel.getRedirectsToPageTitle() != null){
-				redirPagesCnt++;
-				continue;
-			}
-			
 			// If page has at least one alternative title
 			if(pageModel.getAlternativeTitles().size() > 0) {
-				pagesAltCnt++;
+				pagesWithAltCnt++;
 			}
 		}
 		
 		// Store metrics values in json
-		json.put("pagesCnt", pages.size());
-		json.put("redirPagesCnt", redirPagesCnt);
-		json.put("pagesAltCnt", pagesAltCnt);
+		json.put("totalPagesCnt", pages.size() + redirectedPages.size());
+		json.put("nonRedirPagesCnt", pages.size());
+		json.put("redirPagesCnt", redirectedPages.size());
+		json.put("pagesWithAltCnt", pagesWithAltCnt);
 	}
 	
 	public void exportToJSON(String path) throws IOException{

@@ -1,5 +1,6 @@
 package com.glogo.wikiparser.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -22,12 +23,12 @@ public class PageModel {
 	/**
 	 * Final list of the alternative page titles from redirects
 	 */ 
-	private List<String> alternativeTitles = new IgnoreCaseArrayList();
-	
-	/**
-	 * Title of the page this page redirects to
-	 */
-	private String redirectsToPageTitle;
+	private List<String> alternativeTitles = new ArrayList<String>();
+
+	public PageModel(Integer id, String title) {
+		this.id = id;
+		this.title = title;
+	}
 
 	public Integer getId() {
 		return id;
@@ -48,17 +49,4 @@ public class PageModel {
 	public List<String> getAlternativeTitles() {
 		return alternativeTitles;
 	}
-
-	public void addAlternativeTitle(String alternativeTitle) {
-		this.alternativeTitles.add(alternativeTitle);
-	}
-	
-	public String getRedirectsToPageTitle() {
-		return redirectsToPageTitle;
-	}
-
-	public void setRedirectsToPageTitle(String redirectsToPageTitle) {
-		this.redirectsToPageTitle = redirectsToPageTitle;
-	}
-	
 }
