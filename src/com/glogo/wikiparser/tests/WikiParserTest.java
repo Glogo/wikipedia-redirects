@@ -5,6 +5,8 @@ import static org.junit.Assert.fail;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 import javax.xml.stream.XMLStreamException;
 
@@ -12,6 +14,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.glogo.wikiparser.WikiParser;
+import com.glogo.wikiparser.model.PageModel;
 
 /**
  * This class contains various jUnit test for WikiParser
@@ -21,6 +24,20 @@ public class WikiParserTest {
 	
 	private static WikiParser parser = null;
 	private static String absolutePath;
+	private static Map<String, PageModel> pagesMap = new HashMap<String, PageModel>();
+	
+	/**
+	 * Clears pagesMap and maps all pages to this map with title as key.
+	 */
+	private void readPagesMap() {
+		pagesMap.clear();
+		PageModel pageModel;
+		
+		for(Map.Entry<Integer, PageModel> entry : parser.getPages().entrySet()){
+			pageModel = entry.getValue();
+			pagesMap.put(pageModel.getTitle(), pageModel);
+		}
+	}
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -43,49 +60,32 @@ public class WikiParserTest {
 	public void pageDogShouldHaveOneAlternativeTitle() throws XMLStreamException, IOException {
 		parser.readPages(absolutePath);
 		parser.findAlternativeTitles();
-		assertTrue("Page with title 'Dog' doesn't have one alternative title.", parser.getPages().get("Dog").getAlternativeTitles().size() == 1);
-	}
-	
-	@Test
-	public void pageDogShouldHaveOneAnchorText() throws XMLStreamException, IOException {
-		parser.readPages(absolutePath);
-		parser.findAlternativeTitles();
-		assertTrue("Page with title 'Dog' doesn't have one anchor text.", parser.getPages().get("Dog").getAnchorTexts().size() == 1);
+		readPagesMap();
+		assertTrue("Page with title 'Dog' doesn't have one alternative title.", pagesMap.get("Dog").getAlternativeTitles().size() == 1);
 	}
 	
 	@Test
 	public void pageAnimalsShouldNotHaveAlternativeTitleAnimal() throws XMLStreamException, IOException {
 		parser.readPages(absolutePath);
 		parser.findAlternativeTitles();
-		assertTrue("Page with title 'Animals' shouldn't have alternative title 'animal' (ignoring case).", !parser.getPages().get("Animals").getAlternativeTitles().contains("animal"));
-	}
-	
-	@Test
-	public void pageAnimalsShouldHaveAnchorTextAnimal() throws XMLStreamException, IOException {
-		parser.readPages(absolutePath);
-		parser.findAlternativeTitles();
-		assertTrue("Page with title 'Animals' doesn't have anchor text 'animal' (ignoring case).", parser.getPages().get("Animals").getAnchorTexts().contains("animal"));
+		readPagesMap();
+		assertTrue("Page with title 'Animals' shouldn't have alternative title 'animal' (ignoring case).", !pagesMap.get("Animals").getAlternativeTitles().contains("animal"));
 	}
 	
 	@Test
 	public void pageAnimalsShouldNotHaveAlternativeTitleAnimalIgnoreCase() throws XMLStreamException, IOException {
 		parser.readPages(absolutePath);
 		parser.findAlternativeTitles();
-		assertTrue("Page with title 'Animals' shouldn't have alternative title 'aNimAl' (ignoring case).", !parser.getPages().get("Animals").getAlternativeTitles().contains("aNimAl"));
-	}
-	
-	@Test
-	public void pageAnimalsShouldHaveAnchorTextAnimalIgnoreCase() throws XMLStreamException, IOException {
-		parser.readPages(absolutePath);
-		parser.findAlternativeTitles();
-		assertTrue("Page with title 'Animals' doesn't have anchor text 'aNimAl' (ignoring case).", parser.getPages().get("Animals").getAnchorTexts().contains("aNimAl"));
+		readPagesMap();
+		assertTrue("Page with title 'Animals' shouldn't have alternative title 'aNimAl' (ignoring case).", !pagesMap.get("Animals").getAlternativeTitles().contains("aNimAl"));
 	}
 	
 	@Test
 	public void pageAliensShouldNotHaveAlternativeTitles() throws XMLStreamException, IOException {
 		parser.readPages(absolutePath);
 		parser.findAlternativeTitles();
-		assertTrue("Page with title 'Aliens' has (and shouldn't) have any alternative titles becase link is to category.", parser.getPages().get("Aliens").getAlternativeTitles().isEmpty());
+		readPagesMap();
+		assertTrue("Page with title 'Aliens' has (and shouldn't) have any alternative titles becase link is to category.", pagesMap.get("Aliens").getAlternativeTitles().isEmpty());
 	}
 	
 	@Test

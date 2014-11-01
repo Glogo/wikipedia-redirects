@@ -118,7 +118,7 @@ public class WikiReader {
                     if(elementName.equals(PAGE_ELEMENT)){
                         
                     	// Print progress each showProgressEach pages
-                        if(currentPageIndex++ % showProgressEach == 0){
+                        if(showProgressEach > 0 && (currentPageIndex++ % showProgressEach == 0)) {
                             progress = (float)currentPageIndex * 100 / pagesCount;
                             Logger.info("Approx reading progress: %.0f%%", progress >= 99 ? 99f : progress);
                         }
