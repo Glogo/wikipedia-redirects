@@ -24,9 +24,14 @@ import com.glogo.wikiparser.model.PageModel;
 public class WikiReader {
 
     /**
-     * State indicator for title element
+     * Indicates if title element started but not yet ended.
      */
     private boolean isTitle = false;
+    
+    /**
+     * Indicates if id element started but not yet ended.
+     */
+    private boolean isId = false;
     
     /**
      * Average bytes per one page, previously calculated from wikipedia dump "enwiki-latest-pages-articles10.xml"
@@ -43,6 +48,7 @@ public class WikiReader {
      * XML elements and attributes strings
      */
     private static final String PAGE_ELEMENT = "page";
+    private static final String ID_ELEMENT = "id";
     private static final String TITLE_ELEMENT = "title";
     private static final String REDIRECT_ELEMENT = "redirect";
     
@@ -67,7 +73,7 @@ public class WikiReader {
      * @throws XMLStreamException 
      * @throws IOException 
      */
-    public void readFile(String filename, Map<String, PageModel> pages) throws XMLStreamException, IOException{
+    public void readFile(String filename, Map<Integer, PageModel> pages) throws XMLStreamException, IOException{
         /*
          * Try to open file
          */
@@ -120,9 +126,14 @@ public class WikiReader {
                         // Create new page model
                         pageModel = new PageModel();
                         
+                    // Id element started
+                    }else if(elementName.equals(ID_ELEMENT)){
+                        isId = true;
+                        
                     // Title element started
                     }else if(elementName.equals(TITLE_ELEMENT)){
                         isTitle = true;
+                        
 
                     // Redirect element started
                     }else if(elementName.equals(REDIRECT_ELEMENT)){
@@ -141,8 +152,12 @@ public class WikiReader {
 
                 case XMLEvent.CHARACTERS:
                     
+                	// We are currently on id element
+                    if(isId){
+                        pageModel.setId(Integer.parseInt(xmlStreamReader.getText()));
+                    
                     // We are currently on title element
-                    if(isTitle){
+                    }else if(isTitle){
                         pageModel.setTitle(xmlStreamReader.getText());
                     }
                     
@@ -153,9 +168,13 @@ public class WikiReader {
                     
                     // Page element ended
                     if(elementName.equals(PAGE_ELEMENT)){
-                        pages.put(pageModel.getTitle(), pageModel);
+                        pages.put(pageModel.getId(), pageModel);
                         pageModel = null;
                     
+                    // Id element ended
+                    }else if(elementName.equals(ID_ELEMENT)){
+                    	isId = false;
+                        
                     // Title element ended
                     }else if(elementName.equals(TITLE_ELEMENT)){
                     	isTitle = false;

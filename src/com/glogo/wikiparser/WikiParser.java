@@ -20,7 +20,13 @@ import com.google.gson.GsonBuilder;
 
 /**
  * Main Wiki pages parser.
- * This class contains methods necessary to parse input XML doc, find alternative titles for articles (pages) and export them to readable format.
+ * This class contains methods necessary to parse input XML doc, find alternative titles for articles (pages) and export them to readable format. <br /><br />
+ * Terminology:<br />
+ * 	<b>Redirect page</b> page which is redirecting to another page.<br />
+ *  <b>Redirected page</b> page which was redirected to from redirect page page.<br />
+ *  
+ * TODO: stuff in loops could be merged together. It is currently not performance killer. Divided loops improve readability. 
+ * 
  * @author Glogo
  */
 public class WikiParser {
@@ -31,11 +37,11 @@ public class WikiParser {
 	private WikiReader wikiReader = new WikiReader();
 	
 	/**
-	 * All pages stored in TreeMap with case insensitive keys.<br />
-	 *     <b>key:</b> PageModel title<br />
+	 * All pages stored in HashMap..<br />
+	 *     <b>key:</b> PageModel id<br />
 	 *     <b>value:</b> PageModel instance
 	 */
-	private Map<String, PageModel> pages = new HashMap<String, PageModel>(10000000);
+	private Map<Integer, PageModel> pages = new HashMap<Integer, PageModel>(1000000);
 	
 	/**
 	 * Reads XML file as {@link InputStream} using {@link WikiReader} class, creates {@link PageModel} instances and stores them {@link WikiParser#pages} map
@@ -44,7 +50,7 @@ public class WikiParser {
 	 * @throws ParserConfigurationException 
 	 * @throws SAXException 
 	 */
-	public void readPages(String filename) throws XMLStreamException, IOException, SAXException, ParserConfigurationException {
+	public void readPages(String filename) throws XMLStreamException, IOException {
 		wikiReader.readFile(filename, pages);
 	}
 	
@@ -59,29 +65,51 @@ public class WikiParser {
 	 */
 	public void findAlternativeTitles(){
 		PageModel pageModel;
+		String redirectPageTitle;
 		
 		Logger.info("Finding alternative titles");
 		
 		// Clear all alternative titles
-		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
+		for (Map.Entry<Integer, PageModel> entry : pages.entrySet()) {
 			entry.getValue().getAlternativeTitles().clear();
 		}
 		
-		// Loop through pages in map
-		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
+		/*
+		 * 1. Loop through pages in map & create another temporary HashMap of all redirects
+		 * This is major (Carter) performance optimalization, since we don't need to store
+		 * all pages in HashMap<String, PageModel> ... "only" redirects.
+		 * In 2nd text step we will be iterating over all pages again and check if this page was redirected to.
+		 */
+		
+		/**
+		 * Temporary HashMap of redirect pages where:<br />
+		 *     <b>key:</b> PageModel title of redirected page (from XML redirect element & title attribute)<br />
+		 *     <b>value:</b> PageModel title of redirect page<br />
+		 */
+		Map<String, String> redirectedPagesMap = new HashMap<String, String>(pages.size() / 2);
+		for (Map.Entry<Integer, PageModel> entry : pages.entrySet()) {
 			pageModel = entry.getValue();
 			
-			// Add redirectsToPage instance if page is redirecting to another page. If redirected page was not found then null will be returned automatically
+			// This page is redirect
 			if(pageModel.getRedirectsToPageTitle() != null){
-				pageModel.setRedirectsToPage(pages.get(pageModel.getRedirectsToPageTitle()));
+
+				// Add redirect info to map
+				redirectedPagesMap.put(pageModel.getRedirectsToPageTitle(), pageModel.getTitle());
 			}
+		}
+		
+		/*
+		 * 2. Loop through pages in map again & add alternative titles to pages
+		 */
+		for (Map.Entry<Integer, PageModel> entry : pages.entrySet()) {
+			pageModel = entry.getValue();
 			
-			/*
-			 *  1. Add alternative title to redirected page
-			 */
-			if(pageModel.getRedirectsToPage() != null){
-				pageModel.getRedirectsToPage().addAlternativeTitle(entry.getKey());
-				continue;
+			// Check if this page was redirected to
+			redirectPageTitle = redirectedPagesMap.get(pageModel.getTitle());
+			if(redirectPageTitle != null){
+				
+				// Add alternative title to redirected page
+				pageModel.addAlternativeTitle(redirectPageTitle); 
 			}
 		}
 	}
@@ -103,7 +131,7 @@ public class WikiParser {
 		PageModel pageModel;
 		
 		// Loop through all pages and increment appropriate metric
-		for (Map.Entry<String, PageModel> entry : pages.entrySet()) {
+		for (Map.Entry<Integer, PageModel> entry : pages.entrySet()) {
 			pageModel = entry.getValue();
 			
 			// If page is redirect
@@ -145,7 +173,7 @@ public class WikiParser {
 		Logger.info("Exporting pages with alternative titles to JSON");
 		
 		// Loop through pages, create & add element to pages element array value
-		for(Map.Entry<String, PageModel> entry : pages.entrySet()) {
+		for(Map.Entry<Integer, PageModel> entry : pages.entrySet()) {
 			
 			pageModel = entry.getValue();
 			
@@ -190,7 +218,7 @@ public class WikiParser {
         }
 	}
 	
-	public Map<String, PageModel> getPages(){
+	public Map<Integer, PageModel> getPages(){
 		return pages;
 	}
 }

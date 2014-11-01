@@ -8,6 +8,12 @@ import java.util.List;
  * @author Glogo
  */
 public class PageModel {
+	
+	/**
+	 * ID of the page
+	 */
+	private Integer id;
+	
 	/**
 	 * Title of the page
 	 */
@@ -22,14 +28,14 @@ public class PageModel {
 	 * Title of the page this page redirects to
 	 */
 	private String redirectsToPageTitle;
-	
-	/**
-	 * Page to which this page redirects to.
-	 * This page could redirect to another page while this value would still be null.
-	 * This happens when redirected page was not in parsed data.
-	 * See: {@link #redirectsToPageTitle}
-	 */
-	private PageModel redirectsToPage;
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
 
 	public String getTitle() {
 		return title;
@@ -53,14 +59,6 @@ public class PageModel {
 
 	public void setRedirectsToPageTitle(String redirectsToPageTitle) {
 		this.redirectsToPageTitle = redirectsToPageTitle;
-	}
-
-	public PageModel getRedirectsToPage() {
-		return redirectsToPage;
-	}
-
-	public void setRedirectsToPage(PageModel redirectsToPage) {
-		this.redirectsToPage = redirectsToPage;
 	}
 	
 }
