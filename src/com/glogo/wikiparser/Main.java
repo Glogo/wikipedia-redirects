@@ -5,7 +5,7 @@ import java.io.IOException;
 import javax.xml.stream.XMLStreamException;
 
 /**
- * Main class responsible for reading command line arguments and running {@link WikiRedirects}.
+ * Main class responsible for reading command line arguments and running {@link WikipediaRedirects}.
  * @author Glogo
  */
 public class Main {
@@ -26,7 +26,7 @@ public class Main {
 		/*
 		 * Initialize WikiParser
 		 */
-		WikiRedirects parser = new WikiRedirects();
+		WikipediaRedirects parser = new WikipediaRedirects();
 		
 		/*
 		 * Open file & read pages from xml file

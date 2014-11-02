@@ -18,12 +18,12 @@ import com.google.gson.GsonBuilder;
  * This class contains methods necessary to parse input XML doc, find alternative titles for pages from redirects and export them to readable format.
  * @author Glogo
  */
-public class WikiRedirects {
+public class WikipediaRedirects {
 
 	/**
 	 * Wikipedia dump XML reader
 	 */
-	private WikiRedirectsReader wikiReader = new WikiRedirectsReader();
+	private WikipediaRedirectsReader wikiReader = new WikipediaRedirectsReader();
 	
 	/**
 	 * Guava {@link Multimap} of all redirect pages<br />
@@ -38,7 +38,7 @@ public class WikiRedirects {
 	Multimap<String, String> redirectedPages = ArrayListMultimap.create(7000000, 4);
 	
 	/**
-	 * Reads XML file as {@link InputStream} using {@link WikiRedirectsReader} class and stores redirected pages in redirectedPages Multimap
+	 * Reads XML file as {@link InputStream} using {@link WikipediaRedirectsReader} class and stores redirected pages in redirectedPages Multimap
 	 * @throws XMLStreamException 
 	 * @throws IOException
 	 */

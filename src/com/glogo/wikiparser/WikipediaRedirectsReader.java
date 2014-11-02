@@ -21,7 +21,7 @@ import com.google.common.collect.Multimap;
  * @see <a href="http://www.studytrails.com/java/xml/woodstox/java-xml-stax-woodstox-basic-parsing.jsp">Helpful Stax Woodstox parsing example</a><br />
  * @author Glogo
  */
-public class WikiRedirectsReader {
+public class WikipediaRedirectsReader {
 
     /**
      * Indicates if title element started but not yet ended.

@@ -11,7 +11,7 @@ import javax.xml.stream.XMLStreamException;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.glogo.wikiparser.WikiRedirects;
+import com.glogo.wikiparser.WikipediaRedirects;
 
 /**
  * This class contains simple jUnit test for WikiParser
@@ -19,12 +19,12 @@ import com.glogo.wikiparser.WikiRedirects;
  */
 public class WikiParserTest {
 	
-	private static WikiRedirects parser = null;
+	private static WikipediaRedirects parser = null;
 	private static String absolutePath;
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		parser = new WikiRedirects();
+		parser = new WikipediaRedirects();
 		absolutePath = new File("res/test_input.xml").getAbsolutePath();
 	}
 	
