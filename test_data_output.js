@@ -6,12 +6,9 @@ var pagesData = {
     "redirPagesCnt": 1,
     "pagesWithAltCnt": 1
   },
-  "pages": [
-    {
-      "title": "Dog",
-      "alternative": [
-        "Hound"
-      ]
-    }
-  ]
+  "pages": {
+    "Dog": [
+      "Hound"
+    ]
+  }
 };

@@ -5,7 +5,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Map;
 
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
@@ -14,15 +13,15 @@ import javax.xml.stream.events.XMLEvent;
 import org.codehaus.stax2.XMLInputFactory2;
 import org.codehaus.stax2.XMLStreamReader2;
 
-import com.glogo.wikiparser.model.PageModel;
 import com.google.common.collect.Multimap;
 
 /**
- * Class used to read large wikipedia dumps XML files into pages map.
- * @see <a href="http://www.studytrails.com/java/xml/woodstox/java-xml-stax-woodstox-basic-parsing.jsp">Helpful Stax Woodstox parsing example</a>
+ * Class used to read alternative pages titles from redirects.<br />
+ * Can be used for large wikipedia dumps XML files.
+ * @see <a href="http://www.studytrails.com/java/xml/woodstox/java-xml-stax-woodstox-basic-parsing.jsp">Helpful Stax Woodstox parsing example</a><br />
  * @author Glogo
  */
-public class WikiReader {
+public class WikiRedirectsReader {
 
     /**
      * Indicates if title element started but not yet ended.
@@ -30,19 +29,9 @@ public class WikiReader {
     private boolean isTitle = false;
     
     /**
-     * Indicates if id element started but not yet ended.
-     */
-    private boolean isId = false;
-    
-    /**
-     * Indicates if current page is redirect (has redirect attribute)
+     * Indicates if current page is redirect (if page has redirect attribute)
      */
     private boolean isRedirect = false;
-    
-    /**
-     * Indicates if revision element started but not yet ended (there are id elements inside revision we want to ommit)
-     */
-    private boolean isRevision = false;
     
     /**
      * Average bytes per one page, previously calculated from complete wikipedia dump "enwiki-latest-pages-articles.xml"
@@ -56,17 +45,20 @@ public class WikiReader {
     private static final int SHOW_PROGRESS_EACH_PERCENT = 1;
     
     /*
-     * XML elements and attributes strings
+     * XML elements strings
      */
-    private static final String PAGE_ELEMENT = "page";
-    private static final String ID_ELEMENT = "id";
+    private static final String PAGE_ELEMENT = "page"; // used only to display progress
     private static final String TITLE_ELEMENT = "title";
     private static final String REDIRECT_ELEMENT = "redirect";
-    private static final String REVISION_ELEMENT = "revision";
+    
+    /**
+     * Total pages count
+     */
+    private int totalPagesCount;
     
     /**
      * @return approximated total pages count. This value is calculated from source file size in bytes divided by average bytes per one page.
-     * Average bytes per one page was previously calculated from wikipedia dump "enwiki-latest-pages-articles10.xml"
+     * Average bytes per one page was previously calculated from complete Wikipedia(en) dump "enwiki-latest-pages-articles.xml"
      *  
      * @throws XMLStreamException 
      * @throws FileNotFoundException 
@@ -79,14 +71,14 @@ public class WikiReader {
     }
     
     /**
-     * Opens file with filename and parses wikipedia pages data into pages map.
+     * Opens a file and parses wikipedia redirects data into redirectedPages map.
      * @param filename 
      * @param pages
      * @param redirectedPages 
      * @throws XMLStreamException 
      * @throws IOException 
      */
-    public void readFile(String filename, Map<Integer, PageModel> pages, Multimap<String, String> redirectedPages) throws XMLStreamException, IOException{
+    public void readFile(String filename, Multimap<String, String> redirectedPages) throws XMLStreamException, IOException{
         /*
          * Try to open file
          */
@@ -94,12 +86,11 @@ public class WikiReader {
         Logger.info("Reading file: '%s'", filename);
         InputStream xmlInputStream = new FileInputStream(filename);
         XMLInputFactory2 xmlInputFactory = (XMLInputFactory2)XMLInputFactory.newInstance();
-        xmlInputFactory.setProperty(XMLInputFactory.IS_COALESCING, true); // Return whole element text altogether (we don't need to use StringBuilder/Buffer)
+        xmlInputFactory.setProperty(XMLInputFactory.IS_COALESCING, true); // Force long texts to come concatenated together in CHARACTERS
         XMLStreamReader2 xmlStreamReader = (XMLStreamReader2) xmlInputFactory.createXMLStreamReader(xmlInputStream);
         
         // Progress helpers
-        int pagesCount;
-        int currentPageIndex = 0;
+        int approxPagesCount;
         int showProgressEach; // How many pages needs to be read to display reading progress status
         float progress;
         
@@ -107,19 +98,18 @@ public class WikiReader {
         String elementName;
         
         // Page info
-        Integer id = null; 
         String title = null;
         String redirectsTo = null;
         
-        // Clear maps
-        pages.clear();
+        // Clear redirectedPages & total pages count
         redirectedPages.clear();
+        totalPagesCount = 0;
         
-        // Do a fast run over xml file to calculate pages count to enable showing reading progress
+        // Calculate approximate pages count to enable showing reading progress
         Logger.info("Approximating total pages elements count");
-        pagesCount = getFastPagesCount(filename);
-        showProgressEach = pagesCount / (100 / SHOW_PROGRESS_EACH_PERCENT);
-        Logger.info("Approximated total pages elements count: %d (used to calculate progress %%)", pagesCount);
+        approxPagesCount = getFastPagesCount(filename);
+        showProgressEach = approxPagesCount / (100 / SHOW_PROGRESS_EACH_PERCENT);
+        Logger.info("Approximated total pages elements count: %d (used to calculate progress %%)", approxPagesCount);
         Logger.info("Displaying approximated progress each %d pages (%d %% of all calculated pages)", showProgressEach, SHOW_PROGRESS_EACH_PERCENT);
         
         /*
@@ -135,14 +125,12 @@ public class WikiReader {
                     if(elementName.equals(PAGE_ELEMENT)){
                     	
                     	// Print progress each showProgressEach pages
-                        if(showProgressEach != 0 && (currentPageIndex++ % showProgressEach == 0)) {
-                            progress = (float)currentPageIndex * 100 / pagesCount;
-                            Logger.info("Approx reading progress: %.0f%%. Pages processed: %d", progress >= 99 ? 99f : progress, currentPageIndex);
+                        if(showProgressEach != 0 && (totalPagesCount % showProgressEach == 0)) {
+                            progress = (float)totalPagesCount * 100 / approxPagesCount;
+                            Logger.info("Approx reading progress: %.0f%%. Pages processed: %d", progress >= 99 ? 99f : progress, totalPagesCount);
                         }
                         
-                    // Id element started
-                    }else if(elementName.equals(ID_ELEMENT)){
-                        isId = true;
+                        totalPagesCount++;
                         
                     // Title element started
                     }else if(elementName.equals(TITLE_ELEMENT)){
@@ -158,22 +146,14 @@ public class WikiReader {
                         if(redirectsTo != null){
                         	isRedirect = true;
                         }
-                    
-                    // Revision element started
-                    }else if(elementName.equals(REVISION_ELEMENT)){
-                    	isRevision = true;
                     }
                     
                     break;
 
                 case XMLEvent.CHARACTERS:
 
-                	// We are currently on id element
-                    if(isId && !isRevision){
-                    	id = Integer.parseInt(xmlStreamReader.getText());
-                    
                     // We are currently on title element
-                    }else if(isTitle){
+                    if(isTitle){
                         title = xmlStreamReader.getText();
                     }
                     
@@ -189,38 +169,30 @@ public class WikiReader {
                     	if(isRedirect){
                     		redirectedPages.put(redirectsTo, title);
                     		isRedirect = false;
-                    		
-                    	// Non-redirect page: create PageModel & add to map
-                    	}else{
-                    		pages.put(id, new PageModel(id, title));
                     	}
-                    
-                    // Id element ended
-                    }else if(elementName.equals(ID_ELEMENT)){
-                    	isId = false;
                         
                     // Title element ended
                     }else if(elementName.equals(TITLE_ELEMENT)){
                     	isTitle = false;
-                    
-                    // Revision element ended
-                    }else if(elementName.equals(REVISION_ELEMENT)){
-                    	isRevision = false;
                     }
                     
                     break;
             }
         }
 
-        Logger.info("%d non-redirect pages were read", pages.size());
+        Logger.info("%d total pages were read", totalPagesCount);
+        Logger.info("%d non-redirect pages were read", totalPagesCount - redirectedPages.size());
         Logger.info("%d redirect pages were read", redirectedPages.size());
-        Logger.info("%d total pages were read", pages.size() + redirectedPages.size());
         
         /*
          * Close input stream & reader
          */
         xmlInputStream.close();
         xmlStreamReader.closeCompletely();
+    }
+    
+    public int getTotalPagesCount(){
+    	return totalPagesCount;
     }
 
 }
