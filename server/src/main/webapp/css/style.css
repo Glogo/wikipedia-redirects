@@ -1,0 +1,34 @@
+#metric2 > * {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+/* Charts & captions */
+#metrics figure {
+    float: left;
+}
+
+#metrics figure figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+/* Statistics table */
+table.statistics td.left {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+table.statistics td.left sup {
+    cursor: help;
+}
+
+table tr th {
+    vertical-align: top !important;
+}
+
+table tr th div.sub {
+    font-weight: normal;
+    font-size: 11px;
+    color: #aaa;
+}

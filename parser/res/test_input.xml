@@ -1,0 +1,38 @@
+<mediawiki version="0.9" xml:lang="en">
+	<page>
+		<title>Hound</title>
+		<id>1</id>
+		<redirect title="Dog" />
+		<revision>
+			<text></text>
+		</revision>
+	</page>
+	<page>
+		<title>Puppy</title>
+		<id>2</id>
+		<revision>
+			<text>Puppy is just young [[Dog|dog animal]].</text>
+		</revision>
+	</page>
+	<page>
+		<title>Dog</title>
+		<id>3</id>
+		<revision>
+			<text>Dog is an [[Animals|animal]] but is not one of the [[Category:Aliens|extraterrestrial beings]].</text>
+		</revision>
+	</page>
+	<page>
+		<title>Animals</title>
+		<id>4</id>
+		<revision>
+			<text>Animals are OK.</text>
+		</revision>
+	</page>
+	<page>
+		<title>Aliens</title>
+		<id>5</id>
+		<revision>
+			<text>Aliens would be OK.</text>
+		</revision>
+	</page>
+</mediawiki>
