@@ -110,7 +110,6 @@ public class WikiReader {
         Integer id = null; 
         String title = null;
         String redirectsTo = null;
-        int redirects = 0;
         
         // Clear maps
         pages.clear();
@@ -151,8 +150,6 @@ public class WikiReader {
 
                     // Redirect element started
                     }else if(elementName.equals(REDIRECT_ELEMENT)){
-                    	
-                    	redirects++;
                         
                         // Get redirects to page title (there is always only one attribute named "title")
                         redirectsTo = xmlStreamReader.getAttributeValue(0);
@@ -190,7 +187,7 @@ public class WikiReader {
                     	
                     	// Redirect page: remember to which page it redirects
                     	if(isRedirect){
-                    		//redirectedPages.put(redirectsTo, title);
+                    		redirectedPages.put(redirectsTo, title);
                     		isRedirect = false;
                     		
                     	// Non-redirect page: create PageModel & add to map
@@ -215,7 +212,6 @@ public class WikiReader {
             }
         }
 
-        Logger.info("Reading done %d", redirects);
         Logger.info("%d non-redirect pages were read", pages.size());
         Logger.info("%d redirect pages were read", redirectedPages.size());
         Logger.info("%d total pages were read", pages.size() + redirectedPages.size());

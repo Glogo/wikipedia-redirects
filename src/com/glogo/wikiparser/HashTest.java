@@ -5,6 +5,11 @@ import java.security.SecureRandom;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.google.common.base.Charsets;
+import com.google.common.hash.HashCode;
+import com.google.common.hash.HashFunction;
+import com.google.common.hash.Hashing;
+
 public class HashTest {
 	
 	private String title;
@@ -15,7 +20,10 @@ public class HashTest {
 
 	@Override
 	public int hashCode() {
-		return super.hashCode();
+		HashFunction hf = Hashing.md5();
+		HashCode hc = hf.newHasher().putString(title, Charsets.UTF_8).hash();
+		return hc.asInt();
+		
 	}
 
 	public static void main(String[] args) {

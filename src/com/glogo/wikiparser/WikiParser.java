@@ -42,9 +42,10 @@ public class WikiParser {
 	/**
 	 * All non-redirect pages<br />
 	 *     <b>key:</b> PageModel id<br />
-	 *     <b>value:</b> PageModel instance
+	 *     <b>value:</b> PageModel instance<br />
+	 * Initial capacity was added after calculating total non-redirect pages of complete Wikipedia(en) dump.
 	 */
-	private Map<Integer, PageModel> pages = new HashMap<Integer, PageModel>(1000000);
+	private Map<Integer, PageModel> pages = new HashMap<Integer, PageModel>(15000000);
 	
 	/**
 	 * All redirect pages<br />
@@ -54,9 +55,10 @@ public class WikiParser {
      * all pages in HashMap<String, PageModel> (problems with {@link String#hashCode()}) but only redirects in separate map.
      * In main cycle in {@link WikiParser#findAlternativeTitles()} step we will be iterating over all non-redirect pages and look
      * in this Multimap for alternative titles.
-     * This needs to be done after all pages were read since we need pages in memory to add alternative titles.
+     * This needs to be done after all pages were read since we need pages already in memory to add them alternative titles.
+     * Expected keys & values per keys were added after calculating redirect pages of complete Wikipedia(en) dump.
 	 */
-	Multimap<String, String> redirectedPages = ArrayListMultimap.create(pages.size()/4, 4);
+	Multimap<String, String> redirectedPages = ArrayListMultimap.create(7000000, 4);
 	
 	/**
 	 * Reads XML file as {@link InputStream} using {@link WikiReader} class, creates {@link PageModel} instances and stores them {@link WikiParser#pages} map
