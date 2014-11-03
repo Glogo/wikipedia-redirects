@@ -28,8 +28,6 @@
 		<script src="js/bootstrap.min.js"></script>
 		<!-- Angular -->
 		<script src="js/angular.min.js"></script>
-		<!-- Chart -->
-		<script src="js/Chart.min.js"></script>
 		<!-- App script -->
 		<script src="js/app.js"></script>
 	</head>
@@ -39,40 +37,15 @@
 			<h2>Wiki pages search</h2>
 			<div class="panel panel-default">
 				<div class="panel-body">
-					<form class="navbar-form" role="search" ng-submit="doFilter()">
+					<form class="navbar-form" role="search" ng-submit="findPages()">
 						<div class="input-group">
 							<input type="text" class="form-control" placeholder="Enter page title" ng-model="searchTerm">
 							<div class="input-group-btn">
 								<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search" title="Search wiki pages"></i></button>
-								<button class="btn btn-default" type="button" onclick="$('#metrics').slideToggle();return false;" title="Show/hide metrics"><i class="glyphicon glyphicon-stats"></i></button>
 							</div>
 						</div>
+						<div class="sub"><b>Total pages:</b> 14mil. <b>Redirects: </b> 6mil. <b>Pages redirected to: </b>2.6mil</div>
 					</form>
-					
-					<div id="metrics" style="display:none;">
-						<figure id="metric1">
-							<canvas></canvas>
-							<figcaption>Redirect and non-redirect pages</figcaption>
-						</figure>
-
-						<figure id="metric2">
-							<table class="statistics">
-								<tr>
-									<td class="left">Total pages:</td><td>{{statistics.totalPagesCnt}}</td>
-								</tr>
-								<tr>
-									<td class="left">Non-redirect pages:</td><td>{{statistics.nonRedirPagesCnt}}</td>
-								</tr>
-								<tr>
-									<td class="left">Redirect pages:</td><td>{{statistics.redirPagesCnt}}</td>
-								</tr>
-								<tr>
-									<td class="left">Non-redirect pages with alt title:</td><td>{{statistics.pagesWithAltCnt}}</td>
-								</tr>
-							</table>
-						</figure>
-					</div>
-					
 				</div>
 				
 				<table class="table table-striped table-bordered">
@@ -96,9 +69,10 @@
 					</tbody>
 				</table>
 
-				<div class="panel-footer clearfix" ng-if="noData">
+				<div class="panel-footer clearfix" ng-if="noData || emptySearchTerm">
 					<div>
-						<p>No results found. Search term must be at least 3 characters long.</p>
+						<p ng-if="noData">No results found for search term: '{{lastSearchTerm}}'</p>
+						<p ng-if="emptySearchTerm">Search term could not be empty.</p>
 					</div>
 				</div>
 			</div>

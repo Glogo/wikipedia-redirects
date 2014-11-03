@@ -1,59 +1,54 @@
 angular.module('wikiPagesApp', [])
 
-    .service('metricsService', ['$rootScope', function ($rootScope) {
-        const colors = {
-            red : "#F7464A",
-            redHighlight : "#FF5A5E",
-            yellow : "#FDB45C",
-            yellowHighlight : "#FFC870",
-        };
-
-        /**
-         * Chart 1: Redirect & non-redirect pages
-         */
-        function createChart1() {
-            // Get metrics charts canvas
-            var ctx = $("#metric1 canvas").get(0).getContext("2d");
-            
-            var data = [
-                {
-                    value: $rootScope.statistics.nonRedirPagesCnt,
-                    color: colors.yellow,
-                    highlight: colors.yellowHighlight,
-                    label: "Non-redirect pages"
-                },
-                {
-                    value: $rootScope.statistics.redirPagesCnt,
-                    color: colors.red,
-                    highlight: colors.redHighlight,
-                    label: "Redirect pages"
-                }
-            ];
-
-            new Chart(ctx).Pie(data);
-        }
-
-		return {
-			createCharts : function(){
-                createChart1();
-			}
-		}
-    }])
-    .controller('searchPagesController', ['$scope', '$rootScope', 'metricsService', '$http', function($scope, $rootScope, metricsService, $http) {
+    .controller('searchPagesController', ['$scope', '$http', function($scope, $http) {
 	
         /**
-         * Do filtering with search term
+         * Send rest request to get pages data info
          */
-        $scope.doFilter = function(){
+        $scope.getInfo = function(){
+        	
+        	$scope.info = {};
+        	
+        	$http.get('http://localhost:8080/WikipediaRedirectsServer/webapi/getInfo').
+        	    success(function(data, status, headers, config) {
+        		  
+        		    // Remember info
+        		    $scope.info = data;
+        	    }).
+        	    error(function(data, status, headers, config) {
+        		    alert("Could not connect to server.");
+        	    }
+        	);
+        }
+    	
+        /**
+         * Send rest request with search term to find pages
+         */
+        $scope.findPages = function(){
         	
         	$scope.pages = [];
+        	$scope.noData = false;
+        	$scope.emptySearchTerm = false;
         	
-        	// Simple GET request example :
+        	if($scope.searchTerm == undefined || $scope.searchTerm == null || $scope.searchTerm.length == 0){
+        		$scope.emptySearchTerm = true;
+        		return;
+        	}
+        	
         	$http.get('http://localhost:8080/WikipediaRedirectsServer/webapi/getRedirects/' + $scope.searchTerm).
-        	  success(function(data, status, headers, config) {
+        	    success(function(data, status, headers, config) {
+        	    	
+        	    	if(Object.keys(data).length == 0){
+        	    		$scope.noData = true;
+        	    		
+        	    		// Remember last search term to fix bug on editing
+        	    		$scope.lastSearchTerm = $scope.searchTerm;
+        	    		
+        	    		return;
+        	    	}
         		  
-        		  // Iterate over all pages
-        		  for (var key in data) {
+        		    // Iterate over all pages
+        		    for (var key in data) {
         			    if (data.hasOwnProperty(key)) {
 							$scope.pages.push({
 								title: key,
@@ -61,20 +56,17 @@ angular.module('wikiPagesApp', [])
 							});
         			    }
         			}
-        	  }).
-        	  error(function(data, status, headers, config) {
-        		  alert("Could not connect to server.");
-        	  });
+        	    }).
+        	    error(function(data, status, headers, config) {
+        		    alert("Could not connect to server.");
+        	    }
+            );
         }
 		
 		// Set default values
 		$scope.searchTerm = "Information";
         $scope.noData = false;
-        //$rootScope.statistics = pagesData.info; // TODO read from sepparate rest get
-        
-        // Initialize charts
-        //metricsService.createCharts();
-		
-		// Run filter with default search settings on first show
-		$scope.doFilter();
+        $scope.emptySearchTerm = false;
+		//$scope.getInfo(); TODO rest service
+		$scope.findPages();
     }]);
