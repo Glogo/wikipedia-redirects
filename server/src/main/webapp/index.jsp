@@ -51,8 +51,8 @@
 				<table class="table table-striped table-bordered">
 					<thead>
 						<tr>
-							<th class="col-md-6">Page title</th>
-							<th class="col-md-6">Alternative titles<div class="sub">Titles of pages redirected to current page</div></th>
+							<th class="col-xs-6">Page title</th>
+							<th class="col-xs-6">Alternative titles<div class="sub">Titles of pages redirected to current page</div></th>
 						</tr>
 					</thead>
 					<tbody>

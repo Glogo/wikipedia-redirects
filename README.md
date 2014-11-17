@@ -1,5 +1,8 @@
 # Wikipedia Redirects
-*Java projects for extracting Wikipedia redirects (alternative titles)*
+*Java projects for extracting and searching for Wikipedia redirects (alternative titles)*
+
+Project created by Michael Gloger for school assignment at FIIT STU Bratislava
+http://vi.ikt.ui.sav.sk/User:Michael.Gloger?view=home
 
 Main goal of this project was to implement parser for finding alternative titles for Wikipedia pages by parsing [articles XML dump files](https://dumps.wikimedia.org/enwiki/). Amongst other detailed information, in each page record we can find page title and flag if this page is redirect to another page. If this page is redirect we can consider its title as alternative title of page it is referring to.
 

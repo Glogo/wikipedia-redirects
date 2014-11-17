@@ -13,6 +13,9 @@ You need to use Eclipse EE for this project and have Tomcat server installed
 7. Open http://localhost:8080/redirects webpage. At first let server read input CSV file and initialize Lucene index (see Eclipse console)
 8. Enter your search term and profit
 
+##Server screenshot preview
+![Preview](preview.png)
+
 ##Notes
 - Server project already contains parsed complete wikipedia dump in file `resources/data.csv.zip`
 - Upon server startup try calling following URL http://localhost:8080/redirects/webapi/alt/search/Parser you will have direct REST API access to server resources. In link above we are searching for term `"Parser"` and server should output something like:
