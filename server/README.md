@@ -14,7 +14,7 @@ You need to use Eclipse EE for this project and have Tomcat server installed
 8. Enter your search term and profit
 
 ##Server screenshot preview
-![Preview](/preview.png)
+![Preview](preview.png)
 
 ##Notes
 - Server project already contains parsed complete wikipedia dump in file `resources/data.csv.zip`
