@@ -5,7 +5,10 @@ import static org.junit.Assert.fail;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
+import java.net.URLDecoder;
 
+import javax.swing.filechooser.FileSystemView;
 import javax.xml.stream.XMLStreamException;
 
 import org.junit.BeforeClass;
@@ -25,7 +28,11 @@ public class WikiParserTest {
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 		parser = new WikipediaRedirects();
-		absolutePath = new File("res/test_input.xml").getAbsolutePath();
+		
+		URL testInputUrl = WikiParserTest.class.getClassLoader().getResource("test_input.xml");
+		
+		// Decode url to remove %20 space sepparators
+		absolutePath = URLDecoder.decode(testInputUrl.getFile(), "UTF-8");
 	}
 	
 	@Test
@@ -40,36 +47,32 @@ public class WikiParserTest {
 	}
 	
 	@Test
-	public void pageDogShouldHaveOneAlternativeTitle() throws XMLStreamException, IOException {
+	public void pageDogShouldHaveThreeAlternativeTitle() throws XMLStreamException, IOException {
 		parser.readPages(absolutePath);
-		assertTrue("Page with title 'Dog' doesn't have one alternative title.", parser.getRedirectedPages().get("Dog").size() == 1);
+		assertTrue("Page with title 'Dog' doesn't have three alternative title.", parser.getRedirectedPages().get("Dog").size() == 3);
 	}
 	
 	@Test
-	public void pageAnimalsShouldNotHaveAlternativeTitleAnimal() throws XMLStreamException, IOException {
+	public void pageFootballShouldHaveOneAlternativeTitleSoccer() throws XMLStreamException, IOException {
 		parser.readPages(absolutePath);
-		assertTrue("Page with title 'Animals' shouldn't have alternative title 'animal' (ignoring case).", !parser.getRedirectedPages().get("Animals").contains("animal"));
+		assertTrue("Page with title 'Football' doesn't have alternative title 'Soccer' (ignoring case).", parser.getRedirectedPages().get("Football").contains("Soccer"));
 	}
 	
 	@Test
-	public void pageAnimalsShouldNotHaveAlternativeTitleAnimalIgnoreCase() throws XMLStreamException, IOException {
+	public void pageSoccerShouldNotHaveAlternativeTitles() throws XMLStreamException, IOException {
 		parser.readPages(absolutePath);
-		assertTrue("Page with title 'Animals' shouldn't have alternative title 'aNimAl' (ignoring case).", !parser.getRedirectedPages().get("Animals").contains("aNimAl"));
-	}
-	
-	@Test
-	public void pageAliensShouldNotHaveAlternativeTitles() throws XMLStreamException, IOException {
-		parser.readPages(absolutePath);
-		assertTrue("Page with title 'Aliens' has (and shouldn't) have any alternative titles becase link is to category.", parser.getRedirectedPages().get("Aliens").isEmpty());
+		assertTrue("Page with title 'Soccer' shouldn't have alternative titles.", parser.getRedirectedPages().get("Soccer") != null);
 	}
 	
 	@Test
 	public void outputFileShouldBeCreated() throws IOException, XMLStreamException {
 		parser.readPages(absolutePath);
+
+		// Save test output in default user home directory
+		String testOutputPath = FileSystemView.getFileSystemView().getHomeDirectory().getAbsolutePath() + "/test_output.xml";		
+		parser.saveToCSV(testOutputPath);
 		
-		parser.saveToCSV("test_data_output.js");
-		
-		File f = new File("test_data_output.js");
+		File f = new File(testOutputPath);
 		if(!f.exists()) {
 			fail("Data file was not found");
 		}

@@ -1,0 +1,24 @@
+<mediawiki version="0.9" xml:lang="en">
+	<page>
+		<title>Hound</title>
+		<redirect title="Dog" />
+	</page>
+	<page>
+		<title>Bark Machine</title>
+		<redirect title="Dog" />
+	</page>
+	<page>
+		<title>Puppy</title>
+		<redirect title="Dog" />
+	</page>
+	<page>
+		<title>Dog</title>
+	</page>
+	<page>
+		<title>Football</title>
+	</page>
+	<page>
+		<title>Soccer</title>
+		<redirect title="Football" />
+	</page>
+</mediawiki>
