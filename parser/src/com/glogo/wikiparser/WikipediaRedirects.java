@@ -22,6 +22,7 @@ import com.google.common.collect.Multimap;
 /**
  * Wiki redirect pages parser.
  * This class contains methods necessary to parse input XML doc, find alternative titles for pages from redirects and export them to readable format.
+ * For detailed information please see <a href="https://github.com/Glogo/wikipedia-redirects">project repository</a>
  * @author Glogo
  */
 public class WikipediaRedirects {

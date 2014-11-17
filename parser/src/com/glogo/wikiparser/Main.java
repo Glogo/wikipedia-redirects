@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Main class responsible for reading command line arguments and running {@link WikipediaRedirects}.
+ * For detailed information please see <a href="https://github.com/Glogo/wikipedia-redirects">project repository</a>
  * @author Glogo
  */
 public class Main {

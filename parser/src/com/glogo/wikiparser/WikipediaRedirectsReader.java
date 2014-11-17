@@ -20,6 +20,7 @@ import com.google.common.collect.Multimap;
 /**
  * Class used to read alternative pages titles from redirects.<br />
  * Can be used for large wikipedia dumps XML files.
+ * For detailed information please see <a href="https://github.com/Glogo/wikipedia-redirects">project repository</a>
  * @see <a href="http://www.studytrails.com/java/xml/woodstox/java-xml-stax-woodstox-basic-parsing.jsp">Helpful Stax Woodstox parsing example</a><br />
  * @author Glogo
  */

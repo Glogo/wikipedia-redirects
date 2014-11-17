@@ -18,6 +18,7 @@ import com.glogo.wikiparser.WikipediaRedirects;
 
 /**
  * This class contains simple jUnit test for WikiParser
+ * For detailed information please see <a href="https://github.com/Glogo/wikipedia-redirects">project repository</a>
  * @author michael.gloger
  */
 public class WikiParserTest {

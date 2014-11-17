@@ -15,6 +15,7 @@ import com.google.gson.GsonBuilder;
 
 /**
  * Alternative titles REST resource providing methods for searching for pages with alternative titles.
+ * For detailed information please see <a href="https://github.com/Glogo/wikipedia-redirects">project repository</a>
  */
 @Path("/alt")
 public class AlternativeTitles {

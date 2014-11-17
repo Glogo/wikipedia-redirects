@@ -39,6 +39,7 @@ import au.com.bytecode.opencsv.CSVReader;
 /**
  * Singleton wrapper service class for reading data from CSV resource
  * and searching documents in Lucene.
+ * For detailed information please see <a href="https://github.com/Glogo/wikipedia-redirects">project repository</a>
  * @author Glogo
  */
 public class LuceneService {
