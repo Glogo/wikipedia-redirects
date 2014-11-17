@@ -3,6 +3,7 @@ Java project responsible for presenting saved Wikipedia alternative titles on we
 
 ## Eclipse project setup
 You need to use Eclipse EE for this project and have Tomcat server installed
+
 1. Import project as Java or Maven Project
 2. Open Run Configurations and add following VM Argument `-Xmx6g`
 3. Click apply and close dialog
@@ -37,4 +38,4 @@ You need to use Eclipse EE for this project and have Tomcat server installed
     "Combinator parser"
   ]
 }
-``` 
+```

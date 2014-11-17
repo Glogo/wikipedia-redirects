@@ -34,6 +34,7 @@ Java project responsible for parsing Wikipedia XML dumps and saving alternative 
 	</page>
 </mediawiki>
 ```
+
 **Alternative titles CSV output:**
 ```csv
 "Dog","Hound","Bark Machine","Puppy"
