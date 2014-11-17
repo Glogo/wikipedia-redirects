@@ -17,7 +17,8 @@ import org.junit.Test;
 import com.glogo.wikiparser.WikipediaRedirects;
 
 /**
- * This class contains simple jUnit test for WikiParser
+ * This class contains simple jUnit test for WikiParser.
+ * For testing is used input data file named "test_input.xml"
  * For detailed information please see <a href="https://github.com/Glogo/wikipedia-redirects">project repository</a>
  * @author michael.gloger
  */
