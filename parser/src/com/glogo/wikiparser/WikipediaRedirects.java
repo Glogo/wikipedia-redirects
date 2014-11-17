@@ -77,11 +77,11 @@ public class WikipediaRedirects {
 		logger.info("Saving info to CSV file: '{}'", infoFilePath);
 		CSVWriter infoWriter = new CSVWriter(new FileWriter(infoFilePath, false));
 		infoWriter.writeNext(new String[]{
-			"Author",
-			"Total pages count",
-			"Total non-redirect pages count",
-			"Total redirect pages count",
-			"Pages with alternative titles count"
+			"author",
+			"totalPagesCnt",
+			"nonRedirPagesCnt",
+			"redirPagesCnt",
+			"pagesWithAltCnt"
 		});
 		infoWriter.writeNext(new String[]{
 			"Michael Gloger",
