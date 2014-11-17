@@ -9,7 +9,7 @@ You need to use Eclipse EE for this project and have Tomcat server installed
 3. Click apply and close dialog
 4. Right click on your project in project browser and select Run As -> Run on Server
 5. Eclipse should ask you to create new server or to add this project to existing server. Follow Eclipse instructions
-6. Open your server configuration (separate Eclipse project named `Servers` should be automatically created) and edit `server.xml`. Find `Context` element containing attribute `path="/Wikipedia Redirects Server"` and change it to something simpler f.e. `"/redirects"`
+6. Open your server configuration (separate Eclipse project named `Servers` should be automatically created) and edit `server.xml`. Find `Context` element containing attribute `path="/Wikipedia Redirects Server"` and change its value to something simpler f.e. `"/redirects"`
 7. Open http://localhost:8080/redirects webpage. At first let server read input CSV file and initialize Lucene index (see Eclipse console)
 8. Enter your search term and profit
 
