@@ -258,7 +258,7 @@ public class LuceneService {
 		return dataInfoMap;
 	}
 	
-	public static LuceneService getInstance() {
+	synchronized public static LuceneService getInstance() {
 		if(instance == null){
 			instance = new LuceneService();
 		}

@@ -9,7 +9,7 @@ angular.module('wikiPagesApp', [])
 
         	$scope.info = {};
 
-        	$http.get('http://localhost:8080/redirects/webapi/alt/info').
+        	$http.get('webapi/alt/info').
         	    success(function(data, status, headers, config) {
 
         		    // Remember info
@@ -35,7 +35,7 @@ angular.module('wikiPagesApp', [])
         		return;
         	}
 
-        	$http.get('http://localhost:8080/redirects/webapi/alt/search/' + $scope.searchTerm).
+        	$http.get('webapi/alt/search/' + $scope.searchTerm).
         	    success(function(data, status, headers, config) {
 
         	    	if(Object.keys(data).length == 0){
