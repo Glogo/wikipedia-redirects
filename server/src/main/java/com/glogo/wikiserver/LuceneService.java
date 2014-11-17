@@ -62,39 +62,20 @@ public class LuceneService {
 	private static final String dataAlternativeTitlesFile = "data.csv";
 	
 	/**
-	 * Directory where will be data unzipped (<default user home directory>/wiki-redirects-data)
+	 * Directory where will be data unzipped (default user home directory/wiki-redirects-data)
 	 */
 	private static final String unzipDirectory = FileSystemView.getFileSystemView().getHomeDirectory().getAbsolutePath() + "/wiki-redirects-data";
-	
-	/**
-	 * Singleton instance
-	 */
+
 	private static LuceneService instance = null;
-	
-	/**
-	 * Lucene analyzer
-	 */
 	private StandardAnalyzer luceneAnalyzer = new StandardAnalyzer();
-	
-	/**
-	 * Lucene directory index
-	 */
 	private Directory luceneIndex = new RAMDirectory();
-	
-	/**
-	 * Lucene index writer configuration
-	 */
 	private IndexWriterConfig indexWriterConfig = new IndexWriterConfig(Version.LATEST, luceneAnalyzer);
-	
-	/**
-	 * Data info map
-	 */
-	Map<String, Object> dataInfoMap = new HashMap<String, Object>();
+	private Map<String, Object> dataInfoMap = new HashMap<String, Object>();
 	
 	/**
 	 * Map of pages ids to array of alternative titles
 	 */
-	Map<Integer, String[]> allAlternativeTitlesMap = new HashMap<Integer, String[]>();
+	private Map<Integer, String[]> allAlternativeTitlesMap = new HashMap<Integer, String[]>();
 	
 	/**
 	 * Initializes lucene, reads input json file & adds information about redirects to lucene
