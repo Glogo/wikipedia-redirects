@@ -55,10 +55,9 @@ public class Main {
 		 * Save result to output file
 		 */
 		try{
-			parser.exportToJSON(output);
+			parser.saveToCSV(output);
 		}catch(Exception e){
-			logger.error("Could not write to file '{}'", output);
-			logger.error(e.getMessage());
+			logger.error("Could not save CSV file. {}", e.getMessage());
 			System.exit(1);
 		}
 		

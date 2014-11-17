@@ -3,18 +3,21 @@ package com.glogo.wikiparser;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Map.Entry;
 
 import javax.xml.stream.XMLStreamException;
 
+import org.apache.commons.io.FilenameUtils;
+import org.apache.commons.lang.ArrayUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import au.com.bytecode.opencsv.CSVWriter;
+
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 /**
  * Wiki redirect pages parser.
@@ -52,51 +55,61 @@ public class WikipediaRedirects {
 	}
 	
 	/**
-	 * Exports pages with alternative titles to json file<br>
-	 * and adds following statistics to info parameter of json object: <br>
+	 * Exports pages with alternative titles to csv file<br>
+	 * and adds following statistics (in specified order) to first record: <br>
 	 * <ul>
 	 *     <li><b>totalPagesCnt:</b> Total pages count</li>
 	 *     <li><b>nonRedirPagesCnt:</b> Total non-redirect pages count</li>
 	 *     <li><b>redirPagesCnt:</b> Total redirect pages count</li>
 	 *     <li><b>pagesWithAltCnt:</b> Total non-redirect pages with at least one alternative title from redirects</li>
 	 * </ul>
-	 * 
-	 * @param json
 	 */
-	public void exportToJSON(String path) throws IOException{
-		logger.info("Exporting pages with alternative titles to JSON");
+	public void saveToCSV(String path) throws IOException{
 		
-		// LinkedHashMap is used to preserve order
-		Map<String, Object> json = new LinkedHashMap<String, Object>();
+		/*
+		 *  Sepparate info file
+		 */
 		
-		// Info json element
-		Map<String, Object> info = new LinkedHashMap<String, Object>();
-		info.put("author", "Michael Gloger");
-		info.put("totalPagesCnt", wikiReader.getTotalPagesCount());
-		info.put("nonRedirPagesCnt", wikiReader.getTotalPagesCount() - redirectedPages.size());
-		info.put("redirPagesCnt", redirectedPages.size());
-		info.put("pagesWithAltCnt", redirectedPages.keySet().size());
-		json.put("info", info);
+		// Add suffix to path filename
+		String extension = FilenameUtils.getExtension(path);
+		String infoFilePath = FilenameUtils.getFullPathNoEndSeparator(path) + "/" + FilenameUtils.getBaseName(path) + "_info" + ((extension == null || extension.length() == 0) ? "" : "." + extension);
 		
-		// Add redirected pages to json. Once again: key = title of page & array of values = alternative titles (titles of pages redirecting to current page)
-		json.put("pages", redirectedPages.asMap());
+		logger.info("Saving info to CSV file: '{}'", infoFilePath);
+		CSVWriter infoWriter = new CSVWriter(new FileWriter(infoFilePath, false));
+		infoWriter.writeNext(new String[]{
+			"Author",
+			"Total pages count",
+			"Total non-redirect pages count",
+			"Total redirect pages count",
+			"Pages with alternative titles count"
+		});
+		infoWriter.writeNext(new String[]{
+			"Michael Gloger",
+			
+			// Info row statistics
+			String.valueOf(wikiReader.getTotalPagesCount()),
+			String.valueOf(wikiReader.getTotalPagesCount() - redirectedPages.size()),
+			String.valueOf(redirectedPages.size()),
+			String.valueOf(redirectedPages.keySet().size())
+		});
+		infoWriter.close();
 		
-		// Write json to file
-		FileWriter file = new FileWriter(path);
-        try {
-        	
-        	// Create Google Gson to simplify json serializing
-        	Gson gson = new GsonBuilder().create();
-            file.write(gson.toJson(json));
-            logger.info("Successfully saved JSON object to file: '{}'", path);
- 
-        } catch (IOException e) {
-            e.printStackTrace();
- 
-        } finally {
-            file.flush();
-            file.close();
-        }
+		/*
+		 *  Alternative titles file
+		 */
+		logger.info("Saving pages with alternative titles to CSV file: '{}'", path);
+		CSVWriter writer = new CSVWriter(new FileWriter(path));
+		
+		// Iterate over all alternative titles
+		for(Entry<String, Collection<String>> entry : redirectedPages.asMap().entrySet()){
+			String pageTitle = entry.getKey();
+			Collection<String> alternativeTitles = entry.getValue();
+			
+			// Write to csv file with mega arrays overkill. Consider it hardcore experiment
+			// Page title is in first column and other columns contains alternative titles
+			writer.writeNext(Arrays.copyOf(ArrayUtils.addAll(new String[]{pageTitle}, alternativeTitles.toArray()), alternativeTitles.size() + 1, String[].class));
+		}
+		writer.close();
 	}
 	
 	public Multimap<String, String> getRedirectedPages(){

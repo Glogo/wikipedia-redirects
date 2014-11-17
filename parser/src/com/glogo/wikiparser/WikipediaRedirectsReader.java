@@ -187,6 +187,7 @@ public class WikipediaRedirectsReader {
         logger.info("{} total pages were read", totalPagesCount);
         logger.info("{} non-redirect pages were read", totalPagesCount - redirectedPages.size());
         logger.info("{} redirect pages were read", redirectedPages.size());
+        logger.info("{} total pages with at least one alternative title", redirectedPages.keySet().size());
         
         /*
          * Close input stream & reader

@@ -67,7 +67,7 @@ public class WikiParserTest {
 	public void outputFileShouldBeCreated() throws IOException, XMLStreamException {
 		parser.readPages(absolutePath);
 		
-		parser.exportToJSON("test_data_output.js");
+		parser.saveToCSV("test_data_output.js");
 		
 		File f = new File("test_data_output.js");
 		if(!f.exists()) {
