@@ -136,7 +136,7 @@ public class LuceneService {
 			String source = URLDecoder.decode(url.getFile(), "UTF-8");
 			
 			// Do unzip
-			logger.info("Unzipping data archive\n\tfrom: '{}'\n\tto: '{}'", source, unzipDirectory);
+			logger.info("Unzipping data archive from: '{}' to: '{}'", source, unzipDirectory);
 			ZipFile zipFile = new ZipFile(source);
 			zipFile.extractAll(unzipDirectory);
 			
