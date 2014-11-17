@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="wikiPagesApp" resize>
+<html data-ng-app="wikiPagesApp" data-resize>
     <head>
         <meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +10,8 @@
 		<link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
 		<!-- Bootstrap -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		
+		<link href="libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+
 		<!-- Style -->
 		<link href="css/style.css" rel="stylesheet">
 
@@ -23,31 +23,31 @@
 		<![endif]-->
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
+		<script src="libs/bootstrap/bootstrap.min.js"></script>
 		<!-- Angular -->
-		<script src="js/angular.min.js"></script>
+		<script src="libs/angular/angular.min.js"></script>
 		<!-- App script -->
-		<script src="js/app.js"></script>
+		<script src="src/app.js"></script>
 	</head>
 	<body>
 		<!-- Main container -->
-		<div id="main-container" class="container" ng-controller="searchPagesController">
+		<div id="main-container" class="container" data-ng-controller="searchPagesController">
 			<h2>Wiki pages search</h2>
 			<div class="panel panel-default">
 				<div class="panel-body">
-					<form class="navbar-form" role="search" ng-submit="findPages()">
+					<form class="navbar-form" data-role="search" data-ng-submit="findPages()">
 						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Enter page title" ng-model="searchTerm">
+							<input type="text" class="form-control" placeholder="Enter page title" data-ng-model="searchTerm">
 							<div class="input-group-btn">
 								<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search" title="Search wiki pages"></i></button>
 							</div>
 						</div>
-						<div class="sub"><b>Total pages:</b> 14mil. <b>Redirects: </b> 6mil. <b>Pages redirected to: </b>2.6mil</div>
+						<div class="sub"><b>Total pages:</b> {{info.totalPagesCnt}}. <b>Redirects: </b> {{info.redirPagesCnt}}. <b>Pages redirected to: </b>{{info.pagesWithAltCnt}}</div>
 					</form>
 				</div>
-				
+
 				<table class="table table-striped table-bordered">
 					<thead>
 						<tr>
@@ -56,11 +56,11 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr ng-repeat="page in pages">
+						<tr data-ng-repeat="page in pages">
 							<td>{{page.title}}</td>
 							<td>
 								<ul>
-									<li ng-repeat="altTitle in page.alternative track by $index">
+									<li data-ng-repeat="altTitle in page.alternative track by $index">
 										{{altTitle}}
 									</li>
 								</ul>
@@ -69,10 +69,10 @@
 					</tbody>
 				</table>
 
-				<div class="panel-footer clearfix" ng-if="noData || emptySearchTerm">
+				<div class="panel-footer clearfix" data-ng-if="noData || emptySearchTerm">
 					<div>
-						<p ng-if="noData">No results found for search term: '{{lastSearchTerm}}'</p>
-						<p ng-if="emptySearchTerm">Search term could not be empty.</p>
+						<p data-ng-if="noData">No results found for search term: '{{lastSearchTerm}}'</p>
+						<p data-ng-if="emptySearchTerm">Search term could not be empty.</p>
 					</div>
 				</div>
 			</div>

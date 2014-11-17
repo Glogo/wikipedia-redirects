@@ -1,23 +1,23 @@
 package com.glogo.wikiserver;
 
+import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.net.URLDecoder;
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 
 import javax.swing.filechooser.FileSystemView;
 
 import net.lingala.zip4j.core.ZipFile;
-import net.lingala.zip4j.exception.ZipException;
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
+import org.apache.lucene.document.IntField;
 import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexWriter;
@@ -31,111 +31,231 @@ import org.apache.lucene.search.TopScoreDocCollector;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.RAMDirectory;
 import org.apache.lucene.util.Version;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import com.google.common.collect.Multimap;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+import au.com.bytecode.opencsv.CSVReader;
 
 /**
- * Singleton wrapper service class for adding and searching documents in lucene
+ * Singleton wrapper service class for reading data from CSV resource
+ * and searching documents in Lucene.
  * @author Glogo
  */
 public class LuceneService {
 	
-	// Singleton instance
+	private static Logger logger = LoggerFactory.getLogger(LuceneService.class);
+	
+	/**
+	 * Name of resource containing zipped data
+	 */
+	private static final String dataResourceZipFile = "data.csv.zip";
+	
+	/**
+	 * Name of CSV file in zipped file containing info data
+	 */
+	private static final String dataInfoFile = "data_info.csv";
+	
+	/**
+	 * Name of CSV file in zipped file containing alternative titles data
+	 */
+	private static final String dataAlternativeTitlesFile = "data.csv";
+	
+	/**
+	 * Directory where will be data unzipped (<default user home directory>/wiki-redirects-data)
+	 */
+	private static final String unzipDirectory = FileSystemView.getFileSystemView().getHomeDirectory().getAbsolutePath() + "/wiki-redirects-data";
+	
+	/**
+	 * Singleton instance
+	 */
 	private static LuceneService instance = null;
 	
-	// Lucene
-	private StandardAnalyzer analyzer = new StandardAnalyzer();
-	private Directory index = new RAMDirectory();
-	private IndexWriterConfig config = new IndexWriterConfig(Version.LATEST, analyzer);
-	private IndexWriter w;
+	/**
+	 * Lucene analyzer
+	 */
+	private StandardAnalyzer luceneAnalyzer = new StandardAnalyzer();
 	
-	// Data
-	Map<String, List<String>> pages;
+	/**
+	 * Lucene directory index
+	 */
+	private Directory luceneIndex = new RAMDirectory();
+	
+	/**
+	 * Lucene index writer configuration
+	 */
+	private IndexWriterConfig indexWriterConfig = new IndexWriterConfig(Version.LATEST, luceneAnalyzer);
+	
+	/**
+	 * Data info map
+	 */
+	Map<String, Object> dataInfoMap = new HashMap<String, Object>();
+	
+	/**
+	 * Map of pages ids to array of alternative titles
+	 */
+	Map<Integer, String[]> allAlternativeTitlesMap = new HashMap<Integer, String[]>();
 	
 	/**
 	 * Initializes lucene, reads input json file & adds information about redirects to lucene
 	 */
 	private LuceneService() {
-		try {
-			// Open json data archive
-			URL url = getClass().getClassLoader().getResource("data.min.json.zip");
-			
-			// Extract it somewhere on system
-			String source = url.getFile();
-		    String destination = FileSystemView.getFileSystemView().getHomeDirectory().getAbsolutePath(); // default user directory
-		    System.out.println(destination);
-		    
-		    // Read destination file
-		    byte[] encoded = Files.readAllBytes(Paths.get(destination+"/data.min.json"));
-		    String destinationContent = new String(encoded, Charset.forName("UTF-8"));
-		    
-		    System.out.println("extracting");
-		    
-		    try {
-		         ZipFile zipFile = new ZipFile(source);
-		         zipFile.extractAll(destination);
-		    } catch (ZipException e) {
-		        e.printStackTrace();
-		    }
-			
-			Gson gson = new GsonBuilder().create();
-			System.out.println("reading");
-			Map json = gson.fromJson(destinationContent, Map.class);
-			pages = (Map) json.get("pages");
-			
-			w = new IndexWriter(index, config);
-			
-			// Iterate over pages
-			System.out.println("indexing");
-			for(Entry<String, List<String>> entry : pages.entrySet()) {
-				//System.out.println(entry.getKey());
-				addDoc(w, entry.getKey(), null); // TODO alt + remember
-			}
-			
-			System.out.println("init done");
-			
-			w.close();
-
-		} catch (IOException e) {
-			e.printStackTrace();
+		initUnzipDir();
+		unzipData();
+		readDataInfo();
+		readAlternativeTitlesData();
+	}
+	
+	/**
+	 * Create [& delete] directory for unzip
+	 */
+	private void initUnzipDir() {
+		File unzipDirectoryFile = new File(unzipDirectory);
+		if(unzipDirectoryFile.exists()){
+			logger.info("Deleting unzip directory: '{}'", unzipDirectory);
+			unzipDirectoryFile.delete();
+		}
+		try{
+			logger.info("Creating unzip directory: '{}'", unzipDirectory);
+			unzipDirectoryFile.mkdir();
+		}catch(Exception e){
+			logger.error("Unzip directory could not be created.");
+			logger.error(e.getMessage());
+			System.exit(1);
 		}
 	}
 	
-	private static void addDoc(IndexWriter w, String title, String isbn) throws IOException {
-		  Document doc = new Document();
-		  doc.add(new TextField("title", title, Field.Store.YES));
-		  //doc.add(new StringField("isbn", isbn, Field.Store.YES));
-		  w.addDocument(doc);
+	/**
+	 * Unzip data to unzip dir
+	 */
+	private void unzipData() {
+		try{
+			// Get zipped data resource file url
+			URL url = getClass().getClassLoader().getResource(dataResourceZipFile);
+			
+			// Decode url to remove %20 space sepparators
+			String source = URLDecoder.decode(url.getFile(), "UTF-8");
+			
+			// Do unzip
+			logger.info("Unzipping data archive\n\tfrom: '{}'\n\tto: '{}'", source, unzipDirectory);
+			ZipFile zipFile = new ZipFile(source);
+			zipFile.extractAll(unzipDirectory);
+			
+		}catch(Exception e)	{
+			logger.error(e.getMessage());
+			System.exit(1);
 		}
-	//http://localhost:8080/WikipediaRedirectsServer/webapi/getRedirects/Information
-	public Map<String, List<String>> searchPages(String query) {
-		Map<String, List<String>> output = new LinkedHashMap<String, List<String>>();
+	}
+	
+	/**
+	 * Reads info data to simple map
+	 */
+	private void readDataInfo() {
+		try {
+			/*
+			 * Read info data to simple map
+			 */
+			logger.info("Reading data info");
+			CSVReader reader = new CSVReader(new FileReader(unzipDirectory + "/" + dataInfoFile));
+		    String[] headerCols = reader.readNext();
+		    String[] infoCols = reader.readNext();
+		    reader.close();
+		    
+		    dataInfoMap.clear();
+		    
+		    // Add all columns & data to map
+		    dataInfoMap.put(headerCols[0], infoCols[0]);
+		    dataInfoMap.put(headerCols[1], Integer.parseInt(infoCols[1]));
+		    dataInfoMap.put(headerCols[2], Integer.parseInt(infoCols[2]));
+		    dataInfoMap.put(headerCols[3], Integer.parseInt(infoCols[3]));
+		    dataInfoMap.put(headerCols[4], Integer.parseInt(infoCols[4]));
+
+		} catch (IOException e) {
+			logger.error(e.getMessage());
+			System.exit(1);
+		}
+	}
+	
+	/**
+	 * Reads alternative titles to lucene index
+	 */
+	private void readAlternativeTitlesData() {
+		try {
+		    /*
+		     * Read alternative titles data to Lucene
+		     */
+		    logger.info("Reading & indexing alternative titles data");
+		    IndexWriter writer = new IndexWriter(luceneIndex, indexWriterConfig);
+		    CSVReader reader = new CSVReader(new FileReader(unzipDirectory + "/" + dataAlternativeTitlesFile));
+		    String[] row;
+		    
+		    allAlternativeTitlesMap.clear();
+		    
+		    // Iterate over each row from CSV file
+		    int index = 0;
+		    while ((row = reader.readNext()) != null) {
+		    	addPage(writer, index++, row[0], Arrays.copyOfRange(row, 1, row.length));
+		    }
+		    reader.close();
+		    writer.close();
+		    logger.info("Reading & indexing done");
+
+		} catch (IOException e) {
+			logger.error(e.getMessage());
+			System.exit(1);
+		}
+	}
+	
+	/**
+	 * Create page document and index it in Lucene
+	 * @param writer
+	 * @param index
+	 * @param title
+	 * @param alternativeTitles
+	 * @throws IOException
+	 */
+	private void addPage(IndexWriter writer, int index, String title, String[] alternativeTitles) throws IOException {
+		Document doc = new Document();
+		doc.add(new IntField("id", index, Field.Store.YES));
+		doc.add(new TextField("title", title, Field.Store.YES));
+		writer.addDocument(doc);
+		
+		// Put alternative titles to map to enable easy access when querying
+		allAlternativeTitlesMap.put(index, alternativeTitles);
+	}
+	
+	/**
+	 * Searches Lucene index and returns Map of found pages mapped to array of alternative titles
+	 * @param query
+	 * @return
+	 */
+	public Map<String, String[]> searchPages(String query) {
+		Map<String, String[]> output = new LinkedHashMap<String, String[]>();
 		
 		try {
-			Query q = new QueryParser("title", analyzer).parse(query);
+			Query luceneQuery = new QueryParser("title", luceneAnalyzer).parse(query);
 			
 			int hitsPerPage = 20;
-			DirectoryReader reader = DirectoryReader.open(index);
+			DirectoryReader reader = DirectoryReader.open(luceneIndex);
 			IndexSearcher searcher = new IndexSearcher(reader);
 			TopScoreDocCollector collector = TopScoreDocCollector.create(hitsPerPage, true);
-			searcher.search(q, collector);
+			searcher.search(luceneQuery, collector);
 			ScoreDoc[] hits = collector.topDocs().scoreDocs;
 			
-			
-			
-			System.out.println("Found " + hits.length + " hits.");
+			logger.info("Found " + hits.length + " hits.");
 			for(int i=0;i<hits.length;++i) {
 				int docId = hits[i].doc;
 				Document d = searcher.doc(docId);
-				output.put(d.get("title"), pages.get(d.get("title")));
+				output.put(d.get("title"), allAlternativeTitlesMap.get(d.getField("id").numericValue().intValue()));
 			}
 		} catch (ParseException | IOException e) {
 			e.printStackTrace();
 		}
 		
 		return output;
+	}
+	
+	public Map<String, Object> getDataInfoMap() {
+		return dataInfoMap;
 	}
 	
 	public static LuceneService getInstance() {
