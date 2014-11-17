@@ -4,17 +4,22 @@ import java.io.IOException;
 
 import javax.xml.stream.XMLStreamException;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * Main class responsible for reading command line arguments and running {@link WikipediaRedirects}.
  * @author Glogo
  */
 public class Main {
+	
+	private static Logger logger = LoggerFactory.getLogger(Main.class);
 
 	public static void main(String[] args){
 		if(args == null || args.length != 2){
-			Logger.error("Program must have two arguments:");
-			Logger.error("	[0] : input file name");
-			Logger.error("	[1] : output file name");
+			logger.error("Program must have two arguments:");
+			logger.error("	[0] : input file name");
+			logger.error("	[1] : output file name");
 			System.exit(1);
 		}
 		
@@ -35,13 +40,13 @@ public class Main {
 			parser.readPages(input);
 
 		} catch (IOException e) {
-			Logger.error("Input file does not exists or input stream was already closed.");
-			Logger.error(e.getMessage());
+			logger.error("Input file does not exists or input stream was already closed.");
+			logger.error(e.getMessage());
 			System.exit(1);
 
 		} catch (XMLStreamException e) {
-			Logger.error("Input file is not valid XML.");
-			Logger.error(e.getMessage());
+			logger.error("Input file is not valid XML.");
+			logger.error(e.getMessage());
 			System.exit(1);
 			
 		}
@@ -52,15 +57,15 @@ public class Main {
 		try{
 			parser.exportToJSON(output);
 		}catch(Exception e){
-			Logger.error("Could not write to file '%'", output);
-			Logger.error(e.getMessage());
+			logger.error("Could not write to file '{}'", output);
+			logger.error(e.getMessage());
 			System.exit(1);
 		}
 		
 		long end = System.currentTimeMillis();
 		
-		Logger.info("Job done in %.2fs", ((float)(end - start) / 1000));
-		Logger.info("Heap size is %.2f MB", (float)Runtime.getRuntime().totalMemory() / (1024 * 1024));
+		logger.info("Job done in {} s", ((float)(end - start) / 1000));
+		logger.info("Heap size is {} MB", (float)Runtime.getRuntime().totalMemory() / (1024 * 1024));
 	}
 
 }

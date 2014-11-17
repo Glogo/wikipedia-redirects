@@ -8,6 +8,9 @@ import java.util.Map;
 
 import javax.xml.stream.XMLStreamException;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
 import com.google.gson.Gson;
@@ -19,6 +22,8 @@ import com.google.gson.GsonBuilder;
  * @author Glogo
  */
 public class WikipediaRedirects {
+	
+	private static Logger logger = LoggerFactory.getLogger(WikipediaRedirects.class);
 
 	/**
 	 * Wikipedia dump XML reader
@@ -59,7 +64,7 @@ public class WikipediaRedirects {
 	 * @param json
 	 */
 	public void exportToJSON(String path) throws IOException{
-		Logger.info("Exporting pages with alternative titles to JSON");
+		logger.info("Exporting pages with alternative titles to JSON");
 		
 		// LinkedHashMap is used to preserve order
 		Map<String, Object> json = new LinkedHashMap<String, Object>();
@@ -83,7 +88,7 @@ public class WikipediaRedirects {
         	// Create Google Gson to simplify json serializing
         	Gson gson = new GsonBuilder().create();
             file.write(gson.toJson(json));
-            Logger.info("Successfully saved JSON object to file: '%s'", path);
+            logger.info("Successfully saved JSON object to file: '{}'", path);
  
         } catch (IOException e) {
             e.printStackTrace();

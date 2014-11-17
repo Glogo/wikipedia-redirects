@@ -12,6 +12,8 @@ import javax.xml.stream.events.XMLEvent;
 
 import org.codehaus.stax2.XMLInputFactory2;
 import org.codehaus.stax2.XMLStreamReader2;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.google.common.collect.Multimap;
 
@@ -22,6 +24,8 @@ import com.google.common.collect.Multimap;
  * @author Glogo
  */
 public class WikipediaRedirectsReader {
+	
+	private static Logger logger = LoggerFactory.getLogger(WikipediaRedirectsReader.class);
 
     /**
      * Indicates if title element started but not yet ended.
@@ -65,7 +69,7 @@ public class WikipediaRedirectsReader {
      */
     int getFastPagesCount(String filename) throws XMLStreamException, FileNotFoundException {
         File file = new File(filename);
-        Logger.info("File size is %d bytes", file.length());
+        logger.info("File size is {} bytes", file.length());
 
         return (int) (file.length() / AVERAGE_BYTES_PER_PAGE);
     }
@@ -83,7 +87,7 @@ public class WikipediaRedirectsReader {
          * Try to open file
          */
         //filename = new File("res/test_input.xml").getAbsolutePath(); // test
-        Logger.info("Reading file: '%s'", filename);
+    	logger.info("Reading file: '{}'", filename);
         InputStream xmlInputStream = new FileInputStream(filename);
         XMLInputFactory2 xmlInputFactory = (XMLInputFactory2)XMLInputFactory.newInstance();
         xmlInputFactory.setProperty(XMLInputFactory.IS_COALESCING, true); // Force long texts to come concatenated together in CHARACTERS
@@ -92,7 +96,7 @@ public class WikipediaRedirectsReader {
         // Progress helpers
         int approxPagesCount;
         int showProgressEach; // How many pages needs to be read to display reading progress status
-        float progress;
+        int progress;
         
         // Current element name
         String elementName;
@@ -106,11 +110,11 @@ public class WikipediaRedirectsReader {
         totalPagesCount = 0;
         
         // Calculate approximate pages count to enable showing reading progress
-        Logger.info("Approximating total pages elements count");
+        logger.info("Approximating total pages elements count");
         approxPagesCount = getFastPagesCount(filename);
         showProgressEach = approxPagesCount / (100 / SHOW_PROGRESS_EACH_PERCENT);
-        Logger.info("Approximated total pages elements count: %d (used to calculate progress %%)", approxPagesCount);
-        Logger.info("Displaying approximated progress each %d pages (%d %% of all calculated pages)", showProgressEach, SHOW_PROGRESS_EACH_PERCENT);
+        logger.info("Approximated total pages elements count: {} (used to calculate progress %)", approxPagesCount);
+        logger.info("Displaying approximated progress each {} pages ({} % of all calculated pages)", showProgressEach, SHOW_PROGRESS_EACH_PERCENT);
         
         /*
          * Read file contents and store in map. All nodes traversal conditions may not be all necessary, but it is also used as schema validation.
@@ -126,8 +130,8 @@ public class WikipediaRedirectsReader {
                     	
                     	// Print progress each showProgressEach pages
                         if(showProgressEach != 0 && (totalPagesCount % showProgressEach == 0)) {
-                            progress = (float)totalPagesCount * 100 / approxPagesCount;
-                            Logger.info("Approx reading progress: %.0f%%. Pages processed: %d", progress >= 99 ? 99f : progress, totalPagesCount);
+                            progress = totalPagesCount * 100 / approxPagesCount;
+                            logger.info("Approx reading progress: {}%. Pages processed: {}", progress >= 99 ? 99 : progress, totalPagesCount);
                         }
                         
                         totalPagesCount++;
@@ -180,9 +184,9 @@ public class WikipediaRedirectsReader {
             }
         }
 
-        Logger.info("%d total pages were read", totalPagesCount);
-        Logger.info("%d non-redirect pages were read", totalPagesCount - redirectedPages.size());
-        Logger.info("%d redirect pages were read", redirectedPages.size());
+        logger.info("{} total pages were read", totalPagesCount);
+        logger.info("{} non-redirect pages were read", totalPagesCount - redirectedPages.size());
+        logger.info("{} redirect pages were read", redirectedPages.size());
         
         /*
          * Close input stream & reader
